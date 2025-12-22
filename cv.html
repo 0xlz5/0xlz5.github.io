@@ -116,6 +116,108 @@ pre{
  .theme-switch-buttons{justify-content:flex-start}
  .section-columns{grid-template-columns:1fr}
 }
+
+/* PRINT VERSION — PDF OPTIMIZED */
+@media print {
+
+  /* Remove background colors for clean PDF */
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Remove outer shadows and rounded corners */
+  .mag-page {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: #ffffff !important;
+    padding: 20mm 18mm !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  /* Remove theme switcher entirely */
+  .theme-switch {
+    display: none !important;
+  }
+
+  /* Remove page padding wrapper */
+  .mag-shell {
+    padding: 0 !important;
+  }
+
+  /* Make text darker for print */
+  .section-body,
+  .exp-body,
+  .skill-items,
+  .tag-list,
+  pre {
+    color: #000000 !important;
+  }
+
+  /* Lighten section rules */
+  .section-rule {
+    background: #999 !important;
+  }
+
+  /* Ensure ASCII blocks don't break across pages */
+  pre {
+    page-break-inside: avoid !important;
+    border: none !important;
+    background: transparent !important;
+  }
+
+  /* Avoid breaking experience items */
+  .exp-item {
+    page-break-inside: avoid !important;
+  }
+
+  /* Avoid breaking skill blocks */
+  .skill-block {
+    page-break-inside: avoid !important;
+  }
+
+  /* Avoid breaking header */
+  .mag-header {
+    page-break-after: avoid !important;
+  }
+
+  /* Avoid breaking footer */
+  .mag-footer {
+    page-break-before: avoid !important;
+  }
+
+  /* Remove link underlines for print */
+  a {
+    border-bottom: none !important;
+    color: #000000 !important;
+  }
+
+  /* Force single-column layout for print */
+  .section-columns {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
+  }
+
+  /* Reduce spacing for compact PDF */
+  .section {
+    margin-bottom: 12px !important;
+  }
+
+  /* Ensure consistent font size in print */
+  body, .section-body, .skill-items, .exp-body, pre {
+    font-size: 13pt !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Page margins for PDF */
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+}
 </style>
 </head>
 
