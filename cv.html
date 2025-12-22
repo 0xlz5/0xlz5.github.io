@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Federico Cagliero — MagCV VT323</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<style>
+:root{
+ --font:'VT323',monospace;
+ --bg:#f2f2f2;--paper:#fcfcfc;--ink:#1a1a1a;--ink-soft:#5c5c5c;
+ --accent:#c0392b;--accent-soft:#f39c12;--rule:#d0d0d0;
+}
+body[data-theme="eggshell"]{
+ --bg:#f5f3ea;--paper:#fdfbf5;--ink:#26221a;--ink-soft:#6a5f4a;
+ --accent:#8e44ad;--accent-soft:#d35400;--rule:#d4cbb6;
+}
+body[data-theme="pastel-ink"]{
+ --bg:#f3f7fb;--paper:#ffffff;--ink:#1f2933;--ink-soft:#6b7280;
+ --accent:#2563eb;--accent-soft:#ec4899;--rule:#d2d8e3;
+}
+*{box-sizing:border-box}
+body{
+ margin:0;font-family:var(--font);background:var(--bg);color:var(--ink);
+}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(0,0,0,0.1)}
+a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+h1,h2,h3,h4,p{margin:0}
+
+/* shell */
+.mag-shell{min-height:100vh;display:flex;justify-content:center;padding:24px 10px}
+.mag-page{
+ width:100%;max-width:880px;background:var(--paper);border-radius:14px;
+ box-shadow:0 14px 40px rgba(0,0,0,0.10);padding:24px 26px 26px;position:relative;
+}
+
+/* header */
+.mag-header{
+ display:flex;justify-content:space-between;align-items:flex-start;
+ gap:16px;border-bottom:1px solid var(--rule);padding-bottom:10px;margin-bottom:14px;
+}
+.mag-title-block h1{font-size:34px;letter-spacing:.07em}
+.mag-sub{font-size:18px;color:var(--ink-soft);margin-top:2px}
+.mag-contact{
+ margin-top:6px;font-size:15px;color:var(--ink-soft);
+ display:flex;flex-wrap:wrap;gap:6px 12px;
+}
+.mag-contact span.dot{opacity:.5}
+
+/* theme switch */
+.theme-switch{text-align:right;font-size:13px;color:var(--ink-soft)}
+.theme-switch-label{text-transform:uppercase;letter-spacing:.12em;font-size:12px;color:var(--accent-soft)}
+.theme-switch-buttons{
+ margin-top:4px;display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end;
+}
+.theme-switch-buttons span{
+ cursor:pointer;padding:1px 8px;border-radius:999px;border:1px solid rgba(0,0,0,0.10);font-size:13px;
+}
+.theme-switch-buttons span[data-active="1"]{
+ background:var(--accent);color:#fff;border-color:var(--accent);
+}
+
+/* sections */
+.section{margin-bottom:16px}
+.section-headline{
+ display:flex;align-items:center;gap:8px;margin-bottom:6px;
+}
+.section-label{
+ font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent-soft);
+}
+.section-rule{flex:1;height:1px;background:var(--rule)}
+.section-title{font-size:20px;margin-bottom:2px}
+.section-body{font-size:15px;color:var(--ink-soft);line-height:1.55}
+.section-columns{
+ display:grid;grid-template-columns:1.2fr 1.1fr;gap:12px;
+}
+
+/* skills */
+.skill-block{margin-bottom:8px}
+.skill-title{
+ font-size:15px;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:2px;
+}
+.skill-items{font-size:14px;color:var(--ink-soft)}
+.skill-items span{margin-right:6px}
+
+/* experience */
+.exp-item{margin-bottom:8px}
+.exp-meta{font-size:13px;color:var(--ink-soft)}
+.exp-role{font-size:15px;color:var(--ink)}
+.exp-body{font-size:14px;color:var(--ink-soft)}
+
+/* lists */
+.tag-list{font-size:14px;color:var(--ink-soft);list-style:none;padding-left:0;margin:4px 0 0}
+.tag-list li{margin-bottom:2px}
+.tag-label{
+ font-size:13px;text-transform:uppercase;letter-spacing:.16em;color:var(--accent-soft);
+}
+
+/* ascii blocks */
+pre{
+ background:transparent;color:var(--ink-soft);
+ white-space:pre;font-family:var(--font);font-size:14px;line-height:1.35;margin:6px 0 0;
+}
+
+/* footer */
+.mag-footer{
+ border-top:1px solid var(--rule);padding-top:8px;margin-top:14px;
+ font-size:12px;color:var(--ink-soft);display:flex;justify-content:space-between;
+}
+
+/* responsive */
+@media(max-width:800px){
+ .mag-page{padding:18px 14px 20px}
+ .mag-header{flex-direction:column;align-items:flex-start}
+ .theme-switch{text-align:left}
+ .theme-switch-buttons{justify-content:flex-start}
+ .section-columns{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body data-theme="newsprint">
+
+<div class="mag-shell">
+<div class="mag-page">
+
+<!-- HEADER -->
+<div class="mag-header">
+ <div class="mag-title-block">
+  <h1>FEDERICO CAGLIERO</h1>
+  <div class="mag-sub">Front‑end Developer · Architect · R&amp;D · Dataflow · Algorithms</div>
+  <div class="mag-contact">
+   <span>Torino, Italy</span><span class="dot">·</span>
+   <span><a href="mailto:federico.cagliero@gmail.com">federico.cagliero@gmail.com</a></span><span class="dot">·</span>
+   <span><a href="https://github.com/0xlz5">github.com/0xlz5</a></span><span class="dot">·</span>
+   <span><a href="https://high-order-coding.tumblr.com">high-order-coding.tumblr.com</a></span><span class="dot">·</span>
+   <span><a href="https://www.linkedin.com/in/federico-cagliero-68b860a6">linkedin.com/in/federico‑cagliero‑68b860a6</a></span>
+  </div>
+ </div>
+
+ <div class="theme-switch">
+  <div class="theme-switch-label">mag themes</div>
+  <div class="theme-switch-buttons">
+   <span data-theme="newsprint" data-active="1">Newsprint</span>
+   <span data-theme="eggshell">Eggshell</span>
+   <span data-theme="pastel-ink">Pastel Ink</span>
+  </div>
+ </div>
+</div>
+
+<!-- PROFILE -->
+<div class="section">
+ <div class="section-headline">
+  <div class="section-label">profile</div><div class="section-rule"></div>
+ </div>
+ <div class="section-body">
+  Multidisciplinary developer with a long trajectory across front‑end engineering, software architecture,
+  data pipelines, and systems design. I move comfortably between UI architecture, algorithms, distributed
+  systems, and creative coding. My work blends clarity, structure, and expressive engineering — from React
+  front‑ends to Spark pipelines, from FP/OO design to UX flows.
+ </div>
+</div>
+
+<!-- OVERVIEW -->
+<div class="section">
+ <div class="section-headline">
+  <div class="section-label">overview</div><div class="section-rule"></div>
+ </div>
+
+ <div class="section-columns">
+
+  <!-- MAIN SKILLS -->
+  <div>
+   <div class="section-title">Main skills</div>
+   <div class="section-body">
+
+    <div class="skill-block">
+     <div class="skill-title">Front‑end</div>
+     <div class="skill-items">
+      <span>React (+patterns)</span><span>TypeScript / JS</span><span>HTML/CSS3</span>
+      <span>Sass / Less</span><span>UI architecture</span><span>Design systems</span><span>Accessibility</span>
+     </div>
+    </div>
+
+    <div class="skill-block">
+     <div class="skill-title">Back‑end & APIs</div>
+     <div class="skill-items">
+      <span>Node.js</span><span>REST / JSON</span><span>PHP / Laravel</span>
+      <span>Java (J2EE/JEE)</span><span>Python 3 (CLI/TUI, Flask)</span>
+     </div>
+    </div>
+
+    <div class="skill-block">
+     <div class="skill-title">Data & Pipelines</div>
+     <div class="skill-items">
+      <span>Spark</span><span>Hadoop / HDFS</span><span>Kafka</span>
+      <span>Airflow</span><span>SQL</span><span>Query tuning</span>
+     </div>
+    </div>
+
+    <div class="skill-block">
+     <div class="skill-title">Systems & Ops</div>
+     <div class="skill-items">
+      <span>Linux</span><span>Docker</span><span>mini‑k8s</span>
+      <span>AWS</span><span>WebSphere/WPS</span><span>OpenMP · MPI</span>
+     </div>
+    </div>
+
+    <div class="skill-block">
+     <div class="skill-title">Paradigms & Engineering</div>
+     <div class="skill-items">
+      <span>OO · FP · Monadic</span><span>Clean Code</span><span>Clean Architecture</span>
+      <span>Async / Parallel</span><span>Coroutines</span><span>TDD / BDD / XDD</span><span>Patterns</span>
+     </div>
+    </div>
+
+   </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div>
+   <div class="section-title">Experience (curated)</div>
+   <div class="section-body">
+
+    <div class="exp-item">
+     <div class="exp-meta">2024–Now · Torino / Remote</div>
+     <div class="exp-role">Front‑end Developer / Consultant</div>
+     <div class="exp-body">
+      React/TypeScript applications, UI architecture, component systems, REST/JSON integration.
+     </div>
+    </div>
+
+    <div class="exp-item">
+     <div class="exp-meta">2022–Now · Independent</div>
+     <div class="exp-role">R&amp;D · Dataflow & FP</div>
+     <div class="exp-body">
+      Monadic dataflow, async pipelines, JS/Go/Elm/Python prototypes.
+     </div>
+    </div>
+
+    <div class="exp-item">
+     <div class="exp-meta">2017– · SmartData / Telco</div>
+     <div class="exp-role">Data Engineer</div>
+     <div class="exp-body">
+      Spark/Hadoop pipelines, SQL analytics, Scala/JS tooling.
+     </div>
+    </div>
+
+    <div class="exp-item">
+     <div class="exp-meta">2010– · Amadeus</div>
+     <div class="exp-role">Front‑end Developer</div>
+     <div class="exp-body">
+      JS UI, Markdown/AST tooling, Agile, UML.
+     </div>
+    </div>
+
+    <div class="exp-item">
+     <div class="exp-meta">2005– · RCS / Corriere.it</div>
+     <div class="exp-role">System Architect</div>
+     <div class="exp-body">
+      WebSphere‑based 24×7 portals, HA, clustering, observability.
+     </div>
+    </div>
+
+    <div class="exp-item">
+     <div class="exp-meta">1999– · Vitaminic</div>
+     <div class="exp-role">Platform & CDN Engineer</div>
+     <div class="exp-body">
+      CDN delivery, MP3/WMA, crypto, XML‑RPC, Perl/LWP, SNMP.
+     </div>
+    </div>
+
+   </div>
+  </div>
+
+ </div>
+</div>
+
+<!-- SIDE + LANG -->
+<div class="section">
+ <div class="section-headline">
+  <div class="section-label">edges</div><div class="section-rule"></div>
+ </div>
+
+ <div class="section-columns">
+
+  <div>
+   <div class="section-title">Side skills</div>
+   <ul class="tag-list">
+    <li><span class="tag-label">code:</span> Perl, C++ (STL), Go, Ruby</li>
+    <li><span class="tag-label">formats:</span> XML, YAML, Markdown, JSON, XML‑RPC, XSL/T</li>
+    <li><span class="tag-label">creative:</span> DSP/Audio, creative coding, HCI</li>
+    <li><span class="tag-label">ops:</span> WebOps, 24×7, caching, observability</li>
+    <li><span class="tag-label">meta:</span> teaching, tech writing, requirements analysis</li>
+   </ul>
+  </div>
+
+  <div>
+   <div class="section-title">Languages</div>
+   <div class="section-body">
+    Italian (native) · English (professional) · French (literate)
+   </div>
+   <div style="height:10px"></div>
+   <div class="section-title">Domains</div>
+   <div class="section-body">
+    System architecture · Application design · UX/UI architecture · Clean code · Data pipelines · Algorithms · Graphs.
+   </div>
+  </div>
+
+ </div>
+</div>
+
+<!-- STUDIES -->
+<div class="section">
+ <div class="section-headline">
+  <div class="section-label">studies</div><div class="section-rule"></div>
+ </div>
+ <div class="section-body">
+  <strong>Computer Science — Politecnico di Torino</strong> · Algorithms, data structures, graph theory, SDLC, UML,
+  networks, complexity, C/C++, Java, R, calculus, FFT, compression, patterns.<br>
+  <strong>Scientific Lyceum / Lycée</strong> · Scientific track with PNI algorithmic thinking (Pascal/Algol).
+ </div>
+</div>
+
+<!-- ASCII TIMELINE -->
+<div class="section">
+ <div class="section-headline">
+  <div class="section-label">timeline</div><div class="section-rule"></div>
+ </div>
+ <div class="section-title">Experience Timeline (ASCII)</div>
+<pre>
+1999 ──●──────────────────────●──────────────────────●──────────────────────●────────── 2025
+        Vitaminic               Motorola               RCS                    SmartData   Now
+        CDN/MP3                 Perl/C++               WebSphere/24×7         Big‑Data    FE/Arch
+                                Integration            Ops/HA                 Pipelines   React/TS
+
+2003 ──●──────────────────────●──────────────────────●──────────────────────●────────── 2025
+        Storytelling            Teaching               Amadeus                R&D         Consulting
+        JS/HCI/Ergo             J2EE/Perl              JS/AST/Agile           FP/Monads   UI/Architecture
+</pre>
+</div>
+
+<!-- SEMANTIC SKILLS GRAPH -->
+<div class="section">
+ <div class="section-headline">
+  <div class="section-label">knowledge graph</div><div class="section-rule"></div>
+ </div>
+ <div class="section-title">Semantic Skills Graph (ASCII)</div>
+<pre>
+                         [ Algorithms ]
+                               │
+               ┌───────────────┼────────────────┐
+               │               │                │
+        [ Data Structures ]   [ FP / OO ]   [ Architecture ]
+               │               │                │
+               │               │                ├───────────[ Clean Code ]
+               │               │                ├───────────[ UX / UI ]
+               │               │                └───────────[ Systems Design ]
+               │               │
+               │               └───────────[ Monads / Async / Parallel ]
+               │
+               ├───────────────[ Pipelines ]
+               │                     │
+               │                     ├────[ Airflow ]
+               │                     ├────[ Kafka ]
+               │                     └────[ Spark ]
+               │
+               └───────────────[ Data Modeling / SQL / Perf ]
+                                     │
+                                     └────[ ANSI‑SQL / Tuning ]
+</pre>
+</div>
+
+<!-- FOOTER -->
+<div class="mag-footer">
+ <span>MagCV · VT323 editorial layout · 2025</span>
+ <span>curated skills · narrative profile</span>
+</div>
+
+</div>
+</div>
+
+<script>
+(function(){
+ const body=document.body;
+ const buttons=document.querySelectorAll('.theme-switch-buttons span');
+ buttons.forEach(btn=>{
+  btn.addEventListener('click',()=>{
+   const theme=btn.getAttribute('data-theme');
+   buttons.forEach(b=>b.removeAttribute('data-active'));
+   btn.setAttribute('data-active','1');
+   body.setAttribute('data-theme',theme);
+  });
+ });
+})();
+</script>
+
+</body>
+</html>
