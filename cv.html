@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Federico Cagliero · CV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Asimovian:wght@300;400;600;700&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   BASE VARIABLES — overridden by palette classes
+   ============================================================ */
+:root {
+  --bg: #ffffff;
+  --ink: #111111;
+  --muted: #555555;
+  --line: #d0d3d8;
+  --accent: #2e5aa8;
+  --card-bg: #fafbfc;
+  --ascii-bg: #eceef1;
+  --link-hover: var(--accent);
+}
+
+/* ============================================================
+   PALETTES — FANCY EDITION
+   ============================================================ */
+
+/* LIGHT+ */
+body.light {
+  --bg: #ffffff;
+  --ink: #111111;
+  --muted: #666;
+  --line: #d0d3d8;
+  --accent: #3b6cff;
+  --card-bg: #f7f9ff;
+  --ascii-bg: #eef2ff;
+  --link-hover: #3b6cff;
+}
+
+/* DARK+ */
+body.dark {
+  --bg: #0b0d11;
+  --ink: #e8ecf2;
+  --muted: #8a93a1;
+  --line: #1c1f26;
+  --accent: #4dd6ff;
+  --card-bg: #14171d;
+  --ascii-bg: #1a1e26;
+  --link-hover: #4dd6ff;
+}
+
+/* PASTEL+ */
+body.pastel {
+  --bg: #fdfaff;
+  --ink: #2e2a32;
+  --muted: #6a6570;
+  --line: #e4dff0;
+  --accent: #c28bff;
+  --card-bg: #f7f2ff;
+  --ascii-bg: #efe8fa;
+  --link-hover: #b06aff;
+}
+
+/* RETRO+ */
+body.retro {
+  --bg: #f2e9d8;
+  --ink: #2b1f0e;
+  --muted: #6b5a44;
+  --line: #d4c4a8;
+  --accent: #e07f2a;
+  --card-bg: #f3e4c8;
+  --ascii-bg: #e8d9b8;
+  --link-hover: #ff8f3a;
+}
+
+/* VT100+ */
+body.vt100 {
+  --bg: #000b00;
+  --ink: #00ff77;
+  --muted: #00bb55;
+  --line: #003322;
+  --accent: #00ff99;
+  --card-bg: #001400;
+  --ascii-bg: #001f00;
+  --link-hover: #00ffaa;
+}
+
+/* ============================================================
+   GLOBAL LAYOUT
+   ============================================================ */
+body {
+  margin: 0;
+  padding: 24px 10px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--bg);
+  padding-bottom: 20px;
+}
+
+/* ============================================================
+   FANCY HEADER WITH HEXAGON AVATAR
+   ============================================================ */
+
+.fancy-header {
+  position: relative;
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 24px;
+  padding: 32px 32px 24px;
+}
+
+/* ROUNDED SQUARE AVATAR */
+.avatar-box {
+  width: 90px;
+  height: 90px;
+  border-radius: 16px;          /* rounded square */
+  overflow: hidden;
+  background: var(--card-bg);
+  border: 1px solid var(--line);
+  box-shadow: 0 0 8px rgba(0,0,0,0.08);
+}
+
+.avatar-box img {
+  width: 100%;
+  height: 120%;                 /* gives room for top alignment */
+  object-fit: cover;
+  object-position: top;         /* align image to the top */
+}
+
+/* name + role */
+.header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-name {
+  font-family: "Asimovian", monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.header-role {
+  font-size: 1rem;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+/* links */
+.header-links a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: var(--ink);
+  font-family: "Fira Code", monospace;
+  font-size: 0.85rem;
+  transition: color 0.15s ease;
+}
+
+.header-links a:hover {
+  color: var(--link-hover);
+}
+
+/* palette switcher in top-right corner */
+.palette-switcher.top-right {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  gap: 6px;
+}
+
+.palette-switcher.top-right button {
+  background: var(--card-bg);
+  border: 1px solid var(--line);
+  padding: 4px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--ink);
+  font-size: 0.75rem;
+  font-family: "Fira Code", monospace;
+}
+
+.palette-switcher.top-right button:hover {
+  border-color: var(--accent);
+}
+
+/* ============================================================
+   MAIN LAYOUT
+   ============================================================ */
+.main {
+  display: grid;
+  grid-template-columns: 3fr 1.4fr;
+  gap: 32px;
+  padding: 32px;
+}
+
+@media (max-width: 800px) {
+  .main { grid-template-columns: 1fr; }
+}
+
+/* ============================================================
+   LEFT COLUMN — SIMPLE CONTENT
+   ============================================================ */
+.section-title {
+  font-family: "Asimovian", monospace;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-body {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.exp {
+  margin-bottom: 22px;
+}
+
+.exp-head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: "Asimovian", monospace;
+}
+
+.exp-line {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.exp-skills {
+  font-family: "Fira Code", monospace;
+  font-size: 0.8rem;
+  margin-top: 4px;
+  color: var(--muted);
+}
+
+/* ============================================================
+   RIGHT COLUMN — MAINFRAME CARDS
+   ============================================================ */
+.card {
+  margin-bottom: 20px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  background: var(--card-bg);
+  box-shadow: 0 0 6px rgba(0,0,0,0.04);
+}
+
+.card-title {
+  font-family: "Asimovian", monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.card-body {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   ASCII GRAPH
+   ============================================================ */
+.ascii-shell {
+  margin-top: 32px;
+  padding: 24px 32px;
+  background: var(--card-bg);
+}
+
+.ascii-title {
+  font-family: "Asimovian", monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+pre.ascii {
+  background: var(--ascii-bg);
+  border-radius: 6px;
+  padding: 16px 18px;
+  font-family: "Fira Code", monospace;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  font-weight: 500;
+  overflow-x: auto;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+  padding: 16px 32px;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-family: "Fira Code", monospace;
+}
+</style>
+
+<script>
+function setPalette(mode) {
+  document.body.className = mode;
+}
+</script>
+</head>
+
+<body class="light">
+
+<div class="page">
+
+  <!-- FANCY HEADER -->
+  <header class="fancy-header">
+
+    <div class="avatar-box">
+      <img src="profile_avatar.png" alt="avatar">
+    </div>
+
+    <div class="header-info">
+      <div class="header-name">Federico Cagliero</div>
+      <div class="header-role">front-end mv* engineer · polyglot developer</div>
+
+      <div class="header-links">
+        <a href="https://high-order-coding.tumblr.com/" target="_blank">🌐 site</a>
+        <a href="https://github.com/0xlz5" target="_blank">🐙 github</a>
+        <a href="https://www.linkedin.com/in/federico-cagliero-68b860a6/" target="_blank">💼 linkedin</a>
+        <a href="mailto:federico.cagliero@gmail.com">✉️ federico.cagliero@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="palette-switcher top-right">
+      <button onclick="setPalette('light')">light</button>
+      <button onclick="setPalette('dark')">dark</button>
+      <button onclick="setPalette('pastel')">pastel</button>
+      <button onclick="setPalette('retro')">retro</button>
+      <button onclick="setPalette('vt100')">vt100</button>
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- LEFT COLUMN -->
+    <section>
+
+      <div class="section-title">profile</div>
+      <div class="section-body">
+        front-end engineer + polyglot dev aimed at scalable frameworks.
+        20+ years across web, systems, data, and r&d. strong focus on js/ts, python, scala, c/c++, golang.  
+        loves clean code, fp, dataflow, cli tools, creative coding.
+      </div>
+
+      <div class="section-title">experience</div>
+
+      <div class="exp">
+        <div class="exp-head">
+          <div>front-end consultant</div>
+          <div>2024 → now</div>
+        </div>
+        <div class="exp-line">
+          react/js/ts, node ecosystem, php, ux-driven flows.
+        </div>
+        <div class="exp-skills">@react @ts @node @ux</div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-head">
+          <div>r&d + fp/dataflow</div>
+          <div>2022 → 2024</div>
+        </div>
+        <div class="exp-line">
+          elm ui/sql orm, python async/fp, golang pipelines.
+        </div>
+        <div class="exp-skills">@elm @python @go @fp</div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-head">
+          <div>parallel processing</div>
+          <div>2019 → 2020</div>
+        </div>
+        <div class="exp-line">
+          golang channels, openmp, mpi, bdd, shell scripting.
+        </div>
+        <div class="exp-skills">@go @openmp @mpi @bdd</div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-head">
+          <div>data engineering</div>
+          <div>2017 → 2018</div>
+        </div>
+        <div class="exp-line">
+          spark/scala etl, sql tuning, analytics, scala/js tools, hadoop, jq.
+        </div>
+        <div class="exp-skills">@spark @scala @sql @python</div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-head">
+          <div>independent evaluator (asf)</div>
+          <div>2014 → 2016</div>
+        </div>
+        <div class="exp-line">
+          spark, kafka, storm, aws, architecture reviews.
+        </div>
+        <div class="exp-skills">@spark @kafka @storm @aws</div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-head">
+          <div>amadeus</div>
+          <div>2010 → 2012</div>
+        </div>
+        <div class="exp-line">
+          tech writing, js r&d, markdown/ast, xhr/json.
+        </div>
+        <div class="exp-skills">@js @markdown @uml</div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-head">
+          <div>motorola</div>
+          <div>2008 → 2010</div>
+        </div>
+        <div class="exp-line">
+          perl/python tooling, static analysis, c/c++ codebase.
+        </div>
+        <div class="exp-skills">@perl @python @cpp</div>
+      </div>
+      
+      <div class="exp">
+        <div class="exp-head">
+          <div>architect · rcs/corriere</div>
+          <div>2005 → 2007</div>
+        </div>
+        <div class="exp-line">
+          j2ee/was clusters, cms integration, 24×7 delivery, sql auditing tools
+        </div>
+        <div class="exp-skills">@java @sql @devops @cms</div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-head">
+          <div>iot engineer</div>
+          <div>2002 → 2003</div>
+        </div>
+        <div class="exp-line">
+          c++ async tcp servers, multithreading, python r&d for early iot.
+        </div>
+        <div class="exp-skills">@cpp @tcp @async @python</div>
+      </div>
+
+      <div class="exp">
+        <div class="exp-head">
+          <div>vitaminic</div>
+          <div>1999 → 2002</div>
+        </div>
+        <div class="exp-line">
+          mp3 delivery, cdn, encoding, php/js/java/python, xml/xslt.
+        </div>
+        <div class="exp-skills">@php @js @java @python</div>
+      </div>
+
+      <div class="section-title">studies</div>
+      <div class="section-body">
+        polito.it — computer science (algorithms, ds, graphs, se, uml, db/sql, stats, networks).  <br />
+        scientific high school (pni) — algorithmic thinking.
+      </div>
+
+      <div class="section-title">interests</div>
+      <div class="section-body">
+        fp, cli tools, p5.js, compression, graphs, creative coding, system thinking.
+      </div>
+
+      <div class="section-title">languages</div>
+      <div class="section-body">
+        italian (native) · english (working) · french (literate).
+      </div>
+
+    </section>
+
+    <!-- RIGHT COLUMN -->
+    <aside>
+
+      <div class="card">
+        <div class="card-title">[ core-stack ]</div>
+        <div class="card-body">
+          js/ts, react, angular<br>
+          python, scala, java, c/c++, go<br>
+          sql, spark, kafka, postgres
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">[ domains ]</div>
+        <div class="card-body">
+          front-end, ux, creative coding<br>
+          data engineering, pipelines<br>
+          api/back-end, devops, scripting<br>
+          algorithms, compression, fp
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">[ r&d ]</div>
+        <div class="card-body">
+          fp pipelines, elm/ui<br>
+          golang channels, openmp, mpi<br>
+          markdown/ast, http/2/3<br>
+          static analysis, clean code
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">[ teaching ]</div>
+        <div class="card-body">
+          c/c++, java, algorithms<br>
+          j2ee backend, fp/oo<br>
+          web design, hci<br>
+          tech writing
+        </div>
+      </div>
+
+    </aside>
+
+  </div>
+
+  <!-- ASCII GRAPH -->
+  <section class="ascii-shell">
+    <div class="ascii-title">semantic skill graph</div>
+    <pre class="ascii">
++------------------+     +------------------+     +------------------+
+|   front-end      | --> |     systems      | --> |       data       |
++------------------+     +------------------+     +------------------+
+| js/ts            |     | mv* models       |     | spark / scala    |
+| react / angular  |     | devops           |     | kafka / pipelines|
+| html/css/aria    |     | architecture     |     | sql / analytics  |
++------------------+     +------------------+     +------------------+
+
++------------------+     +------------------+     +------------------+
+|      cloud       | --> |     polyglot     | --> |    interests     |
++------------------+     +------------------+     +------------------+
+| aws / docker     |     | js / ts / py     |     | compression      |
+| kubernetes       |     | scala / c/c++    |     | maths / ux       |
+| ci/cd pipelines  |     | java / php / go  |     | creative coding  |
++------------------+     +------------------+     +------------------+
+    </pre>
+  </section>
+
+  <footer class="footer">
+    federico cagliero — cv
+  </footer>
+
+</div>
+
+</body>
+</html>
+
