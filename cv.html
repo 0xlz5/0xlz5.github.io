@@ -308,6 +308,12 @@ pre.ascii {
   color: var(--muted);
   font-family: "Fira Code", monospace;
 }
+
+@media print {
+   .palette-switcher {
+      display: none !important;
+   }
+}
 </style>
 
 <script>
