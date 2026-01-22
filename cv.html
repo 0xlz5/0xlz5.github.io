@@ -2,466 +2,234 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Federico Cagliero · CV</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- FONTS -->
-<link href="https://fonts.googleapis.com/css2?family=Asimovian:wght@300;400;600;700&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+<title>Federico Cagliero · FE/MV*/DV Architect</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-/* ============================================================
-   BASE VARIABLES — overridden by palette classes
-   ============================================================ */
-:root {
-  --bg: #ffffff;
-  --ink: #111111;
-  --muted: #555555;
-  --line: #d0d3d8;
-  --accent: #2e5aa8;
-  --card-bg: #fafbfc;
-  --ascii-bg: #eceef1;
-  --link-hover: var(--accent);
-}
+body{margin:0;background:#fff;color:#000;font-family:"Inter",sans-serif;font-size:14px;line-height:1.45;}
+a{text-decoration:none;}
+#cv{max-width:1080px;margin:0 auto;padding:40px;display:grid;grid-template-columns:1fr 1.2fr;gap:40px;}
+h1{margin:0;font-size:32px;font-weight:700;font-family:"JetBrains Mono";}
+h2{margin:20px 0 6px;font-size:13px;font-weight:700;color:#0066cc;text-transform:uppercase;}
+p{margin:0 0 6px;}
+ul{margin:6px 0 12px;padding-left:18px;}li{margin-bottom:4px;}
+.tag{display:inline-block;background:#000;color:#fff;padding:2px 8px;border-radius:4px;font-size:12px;margin:2px;font-family:"JetBrains Mono";}
+.pill{display:inline-block;border:1px solid #000;color:#000;padding:2px 7px;border-radius:999px;font-size:12px;margin:2px;font-family:"JetBrains Mono";}
+.role{font-weight:600;font-size:14px;}
+.time{float:right;color:#999;font-size:12px;font-family:"JetBrains Mono";}
+.xp{margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid #eee;}
+.mono{font-family:"JetBrains Mono";font-size:12px;}
+.sep{font-family:"JetBrains Mono";font-size:11px;color:#666;margin:10px 0 4px;}
+.timeline-block{margin:16px 0;}
+.timeline-line{font-family:"JetBrains Mono";font-size:12px;white-space:pre;margin-bottom:4px;}
 
-/* LIGHT — the only theme */
-body.light {
-  --bg:#f7f8fa;
-  --bg-elevated:#fff;
-  --fg:#1a1b1e;
-  --fg-muted:#6b6f76;
-  --border-subtle:#e2e4e8;
-  --accent:#2b59ff;
-  --accent-soft:rgba(43,89,255,.10);
-  --code-bg:#f0f2f5;
-}
-
-/* ============================================================
-   GLOBAL LAYOUT
-   ============================================================ */
-body {
-  margin: 0;
-  padding: 24px 10px;
-  background: var(--bg);
-  color: var(--ink);
-  font-family: "Inter", sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
-.page {
-  max-width: 900px;
-  margin: 0 auto;
-  background: var(--bg);
-  padding-bottom: 20px;
-}
-
-/* ============================================================
-   FANCY HEADER WITH HEXAGON AVATAR
-   ============================================================ */
-
-.fancy-header {
-  position: relative;
-  display: grid;
-  grid-template-columns: 90px 1fr;
-  gap: 24px;
-  padding: 32px 32px 24px;
-}
-
-/* name + role */
-.header-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.header-name {
-  font-family: "Asimovian", monospace;
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 6px;
-}
-
-.header-role {
-  font-size: 1rem;
-  color: var(--muted);
-  margin-bottom: 16px;
-}
-
-/* links */
-.header-links a {
-  margin-right: 16px;
-  text-decoration: none;
-  color: var(--ink);
-  font-family: "Fira Code", monospace;
-  font-size: 0.85rem;
-  transition: color 0.15s ease;
-}
-
-.header-links a:hover {
-  color: var(--link-hover);
-}
-
-/* ============================================================
-   MAIN LAYOUT
-   ============================================================ */
-.main {
-  display: grid;
-  grid-template-columns: 3fr 1.4fr;
-  gap: 32px;
-  padding: 32px;
-}
-
-@media (max-width: 800px) {
-  .main { grid-template-columns: 1fr; }
-}
-
-/* ============================================================
-   LEFT COLUMN — SIMPLE CONTENT
-   ============================================================ */
-.section-title {
-  font-family: "Asimovian", monospace;
-  font-size: 1.1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.section-body {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.exp {
-  margin-bottom: 22px;
-}
-
-.exp-head {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.95rem;
-  font-weight: 600;
-  font-family: "Asimovian", monospace;
-}
-
-.exp-line {
-  font-size: 0.9rem;
-  margin-top: 4px;
-}
-
-.exp-skills {
-  font-family: "Fira Code", monospace;
-  font-size: 0.8rem;
-  margin-top: 4px;
-  color: var(--muted);
-}
-
-/* ============================================================
-   RIGHT COLUMN — MAINFRAME CARDS
-   ============================================================ */
-.card {
-  margin-bottom: 20px;
-  padding: 14px 16px;
-  border-radius: 6px;
-  background: var(--card-bg);
-  box-shadow: 0 0 6px rgba(0,0,0,0.04);
-}
-
-.card-title {
-  font-family: "Asimovian", monospace;
-  font-size: 0.9rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.card-body {
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-/* ============================================================
-   ASCII GRAPH
-   ============================================================ */
-.ascii-shell {
-  margin-top: 32px;
-  padding: 24px 32px;
-  background: var(--card-bg);
-}
-
-.ascii-title {
-  font-family: "Asimovian", monospace;
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-pre.ascii {
-  background: var(--ascii-bg);
-  border-radius: 6px;
-  padding: 16px 18px;
-  font-family: "Fira Code", monospace;
-  font-size: 0.82rem;
-  line-height: 1.45;
-  font-weight: 500;
-  overflow-x: auto;
-}
-
-/* ============================================================
-   FOOTER
-   ============================================================ */
-.footer {
-  padding: 16px 32px;
-  font-size: 0.8rem;
-  color: var(--muted);
-  font-family: "Fira Code", monospace;
-}
-
+/* CONTACT BAR */
+.contact-bar{display:flex;align-items:center;gap:18px;margin:10px 0 18px;}
+.contact-item{display:flex;align-items:center;gap:4px;font-family:"JetBrains Mono";}
+.contact-item a{color:#444;font-size:12px;position:relative;transition:color .25s ease;}
+.contact-item a::after{content:"";position:absolute;left:0;bottom:-1px;width:0;height:1px;background:#4a6fa5;transition:width .25s ease;}
+.contact-item a:hover{color:#4a6fa5;}
+.contact-item a:hover::after{width:100%;}
+.contact-icon{font-family:"JetBrains Mono";font-size:12px;color:#000;transition:transform .25s ease,opacity .25s ease;}
+.contact-item:hover .contact-icon{transform:translateY(-1px);opacity:.75;}
 </style>
-
-<script>
-function setPalette(mode) {
-  document.body.className = mode;
-}
-</script>
 </head>
 
-<body class="titanium">
+<body>
+<div id="cv">
 
-<div class="page">
+<!-- LEFT COLUMN -->
+<div>
 
-  <!-- FANCY HEADER -->
-  <header class="fancy-header">
+<h1>&gt; FEDERICO CAGLIERO</h1>
+<p class="mono" style="font-size:13px;margin-top:4px;">FE / MV* / DV | Architect</p>
 
-    <div class="header-info">
-      <div class="header-name">Federico Cagliero</div>
-      <div class="header-role">front-end mv* engineer · polyglot developer</div>
+<!-- CONTACT BAR -->
+<div class="contact-bar mono">
+  <div class="contact-item"><span class="contact-icon">✉</span><a href="mailto:federico.cagliero@gmail.com">email</a></div>
+  <div class="contact-item"><span class="contact-icon">⌂</span><a href="https://github.com/0xlz5">github</a></div>
+  <div class="contact-item"><span class="contact-icon">✦</span><a href="https://high-order-coding.tumblr.com">blog</a></div>
+  <div class="contact-item"><span class="contact-icon">⚑</span><a href="https://linkedin.com/in/federico-cagliero-68b860a6/">linkedin</a></div>
+  <div class="contact-item"><span class="contact-icon">◎</span><span>Torino</span></div>
+</div>
 
-      <div class="header-links">
-        <a href="https://high-order-coding.tumblr.com/" target="_blank">🌐 site</a>
-        <a href="https://github.com/0xlz5" target="_blank">🐙 github</a>
-        <a href="https://www.linkedin.com/in/federico-cagliero-68b860a6/" target="_blank">💼 linkedin</a>
-        <a href="mailto:federico.cagliero@gmail.com">✉️ federico.cagliero@gmail.com</a>
-      </div>
-    </div>
+<div class="sep">── FE CORE ──</div>
+<h2>Front‑end Core</h2>
+<p>
+  <span class="tag">React</span>
+  <span class="tag">MV*</span>
+  <span class="tag">SPA</span>
+  <span class="tag">TS</span>
+  <span class="tag">ES6+</span>
+  <span class="tag">UI‑Arch</span>
+  <span class="tag">State</span>
+  <span class="tag">Async/FP</span>
+</p>
 
-  </header>
+<div class="sep">── LANGS ──</div>
+<h2>Programming‑Langs</h2>
+<p class="mono">
+  JS — MV* · async/FP · UI<br>
+  HTML/CSS3 — layout · Sass/Less<br>
+  Perl — scripting · RE<br>
+  Py3 — async/fp · tooling<br>
+  R&D — java · Scala · Go · C/C++ · SQL · Ruby<br>
+  Systems — sockets · docker/k8s · spark/flink
+</p>
 
-  <!-- MAIN -->
-  <div class="main">
+<div class="sep">── UI/UX ──</div>
+<h2>UI / UX Engineering</h2>
+<ul>
+  <li>Component systems · tokens</li>
+  <li>Figma→React</li>
+  <li>Responsive · a11y</li>
+  <li>Rendering perf</li>
+</ul>
 
-    <!-- LEFT COLUMN -->
-    <section>
+<div class="sep">── JS ECO ──</div>
+<h2>JavaScript Ecosystem</h2>
+<p>
+  <span class="pill">Node</span>
+  <span class="pill">npm</span>
+  <span class="pill">Underscore</span>
+  <span class="pill">Vue.js</span>
+  <span class="pill">Redux</span>
+  <span class="pill">Elm</span>
+  <span class="pill">Tooling</span>
+</p>
 
-      <div class="section-title">profile</div>
-      <div class="section-body">
-        front-end engineer + polyglot dev aimed at scalable frameworks.
-        20+ years across web, systems, data, and r&d. strong focus on js/ts, python, scala, c/c++, golang.  
-        loves clean code, fp, dataflow, cli tools, creative coding.
-      </div>
+<div class="sep">── DEVOPS ──</div>
+<h2>DevOps / Sys</h2>
+<p>
+  <span class="pill">Linux</span>
+  <span class="pill">Docker</span>
+  <span class="pill">CI/CD</span>
+  <span class="pill">Nginx</span>
+  <span class="pill">k8s</span>
+</p>
 
-      <div class="section-title">experience</div>
+<div class="sep">── FULL SKILLSET ──</div>
+<h2>Full Skillset</h2>
 
-      <div class="exp">
-        <div class="exp-head">
-          <div>front-end consultant</div>
-          <div>2024 → now</div>
-        </div>
-        <div class="exp-line">
-          react/js/ts, node ecosystem, php, ux-driven flows.
-        </div>
-        <div class="exp-skills">@react @ts @node @ux</div>
-      </div>
+<div class="sep">>> LANGS</div>
+<p class="mono">
+  js (es6+) · TS ·  Perl · Py3 · Scala · Java · C/C++ · SQL · Go · PHP · Bash/Zsh<br>
+  core langs I wield daily
+</p>
 
-      <div class="exp">
-        <div class="exp-head">
-          <div>r&d + fp/dataflow</div>
-          <div>2022 → 2024</div>
-        </div>
-        <div class="exp-line">
-          elm ui/sql orm, python async/fp, golang pipelines.
-        </div>
-        <div class="exp-skills">@elm @python @go @fp</div>
-      </div>
+<div class="sep">>> FRONT‑END</div>
+<p class="mono">
+  React · MV* · SPA · TS/ES6 · UI‑Arch · State‑Mgmt · Async/FP · Figma→React · p5.js · HTML/CSS · Sass/Less<br>
+  UI systems, flows, rendering
+</p>
 
-      <div class="exp">
-        <div class="exp-head">
-          <div>parallel processing</div>
-          <div>2019 → 2020</div>
-        </div>
-        <div class="exp-line">
-          golang channels, openmp, mpi, bdd, shell scripting.
-        </div>
-        <div class="exp-skills">@go @openmp @mpi @bdd</div>
-      </div>
+<div class="sep">>> BACK‑END / DATA</div>
+<p class="mono">
+  Node · REST/JSON · MySql · SQL‑tuning · pgSql · Spark · Kafka · Hadoop · Hudi · Storm · AWS<br>
+  APIs, data pipes, infra touchpoints
+</p>
 
-      <div class="exp">
-        <div class="exp-head">
-          <div>data engineering</div>
-          <div>2017 → 2018</div>
-        </div>
-        <div class="exp-line">
-          spark/scala etl, sql tuning, analytics, scala/js tools, hadoop, jq.
-        </div>
-        <div class="exp-skills">@spark @scala @sql @python</div>
-      </div>
+<div class="sep">>> SYSTEMS / DEVOPS</div>
+<p class="mono">
+  Linux · Docker · CI/CD · Nginx · scripting · HA/24×7 · j2ee (+ejb)<br>
+  runtime, deploy, ops "hygiene"
+</p>
 
-      <div class="exp">
-        <div class="exp-head">
-          <div>independent evaluator (asf)</div>
-          <div>2014 → 2016</div>
-        </div>
-        <div class="exp-line">
-          spark, kafka, storm, aws, architecture reviews.
-        </div>
-        <div class="exp-skills">@spark @kafka @storm @aws</div>
-      </div>
+<div class="sep">>> R&D / LOW‑LEVEL</div>
+<p class="mono">
+  RE/Debug · LZ/Huff · TCP‑sock · async‑srv · perf‑tune · Ruby<br>
+  perf, protocols, internals
+</p>
 
-      <div class="exp">
-        <div class="exp-head">
-          <div>amadeus (france)</div>
-          <div>2010 → 2012</div>
-        </div>
-        <div class="exp-line">
-          tech writing, js r&d, markdown/ast, xhr/json.
-        </div>
-        <div class="exp-skills">@js @markdown @uml</div>
-      </div>
+<div class="sep">>> TOOLING / CREATIVE</div>
+<p class="mono">
+  MD/AST · CLI‑tools · creative‑coding · JSON‑tools · build/test‑pipes<br>
+  tools that shape my workflow
+</p>
 
-      <div class="exp">
-        <div class="exp-head">
-          <div>motorola</div>
-          <div>2008 → 2008</div>
-        </div>
-        <div class="exp-line">
-          perl/python tooling, static analysis, c/c++ codebase.
-        </div>
-        <div class="exp-skills">@perl @python @cpp</div>
-      </div>
-      
-      <div class="exp">
-        <div class="exp-head">
-          <div>architect · rcs/corriere</div>
-          <div>2005 → 2007</div>
-        </div>
-        <div class="exp-line">
-          j2ee/was clusters, cms integration, 24×7 delivery, sql auditing tools
-        </div>
-        <div class="exp-skills">@java @sql @devops @cms</div>
-      </div>
-
-      <div class="exp">
-        <div class="exp-head">
-          <div>iot engineer</div>
-          <div>2002 → 2003</div>
-        </div>
-        <div class="exp-line">
-          c++ async tcp servers, multithreading, python r&d for early iot.
-        </div>
-        <div class="exp-skills">@cpp @tcp @async @python</div>
-      </div>
-
-      <div class="exp">
-        <div class="exp-head">
-          <div>vitaminic</div>
-          <div>1999 → 2002</div>
-        </div>
-        <div class="exp-line">
-          mp3 delivery, cdn, encoding, php/js/java/python, xml/xslt.
-        </div>
-        <div class="exp-skills">@php @js @java @python</div>
-      </div>
-
-      <div class="section-title">studies</div>
-      <div class="section-body">
-        polito.it — computer science (algorithms, ds, graphs, se, uml, db/sql, stats, networks).  <br />
-        scientific high school (pni) — algorithmic thinking.
-      </div>
-
-      <div class="section-title">interests</div>
-      <div class="section-body">
-        fp, cli tools, p5.js, compression, graphs, creative coding, system thinking.
-      </div>
-
-      <div class="section-title">languages</div>
-      <div class="section-body">
-        italian (native) · english (working) · french (literate).
-      </div>
-
-    </section>
-
-    <!-- RIGHT COLUMN -->
-    <aside>
-
-      <div class="card">
-        <div class="card-title">[ core-stack ]</div>
-        <div class="card-body">
-          js/ts, react, angular<br>
-          python, scala, java, c/c++, go<br>
-          sql, spark, kafka, postgres
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-title">[ domains ]</div>
-        <div class="card-body">
-          front-end, ux, creative coding<br>
-          data engineering, pipelines<br>
-          api/back-end, devops, scripting<br>
-          algorithms, compression, fp
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-title">[ r&d ]</div>
-        <div class="card-body">
-          fp pipelines, elm/ui<br>
-          golang channels, openmp, mpi<br>
-          markdown/ast, http/2/3<br>
-          static analysis, clean code
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-title">[ teaching ]</div>
-        <div class="card-body">
-          c/c++, java, algorithms<br>
-          j2ee backend, fp/oo<br>
-          web design, hci<br>
-          tech writing
-        </div>
-      </div>
-
-    </aside>
-
-  </div>
-
-  <!-- ASCII GRAPH -->
-  <section class="ascii-shell">
-    <div class="ascii-title">semantic skill graph</div>
-    <pre class="ascii">
-+------------------+     +------------------+     +------------------+
-|   front-end      | --> |     systems      | --> |       data       |
-+------------------+     +------------------+     +------------------+
-| js/ts            |     | mv* models       |     | spark / scala    |
-| react / angular  |     | devops           |     | kafka / pipelines|
-| html/css/aria    |     | architecture     |     | sql / analytics  |
-+------------------+     +------------------+     +------------------+
-
-+------------------+     +------------------+     +------------------+
-|      cloud       | --> |     polyglot     | --> |    interests     |
-+------------------+     +------------------+     +------------------+
-| aws / docker     |     | js / ts / py     |     | compression      |
-| kubernetes       |     | scala / c/c++    |     | maths / ux       |
-| ci/cd pipelines  |     | java / php / go  |     | creative coding  |
-+------------------+     +------------------+     +------------------+
-    </pre>
-  </section>
-
-  <footer class="footer">
-    federico cagliero — cv
-  </footer>
+<div class="sep">── LANG ──</div>
+<h2>Languages</h2>
+<p>Italian · English · French</p>
 
 </div>
 
+<!-- RIGHT COLUMN -->
+<div>
+
+<div class="sep">== PROFILE ==</div>
+<h2>Profile</h2>
+<p>Front‑end architect with a hacker‑ZEN mindset: minimal, expressive, MV*‑driven UI systems. I design clean dataflows, typed models, and minimal surfaces that scale without friction. Strong in React/TS, async/FP, UI architecture, and developer‑centric tooling.</p>
+
+<div class="sep">== TOP 8 ==</div>
+<h2>Top 8 Skills</h2>
+<p class="mono">React · TypeScript · MV* · UI‑Architecture · Async/FP · Vue.js · Redux/Elm · Perl/Py3</p>
+
+<div class="sep">== DESIGN PRINCIPLES ==</div>
+<h2>Design Principles</h2>
+<p class="mono">Predictable state · Minimal surface · Pure funcs · UI=dataflow · Explicit &gt; implicit</p>
+
+<div class="sep">== CORE PATTERNS ==</div>
+<h2>Core Patterns I Use</h2>
+<p class="mono">MV* flows · State machines · Reducers · Streams · Async pipes · Typed models · Component contracts</p>
+
+<div class="sep">== EXPERIENCE ==</div>
+<h2>Experience</h2>
+
+<div class="xp"><span class="role">FE‑Arch / MV*/DV</span><span class="time">2024–Now</span><p>React/TS · UI systems · Node · MV* flows · perf.</p></div>
+<div class="xp"><span class="role">R&D‑FP/MV*</span><span class="time">2022–2024</span><p>Elm UI · typed models · async/FP · Go pipelines · Py3 tooling.</p></div>
+<div class="xp"><span class="role">R&D‑HPC</span><span class="time">2019–2020</span><p>Go channels · OpenMP · MPI · BDD · shell.</p></div>
+<div class="xp"><span class="role">FE‑Data‑Tools (OpenData/TLC)</span><span class="time">2017–2018</span><p>Hadoop · Spark/Scala ETL · SQL tuning · dashboards · js/Scala tools (Angular).</p></div>
+<div class="xp"><span class="role">Eval‑BD‑Arch</span><span class="time">2014–2016</span><p>Spark · Kafka · Storm · AWS · architecture reviews.</p></div>
+<div class="xp"><span class="role">FE‑Tools/TW (Amadeus)</span><span class="time">2010–2012</span><p>r&d js - MV* · devOps tooling · AST+Markdown→jsdoc · UI prototypes.</p></div>
+<div class="xp"><span class="role">Rel/Int‑Eng</span><span class="time">2008–2010</span><p>Perl/Py3 automation · static analysis · C/C++ integration.</p></div>
+<div class="xp"><span class="role">Sys‑Arch‑HA (RCS-Corriere)</span><span class="time">2005–2007</span><p>was/wps clusters (j2ee) · CMS integration · 24×7 delivery.</p></div>
+<div class="xp"><span class="role">IoT‑Eng</span><span class="time">2002–2003</span><p>C++ async TCP servers · multithreading · Python R&D.</p></div>
+<div class="xp"><span class="role">Plat‑Eng‑CDN (Vitaminic)</span><span class="time">1999–2002</span><p>FE + BE · MP3 delivery · CDN · encoding · php/JS/Java/Python · XML/XSLt.</p></div>
+
+<div class="sep">== TECH‑CYCLES ==</div>
+<h2>Tech‑Cycles (1999 → Today)</h2>
+<div class="timeline-block">
+<div class="timeline-line">[1999]■■■■ Web1.0 / php+JS+Perl</div>
+<div class="timeline-line">[2003]■■■■■■ HCI / JS (ECMA)</div>
+<div class="timeline-line">[2007]■■■■■■■■ Sys/Arch / J2EE</div>
+<div class="timeline-line">[2010]■■■■■■■■■■ FE‑Tools / AST</div>
+<div class="timeline-line">[2014]■■■■■■■■■■■■ Big‑Data / Spark</div>
+<div class="timeline-line">[2017]■■■■■■■■■■■■■■ FE+Data</div>
+<div class="timeline-line">[2020]■■■■■■■■■■■■■■■■ HPC / Go</div>
+<div class="timeline-line">[2024]■■■■■■■■■■■■■■■■■■ MV* / React/TS</div>
+</div>
+
+<div class="sep">== NOW ==</div>
+<h2>What I’m Exploring Now</h2>
+<p class="mono">Elm‑inspired FE architectures · state machines · typed UI flows · async/FP ergonomics.</p>
+
+<div class="sep">== TOOLCHAIN ==</div>
+<h2>Toolchain I Prefer</h2>
+<p class="mono">React · TS · MV* · Node · Underscore</p>
+<p class="mono">Figma→React · Storybook · Jest</p>
+<p class="mono">Perl/Py3/Ruby · CLI pipelines</p>
+<p class="mono">Git · Linux · Docker · CI/CD</p>
+
+<div class="sep">== SIGNATURE PROJECTS ==</div>
+<h2>Signature Projects</h2>
+<p class="mono">UI‑Kit/DS (React+TS) · tokens · theming</p>
+<p class="mono">Data‑Viz FE · JSON→UI · async/FP</p>
+<p class="mono">Markdown→AST toolchain (Amadeus)</p>
+<p class="mono">CDN/Media platform (Vitaminic)</p>
+<p class="mono">Elm‑style FE R&D · typed models</p>
+
+<div class="sep">== EDUCATION ==</div>
+<h2>Education</h2>
+
+<p><strong>Politecnico di Torino</strong> — CS/Tlx</p>
+<p class="mono">B.Eng +2 (CS/TLC)</p>
+
+<p class="mono"><strong>Core</strong>: Algo · DS · Graphs · OS · Dist‑Sys · Net/TCP · SE · DB/SQL · Stats · Discrete</p>
+<p class="mono"><strong>Labs</strong>: C/C++ sys‑lab · java (UML) · net‑sim · dist‑algo · proto‑debug</p>
+
+<p style="margin-top:10px;"><strong>Liceo Scientifico</strong> — ITA/FR (Lycée Sci.)</p>
+<p class="mono">Math · Phys · CS‑basics · Logic · Langs (IT/FR/EN)</p>
+
+</div>
+</div>
 </body>
 </html>
-
