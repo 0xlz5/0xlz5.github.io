@@ -23,44 +23,16 @@
   --link-hover: var(--accent);
 }
 
-/* ============================================================
-   PALETTES — FANCY EDITION
-   ============================================================ */
-
-/* LIGHT+ */
+/* LIGHT — the only theme */
 body.light {
-  --bg: #ffffff;
-  --ink: #111111;
-  --muted: #666;
-  --line: #d0d3d8;
-  --accent: #3b6cff;
-  --card-bg: #f7f9ff;
-  --ascii-bg: #eef2ff;
-  --link-hover: #3b6cff;
-}
-
-/* titanium */
-body.titanium {
-  --bg: #0f0f11;
-  --bg-elevated: #16171a;
-  --fg: #f2f2f4;
-  --fg-muted: #9b9ca3;
-  --border-subtle: #2a2c33;
-  --accent: #b0b4c0;
-  --accent-soft: rgba(176,180,192,.18);
-  --code-bg: #0b0c0e;
-}
-
-/* cyber-ink */
-body.cyber-ink {
-  --bg: #0a0c10;
-  --bg-elevated: #11141a;
-  --fg: #e6e9ef;
-  --fg-muted: #8d93a1;
-  --border-subtle: #1a1d24;
-  --accent: #4cc9f0;
-  --accent-soft: rgba(76,201,240,.16);
-  --code-bg: #0b0e13;
+  --bg:#f7f8fa;
+  --bg-elevated:#fff;
+  --fg:#1a1b1e;
+  --fg-muted:#6b6f76;
+  --border-subtle:#e2e4e8;
+  --accent:#2b59ff;
+  --accent-soft:rgba(43,89,255,.10);
+  --code-bg:#f0f2f5;
 }
 
 /* ============================================================
@@ -126,30 +98,6 @@ body {
 
 .header-links a:hover {
   color: var(--link-hover);
-}
-
-/* palette switcher in top-right corner */
-.palette-switcher.top-right {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  display: flex;
-  gap: 6px;
-}
-
-.palette-switcher.top-right button {
-  background: var(--card-bg);
-  border: 1px solid var(--line);
-  padding: 4px 6px;
-  border-radius: 4px;
-  cursor: pointer;
-  color: var(--ink);
-  font-size: 0.75rem;
-  font-family: "Fira Code", monospace;
-}
-
-.palette-switcher.top-right button:hover {
-  border-color: var(--accent);
 }
 
 /* ============================================================
@@ -267,11 +215,6 @@ pre.ascii {
   font-family: "Fira Code", monospace;
 }
 
-@media print {
-   .palette-switcher {
-      display: none !important;
-   }
-}
 </style>
 
 <script>
@@ -298,12 +241,6 @@ function setPalette(mode) {
         <a href="https://www.linkedin.com/in/federico-cagliero-68b860a6/" target="_blank">💼 linkedin</a>
         <a href="mailto:federico.cagliero@gmail.com">✉️ federico.cagliero@gmail.com</a>
       </div>
-    </div>
-
-    <div class="palette-switcher top-right">
-       <button onclick="setPalette('light')">light</button>
-       <button onclick="setPalette('titanium')">titanium</button>
-       <button onclick="setPalette('cyber-ink')">cyber‑ink</button>
     </div>
 
   </header>
