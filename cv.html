@@ -39,52 +39,28 @@ body.light {
   --link-hover: #3b6cff;
 }
 
-/* DARK+ */
-body.dark {
-  --bg: #0b0d11;
-  --ink: #e8ecf2;
-  --muted: #8a93a1;
-  --line: #1c1f26;
-  --accent: #4dd6ff;
-  --card-bg: #14171d;
-  --ascii-bg: #1a1e26;
-  --link-hover: #4dd6ff;
+/* titanium */
+body.titanium {
+  --bg: #0f0f11;
+  --bg-elevated: #16171a;
+  --fg: #f2f2f4;
+  --fg-muted: #9b9ca3;
+  --border-subtle: #2a2c33;
+  --accent: #b0b4c0;
+  --accent-soft: rgba(176,180,192,.18);
+  --code-bg: #0b0c0e;
 }
 
-/* PASTEL+ */
-body.pastel {
-  --bg: #fdfaff;
-  --ink: #2e2a32;
-  --muted: #6a6570;
-  --line: #e4dff0;
-  --accent: #c28bff;
-  --card-bg: #f7f2ff;
-  --ascii-bg: #efe8fa;
-  --link-hover: #b06aff;
-}
-
-/* RETRO+ */
-body.retro {
-  --bg: #f2e9d8;
-  --ink: #2b1f0e;
-  --muted: #6b5a44;
-  --line: #d4c4a8;
-  --accent: #e07f2a;
-  --card-bg: #f3e4c8;
-  --ascii-bg: #e8d9b8;
-  --link-hover: #ff8f3a;
-}
-
-/* VT100+ */
-body.vt100 {
-  --bg: #000b00;
-  --ink: #00ff77;
-  --muted: #00bb55;
-  --line: #003322;
-  --accent: #00ff99;
-  --card-bg: #001400;
-  --ascii-bg: #001f00;
-  --link-hover: #00ffaa;
+/* cyber-ink */
+body.cyber-ink {
+  --bg: #0a0c10;
+  --bg-elevated: #11141a;
+  --fg: #e6e9ef;
+  --fg-muted: #8d93a1;
+  --border-subtle: #1a1d24;
+  --accent: #4cc9f0;
+  --accent-soft: rgba(76,201,240,.16);
+  --code-bg: #0b0e13;
 }
 
 /* ============================================================
@@ -116,24 +92,6 @@ body {
   grid-template-columns: 90px 1fr;
   gap: 24px;
   padding: 32px 32px 24px;
-}
-
-/* ROUNDED SQUARE AVATAR */
-.avatar-box {
-  width: 90px;
-  height: 90px;
-  border-radius: 16px;          /* rounded square */
-  overflow: hidden;
-  background: var(--card-bg);
-  border: 1px solid var(--line);
-  box-shadow: 0 0 8px rgba(0,0,0,0.08);
-}
-
-.avatar-box img {
-  width: 100%;
-  height: 120%;                 /* gives room for top alignment */
-  object-fit: cover;
-  object-position: 0px -10px;         /* align image to the top */
 }
 
 /* name + role */
@@ -323,16 +281,12 @@ function setPalette(mode) {
 </script>
 </head>
 
-<body class="light">
+<body class="titanium">
 
 <div class="page">
 
   <!-- FANCY HEADER -->
   <header class="fancy-header">
-
-    <div class="avatar-box">
-      <img src="profile-avatar.png" alt="avatar">
-    </div>
 
     <div class="header-info">
       <div class="header-name">Federico Cagliero</div>
@@ -347,11 +301,9 @@ function setPalette(mode) {
     </div>
 
     <div class="palette-switcher top-right">
-      <button onclick="setPalette('light')">light</button>
-      <button onclick="setPalette('dark')">dark</button>
-      <button onclick="setPalette('pastel')">pastel</button>
-      <button onclick="setPalette('retro')">retro</button>
-      <button onclick="setPalette('vt100')">vt100</button>
+       <button onclick="setPalette('light')">light</button>
+       <button onclick="setPalette('titanium')">titanium</button>
+       <button onclick="setPalette('cyber-ink')">cyber‑ink</button>
     </div>
 
   </header>
