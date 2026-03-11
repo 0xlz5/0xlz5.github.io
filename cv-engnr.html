@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Federico Cagliero — CV</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<style>
+:root{
+  --bg:#fafbfc;--fg:#14151a;--muted:#6b6f7a;--accent:#1a4ad8;
+  --sans:"Space Grotesk",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);-webkit-font-smoothing:antialiased;}
+.page{max-width:1100px;margin:32px auto;padding:32px 32px 40px;background:#fff;border-radius:12px;}
+h1,h2{font-weight:600;}
+h1{font-size:1.9rem;letter-spacing:0.03em;text-transform:uppercase;}
+h2{font-size:0.9rem;text-transform:uppercase;letter-spacing:0.16em;margin:26px 0 10px 0;color:var(--accent);font-family:var(--mono);}
+p,li{font-size:0.86rem;line-height:1.5;}
+.muted{color:var(--muted);}
+.mono{font-family:var(--mono);}
+.header{display:flex;justify-content:space-between;align-items:flex-start;padding-bottom:18px;margin-bottom:26px;}
+.tagline{margin-top:6px;font-size:0.9rem;letter-spacing:0.03em;color:var(--muted);text-transform:uppercase;}
+.contact{text-align:right;font-size:0.8rem;font-family:var(--mono);}
+a{color:var(--accent);text-decoration:underline;text-underline-offset:2px;}
+.grid{display:grid;grid-template-columns:1fr 1.4fr;gap:40px;}
+.col-left,.col-right{position:relative;padding-left:18px;}
+.col-left::before,.col-right::before{content:"";position:absolute;left:0;top:0;bottom:0;width:1px;background:#d0d2d8;}
+.section{padding:6px 0 18px 0;}
+.section p{margin:6px 0 12px 0;}
+ul{list-style:none;margin:6px 0 12px 0;}
+li{margin:3px 0 4px 0;}
+li::before{content:"- ";font-family:var(--mono);color:var(--muted);}
+.stack-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin:10px 0 14px 0;}
+.stack-pill{font-family:var(--mono);font-size:0.8rem;padding:2px 0;display:flex;align-items:center;gap:6px;color:#1a1c22;}
+.stack-ico{font-size:1rem;opacity:0.75;transform:translateY(-0.5px);}
+.skills-map,.timeline{font-family:var(--mono);font-size:0.8rem;white-space:pre;margin:10px 0 14px 0;color:#1c1f27;}
+.footer{margin-top:40px;padding-top:20px;text-align:center;font-family:var(--mono);font-size:0.8rem;color:var(--muted);line-height:1.5;}
+
+/* PRINT — NO BREAKS ANYWHERE */
+@media print{
+  *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;}
+  body{background:#fff;color:#000;}
+  .page{padding:0;margin:0;border-radius:0;box-shadow:none;max-width:100%;}
+  a{color:#000;}
+
+  /* print-block: header + grid glued together */
+  .print-block{
+    page-break-inside:avoid!important;
+    break-inside:avoid!important;
+    page-break-before:avoid!important;
+    break-before:avoid!important;
+    page-break-after:avoid!important;
+    break-after:avoid!important;
+  }
+  .print-block {
+    display: block;
+    overflow: hidden; /* forces a new block formatting context */
+  }
+
+
+  /* header must NEVER break */
+  .header{
+    display:block!important;
+    page-break-inside:avoid!important;
+    break-inside:avoid!important;
+    page-break-after:avoid!important;
+    break-after:avoid!important;
+  }
+
+  /* grid must attach to header */
+  .header + .grid{
+    page-break-before:avoid!important;
+    break-before:avoid!important;
+  }
+
+  /* columns must not split */
+  .col-left,.col-right{
+    page-break-inside:avoid!important;
+    break-inside:avoid!important;
+    page-break-before:avoid!important;
+    break-before:avoid!important;
+    page-break-after:avoid!important;
+    break-after:avoid!important;
+  }
+
+  /* sections must stay whole */
+  .section{
+    page-break-inside:avoid!important;
+    break-inside:avoid!important;
+    page-break-before:avoid!important;
+    break-before:avoid!important;
+    page-break-after:avoid!important;
+    break-after:avoid!important;
+  }
+
+  /* ASCII blocks must stay intact */
+  .skills-map,.timeline{
+    white-space:pre!important;
+    overflow:visible!important;
+    page-break-inside:avoid!important;
+    break-inside:avoid!important;
+  }
+
+  /* stack must stay intact */
+  .stack-grid,.stack-pill{
+    page-break-inside:avoid!important;
+    break-inside:avoid!important;
+  }
+
+  /* footer must not detach */
+  .footer{
+    page-break-before:avoid!important;
+    break-before:avoid!important;
+    page-break-inside:avoid!important;
+    break-inside:avoid!important;
+  }
+
+  /* rails in print */
+  .col-left::before,.col-right::before{background:#000!important;}
+
+  p,li{orphans:3;widows:3;}
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+
+<div class="print-block">
+
+<header class="header">
+  <div>
+    <h1>Federico Cagliero</h1>
+    <div class="tagline mono">fe architect — ts · mv · async‑ui · reactive flows · perf‑first</div>
+  </div>
+  <div class="contact">
+    Torino, IT<br>
+    <a href="mailto:federico.cagliero@gmail.com">federico.cagliero@gmail.com</a><br>
+    <a href="https://github.com/0xlz5">github.com/0xlz5</a><br>
+    <a href="https://www.linkedin.com/in/federico-cagliero-68b860a6">linkedin.com/in/federico-cagliero-68b860a6</a>
+  </div>
+</header>
+
+<main class="grid">
+
+<!-- LEFT -->
+<div class="col-left">
+
+  <div class="section">
+    <h2># profile</h2>
+    <p>web dev / architect with long‑run xp in <span class="mono">mv*</span>, <span class="mono">dist-sys</span>, <span class="mono">bigdata</span>, <span class="mono">etl</span>, <span class="mono">async-ui</span>.</p>
+    <p>stack: <span class="mono">ts</span>, <span class="mono">py</span>, <span class="mono">sql</span>, <span class="mono">scala</span>, <span class="mono">java</span>. design: flows, perf, secure arch.</p>
+    <p class="muted">vibes: expressive eng, weird langs, algebraic pipelines. now → <span class="mono">rag</span>, agents, ai workflows.</p>
+  </div>
+
+  <div class="section">
+    <h2># fe / web</h2>
+    <ul>
+      <li>ts, js, py</li>
+      <li>react, angular, mv*</li>
+      <li>html/css, ux, figma</li>
+      <li>owasp, secure arch</li>
+      <li>apache, nginx</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2># fe / tech stack</h2>
+    <div class="stack-grid">
+      <div class="stack-pill"><span class="stack-ico">⚡</span>ts</div>
+      <div class="stack-pill"><span class="stack-ico">⚛</span>react</div>
+      <div class="stack-pill"><span class="stack-ico">🟦</span>vue</div>
+      <div class="stack-pill"><span class="stack-ico">λ</span>elm</div>
+      <div class="stack-pill"><span class="stack-ico">▣</span>mv*</div>
+      <div class="stack-pill"><span class="stack-ico">∞</span>async‑ui</div>
+      <div class="stack-pill"><span class="stack-ico">◇</span>design‑systems</div>
+      <div class="stack-pill"><span class="stack-ico">✦</span>creative‑coding</div>
+      <div class="stack-pill"><span class="stack-ico">⌘</span>html/css</div>
+      <div class="stack-pill"><span class="stack-ico">◎</span>ux</div>
+      <div class="stack-pill"><span class="stack-ico">✎</span>figma</div>
+      <div class="stack-pill"><span class="stack-ico">⛨</span>secure‑arch</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2># be / data</h2>
+    <ul>
+      <li>spark, kafka, hadoop</li>
+      <li>etl, dist-sys</li>
+      <li>sql, pg, nosql</li>
+      <li>linux, docker, k8s</li>
+      <li>scala, java</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2># ai / tools</h2>
+    <ul>
+      <li>rag, prompts, agents</li>
+      <li>perl, go, c++</li>
+      <li>numpy, r, stats</li>
+      <li>clj, fp/async</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2># skills map</h2>
+    <div class="skills-map">
+[fe-core]   ts / react / vue / elm
+              │
+              ├── async-ui / mv* / state mgmt
+              └── design-systems / ux / figma
+
+[data/ops]  sql / spark / kafka / dist-sys
+              └── perf / observability / secure-arch
+
+[ai-flow]   rag / agents / prompts
+              └── retrieval / tools / pipelines
+    </div>
+  </div>
+
+  <div class="section">
+    <h2># edu</h2>
+    <p><strong>TLC/CS — PoliTo</strong> <span class="muted mono">96–98</span><br>math analysis, ds/algos, fft, c, graphs, numerical methods.</p>
+    <p class="muted">self‑study: quake src, c++/stl, vector gfx, x86, decompilers, malware (sec), compilers, linux, tcp/ip, se.</p>
+    <p><strong>IT Mgmt — PoliTo</strong> <span class="muted mono">02–03</span><br>nets, uml/java, db theory, or, stats, econ.</p>
+    <p class="muted">extra: fowler patterns, mv*, ioc, eai, j2ee arch, agile.</p>
+  </div>
+
+  <div class="section">
+    <h2># langs</h2>
+    <ul>
+      <li>it — native</li>
+      <li>en — pro</li>
+      <li>fr — literate</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2># interests</h2>
+    <p>music prod, clj, systems thinking, sociology, lit, geopolitics, design theory, hci, creative coding, retro‑computing, open‑source contrib.</p>
+  </div>
+
+</div>
+
+<!-- RIGHT -->
+<div class="col-right">
+
+  <div class="section">
+    <h2># xp (02 → now)</h2>
+    <p><strong>web agencies</strong> <span class="muted mono">mv*, js, php</span><br>fe arch, async ui, prod fixes.</p>
+    <p><strong>telecom italia + cselt</strong> <span class="muted mono">hadoop/hive</span><br>early bigdata r&d.</p>
+    <p><strong>csi piemonte</strong> <span class="muted mono">spark/scala</span><br>opendata, dist joins, etl.</p>
+    <p><strong>fsf</strong> <span class="muted mono">spark/kafka</span><br>data processing + streaming eval.</p>
+    <p><strong>amadeus</strong> <span class="muted mono">js mv* r&d</span><br>custom fe frameworks, high‑traffic proto.</p>
+    <p><strong>eu / fse</strong> <span class="muted mono">teaching</span><br>j2ee + backend fundamentals.</p>
+    <p><strong>rcs / corriere</strong> <span class="muted mono">j2ee / devops</span><br>editorial pipelines, early ci.</p>
+    <p><strong>ifts</strong> <span class="muted mono">perl / fp</span><br>fp/oo concepts via perl.</p>
+    <p><strong>urmet domus</strong> <span class="muted mono">tcp/c++</span><br>embedded + net systems.</p>
+  </div>
+
+  <div class="section">
+    <h2># other collabs / projects</h2>
+    <p><strong>ibm</strong> <span class="muted mono">enterprise</span><br>integration flows, early soa.</p>
+    <p><strong>motorola</strong> <span class="muted mono">c++ / tcp/ip</span><br>proto stacks, embedded comms.</p>
+    <p><strong>vivendi</strong> <span class="muted mono">media</span><br>streaming workflows, content ops.</p>
+    <p><strong>sony</strong> <span class="muted mono">media tech</span><br>api integration, catalog systems.</p>
+    <p><strong>bmg</strong> <span class="muted mono">music</span><br>metadata flows, ingestion, rights.</p>
+    <p><strong>nokia</strong> <span class="muted mono">mobile</span><br>early mobile web, js proto.</p>
+  </div>
+
+  <div class="section">
+    <h2># personal projects</h2>
+    <p><strong>elm ui proto</strong> <span class="muted mono">elm</span><br>pure‑fp fe experiments, signal‑driven ui.</p>
+    <p><strong>vue micro‑apps</strong> <span class="muted mono">vue.js</span><br>tiny reactive widgets, state‑light patterns.</p>
+    <p><strong>creative coding</strong> <span class="muted mono">js / canvas / glsl</span><br>generative gfx, dsp‑ish visuals, async loops.</p>
+    <p><strong>mini‑frameworks</strong> <span class="muted mono">ts</span><br>router, store, tiny mv* riffs, algebraic ui flows.</p>
+    <p><strong>tooling</strong> <span class="muted mono">py / node</span><br>cli tools, log parsers, build scripts.</p>
+  </div>
+
+  <div class="section">
+    <h2># ai direction</h2>
+    <p><strong>focus:</strong> retrieval → agents → ai‑as‑systems.</p>
+    <ul>
+      <li>rag: chunking, scoring, hybrid search</li>
+      <li>agents: planning, tool‑use, async flows</li>
+      <li>infra: routing, safety, observability</li>
+    </ul>
+    <p class="muted mono">goal: ai pipelines as composable ops — predictable + debuggable.</p>
+  </div>
+
+  <div class="section">
+    <h2># fe timeline</h2>
+    <div class="timeline">
+[web1]  js / php / perl  ── vitaminic
+   │
+[2000s] j2ee / cms / devops ── rcs, agencies
+   │
+[2010s] mv* / custom fwk ── amadeus, fe r&d
+   │
+[now]   ts / react / vue / elm ── fe arch, async-ui, ai-aware
+    </div>
+  </div>
+
+  <div class="section">
+    <h2># early — vitaminic</h2>
+    <p class="muted">web1 mp3 startup (stock‑listed). high‑traffic, pre‑cloud engineering.</p>
+    <ul>
+      <li>js, php, py, perl</li>
+      <li>j2ee, tomcat</li>
+      <li>mysql, pg</li>
+      <li>xml/xslt, tcp/ip</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2># side stuff</h2>
+    <ul>
+      <li>ux/hci</li>
+      <li>js, clj, perl, rust</li>
+      <li>c++, go, py</li>
+      <li>fp/async, stats</li>
+    </ul>
+  </div>
+
+</div> <!-- end col-right -->
+
+</main>
+
+</div> <!-- end print-block -->
+
+<div class="footer">
+────────────────────────────────────────────<br>
+crafted by federico cagliero — fe architect<br>
+async‑ui · mv* · reactive flows · perf‑first<br>
+github.com/0xlz5
+</div>
+
+</div> <!-- end page -->
+</body>
+</html>
