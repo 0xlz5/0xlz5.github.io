@@ -27,7 +27,7 @@ AI focus · ML/DL · FE/BE · system design · data workflows
 Full‑stack / Data / FE  
 SQL · Scala · Hadoop · Spark · Angular
 
-### 2016 – 2018
+### 2015 – 2017
 R&D (Part‑time)  
 Go · Node.js · Spark/Storm/Kafka eval · Flink · AWS exposure
 
