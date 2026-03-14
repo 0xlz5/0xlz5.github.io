@@ -10,12 +10,12 @@ Torino, Italy
 Track record across front‑end M* architectures, data workflows, and system design. Polyglot engineer with long experience in R&D, architecture, web tech, and AI‑driven engineering.
 
 ## Skills
+- Design & Visualization: Figma · UI/UX · data visualization
 - Web / FE–BE: JS, TS, HTML/CSS, M* patterns
-- Programming: Perl · Go · Python · C++ · JS/TS · Java · Scala
 - Data: SQL · Hadoop · Spark · Kafka · Flink
+- Programming: Perl · Go · Python · C++ · JS/TS · Java · Scala
 - Cloud & Infra: AWS Lambda · Docker · Kubernetes
 - R&D: media delivery · dev & expert systems · distributed systems
-- Design & Visualization: Figma · UI/UX · data visualization
 
 ## Experience (Inverse Chronological)
 
