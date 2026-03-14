@@ -19,7 +19,7 @@ Track record across front‑end M* architectures, data workflows, and system des
 
 ## Experience (Inverse Chronological)
 
-### 2004 – Present
+### 2020 – Present
 Collabs & Personal Projects — Torino  
 AI focus · ML/DL · FE/BE · system design · data workflows
 
