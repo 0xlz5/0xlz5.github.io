@@ -2,9 +2,9 @@
 Frontend Expert · System Design · Data & AI  
 Torino, Italy  
 
-📧 federico.cagliero@gmail.com  
-🔗 https://www.linkedin.com/in/federico-cagliero-68b860a6/  
-📝 https://order-coding.tumblr.com/
+📧 [federico.cagliero@gmail.com]  
+🔗 [https://www.linkedin.com/in/federico-cagliero-68b860a6]  
+📝 [ttps://order-coding.tumblr.com]
 
 ## About
 Track record across front‑end M* architectures, data workflows, and system design. Polyglot engineer with long experience in R&D, architecture, web tech, and AI‑driven engineering.
@@ -53,7 +53,7 @@ Perl (functions/types) · statistics · multivariate methods
 
 ### 2000 – 2002
 Vitaminic — Web Dev / FE / Arch  
-Front‑end · architecture · R&D · OO Perl · Java · Python/Zope
+Front‑end · architecture · R&D · OO Perl · Java · Fowler's
 
 ## Education
 Politecnico di Torino — B.Eng. (Computer Science) (drop‑out)  
