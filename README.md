@@ -4,7 +4,7 @@ Torino, Italy
 
 📧 [federico.cagliero@gmail.com]  
 🔗 [https://www.linkedin.com/in/federico-cagliero-68b860a6]  
-📝 [ttps://order-coding.tumblr.com]
+📝 [https://order-coding.tumblr.com]
 
 ## About
 Track record across front‑end M* architectures, data workflows, and system design. Polyglot engineer with long experience in R&D, architecture, web tech, and AI‑driven engineering.
