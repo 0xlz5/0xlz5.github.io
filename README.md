@@ -53,7 +53,7 @@ Perl (functions/types) · statistics · multivariate methods
 
 ### 1999 – 2002
 Vitaminic — Web Dev / FE / Arch  
-Front‑end · architecture · R&D · OO Perl · Java · Fowler's
+Front‑end · architecture · R&D · OO Perl · Java
 
 ## Education
 Politecnico di Torino — B.Eng. (Computer Science) (drop‑out)  
