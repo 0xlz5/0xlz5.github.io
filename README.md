@@ -51,7 +51,7 @@ Content mgmt · portals · web integration · DB/sys
 R&D + Teaching  
 Perl (functions/types) · statistics · multivariate methods
 
-### 2000 – 2002
+### 1999 – 2002
 Vitaminic — Web Dev / FE / Arch  
 Front‑end · architecture · R&D · OO Perl · Java · Fowler's
 
