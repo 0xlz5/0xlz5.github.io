@@ -40,8 +40,8 @@ Frontend / R&D — Sophia Antipolis (FR)
 Web frameworks · open source · agile/lean
 
 ### 2007 – 2010
-R&D — dev & Expert Systems  
-JS · Groovy · PHP · J2EE · backend teaching
+R&D — dev & framworks / systems  
+24x7 · JS · Groovy · PHP · J2EE · backend teaching
 
 ### 2005 – 2007
 Architecture & Systems Expert  
@@ -53,7 +53,7 @@ Perl (functions/types) · statistics · multivariate methods
 
 ### 1999 – 2002
 Vitaminic — Web Dev / FE / Arch  
-Front‑end · architecture · R&D · OO Perl · Java
+Front‑end · architecture · R&D · OO Perl · Java · 24x7
 
 ## Education
 Politecnico di Torino — B.Eng. (Computer Science) (drop‑out)  
