@@ -40,7 +40,7 @@ Frontend / R&D — Sophia Antipolis (FR)
 Web frameworks · open source · agile/lean
 
 ### 2007 – 2010
-R&D — dev & framworks / systems  
+R&D — dev & frameworks / systems  
 24x7 · JS · Groovy · PHP · J2EE · backend teaching
 
 ### 2005 – 2007
