@@ -1,0 +1,448 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8" />
+<title>Notebook Coding Styles — 12 Archetypes</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Source+Serif+Pro:wght@400;600&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+ --sans:'Inter',system-ui,sans-serif;
+ --serif:'Source Serif Pro',serif;
+ --mono:'JetBrains Mono',monospace;
+
+ --bg:#ffffff;
+ --fg:#1a1a1a;
+ --muted:#6b7280;
+ --border:#dcdcdc;
+
+ --azure:#0066cc;
+ --orange:#ff7a1a;
+
+ --code-bg:#fafafa;
+ --code-border:#e5e5e5;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+ background:var(--bg);
+ color:var(--fg);
+ padding:2rem;
+ line-height:1.55;
+ font-family:var(--sans);
+}
+
+h1{
+ text-align:center;
+ font-family:var(--serif);
+ font-size:2.4rem;
+ margin-bottom:.4rem;
+ font-weight:600;
+}
+
+.subtitle{
+ text-align:center;
+ font-size:.95rem;
+ margin-bottom:2rem;
+ color:var(--muted);
+}
+
+.section-title{
+ font-family:var(--serif);
+ font-size:1.3rem;
+ margin:2rem 0 1rem;
+ padding-bottom:.4rem;
+ border-bottom:1px solid var(--border);
+ font-weight:600;
+}
+
+.grid{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+ gap:1.5rem;
+}
+
+.card{
+ display:flex;
+ flex-direction:row;
+ gap:1.2rem;
+ padding:1.2rem 1.4rem;
+ border:1px solid var(--border);
+ border-radius:12px;
+ background:#fff;
+}
+
+.emoji{font-size:2rem;margin-right:.6rem}
+
+.card-head{display:flex;flex-direction:column;gap:.25rem}
+
+.card-head h2{
+ font-family:var(--serif);
+ font-size:1.35rem;
+ font-weight:600;
+}
+
+.tagline{
+ font-size:.8rem;
+ text-transform:uppercase;
+ letter-spacing:.12em;
+ color:var(--azure);
+ font-weight:600;
+}
+
+.desc{
+ font-size:.9rem;
+ color:var(--muted);
+ margin-top:.3rem;
+ max-width:650px;
+ line-height:1.55;
+}
+
+.tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
+.tag{
+ font-size:.7rem;
+ padding:.15rem .45rem;
+ border-radius:999px;
+ border:1px solid var(--border);
+ background:#fff;
+ color:var(--muted);
+}
+
+.langs{
+ margin-top:.5rem;
+ font-size:.85rem;
+ font-weight:600;
+ color:var(--orange);
+}
+
+pre{
+ margin-top:.7rem;
+ background:var(--code-bg);
+ border:1px solid var(--code-border);
+ padding:1rem 1.2rem;
+ border-radius:10px;
+ font-family:var(--mono);
+ font-size:.85rem;
+ overflow-x:auto;
+ line-height:1.45;
+}
+
+.kw{color:var(--azure)}
+.type{color:var(--orange)}
+.fn{color:#0099cc}
+.str{color:#008b5e}
+.num{color:#7c4dff}
+.com{color:#9ca3af;font-style:italic}
+
+@media(max-width:800px){
+ .card{flex-direction:column}
+}
+</style>
+</head>
+
+<body>
+
+<h1>Notebook Coding Style Alignment — 12 Archetypes</h1>
+<p class="subtitle">Super‑minimalist · Zen fonts · Two‑column layout · Expanded descriptions</p>
+
+<h2 class="section-title">Coding Styles</h2>
+
+<div class="grid">
+
+<!-- 1 Captain Enterprise -->
+<div class="card">
+ <span class="emoji">🧊</span>
+ <div class="card-head">
+  <h2>Captain Enterprise™</h2>
+  <div class="tagline">structured / OO / clean‑code</div>
+  <div class="desc">
+   The architect. Loves clarity, layers, interfaces, and predictable systems.  
+   Writes code like building a cathedral: every class has a purpose, every method a contract.
+  </div>
+  <div class="tags"><span class="tag">SOLID</span><span class="tag">interfaces</span><span class="tag">architecture</span></div>
+  <div class="langs">Java · C# · TypeScript · Kotlin · Swift · Ada</div>
+  <pre><code><span class="com">// enterprise-style service layer</span>
+<span class="kw">public class</span> <span class="type">AuthService</span>{
+ <span class="kw">private final</span> <span class="type">UserRepo</span> repo;
+ <span class="kw">public</span> AuthService(<span class="type">UserRepo</span> r){repo=r;}
+ <span class="kw">public</span> <span class="type">User</span> <span class="fn">login</span>(String u,String p){
+   <span class="type">User</span> user=repo.<span class="fn">find</span>(u);
+   <span class="kw">if</span>(user==<span class="kw">null</span>||!user.<span class="fn">checkPass</span>(p))
+     <span class="kw">throw new</span> <span class="type">AuthException</span>(<span class="str">"Invalid credentials"</span>);
+   <span class="kw">return</span> user;
+ }
+}</code></pre>
+ </div>
+</div>
+
+<!-- 2 Language Whisperer -->
+<div class="card">
+ <span class="emoji">🌿</span>
+ <div class="card-head">
+  <h2>The Language Whisperer</h2>
+  <div class="tagline">idiomatic / elegant / native‑syntax</div>
+  <div class="desc">
+   The naturalist. Writes code that feels like it grew there.  
+   Prefers clarity over cleverness, expressiveness over ceremony.
+  </div>
+  <div class="tags"><span class="tag">pythonic</span><span class="tag">readable</span><span class="tag">minimal</span></div>
+  <div class="langs">Python · Rust · Go · Ruby · Elixir</div>
+  <pre><code><span class="com"># clean, expressive Python</span>
+<span class="kw">from</span> dataclasses <span class="kw">import</span> dataclass
+
+@dataclass
+<span class="kw">class</span> <span class="type">Profile</span>:
+ name:<span class="type">str</span>
+ age:<span class="type">int</span>
+
+<span class="kw">def</span> <span class="fn">describe</span>(p:<span class="type">Profile</span>)-&gt;<span class="type">str</span>:
+ <span class="kw">return</span> <span class="str">f"{p.name} is {p.age} years old."</span>
+
+print(describe(Profile(<span class="str">"Federico"</span>,<span class="num">29</span>)))</code></pre>
+ </div>
+</div>
+
+<!-- 3 Pixel Druid -->
+<div class="card">
+ <span class="emoji">🌈</span>
+ <div class="card-head">
+  <h2>The Pixel Druid</h2>
+  <div class="tagline">creative / generative / visual</div>
+  <div class="desc">
+   The artist. Sees code as pigment, motion, and geometry.  
+   Lives inside color palettes, noise fields, and oscillations.
+  </div>
+  <div class="tags"><span class="tag">p5.js</span><span class="tag">particles</span><span class="tag">visual jazz</span></div>
+  <div class="langs">JavaScript · Processing · GLSL · Lua · Haxe</div>
+  <pre><code><span class="com">// generative orbit animation</span>
+<span class="kw">let</span> t=<span class="num">0</span>;
+
+<span class="kw">function</span> <span class="fn">setup</span>(){
+ createCanvas(<span class="num">420</span>,<span class="num">420</span>);
+ noStroke();
+}
+
+<span class="kw">function</span> <span class="fn">draw</span>(){
+ background(<span class="num">12</span>);
+ translate(width/<span class="num">2</span>,height/<span class="num">2</span>);
+
+ <span class="kw">for</span>(<span class="kw">let</span> i=<span class="num">0</span>;i&lt;<span class="num">16</span>;i++){
+   <span class="kw">const</span> a=t+i*<span class="num">0.4</span>;
+   <span class="kw">const</span> r=<span class="num">90</span>+<span class="num">25</span>*sin(t+i);
+
+   fill(<span class="num">120</span>+i*<span class="num">8</span>,<span class="num">80</span>,<span class="num">255</span>);
+   ellipse(cos(a)*r,sin(a)*r,<span class="num">20</span>);
+ }
+
+ t+=<span class="num">0.015</span>;
+}</code></pre>
+ </div>
+</div>
+
+<!-- 4 Algorithm Paladin -->
+<div class="card">
+ <span class="emoji">⚔️</span>
+ <div class="card-head">
+  <h2>The Algorithm Paladin</h2>
+  <div class="tagline">rigorous / optimal / complexity‑aware</div>
+  <div class="desc">
+   The tactician. Lives for correctness proofs, optimal paths, and elegant runtimes.  
+   Sees the world as graphs, trees, and DP tables.
+  </div>
+  <div class="tags"><span class="tag">O(log n)</span><span class="tag">DP</span><span class="tag">graphs</span></div>
+  <div class="langs">C++ · Java · Python · Haskell · OCaml</div>
+  <pre><code><span class="com">// BFS shortest path</span>
+<span class="kw">int</span> <span class="fn">shortest</span>(<span class="kw">const</span> vector&lt;vector&lt;<span class="kw">int</span>&gt;&gt;&amp; g,<span class="kw">int</span> s,<span class="kw">int</span> t){
+ queue&lt;<span class="kw">int</span>&gt; q;vector&lt;<span class="kw">int</span>&gt; d(g.size(),-<span class="num">1</span>);
+ d[s]=<span class="num">0</span>;q.push(s);
+ <span class="kw">while</span>(!q.empty()){
+   <span class="kw">int</span> u=q.front();q.pop();
+   <span class="kw">if</span>(u==t)<span class="kw">return</span> d[u];
+   <span class="kw">for</span>(<span class="kw">int</span> v:g[u])
+     <span class="kw">if</span>(d[v]==-<span class="num">1</span>){d[v]=d[u]+<span class="num">1</span>;q.push(v);}
+ }
+ <span class="kw">return</span>-<span class="num">1</span>;
+}</code></pre>
+ </div>
+</div>
+
+<!-- 5 Pragmatic Potato -->
+<div class="card">
+ <span class="emoji">🥔</span>
+ <div class="card-head">
+  <h2>The Pragmatic Potato</h2>
+  <div class="tagline">whatever works / ship‑it</div>
+  <div class="desc">
+   The doer. Solves problems with duct tape, Bash, and caffeine.  
+   Doesn’t overthink — just gets things done.
+  </div>
+  <div class="tags"><span class="tag">quick fix</span><span class="tag">scripts</span><span class="tag">ship it</span></div>
+  <div class="langs">Python · JavaScript · Bash · PHP · C</div>
+  <pre><code><span class="com">#!/usr/bin/env bash</span>
+<span class="kw">set</span> -e
+echo <span class="str">"Building..."</span>
+npm run build &gt;/dev/null
+echo <span class="str">"Deploying..."</span>
+rsync -az dist/ user@server:/var/www/app
+echo <span class="str">"Done."</span></code></pre>
+ </div>
+</div>
+
+<!-- 6 Code Poet -->
+<div class="card">
+ <span class="emoji">🌀</span>
+ <div class="card-head">
+  <h2>The Code Poet™</h2>
+  <div class="tagline">expressive / weird / lyrical</div>
+  <div class="desc">
+   The mystic. Writes code like haiku.  
+   Loves regex, one‑liners, and languages that bend.
+  </div>
+  <div class="tags"><span class="tag">perl</span><span class="tag">regex</span><span class="tag">haiku</span></div>
+  <div class="langs">Perl · JavaScript · Ruby · Raku · APL</div>
+  <pre><code><span class="com"># double evens, whisper odds</span>
+<span class="kw">my</span> @n=<span class="num">1</span>..10;
+<span class="kw">my</span> @o=map{$_%<span class="num">2</span>?<span class="str">"$_?"</span>:$_*<span class="num">2</span>}@n;
+say join <span class="str">" "</span>,@o;</code></pre>
+ </div>
+</div>
+
+<!-- 7 Over-Engineer Supreme -->
+<div class="card">
+ <span class="emoji">🏛️</span>
+ <div class="card-head">
+  <h2>The Over‑Engineer Supreme</h2>
+  <div class="tagline">patterns / abstraction / frameworks</div>
+  <div class="desc">
+   The maximalist. Adds layers to layers.  
+   Loves factories, DI containers, and architecture diagrams.
+  </div>
+  <div class="tags"><span class="tag">factories</span><span class="tag">layers</span><span class="tag">frameworks</span></div>
+  <div class="langs">Java · Scala · C++ · C# · TypeScript</div>
+  <pre><code><span class="com">// unnecessary factory, necessary vibes</span>
+<span class="kw">class</span> <span class="type">Logger</span>{
+ <span class="fn">log</span>(m){console.log(<span class="str">"[LOG]"</span>,m);}
+}
+<span class="kw">class</span> <span class="type">LoggerFactory</span>{
+ <span class="kw">static</span> <span class="fn">create</span>(){<span class="kw">return new</span> <span class="type">Logger</span>();}
+}
+<span class="kw">const</span> logger=<span class="type">LoggerFactory</span>.<span class="fn">create</span>();
+logger.<span class="fn">log</span>(<span class="str">"Hello, abstraction."</span>);</code></pre>
+ </div>
+</div>
+
+<!-- 8 Macro Necromancer -->
+<div class="card">
+ <span class="emoji">🧙</span>
+ <div class="card-head">
+  <h2>The Macro Necromancer</h2>
+  <div class="tagline">metaprogramming / AST / code‑that‑writes‑code</div>
+  <div class="desc">
+   The summoner. Conjures functions from thin air.  
+   Lives in macros, templates, and compile‑time magic.
+  </div>
+  <div class="tags"><span class="tag">macros</span><span class="tag">AST</span><span class="tag">metaprogramming</span></div>
+  <div class="langs">Rust · Lisp · Elixir · Nim · C++ templates</div>
+  <pre><code><span class="com">// Rust macro that generates a getter</span>
+<span class="kw">macro_rules!</span> make_getter{
+ ($n:ident,$f:ident,$t:ty)=&gt;{
+  <span class="kw">impl</span> $n{
+   <span class="kw">pub fn</span> $f(&amp;<span class="kw">self</span>)-&gt;$t{<span class="kw">self</span>.$f}
+  }
+ };
+}
+<span class="kw">struct</span> <span class="type">Config</span>{port:<span class="type">u16</span>}
+make_getter!(Config,port,u16);
+<span class="kw">fn</span> <span class="fn">main</span>(){
+ <span class="kw">let</span> c=Config{port:<span class="num">8080</span>};
+ println!(<span class="str">"port = {}"</span>,c.port());
+}</code></pre>
+ </div>
+</div>
+
+<!-- 9 Leet Goblin -->
+<div class="card">
+ <span class="emoji">👹</span>
+ <div class="card-head">
+  <h2>The Leet Goblin</h2>
+  <div class="tagline">obfuscated / golfed / cursed</div>
+  <div class="desc">
+   The gremlin. Writes code that works but should not.  
+   Golfed, compressed, unreadable — and proud of it.
+  </div>
+  <div class="tags"><span class="tag">golf</span><span class="tag">one‑liners</span><span class="tag">chaos</span></div>
+  <div class="langs">C · JavaScript · Perl · Brainfuck · Befunge</div>
+  <pre><code><span class="com">// tiny recursive fib, suspiciously short</span>
+<span class="kw">const</span> f=n=&gt;n&lt;<span class="num">2</span>?n:f(n-<span class="num">1</span>)+f(n-<span class="num">2</span>);
+console.log(f(<span class="num">10</span>));</code></pre>
+ </div>
+</div>
+
+<!-- 10 Trickster Engineer -->
+<div class="card">
+ <span class="emoji">🎭</span>
+ <div class="card-head">
+  <h2>The Trickster Engineer (!?)</h2>
+  <div class="tagline">functional / compositional / playful</div>
+  <div class="desc">
+   The jester. Loves composition, tiny pure functions, and cheeky abstractions.  
+   Makes serious ideas feel light.
+  </div>
+  <div class="tags"><span class="tag">FP</span><span class="tag">compose</span><span class="tag">cheeky</span></div>
+  <div class="langs">JavaScript · F# · Elm · ReasonML · Python (FP)</div>
+  <pre><code><span class="com">// tiny pipe utility</span>
+<span class="kw">const</span> pipe=(...fns)=&gt;x=&gt;fns.reduce((v,fn)=&gt;fn(v),x);
+<span class="kw">const</span> inc=x=&gt;x+<span class="num">1</span>,
+      dbl=x=&gt;x*<span class="num">2</span>,
+      sq =x=&gt;x*x;
+console.log(pipe(inc,dbl,sq)(<span class="num">3</span>));</code></pre>
+ </div>
+</div>
+
+<!-- 11 Algorithm Bard -->
+<div class="card">
+ <span class="emoji">📜</span>
+ <div class="card-head">
+  <h2>The Algorithm Bard (Leet)</h2>
+  <div class="tagline">DP / recursion / narrative</div>
+  <div class="desc">
+   The storyteller. Explains algorithms like myths.  
+   Turns recursion and DP into little epics.
+  </div>
+  <div class="tags"><span class="tag">DP</span><span class="tag">recursion</span><span class="tag">verse</span></div>
+  <div class="langs">Python · Haskell · Julia · OCaml · Perl</div>
+  <pre><code><span class="com"># bottom‑up Fibonacci</span>
+<span class="kw">def</span> <span class="fn">fib</span>(n:<span class="type">int</span>)-&gt;<span class="type">int</span>:
+ <span class="kw">if</span> n&lt;=<span class="num">1</span>:<span class="kw">return</span> n
+ dp=[<span class="num">0</span>,<span class="num">1</span>]
+ <span class="kw">for</span> i <span class="kw">in</span> <span class="fn">range</span>(<span class="num">2</span>,n+<span class="num">1</span>):
+  dp.append(dp[-<span class="num">1</span>]+dp[-<span class="num">2</span>])
+ <span class="kw">return</span> dp[n]
+
+<span class="kw">for</span> i <span class="kw">in</span> <span class="fn">range</span>(<span class="num">8</span>):
+ print(i,fib(i))</code></pre>
+ </div>
+</div>
+
+<!-- 12 Aesthetic Programmer -->
+<div class="card">
+ <span class="emoji">🌙</span>
+ <div class="card-head">
+  <h2>The Aesthetic Programmer (Poetry)</h2>
+  <div class="tagline">narrative / soft syntax / vibes</div>
+  <div class="desc">
+   The stylist. Names variables like characters, functions like scenes.  
+   Wants the codebase to feel like a story you can reread.
+  </div>
+  <div class="tags"><span class="tag">story</span><span class="tag">soft syntax</span><span class="tag">vibes</span></div>
+  <div class="langs">Ruby · JavaScript · Python · Swift · Kotlin</div>
+  <pre><code><span class="com"># Ruby as narrative</span>
+sky=<span class="str">"night"</span>
+stars=%w[orion lyra andromeda]
+whisper=-&gt;(n){<span class="str">"#{n.capitalize} drifts across the #{sky}."</span>}
+stars.each{|s|puts whisper.(s)}</code></pre>
+ </div>
+</div>
+
+</div>
+
+</body></html>
