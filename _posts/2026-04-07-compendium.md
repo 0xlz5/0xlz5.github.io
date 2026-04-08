@@ -48,7 +48,7 @@ toc: true
 
 ### 5. Languages, Platforms & Systems Thinking
 - Developed interest in Ruby, Plan 9 / Inferno, Limbo, and later Go
-- Worked on system design (open-source) and multivariate statistics
+- Worked on system design (open-source, JS - ergonomics / HCI) and multivariate statistics (OO perl !)
 - Continued teaching Perl (fp/OO, LWP, DBIx, …) and Java (EJB, JMS)
 - Worked with WebSphere, WPS, and Microsoft server architectures (AD/AM, SQL Server)
 - Contributed to JavaScript frameworks, open-source development, and big-data analytics
