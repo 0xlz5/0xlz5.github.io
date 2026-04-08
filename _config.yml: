@@ -1,0 +1,13 @@
+title: Federico’s Blog
+description: Notes, thoughts, and experiments
+theme: minima
+
+author:
+  name: Federico
+
+minima:
+  social_links:
+    github: federico
+    twitter: federico
+
+markdown: kramdown
