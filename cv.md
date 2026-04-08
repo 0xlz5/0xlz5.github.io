@@ -44,7 +44,7 @@ AWS Lambda · Docker · Kubernetes · Backend and tooling in Go and Node.js
 
 ### 2010 – 2012 
 Frontend / R&D — Sophia Antipolis (FR)  
-js Web frameworks · oo/fp (IIF) · open source · agile/lean  
+js Web frameworks · oo/fp (IIFE) · open source · agile/lean  
 
 ### 2007 – 2010  
 R&D — dev & frameworks / systems 24x7  
