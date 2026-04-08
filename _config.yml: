@@ -7,7 +7,7 @@ author:
 
 minima:
   social_links:
-    github: federico
-    twitter: federico
+    github: https://github.com/0xlz5
+    twitter: https://twitter.com/0xfede_
 
 markdown: kramdown
