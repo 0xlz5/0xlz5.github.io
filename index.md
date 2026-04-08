@@ -1,6 +1,6 @@
 ---
-layout: page
+layout: home
 title: Home
 ---
 
-This is my minimal GitHub Pages blog.
+Welcome to my minimal GitHub Pages blog.
