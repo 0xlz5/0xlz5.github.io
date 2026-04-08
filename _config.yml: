@@ -5,9 +5,4 @@ theme: cayman
 author:
   name: Federico
 
-minima:
-  social_links:
-    github: https://github.com/0xlz5
-    twitter: https://twitter.com/0xfede_
-
 markdown: kramdown
