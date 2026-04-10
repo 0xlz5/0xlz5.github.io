@@ -10,7 +10,7 @@ layout: page
 
 📍 Torino, Italy  
 📧 federico.cagliero@gmail.com  
-🔗 [Linkedin Profile](https://www.linkedin.com/in/federico-cagliero-68b860a6/)  
+🔗 [Linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)  
 📝 [Blog — 0xblog](https://0xblog.tumblr.com/)
 
 **Languages:** 🇮🇹 Italian · 🇬🇧 English · 🇫🇷 French
