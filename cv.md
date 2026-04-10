@@ -9,7 +9,7 @@ Frontend Expert · System Design · Data & AI
 📍 Torino, Italy  
 📧 [federico.cagliero@gmail.com](mailto:federico.cagliero@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/federico-cagliero-68b860a6)  
-📝 [Blog — Higher Order Coding](https://higherordercoding.tumblr.com)
+📝 [Blog — 0xblog](https://0xblog.tumblr.com/)
 
 ## About
 
