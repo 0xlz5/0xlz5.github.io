@@ -29,7 +29,7 @@ layout: page
 [Eloquent JavaScript](https://eloquentjavascript.net) — Marijn Haverbeke (2018)  
 [Effective Java](https://dl.acm.org/doi/book/10.5555/1407381) — Joshua Bloch (2008)  
 [The Go Programming Language](https://www.gopl.io/) — Donovan & Kernighan (2015)  
-[Effective Scala](https://docs.scala-lang.org/style/effective-scala.html) — EPFL (n.d.)  
+[Effective Programming in Scala](https://www.coursera.org/learn/effective-scala) — EPFL (n.d.)  
 [Clojure for the Brave and True](https://www.braveclojure.com) — Daniel Higginbotham (2015)  
 [Think Julia](https://benlauwens.github.io/ThinkJulia.jl/latest/book) — Lauwens & Downey (2018)
 
