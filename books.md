@@ -50,7 +50,7 @@ Software Tools — Kernighan & Plauger (1976) *(no official link)*
 
 ## 🌐 Networking & Systems
 [Computer Networking](https://gaia.cs.umass.edu/kurose_ross/ninth.php) — Kurose & Ross (2025)  
-[TCP/IP Illustrated, Volume 1](https://www.pearson.com/en-us/subject-catalog/p/tcpip-illustrated-volume-1/P200000003507/9780321336316) — Fall & Stevens (2011)  
+[TCP/IP Illustrated, Volume 1](https://www.oreilly.com/library/view/tcp-ip-illustrated-volume/9780132808200/) — Fall & Stevens (2011)  
 [The TCP/IP Guide](https://nostarch.com/tcpip.htm) — Charles M. Kozierok (2005)  
 [Web Operations](https://www.oreilly.com/library/view/web-operations/9781449377465/) — Allspaw & Robbins (2010)  
 [How Linux Works](https://nostarch.com/howlinuxworks3) — Brian Ward (2021)  
