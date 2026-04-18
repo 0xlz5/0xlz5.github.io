@@ -25,7 +25,6 @@ layout: page
 [The Nature of Code](https://natureofcode.com) — Daniel Shiffman (2012)  
 [The C Programming Language](https://www.pearson.com/en-us/subject-catalog/p/c-programming-language/P200000003507/9780131103627) — Kernighan & Ritchie (1988)  
 [Modern C](https://gustedt.gitlabpages.inria.fr/modern-c) — Jens Gustedt (2020)  
-[How Linux Works](https://nostarch.com/howlinuxworks3) — Brian Ward (2021)  
 [The C++ Template Handbook](https://www.barnesandnoble.com/w/the-c-template-handbook-robert-johnson/1147060115) — Robert Johnson (2025)  
 [Eloquent JavaScript](https://eloquentjavascript.net) — Marijn Haverbeke (2018)  
 [Effective Java](https://dl.acm.org/doi/book/10.5555/1407381) — Joshua Bloch (2008)  
@@ -45,15 +44,18 @@ Software Tools — Kernighan & Plauger (1976) *(no official link)*
 [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) — Hohpe & Woolf (2003)  
 [Functional Programming Patterns in Scala and Clojure](https://pragprog.com/titles/mbfpp/functional-programming-patterns-in-scala-and-clojure) — Bevilacqua-Linn (2013)  
 [Tidy First!](https://tidyfirst.substack.com/) — Kent Beck (2023)  
-[Web Operations](https://www.oreilly.com/library/view/web-operations/9781449377442) — Allspaw & Robbins (2010)
+[Domain-Driven Design](https://domainlanguage.com/ddd) — Eric Evans (2003)
 
 ---
 
 ## 🌐 Networking & Systems
-[Computer Networking](https://gaia.cs.umass.edu/kurose_ross/ninth.php) — Kurose & Ross (2017)  
+[Computer Networking](https://gaia.cs.umass.edu/kurose_ross/ninth.php) — Kurose & Ross (2025)  
 [TCP/IP Illustrated, Volume 1](https://www.pearson.com/en-us/subject-catalog/p/tcpip-illustrated-volume-1/P200000003507/9780321336316) — Fall & Stevens (2011)  
 [The TCP/IP Guide](https://nostarch.com/tcpip.htm) — Charles M. Kozierok (2005)  
-[Domain-Driven Design](https://domainlanguage.com/ddd) — Eric Evans (2003)
+[Web Operations](https://www.oreilly.com/library/view/web-operations/9781449377442) — Allspaw & Robbins (2010)  
+[How Linux Works](https://nostarch.com/howlinuxworks3) — Brian Ward (2021)  
+
+
 
 ---
 
