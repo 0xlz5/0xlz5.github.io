@@ -62,7 +62,7 @@ Software Tools — Kernighan & Plauger (1976) *(no official link)*
 ## 🔬 Science & Mathematics
 [Linear Algebra](https://math.mit.edu/~gs/linearalgebra) — Gilbert Strang (n.d.)  
 [Linear Algebra for Everyone](https://math.mit.edu/~gs/everyone) — Gilbert Strang (2020)  
-[Nonlinear Dynamics and Chaos](https://strogatzlab.com/books) — Steven H. Strogatz (2014)  
+[Nonlinear Dynamics and Chaos](https://www.stevenstrogatz.com/books/nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering) — Steven H. Strogatz (2014)  
 [The Manga Guide to Physics](https://nostarch.com/mg_physics.htm) — No Starch Press (2009)  
 [The Manga Guide to Biochemistry](https://nostarch.com/releases/Manga%20Biochem_release.html) — No Starch Press (2011)
 
