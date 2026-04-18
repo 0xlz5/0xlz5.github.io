@@ -11,7 +11,7 @@ toc: true
 ### 1. CS, Algorithms & Systems
 - Studied C, Java, C++ and CLRS algorithms
 - Explored the Quake engine source code
-- Implemented merge-sort (fs-awap) and LZ77/LZ78 compression tools (C/C++)
+- Implemented merge-sort (fs-swap) and LZ77/LZ78 compression tools (C/C++)
 - Built an early MFC socket-server for IoT-style distributed networking (Python + C++)
 - Completed exams in Computer Networks (Kurose–Ross), Databases, and Software Engineering (SQL, clean code)
 
