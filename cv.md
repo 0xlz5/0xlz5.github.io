@@ -79,6 +79,7 @@ Core: Web dev · OO Perl (scripting) · early web architecture (24x7, cdn/cachin
 ## Education
 
 Politecnico di Torino — B.Eng. (Computer Science) (drop‑out)  
+1996  
 Interests: Quake engine source · C++ / STL · malware analysis (x86 security) · data compression schemes (LZ*)  
 j2ee / modern patterns .
 
