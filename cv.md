@@ -39,7 +39,7 @@ Core: fp/OO · scripting · tooling R&D.
 
 ### 2017 – 2018 — Data Engineer
 Spark/SQL pipelines, dashboards, notebook‑driven analytics.  
-Rapid prototyping with `./jq` and iterative data exploration.  
+Rapid prototyping with `./jq` and iterative data exploration. DataOps (draft)  
 Core: scala · js · Spark · SQL · dashboards · Hadoop.  
 
 ### 2015 – 2017 — Tech. evaluation (part‑time)  
