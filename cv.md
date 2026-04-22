@@ -61,7 +61,7 @@ Full‑stack development in always‑on environments.
 Internal frameworks, backend scripting, service reliability.  
 Core: js · groovy · php · j2ee.  
 
-### 2005 – 2007 — architecture & systems xpert  
+### 2005 – 2007 — architecture & systems expert  
 Web architecture, content platforms, system integration.  
 Backend operations and service design.  
 Core: j2ee · web architecture · content mgmt · integration (24x7).  
