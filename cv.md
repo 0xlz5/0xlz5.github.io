@@ -67,9 +67,9 @@ Backend operations and service design.
 Core: j2ee · web architecture · content mgmt · integration (24x7, was/wps).  
 
 ### 2002 – 2005 — r&d + teaching  
-Scripting, statistical methods, "academic/teaching" support. UX (HCI).  
+fp/oo scripting (sysOp), statistical methods, "academic/teaching" support. UX (W3C, HCI).  
 Early engineering workflows and prototyping (IoT).  
-Core: js · Perl · statistics · multivariate methods · c++.  
+Core: js · Perl · statistics · multivariate methods · py/c++ (ATL).  
 
 ### 1999 – 2002 — Vitaminic — web dev / FE & architecture  
 FE/UX engineering and early web architecture (BE, +ops/sys, db).  
