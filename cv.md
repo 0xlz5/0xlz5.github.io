@@ -67,7 +67,7 @@ Backend operations and service design.
 Core: j2ee · web architecture · content mgmt · integration (24x7, was/wps).  
 
 ### 2002 – 2005 — r&d + teaching  
-Scripting, statistical methods, "academic/teaching" support.  
+Scripting, statistical methods, "academic/teaching" support. UX (HCI).  
 Early engineering workflows and prototyping (IoT).  
 Core: js · Perl · statistics · multivariate methods · c++.  
 
