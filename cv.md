@@ -27,7 +27,7 @@ UI/UX, dev tools, languages, systems, big data — a full‑spectrum engineering
 ### 2024 – Present — AI Engineer  
 ML/DL workflows · AI‑coding.  
 
-### 2020 – Present — collabs & personal projects  
+### 2020 – Present — collabs & personal projects (part-time) 
 FE architectures (eg. backbone.js), UI/UX flows, design‑system‑driven development.  
 FE/BE prototyping with js/TS, php. `py3` stacks - and component libraries. Go `parallel` cli-rewrites (ex- "GNU")  
 Core: React · js/TS · elm/Vue.js · design systems (Figma).  
