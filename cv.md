@@ -24,43 +24,57 @@ UI/UX, dev tools, languages, systems, big data — a full‑spectrum engineering
 
 ## Experience (Inverse Chronological)
 
-### 2020 – Present  
-Collabs & Personal Projects — Torino  
-AI focus · ML/DL · FE/BE · system design · data workflows  
+### 2024 – Present — AI Engineer
+ML/DL workflows · AI‑coding.
 
-### 2019 – 2022 — Tech. Writer / R&D  
-Tech blogging on FP/OO idioms, language design, OpenMPI, Clojure, and data‑flow architectures.  
-Explored Go for parallel CLI tooling inspired by classic GNU utilities.
+### 2020 – Present — Collabs & Personal Projects
+Modern FE architectures, UI/UX flows, design‑system‑driven development.
+FE/BE prototyping with JS/TS stacks and component libraries.
+Core: React · Vue · JS/TS · design systems.
 
-### 2017 – 2018 - Data engineering / analytics (OpenData/TLC)  
-SQL/Spark pipelines; Hive/PostgreSQL dashboard back‑ends; Scala‑to‑JS (Zeppelin).  
-Built reliable data flows, fast Bash/`jq` tooling, and interactive notebooks for rapid prototyping and insights.
+### 2019 – 2022 — Technical Writer / FP & Scripting R&D
+Notes on FP/OO idioms, scripting patterns, and language/tooling design.
+Exploration of workflow automation and dev‑process refinement.
+Core: fp/OO · scripting · tooling R&D.
 
-### 2015–2017 — R&D (Part‑time)
-Spark / Storm / Kafka evaluation · Flink prototyping · Scala development · Cluster‑level experimentation
+### 2017 – 2018 — Data Engineer
+Spark/SQL pipelines, dashboards, notebook‑driven analytics.
+Rapid prototyping with `./jq` and iterative data exploration.
+Core: Spark · SQL · dashboards · Hadoop.
 
-### 2014–2015 — Cloud & Infrastructure (exposure)
-AWS Lambda · Docker · Kubernetes · Backend and tooling in Go and Node.js
+### 2015 – 2017 — Tech. evaluation (Part‑time)
+Exploration of streaming engines and distributed data‑flow models.
+Cluster‑level experimentation and scalability studies.
+Core: Spark · Storm · Kafka.
 
-### 2010 – 2012 
-Frontend / R&D — Sophia Antipolis (FR)  
-js Web frameworks · oo/fp (IIFE) · open source · agile/lean  
+### 2014 – 2015 — Cloud & Infra (exposure)
+Containers, micro‑services, early cloud automation.
+Backend/CLI utilities in Go/Node.js.
+Core: Docker · AWS Lambda · micro‑services.
 
-### 2007 – 2010  
-R&D — dev & frameworks / systems 24x7  
-js · Groovy · PHP · J2EE · backend teaching  
+### 2010 – 2012 — frontend / r&d — Sophia Antipolis
+Frontend frameworks (MV*) and OWASP‑aware development. Open‑source contributions and agile/lean prototyping.
+Core: js frameworks · OWASP · FE architecture.
 
-### 2005 – 2007  
-Architecture & Systems Expert  
-Content mgmt · portals · web integration · DB/sys  
+### 2007 – 2010 — R&D — dev & frameworks / 24x7 Systems
+Full‑stack development in always‑on environments.
+Internal frameworks, backend scripting, service reliability.
+Core: JS · groovy · php · j2ee.
 
-### 2003 – 2005  
-R&D + Teaching  
-Perl (functions/types) · statistics · multivariate methods  
+### 2005 – 2007 — Architecture & Systems Expert
+Web architecture, content platforms, system integration.
+Backend operations and service design.
+Core: web architecture · content mgmt · integration (j2ee).
 
-### 1999 – 2002  
-Vitaminic — Web Dev / FE / Arch  
-Frontend · architecture · R&D · OO Perl · Java · 24x7  
+### 2003 – 2005 — R&D + Teaching
+Scripting, statistical methods, "academic/teaching" support.
+Early engineering workflows and prototyping.
+Core: js · Perl · statistics · multivariate methods.
+
+### 1999 – 2002 — Vitaminic — Web Dev / FE & Architecture
+Frontend engineering and early web architecture.
+OO scripting, R&D, always‑on service environments.
+Core: FE/BE dev · OO Perl (scripting) · early web architecture (24x7, caching).
 
 ## Education
 
