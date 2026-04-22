@@ -66,10 +66,10 @@ Web architecture, content platforms, system integration.
 Backend operations and service design.  
 Core: j2ee · web architecture · content mgmt · integration (24x7, was/wps).  
 
-### 2003 – 2005 — r&d + teaching  
+### 2002 – 2005 — r&d + teaching  
 Scripting, statistical methods, "academic/teaching" support.  
-Early engineering workflows and prototyping.  
-Core: js · Perl · statistics · multivariate methods.  
+Early engineering workflows and prototyping (IoT).  
+Core: js · Perl · statistics · multivariate methods · c++.  
 
 ### 1999 – 2002 — Vitaminic — web dev / FE & architecture  
 FE/UX engineering and early web architecture (BE, +ops/sys, db).  
