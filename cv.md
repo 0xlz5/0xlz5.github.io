@@ -58,8 +58,8 @@ Core: js frameworks · OWASP · UML · tech. writing · FE architecture.
 
 ### 2007 – 2010 — R&D — dev & frameworks / 24x7 systems  
 Full‑stack development in always‑on environments.  
-Internal frameworks, backend scripting, service reliability.  
-Core: js · j2ee · groovy (dsl) · php · perl/py.  
+Internal frameworks, backend scripting, service reliability (ha).  
+Core: j2ee · groovy (dsl) · js · perl/py · php (24x7).  
 
 ### 2005 – 2007 — architecture & systems expert  
 Web architecture, content platforms, system integration.  
