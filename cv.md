@@ -74,7 +74,7 @@ Core: js · Perl · statistics · multivariate methods.
 ### 1999 – 2002 — Vitaminic — web dev / FE & architecture  
 Frontend engineering and early web architecture.  
 OO scripting, R&D, always‑on service environments.  
-Core: FE/BE dev · OO Perl (scripting) · early web architecture (24x7, cdn/caching, j2ee).  
+Core: Web dev · OO Perl (scripting) · early web architecture (24x7, cdn/caching, j2ee).  
 
 ## Education
 
