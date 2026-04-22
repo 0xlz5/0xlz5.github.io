@@ -28,11 +28,11 @@ UI/UX, dev tools, languages, systems, big data — a full‑spectrum engineering
 ML/DL workflows · AI‑coding.  
 
 ### 2020 – Present — collabs & personal projects  
-Modern FE architectures, UI/UX flows, design‑system‑driven development.  
+Modern FE architectures (eg. backbone.js), UI/UX flows, design‑system‑driven development.  
 FE/BE prototyping with JS/TS stacks and component libraries.  
-Core: React · JS/TS · elm/Vue · design systems (Figma).  
+Core: React · js/TS · elm/Vue.js · design systems (Figma).  
 
-### 2019 – 2022 — tech. writer / FP & Scripting (r&d)  
+### 2019 – 2022 — tech. writer / fp & Scripting (r&d)  
 Notes on fp/OO idioms, scripting patterns, and language/tooling design.  
 Exploration of workflow automation and dev‑process refinement.  
 Core: fp/OO · scripting · tooling R&D.  
@@ -40,12 +40,12 @@ Core: fp/OO · scripting · tooling R&D.
 ### 2017 – 2018 — Data Engineer
 Spark/SQL pipelines, dashboards, notebook‑driven analytics.  
 Rapid prototyping with `./jq` and iterative data exploration.  
-Core: Spark · SQL · dashboards · Hadoop.  
+Core: scala · js · Spark · SQL · dashboards · Hadoop.  
 
 ### 2015 – 2017 — Tech. evaluation (part‑time)  
 Exploration of streaming engines and distributed data‑flow models.  
 Cluster‑level experimentation and scalability studies.  
-Core: Spark · Storm · Kafka.  
+Core: scala/Spark · Flink · clj/Storm · Kafka.  
 
 ### 2014 – 2015 — cloud & Infra (exposure)   
 Containers, micro‑services, early cloud automation.  
