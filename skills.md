@@ -55,7 +55,7 @@ UI/UX, dev tools, languages, systems, big data — a full‑spectrum engineering
 - Docker, Ansible, Kubernetes
 - Linux (incl. Arch)
 - macOS (Darwin/FreeBSD), Windows 10+
-- SecOps, OWASP, Unix/Linux network tools
+- secOps, OWASP, Unix/Linux network tools
 
 ## Big Data
 - Apache Spark, Flink, Kafka, Storm
