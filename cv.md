@@ -56,17 +56,17 @@ Core: Docker · AWS Lambda · micro‑services.
 Frontend frameworks (MV*) and OWASP‑aware development. Open‑source contributions and agile/lean prototyping.  
 Core: js frameworks · OWASP · FE architecture.  
 
-### 2007 – 2010 — R&D — dev & frameworks / 24x7 Systems  
+### 2007 – 2010 — R&D — dev & frameworks / 24x7 systems  
 Full‑stack development in always‑on environments.  
 Internal frameworks, backend scripting, service reliability.  
 Core: js · groovy · php · j2ee.  
 
-### 2005 – 2007 — architecture & Systems Expert  
+### 2005 – 2007 — architecture & systems xpert  
 Web architecture, content platforms, system integration.  
 Backend operations and service design.  
 Core: j2ee · web architecture · content mgmt · integration (24x7).  
 
-### 2003 – 2005 — R&D + Teaching  
+### 2003 – 2005 — r&d + teaching  
 Scripting, statistical methods, "academic/teaching" support.  
 Early engineering workflows and prototyping.  
 Core: js · Perl · statistics · multivariate methods.  
