@@ -56,10 +56,10 @@ Core: Docker · AWS Lambda · micro‑services.
 UI frameworks (MV*) and OWASP‑aware development. Open‑source contributions and agile/lean prototyping.  
 Core: js frameworks · OWASP · UML · tech. writing · FE architecture.  
 
-### 2007 – 2010 — R&D — dev & frameworks / 24x7 systems  
+### 2007 – 2010 — R&D — dev & frameworks / systems 24x7  
 Full‑stack development in always‑on environments.  
-Internal frameworks, backend scripting, service reliability (ha).  
-Core: j2ee · groovy (dsl) · js · perl/py · php (24x7).  
+Internal frameworks, backend scripting, service reliability (ha, 24x7).  
+Core: j2ee · perl/py · js/W3C · groovy (dsl) · php.  
 
 ### 2005 – 2007 — architecture & systems expert  
 Web architecture, content platforms, system integration.  
