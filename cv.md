@@ -30,7 +30,7 @@ ML/DL workflows · AI‑coding.
 ### 2020 – Present — collabs & personal Projects  
 Modern FE architectures, UI/UX flows, design‑system‑driven development.  
 FE/BE prototyping with JS/TS stacks and component libraries.  
-Core: React · Vue · JS/TS · design systems.  
+Core: React · JS/TS · Vue · design systems.  
 
 ### 2019 – 2022 — tech. writer / FP & Scripting (r&d)  
 Notes on FP/OO idioms, scripting patterns, and language/tooling design.  
