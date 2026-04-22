@@ -27,12 +27,12 @@ UI/UX, dev tools, languages, systems, big data — a full‑spectrum engineering
 ### 2024 – Present — AI Engineer  
 ML/DL workflows · AI‑coding.  
 
-### 2020 – Present — Collabs & Personal Projects  
+### 2020 – Present — collabs & personal Projects  
 Modern FE architectures, UI/UX flows, design‑system‑driven development.  
 FE/BE prototyping with JS/TS stacks and component libraries.  
 Core: React · Vue · JS/TS · design systems.  
 
-### 2019 – 2022 — Technical Writer / FP & Scripting R&D  
+### 2019 – 2022 — tech. writer / FP & Scripting (r&d)  
 Notes on FP/OO idioms, scripting patterns, and language/tooling design.  
 Exploration of workflow automation and dev‑process refinement.  
 Core: fp/OO · scripting · tooling R&D.  
@@ -42,12 +42,12 @@ Spark/SQL pipelines, dashboards, notebook‑driven analytics.
 Rapid prototyping with `./jq` and iterative data exploration.  
 Core: Spark · SQL · dashboards · Hadoop.  
 
-### 2015 – 2017 — Tech. evaluation (Part‑time)  
+### 2015 – 2017 — Tech. evaluation (part‑time)  
 Exploration of streaming engines and distributed data‑flow models.  
 Cluster‑level experimentation and scalability studies.  
 Core: Spark · Storm · Kafka.  
 
-### 2014 – 2015 — Cloud & Infra (exposure)   
+### 2014 – 2015 — cloud & Infra (exposure)   
 Containers, micro‑services, early cloud automation.  
 Backend/CLI utilities in Go/Node.js.  
 Core: Docker · AWS Lambda · micro‑services.  
@@ -61,7 +61,7 @@ Full‑stack development in always‑on environments.
 Internal frameworks, backend scripting, service reliability.  
 Core: js · groovy · php · j2ee.  
 
-### 2005 – 2007 — Architecture & Systems Expert  
+### 2005 – 2007 — architecture & Systems Expert  
 Web architecture, content platforms, system integration.  
 Backend operations and service design.  
 Core: j2ee · web architecture · content mgmt · integration (24x7).  
@@ -71,7 +71,7 @@ Scripting, statistical methods, "academic/teaching" support.
 Early engineering workflows and prototyping.  
 Core: js · Perl · statistics · multivariate methods.  
 
-### 1999 – 2002 — Vitaminic — Web Dev / FE & Architecture  
+### 1999 – 2002 — Vitaminic — web dev / FE & architecture  
 Frontend engineering and early web architecture.  
 OO scripting, R&D, always‑on service environments.  
 Core: FE/BE dev · OO Perl (scripting) · early web architecture (24x7, caching).  
