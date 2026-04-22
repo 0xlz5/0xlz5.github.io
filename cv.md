@@ -23,65 +23,54 @@ UI/UX, dev tools, languages, systems, big data — a full‑spectrum engineering
 👉 **Full skill list:** **[_skills_](./skills)**
 
 ## Experience (Inverse Chronological)
+### 2024 – present — ai engineer
+ml/dl workflows, ai‑coding;  
+model integration. embeddings, vector data, early llm‑ops.
 
-### 2024 – Present — AI Engineer  
-ML/DL workflows · AI‑coding.  
+### 2020 – present — fe & web dev ! (collabs)
+fe architectures, ui/ux flows, design systems.  
+js/ts, php, py3; go parallel cli rewrites (ex‑gnu).
 
-### 2020 – Present — collabs & personal projects (part-time) 
-FE architectures (eg. backbone.js), UI/UX flows, design‑system‑driven development.  
-FE/BE prototyping with js/TS, php. `py3` stacks - and component libraries. Go `parallel` cli-rewrites (ex- "GNU")  
-Core: React · js/TS · elm/Vue.js · design systems (Figma).  
+### 2019 – 2022 — tech blogging / fp & scripting (r&d)
+fp/oo idioms, scripting patterns, tooling design.  
+workflow automation, dev‑process refinement.
 
-### 2019 – 2022 — tech. writer / fp & Scripting (r&d)  
-Draft notes on fp/OO idioms, scripting patterns, and language/tooling design; 0xblog !!  
-Exploration of workflow automation and dev‑process refinement.  
-Core: fp/OO · scripting · tooling R&D.  
+### 2017 – 2018 — data engineer
+apache spark/sql pipelines, dashboards, notebooks.  
+hadoop (hdfs/nosql), bash/`jq`, early dataops.
 
-### 2017 – 2018 — Data Engineer
-Hadoop (hdfs, NoSql). Spark/SQL pipelines, dashboards, notebook‑driven analytics.  
-Rapid prototyping with `./jq` and iterative data exploration. DataOps (draft)  
-Core: scala · js · Spark · SQL · dashboards · Hadoop.  
+### 2015 – 2017 — tech evaluation (part‑time)
+streaming engines, distributed data‑flows. map-reduce.  
+spark/flink/storm/kafka experimentation.
 
-### 2015 – 2017 — Tech. evaluation (part‑time)  
-Exploration of streaming engines and distributed data‑flow models.  
-Cluster‑level experimentation and scalability studies.  
-Core: scala/Spark · Flink · clj/Storm · Kafka.  
+### 2014 – 2015 — cloud & infra (exposure)
+containers, micro‑services, cloud automation.  
+go/node.js backend + cli utilities.
 
-### 2014 – 2015 — cloud & Infra (exposure)   
-Containers, micro‑services, early cloud automation.  
-Backend/CLI utilities in Go/Node.js.  
-Core: Docker · AWS Lambda · micro‑services.  
+### 2010 – 2012 — frontend / r&d — sophia antipolis
+mv* ui frameworks, owasp‑aware fe dev.  
+open‑source, agile/lean prototyping.
 
-### 2010 – 2012 — frontend / r&d — Sophia Antipolis  
-UI frameworks (MV*) and OWASP‑aware development. Open‑source contributions and agile/lean prototyping.  
-Core: js frameworks · OWASP · UML · tech. writing · FE architecture.  
+### 2007 – 2010 — r&d — dev & frameworks / systems 24x7
+full‑stack dev in always‑on setups.  
+internal frameworks, backend scripting, ha ops.
 
-### 2007 – 2010 — R&D — dev & frameworks / systems 24x7  
-Full‑stack development in always‑on environments.  
-Internal frameworks, backend scripting, service reliability (ha, 24x7).  
-Core: j2ee · groovy (+dsl) · php · js/W3C.  
+### 2005 – 2007 — architecture & systems expert
+web architecture, content platforms, jsr‑*/xml integration.  
+backend ops, service design, 24x7 enterprise.
 
-### 2005 – 2007 — architecture & systems expert  
-Web architecture, content platforms, system integration (jsr-*, XML).  
-Backend operations and service design.  
-Core: j2ee · web architecture · content mgmt · integration (24x7, was/wps).  
+### 2002 – 2005 — r&d + teaching
+fp‑oo scripting, statistics, academic support.  
+early workflows, prototyping,  iot drafts. hci + storytelling (web/js).
 
-### 2002 – 2005 — r&d + teaching  
-fp-OO scripting, statistical methods, "academic/teaching" support. HCI.  
-Early engineering workflows and prototyping (IoT).  
-Core: js · Perl · statistics · multivariate methods · py/c++ (ATL).  
-
-### 1999 – 2002 — Vitaminic — web dev / FE & architecture  
-FE/UX engineering and early web architecture (BE, +ops/sys, db).  
-OO scripting, R&D, always‑on service environments.  
-Core: Web dev · OO Perl (scripting) · early web architecture (24x7, cdn/caching, j2ee, xml/xsl).  
+### 1999 – 2002 — vitaminic — web dev / fe & architecture
+fe/ux engineering, early web architecture (be+ops/sys+db).  
+oo perl scripting, r&d, cdn/caching, xml/xsl, j2ee.
 
 ## Education
 
-Politecnico di Torino — B.Eng. (Computer Science) (drop‑out)  
-**1996**  
-Interests: Quake engine source · C++ / STL · malware analysis (x86 security) · data compression schemes (LZ*)  
-j2ee / modern patterns .
+politecnico di torino — b.eng. computer science (drop‑out) — 1996  
+interests: quake engine (code !) · c++/stl · x86 security · lz* compression · j2ee patterns.
 
 ## Certifications
 
