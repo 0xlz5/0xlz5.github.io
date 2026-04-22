@@ -33,7 +33,7 @@ FE/BE prototyping with js/TS, php. `py3` stacks - and component libraries. Go `p
 Core: React · js/TS · elm/Vue.js · design systems (Figma).  
 
 ### 2019 – 2022 — tech. writer / fp & Scripting (r&d)  
-Draft notes on fp/OO idioms, scripting patterns, and language/tooling design. 0xblog !!  
+Draft notes on fp/OO idioms, scripting patterns, and language/tooling design -> 0xblog !!  
 Exploration of workflow automation and dev‑process refinement.  
 Core: fp/OO · scripting · tooling R&D.  
 
