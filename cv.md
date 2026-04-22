@@ -29,7 +29,7 @@ ML/DL workflows · AI‑coding.
 
 ### 2020 – Present — collabs & personal projects  
 Modern FE architectures (eg. backbone.js), UI/UX flows, design‑system‑driven development.  
-FE/BE prototyping with JS/TS stacks and component libraries.  
+FE/BE prototyping with js/TS, php. `py3` stacks - and component libraries.  
 Core: React · js/TS · elm/Vue.js · design systems (Figma).  
 
 ### 2019 – 2022 — tech. writer / fp & Scripting (r&d)  
