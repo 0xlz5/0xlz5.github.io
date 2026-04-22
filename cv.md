@@ -72,7 +72,7 @@ Early engineering workflows and prototyping.
 Core: js · Perl · statistics · multivariate methods.  
 
 ### 1999 – 2002 — Vitaminic — web dev / FE & architecture  
-Frontend engineering and early web architecture.  
+FE/UX engineering and early web architecture (BE, +ops/sys, db).  
 OO scripting, R&D, always‑on service environments.  
 Core: Web dev · OO Perl (scripting) · early web architecture (24x7, cdn/caching, j2ee).  
 
