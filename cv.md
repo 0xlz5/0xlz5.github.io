@@ -53,8 +53,8 @@ Backend/CLI utilities in Go/Node.js.
 Core: Docker · AWS Lambda · micro‑services.  
 
 ### 2010 – 2012 — frontend / r&d — Sophia Antipolis  
-Frontend frameworks (MV*) and OWASP‑aware development. Open‑source contributions and agile/lean prototyping.  
-Core: js frameworks · OWASP · FE architecture.  
+UI frameworks (MV*) and OWASP‑aware development. Open‑source contributions and agile/lean prototyping.  
+Core: js frameworks · OWASP · UML · tech. writing · FE architecture.  
 
 ### 2007 – 2010 — R&D — dev & frameworks / 24x7 systems  
 Full‑stack development in always‑on environments.  
