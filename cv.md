@@ -33,7 +33,7 @@ FE/BE prototyping with JS/TS stacks and component libraries.
 Core: React · JS/TS · elm/Vue · design systems (Figma).  
 
 ### 2019 – 2022 — tech. writer / FP & Scripting (r&d)  
-Notes on FP/OO idioms, scripting patterns, and language/tooling design.  
+Notes on fp/OO idioms, scripting patterns, and language/tooling design.  
 Exploration of workflow automation and dev‑process refinement.  
 Core: fp/OO · scripting · tooling R&D.  
 
