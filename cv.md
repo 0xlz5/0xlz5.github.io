@@ -62,7 +62,7 @@ Internal frameworks, backend scripting, service reliability (ha, 24x7).
 Core: j2ee · groovy (+dsl) · php · js/W3C.  
 
 ### 2005 – 2007 — architecture & systems expert  
-Web architecture, content platforms, system integration.  
+Web architecture, content platforms, system integration (jsr-*, XML).  
 Backend operations and service design.  
 Core: j2ee · web architecture · content mgmt · integration (24x7, was/wps).  
 
@@ -74,7 +74,7 @@ Core: js · Perl · statistics · multivariate methods · py/c++ (ATL).
 ### 1999 – 2002 — Vitaminic — web dev / FE & architecture  
 FE/UX engineering and early web architecture (BE, +ops/sys, db).  
 OO scripting, R&D, always‑on service environments.  
-Core: Web dev · OO Perl (scripting) · early web architecture (24x7, cdn/caching, j2ee).  
+Core: Web dev · OO Perl (scripting) · early web architecture (24x7, cdn/caching, j2ee, xml/xsl).  
 
 ## Education
 
