@@ -29,7 +29,7 @@ model integration. embeddings, vector data, early llm‑ops.
 
 ### 2020 – present — fe & web dev ! (collabs)
 fe architectures, ui/ux flows, design systems.  
-js/ts, php, py3; go parallel cli rewrites (ex‑gnu).
+js/ts (react, elm/vue, bacbbone), php/laravel; py3/go parallel cli rewrites (ex‑gnu).
 
 ### 2019 – 2022 — tech blogging / fp & scripting (r&d)
 fp/oo idioms, scripting patterns, tooling design.  
@@ -37,7 +37,7 @@ workflow automation, dev‑process refinement.
 
 ### 2017 – 2018 — data engineer
 apache spark/sql pipelines, dashboards, notebooks.  
-hadoop (hdfs/nosql), bash/`jq`, early dataops.
+hadoop (hdfs/nosql), bash/`jq`, early dataops. angular (scala/js).
 
 ### 2015 – 2017 — tech evaluation (part‑time)
 streaming engines, distributed data‑flows. map-reduce.  
@@ -53,7 +53,7 @@ open‑source, agile/lean prototyping.
 
 ### 2007 – 2010 — r&d — dev & frameworks / systems 24x7
 full‑stack dev in always‑on setups.  
-internal frameworks, backend scripting, ha ops.
+internal frameworks, backend scripting, ha ops. groovy/ui (dsl).
 
 ### 2005 – 2007 — architecture & systems expert
 web architecture, content platforms, jsr‑*/xml integration.  
@@ -70,7 +70,7 @@ oo perl scripting, r&d, cdn/caching, xml/xsl, j2ee.
 ## Education
 
 politecnico di torino — b.eng. computer science (drop‑out) — 1996  
-interests: quake engine (code !) · c++/stl · x86 security · lz* compression · j2ee patterns.
+interests: quake engine (code !) · c++/stl · x86 security · lz* compression · j2ee (core/app patterns).
 
 ## Certifications
 
