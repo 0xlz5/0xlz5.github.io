@@ -49,7 +49,7 @@ go/node.js backend + cli utilities.
 
 ### 2010 – 2012 — frontend / r&d — sophia antipolis
 mv* ui frameworks, owasp‑aware fe dev.  
-open‑source, agile/lean prototyping.
+open‑source, agile/lean prototyping. patterns / tech. writing.
 
 ### 2007 – 2010 — r&d — dev & frameworks / systems 24x7
 full‑stack dev in always‑on setups.  
