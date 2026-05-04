@@ -42,7 +42,7 @@ FE arch · design systems · JS/TS · PHP/Laravel · Py/Go CLIs.
 Code/patterns · tooling · automation.
 
 ### 2017–2018 · 📊 Data Engineer
-Spark/SQL · Hadoop · Bash/`jq` · DataOps. Postgres. Analytics.
+Spark/SQL · Hadoop · Bash/`jq` · DataOps. Analytics. Postgres.
 
 ### 2015–2017 · 🔬 Tech Evaluation
 Streaming engines · distributed compute.
