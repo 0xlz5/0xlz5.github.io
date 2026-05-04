@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Temporal Drift — Code Appendix"
-date: 2026-04-10 03:36:00 +0200
+date: 2026-05-04 03:36:00 +0200
 categories: [tech, code, narrative]
 tags: [temporal-drift, appendix, code, python, functional-programming, design]
 ---
