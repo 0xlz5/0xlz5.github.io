@@ -9,7 +9,6 @@ tags: [temporal-drift, appendix, code, python, functional-programming]
 # Code Appendix — Sample Code  
 *Untouched, exactly as written*
 
-<!-- Copy button -->
 <button id="copy-btn" style="
   padding:6px 12px;
   font-size:14px;
@@ -18,9 +17,6 @@ tags: [temporal-drift, appendix, code, python, functional-programming]
 ">
 Copy Code
 </button>
-
-<!-- Code block container -->
-<div id="code-block">
 
 {% raw %}
 ```python
@@ -133,3 +129,5 @@ if __name__ == "__main__":
     bc = BaseConverter(16)
     print(bc.maybe(255))      # Just('FF')
     print(bc.maybe("nope"))   # Nothing
+
+{% endraw %}
