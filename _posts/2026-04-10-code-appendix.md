@@ -9,6 +9,19 @@ tags: [temporal-drift, appendix, code, python, functional-programming]
 # Code Appendix — Sample Code  
 *Untouched, exactly as written*
 
+<!-- Copy button -->
+<button id="copy-btn" style="
+  padding:6px 12px;
+  font-size:14px;
+  cursor:pointer;
+  margin-bottom:10px;
+">
+Copy Code
+</button>
+
+<!-- Code block container -->
+<div id="code-block">
+
 {% raw %}
 ```python
 from functools import lru_cache, reduce, wraps
