@@ -1,9 +1,6 @@
 ---
 title: "CV"
 layout: page
-permalink: /cv/
-redirect_from:
-  - /cv.html
 description: "Federico Cagliero — Frontend, Systems, Data/AI. Short tech CV."
 tags: [cv, profile, engineering, frontend, systems, ai]
 last_modified_at: 2026-05-04
