@@ -9,6 +9,7 @@ tags: [temporal-drift, appendix, code, python, functional-programming]
 # Code Appendix — Sample Code  
 *Untouched, exactly as written*
 
+{% raw %}
 ```python
 from functools import lru_cache, reduce, wraps
 from dataclasses import dataclass
