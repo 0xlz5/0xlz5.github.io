@@ -9,15 +9,6 @@ tags: [temporal-drift, appendix, code, python, functional-programming]
 # Code Appendix — Sample Code  
 *Untouched, exactly as written*
 
-<button id="copy-btn" style="
-  padding:6px 12px;
-  font-size:14px;
-  cursor:pointer;
-  margin-bottom:10px;
-">
-Copy Code
-</button>
-
 {% raw %}
 ```python
 from functools import lru_cache, reduce, wraps
@@ -129,5 +120,3 @@ if __name__ == "__main__":
     bc = BaseConverter(16)
     print(bc.maybe(255))      # Just('FF')
     print(bc.maybe("nope"))   # Nothing
-
-{% endraw %}
