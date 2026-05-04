@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Temporal Drift — Code Appendix (Six-Part Extended Edition)"
+title: "Temporal Drift — Code Appendix"
 date: 2026-04-10 03:36:00 +0200
 categories: [tech, code, narrative]
 tags: [temporal-drift, appendix, code, python, functional-programming, design]
 ---
 
-# Code Appendix — Six-Part Extended Edition
+# Code Appendix
 
 ---
 
