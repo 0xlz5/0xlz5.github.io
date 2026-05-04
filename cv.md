@@ -39,7 +39,7 @@ ML/DL (dev !) flows · embeddings · vector data · LLM‑Ops.
 FE arch · design systems · JS/TS · PHP/Laravel · Py/Go CLIs.
 
 ### 2019–2022 · ✍️ Tech Writing / FP & Scripting
-Code/patterns · tooling (cli, Go)· automation.
+Code/patterns · tooling · automation.
 
 ### 2017–2018 · 📊 Data Engineer
 Spark/SQL · Hadoop · Bash/`jq` · DataOps. Postgres. Analytics.
