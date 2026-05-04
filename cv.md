@@ -51,10 +51,10 @@ Streaming engines · distributed compute, eg. "map-reduce".
 Containers · micro‑services · Go/Node CLIs.
 
 ### 2010–2012 · 🧪 FE / R&D — Sophia Antipolis
-MV* · OWASP · prototyping.
+MV* · OWASP · prototyping. Agile-Lean. Tech writing.
 
 ### 2007–2010 · 🏗️ R&D — Systems 24×7
-Full‑stack · internal frameworks (mv* / orm)· HA ops.
+Full‑stack · internal frameworks· HA ops.
 
 ### 2005–2007 · 🧩 Architecture & Systems
 Web arch · jsr-*/XML · enterprise ops. DevOps.
