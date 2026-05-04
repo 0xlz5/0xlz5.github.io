@@ -72,7 +72,7 @@ FE/UX · oo-Perl (CPAN) · CDN/caching · XML/XSL · j2ee (eg. MV*, "a/s") · py
 
 ## 🎓 Education
 Politecnico di Torino — B.Eng. CS (drop‑out)  
-Interests: Quake engine source (!) · C++/STL · x86 sec (code analysis / sec) · LZ* "schemes" · j2es + patterns.
+Interests: Quake engine source (!) · C++/STL · x86 (code analysis / sec) · LZ* "schemes" · j2ee + patterns.
 
 ---
 
