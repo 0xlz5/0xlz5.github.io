@@ -156,7 +156,6 @@ This is interface design as **lightweight metamorphosis**.
 ---
 
 # 5F — Full Implementation  
-*The artifact itself (raw, untouched)*
 
 {% raw %}
 ```python
