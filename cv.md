@@ -77,7 +77,7 @@ Interests: Quake engine source (!) · C++/STL · x86 sec (code analysis / sec) �
 ---
 
 ## 📜 Certifications
-freeCodeCamp — JS Algorithms & Data Structures.
+freeCodeCamp — JS Algorithms & Data Structures (v7).
 
 ---
 
