@@ -6,9 +6,8 @@ tags: [cv, profile, engineering, frontend, systems, ai]
 last_modified_at: 2026-05-04
 ---
 
-
 # Federico Cagliero
-frontend expert · system design · data/AI
+Frontend · Systems · Data/AI
 
 📍 Torino  
 📧 federico.cagliero@gmail.com  
@@ -24,57 +23,58 @@ R&D mindset: patterns, pipelines, scripting, design.
 ---
 
 ## 🧰 Skills
-FE · UI/UX · JS/TS · FP/OO · Scripting ·  Systems · Dataflows · AI/ML · Dev‑Tools
+FE · UI/UX · JS/TS · FP/OO · Scripting  
+Systems · Dataflows · AI/ML · Dev‑Tools
 
-👉 Full list → [_skills_](/skills)
+👉 Full list → [_skills_](./skills)
 
 ---
 
 ## 🛠️ Experience (Short)
 
 ### 2024–now · 🤖 AI Engineer
-ML/DL (dev !) flows · embeddings · vector data · LLM‑Ops.
+ML/DL flows · embeddings · vector data · LLM‑Ops.
 
 ### 2020–now · 💻 FE/Web Dev
-FE arch · design systems · JS/TS · PHP/Laravel · Py/Go CLIs + caching !
+FE arch · design systems · JS/TS · PHP/Laravel · Py/Go CLIs.
 
 ### 2019–2022 · ✍️ Tech Writing / FP & Scripting
-Code patterns · tooling (gnu-CLI, Go, \*sh)· automation (eg. perl/py3). OpenMP + HPC.
+Patterns · tooling · automation.
 
 ### 2017–2018 · 📊 Data Engineer
-Apache Spark/SQL · Hadoop · Bash/`jq` · Postgres · DataOps.
+Spark/SQL · Hadoop · Bash/`jq` · DataOps.
 
 ### 2015–2017 · 🔬 Tech Evaluation
-Streaming engines · distributed compute, eg. map-reduce, Apache Spark/Kafka/Storm/Flink.
+Streaming engines · distributed compute.
 
-### 2014–2015 · ☁️ Cloud/Infra (exposure !)
+### 2014–2015 · ☁️ Cloud/Infra
 Containers · micro‑services · Go/Node CLIs.
 
 ### 2010–2012 · 🧪 FE / R&D — Sophia Antipolis
-MV* · OWASP · prototyping. Agile-lean.
+MV* · OWASP · prototyping.
 
 ### 2007–2010 · 🏗️ R&D — Systems 24×7
-Full‑stack · server-side orm / MV* frameworks · HA ops.
+Full‑stack · internal frameworks · HA ops.
 
 ### 2005–2007 · 🧩 Architecture & Systems
-Web arch, 24x7 · jsr-*/XML integration · enterprise ops (early DevOps).
+Web arch · JSR/XML · enterprise ops.
 
 ### 2002–2005 · 🎓 R&D + Teaching
-intro/advanced FP‑OO (perl, sys/net/os/data) · early IoT prototyping (python/C++)· HCI (js-Web). Time-series & Multivariate.
+FP‑OO · prototyping · HCI.
 
 ### 1999–2002 · 🎶 Vitaminic — FE & Architecture
-FE/UX · oo-Perl (CPAN) · CDN/caching · XML/XSL · j2ee (eg. MV*, "a/s") · py + Plone.
+FE/UX · Perl · CDN/caching · XML/XSL · J2EE.
 
 ---
 
 ## 🎓 Education
 Politecnico di Torino — B.Eng. CS (drop‑out)  
-Interests: Quake engine source (!) · C++/STL · x86 (code analysis / sec) · LZ* "schemes" · j2ee + patterns.
+Interests: Quake engine · C++/STL · x86 · LZ* · J2EE.
 
 ---
 
 ## 📜 Certifications
-freeCodeCamp — JS Algorithms & Data Structures (v7).
+freeCodeCamp — JS Algorithms & Data Structures.
 
 ---
 
