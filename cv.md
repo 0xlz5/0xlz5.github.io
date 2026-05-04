@@ -63,16 +63,16 @@ Full‑stack · server-side orm / MV* frameworks · HA ops.
 Web arch, 24x7 · jsr-*/XML integration · enterprise ops (early DevOps).
 
 ### 2002–2005 · 🎓 R&D + Teaching
-FP‑OO (perl) · prototyping (python/C++)· HCI (js-Web). Time-series & Multivariate.
+intro/advanced FP‑OO (perl, sys/net/os/data) · early IoT prototyping (python/C++)· HCI (js-Web). Time-series & Multivariate.
 
 ### 1999–2002 · 🎶 Vitaminic — FE & Architecture
-FE/UX · Perl · CDN/caching · XML/XSL · J2EE.
+FE/UX · oo-Perl (CPAN) · CDN/caching · XML/XSL · j2ee (eg. MV*, "a/s") · py + Plone.
 
 ---
 
 ## 🎓 Education
 Politecnico di Torino — B.Eng. CS (drop‑out)  
-Interests: Quake engine · C++/STL · x86 · LZ* · J2EE.
+Interests: Quake engine source (!) · C++/STL · x86 sec (code analysis / sec) · LZ* "schemes" · j2es + patterns.
 
 ---
 
