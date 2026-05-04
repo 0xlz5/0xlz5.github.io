@@ -39,7 +39,7 @@ ML/DL (dev !) flows · embeddings · vector data · LLM‑Ops.
 FE arch · design systems · JS/TS · PHP/Laravel · Py/Go CLIs.
 
 ### 2019–2022 · ✍️ Tech Writing / FP & Scripting
-Code/patterns · tooling (gnu, Go, cli)· automation. OpenMP + HPC.
+Code/patterns · tooling (cli, Go)· automation. OpenMP + HPC.
 
 ### 2017–2018 · 📊 Data Engineer
 Spark/SQL · Hadoop · Bash/`jq` · DataOps. Postgres. Analytics.
@@ -48,7 +48,7 @@ Spark/SQL · Hadoop · Bash/`jq` · DataOps. Postgres. Analytics.
 Streaming engines · distributed compute, eg. "map-reduce".
 
 ### 2014–2015 · ☁️ Cloud/Infra
-Containers (ansible / dockeR) · micro‑services · Go/Node CLIs.
+Containers · micro‑services · Go/Node CLIs.
 
 ### 2010–2012 · 🧪 FE / R&D — Sophia Antipolis
 MV* · OWASP · prototyping.
@@ -69,7 +69,7 @@ FE/UX · Perl · CDN/caching · XML/XSL · J2EE.
 
 ## 🎓 Education
 Politecnico di Torino — B.Eng. CS (drop‑out)  
-Interests: Quake engine · C++/STL · x86 (gnu, code/sec) · LZ* schemes · j2ee (arch) · http/W3C.
+Interests: Quake engine · C++/STL · x86 · LZ* · j2ee · http.
 
 ---
 
