@@ -1,19 +1,13 @@
 ---
 layout: post
-title: "Temporal Drift: Notes on Code, Security, and Strange Ideas (2011–2026)"
-date: 2026-04-10 03:33:00 +0200
-categories: [tech, code, security, narrative]
-tags: [temporal-drift, part-I, part-II, part-III, appendix, code, functional-programming, security]
+title: "Temporal Drift — Code Appendix (Sample Code)"
+date: 2026-04-10 03:36:00 +0200
+categories: [tech, code]
+tags: [temporal-drift, appendix, code, python, functional-programming]
 ---
 
-# Temporal Drift: Notes on Code, Security, and Strange Ideas (2011–2026)
-
----
-
-## PART IV — Code Appendix (Sample Code as Separate Article)
-`#appendix` `#code`
-
-### Sample Code — untouched, exactly as written
+# Code Appendix — Sample Code  
+*Untouched, exactly as written*
 
 ```python
 from functools import lru_cache, reduce, wraps
