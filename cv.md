@@ -69,7 +69,7 @@ FE/UX · Perl · CDN/caching · XML/XSL · J2EE.
 
 ## 🎓 Education
 Politecnico di Torino — B.Eng. CS (drop‑out)  
-Interests: Quake engine (code !) · C++/STL · x86 (analysis/sec· LZ* schemes · j2ee (arch) · http/w3c.
+Interests: Quake engine (code !) · C++/STL · x86 (analysis/sec· LZ* schemes · j2ee (arch) · http/W3C.
 
 ---
 
