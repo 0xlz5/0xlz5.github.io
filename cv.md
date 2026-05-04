@@ -45,7 +45,7 @@ Code/patterns · tooling (cli, Go)· automation. OpenMP + HPC.
 Spark/SQL · Hadoop · Bash/`jq` · DataOps. Postgres. Analytics.
 
 ### 2015–2017 · 🔬 Tech Evaluation
-Streaming engines · distributed compute, eg. "map-reduce".
+Streaming engines · distributed compute.
 
 ### 2014–2015 · ☁️ Cloud/Infra
 Containers · micro‑services · Go/Node CLIs.
