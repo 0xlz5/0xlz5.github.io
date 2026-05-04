@@ -1,150 +1,332 @@
 ---
 layout: post
-title: "Temporal Drift — Code Appendix (Design Notes + Full Implementation)"
+title: "Temporal Drift — Code Appendix (Six-Part Extended Edition)"
 date: 2026-04-10 03:36:00 +0200
-categories: [tech, code]
+categories: [tech, code, narrative]
 tags: [temporal-drift, appendix, code, python, functional-programming, design]
 ---
 
-# Code Appendix — Design Notes, Architecture & Full Implementation
-
-## 5 — Code Appendix: Design Notes, Architecture & Intent
-
-This appendix contains the full implementation of the base‑conversion engine referenced throughout the series.  
-It is intentionally over‑engineered — not for performance, but for **aesthetic clarity**, **functional purity**, and **narrative coherence** with the themes of *Temporal Drift*.
-
-The code is a small, self‑contained artifact that demonstrates how ideas from:
-
-- functional programming  
-- monadic error handling  
-- point‑free composition  
-- recursion as structure  
-- caching as a semantic guarantee  
-- object‑oriented facades  
-- and playful over‑engineering  
-
-can coexist inside a single, compact Python module.
-
-It is not meant to be “the best” way to convert integers between bases.  
-It is meant to be **a miniature philosophy of code** — a crystallized moment of technical memory.
+# Code Appendix — Six-Part Extended Edition
 
 ---
 
-## 5.1 — Why this design?
+# 5A — Intent, Philosophy & Context  
+*Why this code exists at all*
 
-The converter is built around a few guiding principles:
+This appendix is not a “utility module”.  
+It is a **technical artifact**, a crystallized moment of how ideas, aesthetics, and habits converge into a single piece of code.
 
-### **1. Functional purity as a constraint**
-The core converter (`convert_pf`) is:
+It exists because:
+
+- over‑engineering can be a form of play  
+- functional purity can be calming  
+- recursion can be expressive  
+- monads can be tiny and beautiful  
+- Python can be bent into shapes it was never meant to hold  
+- technical memory deserves artifacts  
+
+This code is a **snapshot** of a particular way of thinking —  
+a moment in the drift.
+
+It is not optimized.  
+It is not minimal.  
+It is not industrial.
+
+It is **intentional**.
+
+---
+
+# 5B — Architecture Overview  
+*What the system is made of*
+
+The module is composed of seven conceptual layers:
+
+1. **Digit Table**  
+   A simple string of characters representing digits for bases 2–36.
+
+2. **Maybe Monad**  
+   A microscopic error‑handling abstraction with `bind`, `map`, and `unwrap`.
+
+3. **Point‑Free Helpers**  
+   Small combinators (`compose`, `join`, `with_sign`) that remove noise.
+
+4. **Functional Core**  
+   `convert_pf` — a pure, recursive, cached base converter.
+
+5. **Safe Converter**  
+   `safe_convert` — wraps the functional core in a monadic safety layer.
+
+6. **OO Façade**  
+   `BaseConverter` — a thin ergonomic wrapper with `__call__`.
+
+7. **Decorators & Tuple Helpers**  
+   `tupify` + `bits`, `octals`, `hexed`, `base_10`.
+
+8. **Demo Section**  
+   A small runnable block showing usage.
+
+This is not a “stack”.  
+It is a **constellation** — each piece independent, but aligned.
+
+---
+
+# 5C — Functional Core  
+*The heart of the machine*
+
+The core function, `convert_pf`, is:
 
 - pure  
-- deterministic  
+- recursive  
 - referentially transparent  
-- free of side effects  
+- cached  
+- point‑free in its final expression  
 
-This allows the entire module to behave like a mathematical object rather than a procedural script.
+The recursive collector:
 
-### **2. Recursion as narrative**
-Instead of iterative loops, the digit extraction uses a **recursive collector**:
+---
+layout: post
+title: "Temporal Drift — Code Appendix (Six-Part Extended Edition)"
+date: 2026-04-10 03:36:00 +0200
+categories: [tech, code, narrative]
+tags: [temporal-drift, appendix, code, python, functional-programming, design]
+---
 
-- it mirrors the mathematical definition of base decomposition  
-- it produces a natural tree‑like structure  
-- it keeps the code visually minimal  
+# Code Appendix — Six-Part Extended Edition
 
-Recursion is not used for performance — it is used for **shape**.
+---
 
-### **3. Point‑free composition**
-Helpers like `compose`, `join`, and `with_sign` allow the final expression:
+# 5A — Intent, Philosophy & Context  
+*Why this code exists at all*
+
+This appendix is not a “utility module”.  
+It is a **technical artifact**, a crystallized moment of how ideas, aesthetics, and habits converge into a single piece of code.
+
+It exists because:
+
+- over‑engineering can be a form of play  
+- functional purity can be calming  
+- recursion can be expressive  
+- monads can be tiny and beautiful  
+- Python can be bent into shapes it was never meant to hold  
+- technical memory deserves artifacts  
+
+This code is a **snapshot** of a particular way of thinking —  
+a moment in the drift.
+
+It is not optimized.  
+It is not minimal.  
+It is not industrial.
+
+It is **intentional**.
+
+---
+
+# 5B — Architecture Overview  
+*What the system is made of*
+
+The module is composed of seven conceptual layers:
+
+1. **Digit Table**  
+   A simple string of characters representing digits for bases 2–36.
+
+2. **Maybe Monad**  
+   A microscopic error‑handling abstraction with `bind`, `map`, and `unwrap`.
+
+3. **Point‑Free Helpers**  
+   Small combinators (`compose`, `join`, `with_sign`) that remove noise.
+
+4. **Functional Core**  
+   `convert_pf` — a pure, recursive, cached base converter.
+
+5. **Safe Converter**  
+   `safe_convert` — wraps the functional core in a monadic safety layer.
+
+6. **OO Façade**  
+   `BaseConverter` — a thin ergonomic wrapper with `__call__`.
+
+7. **Decorators & Tuple Helpers**  
+   `tupify` + `bits`, `octals`, `hexed`, `base_10`.
+
+8. **Demo Section**  
+   A small runnable block showing usage.
+
+This is not a “stack”.  
+It is a **constellation** — each piece independent, but aligned.
+
+---
+
+# 5C — Functional Core  
+*The heart of the machine*
+
+The core function, `convert_pf`, is:
+
+- pure  
+- recursive  
+- referentially transparent  
+- cached  
+- point‑free in its final expression  
+
+The recursive collector:
+
+---
+layout: post
+title: "Temporal Drift — Code Appendix (Six-Part Extended Edition)"
+date: 2026-04-10 03:36:00 +0200
+categories: [tech, code, narrative]
+tags: [temporal-drift, appendix, code, python, functional-programming, design]
+---
+
+# Code Appendix — Six-Part Extended Edition
+
+---
+
+# 5A — Intent, Philosophy & Context  
+*Why this code exists at all*
+
+This appendix is not a “utility module”.  
+It is a **technical artifact**, a crystallized moment of how ideas, aesthetics, and habits converge into a single piece of code.
+
+It exists because:
+
+- over‑engineering can be a form of play  
+- functional purity can be calming  
+- recursion can be expressive  
+- monads can be tiny and beautiful  
+- Python can be bent into shapes it was never meant to hold  
+- technical memory deserves artifacts  
+
+This code is a **snapshot** of a particular way of thinking —  
+a moment in the drift.
+
+It is not optimized.  
+It is not minimal.  
+It is not industrial.
+
+It is **intentional**.
+
+---
+
+# 5B — Architecture Overview  
+*What the system is made of*
+
+The module is composed of seven conceptual layers:
+
+1. **Digit Table**  
+   A simple string of characters representing digits for bases 2–36.
+
+2. **Maybe Monad**  
+   A microscopic error‑handling abstraction with `bind`, `map`, and `unwrap`.
+
+3. **Point‑Free Helpers**  
+   Small combinators (`compose`, `join`, `with_sign`) that remove noise.
+
+4. **Functional Core**  
+   `convert_pf` — a pure, recursive, cached base converter.
+
+5. **Safe Converter**  
+   `safe_convert` — wraps the functional core in a monadic safety layer.
+
+6. **OO Façade**  
+   `BaseConverter` — a thin ergonomic wrapper with `__call__`.
+
+7. **Decorators & Tuple Helpers**  
+   `tupify` + `bits`, `octals`, `hexed`, `base_10`.
+
+8. **Demo Section**  
+   A small runnable block showing usage.
+
+This is not a “stack”.  
+It is a **constellation** — each piece independent, but aligned.
+
+---
+
+# 5C — Functional Core  
+*The heart of the machine*
+
+The core function, `convert_pf`, is:
+
+- pure  
+- recursive  
+- referentially transparent  
+- cached  
+- point‑free in its final expression  
+
+The recursive collector:
+```
+def collect(k):
+return [] if k == 0 else collect(k // base) + [DIGITS[k % base]]
+```
+
+
+is intentionally naïve —  
+not for performance, but for **shape**.
+
+The final expression:
 
 ```
 with_sign(sign)(join(collect(n)))
 ```
 
 
-to read like a pipeline rather than a sequence of steps.
+is a miniature pipeline.
 
-This is a nod to:
+This is functional programming **as aesthetic discipline**.
 
-- Haskell  
-- combinatory logic  
-- Unix pipelines  
-- and the “flow” aesthetic of functional code  
+---
 
-### **4. A tiny Maybe monad**
-The `Maybe` class is intentionally microscopic:
+# 5D — The Maybe Monad & Error Semantics  
+*How the system handles uncertainty*
 
-- no inheritance  
-- no type machinery  
-- no decorators  
-- just `bind`, `map`, and `unwrap`  
+Instead of exceptions, the module uses a tiny `Maybe` monad:
 
-It exists to show how **error handling can be expressive without exceptions**.
+- `Just(x)` represents success  
+- `Nothing()` represents failure  
 
-### **5. A thin OO façade**
-`BaseConverter` wraps the functional core in a small object:
+This allows:
 
-- for ergonomics  
-- for readability  
-- for users who prefer method calls over free functions  
+- safe composition  
+- predictable control flow  
+- no try/except noise  
+- no implicit state  
 
-This duality (FP core + OO façade) mirrors the duality explored in the article:  
-**two paradigms, one system**.
+The monad is intentionally microscopic —  
+a reminder that expressive error handling does not require heavy machinery.
 
-### **6. Decorators as shape‑shifters**
-The `tupify` decorator is a playful trick:
+`safe_convert` becomes a semantic wrapper:
+
+- type checks  
+- base range checks  
+- returns `Just(result)` or `Nothing()`  
+
+This is error handling as **explicit structure**, not side effect.
+
+---
+
+# 5E — OO Façade, Decorators & Shape‑Shifting  
+*How the system presents itself to the outside world*
+
+The `BaseConverter` class is a thin ergonomic wrapper:
+
+- stores a base  
+- exposes `convert`  
+- exposes `maybe`  
+- is callable (`__call__`)  
+
+It exists for users who prefer method calls over free functions.
+
+The `tupify` decorator is a playful shape‑shifter:
 
 - it transforms string output into tuples  
 - without modifying the underlying logic  
-- demonstrating how decorators can “bend” functions without touching them  
 
-It’s a reminder that Python’s metaprogramming tools can be elegant when used sparingly.
+The tuple‑producing helpers (`bits`, `octals`, `hexed`, `base_10`) demonstrate how decorators can **bend** functions without touching them.
 
-### **7. Caching as a semantic guarantee**
-`@lru_cache` is not used for speed.  
-It is used to assert:
-
-> “This function is pure. Its output depends only on its inputs.”
-
-Caching becomes a **declaration of intent**, not an optimization.
+This is interface design as **lightweight metamorphosis**.
 
 ---
 
-## 5.2 — What this code is *not*
-
-- It is not optimized for speed.  
-- It is not meant for production.  
-- It is not meant to replace Python’s built‑ins.  
-- It is not meant to be minimal.  
-
-It is meant to be:
-
-- expressive  
-- playful  
-- precise  
-- over‑designed in a deliberate way  
-- a small artifact of technical memory  
-
-A piece of code that exists because it **felt right**.
-
----
-
-## 5.3 — What to look for when reading the code
-
-When you scroll into the raw block below, notice:
-
-- how the recursive collector builds digits  
-- how point‑free helpers remove noise  
-- how the monad wraps unsafe operations  
-- how the OO façade hides the functional machinery  
-- how decorators reshape output  
-- how the entire module remains compact despite its layers  
-
-This is code as **miniature architecture**, not just implementation.
-
----
-
-## 5.4 — Full Implementation  
-*(wrapped in `{% raw %}` to prevent Jekyll from interpreting it)*
+# 5F — Full Implementation  
+*The artifact itself (raw, untouched)*
 
 {% raw %}
 ```python
