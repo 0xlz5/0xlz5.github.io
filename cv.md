@@ -60,7 +60,7 @@ Full‑stack · internal frameworks· HA ops.
 Web arch · jsr-*/XML · enterprise ops. DevOps.
 
 ### 2002–2005 · 🎓 R&D + Teaching
-FP‑OO · prototyping (Py/C++) · HCI (Js/Web). Time-series & Multivariate.
+FP‑OO · prototyping (Py/C++) · HCI (js/Web). Time-series & Multivariate.
 
 ### 1999–2002 · 🎶 Vitaminic — FE & Architecture
 FE/UX · Perl · CDN/caching · XML/XSL · J2EE.
