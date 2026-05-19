@@ -9,8 +9,8 @@ last_modified_at: 2026-05-19
 
 Frontend · Systems · Data/AI  
 📍 Torino · ✉️ federico.cagliero@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/federico-cagliero-68b860a6  
-📝 Blog: https://0xblog.tumblr.com/
+🔗 [LinkedIn](https://www.linkedin.com/in/federico-cagliero-68b860a6)  
+📝 [0xblog](https://0xblog.tumblr.com/)
 
 ---
 
@@ -37,7 +37,7 @@ I prefer teams that value design, iteration, curiosity.
 FE · UI/UX · js/ts · fp/oo · scripting  
 Systems · dataflows · ai/ml · dev‑tools
 
-Full list → https://0xlz5.github.io/skills
+Full list → [skills](/skills)
 
 ---
 
@@ -70,7 +70,7 @@ Full‑stack · internal frameworks · HA ops
 ### 2005–2007 · 🧬 Architecture & Systems  
 Web architecture · jsr‑*/xml · enterprise ops · DevOps
 
-### 2002–2004 · 🎓 Teaching  
+### 2002–2004 · 📚 Teaching  
 fp‑oo (perl) · j2ee/web
 
 ### 2002–2004 · 🎓 R&D + Dev  
