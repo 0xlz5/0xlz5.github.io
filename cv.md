@@ -8,9 +8,11 @@ last_modified_at: 2026-05-19
 # CV — Federico Cagliero
 
 Frontend · Systems · Data/AI  
-📍 Torino · ✉️ federico.cagliero@gmail.com  
+📍 Torino  
+
+✉️ federico.cagliero@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/federico-cagliero-68b860a6)  
-📝 [0xblog](https://0xblog.tumblr.com/)
+📝 [0xblog](https://0xblog.tumblr.com/)  
 
 ---
 
