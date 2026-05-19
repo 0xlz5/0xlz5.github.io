@@ -18,7 +18,6 @@ Frontend · Systems · Data/AI
 
 ## 👤 About
 
-Engineer active since ’99 across frontend, systems, data, and AI.  
 My work orbits around patterns, pipelines, and tooling — treating UI architecture, distributed systems, and ML/LLM workflows as variations of the same underlying problem: flow, structure, clarity.
 
 I focus on:
