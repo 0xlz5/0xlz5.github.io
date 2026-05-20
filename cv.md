@@ -71,7 +71,7 @@ Full‑stack · internal frameworks · HA ops
 ### 2005–2007 · 🧬 Architecture & Systems  
 Web architecture · jsr‑*/xml · enterprise ops · DevOps
 
-### 2002–2004 · 📚 Teaching  
+### 2004–2005 · 📚 Teaching  
 fp‑oo (perl) · j2ee/web
 
 ### 2002–2004 · 🎓 R&D + Dev  
