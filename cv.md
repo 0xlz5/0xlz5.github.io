@@ -69,7 +69,7 @@ MV* · OWASP · prototyping · Agile‑Lean · tech writing
 Full‑stack · internal frameworks · HA ops
 
 ### 2005–2007 · 🧬 Architecture & Systems  
-Web architecture · jsr‑*/xml · enterprise ops · DevOps
+Web architecture / was-wps · jsr‑*/xml · enterprise ops · early DevOps (to-be) 
 
 ### 2004–2005 · 📚 Teaching  
 fp‑oo (perl) · j2ee/web
