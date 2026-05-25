@@ -18,7 +18,7 @@ links:
 
 ## about
 
-i grew up inside machines — literally.  
+i grew up using machines — literally.  
 an **olivetti m‑24**, pascal compilers blinking like tiny portals, mazes rendered in green phosphor, integrals plotted as if they were alien landscapes.  
 that’s where the pattern started: **code as geometry**, **systems as ecosystems**, **algorithms as stories**.
 
@@ -95,7 +95,7 @@ this page is the long‑form changelog of that journey.
 ## 2016/17 → now — ai engineering  
 - ml/dl "curiosity" since 2016/17. eg. ml/lzw  
 - waited for its tooling to mature a "bit"  
-- 2024: copilot, chatgpt/codex, gemini, claude(code) → the real "shift"  
+- 2024: copilot, chatgpt/codex, gemini, claude(code) → the real shift  
 - ai workflows, rag/llmops, augmented dev pipelines  
 - ai as co‑engineer, not shortcut
 
