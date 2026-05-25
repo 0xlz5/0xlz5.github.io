@@ -4,180 +4,132 @@ title: "About Federico"
 description: "Sr. Developer · Frontend & System Design · Data/AI Engineering"
 ---
 
-# Federico Cagliero  
-### Sr. Developer · Frontend & System Design · Data/AI Engineering
+# federico cagliero  
+### sr. dev · frontend arch · system design · data/ai · code archeology
 
-I live in **Torino, Italy**, where fog, geometry, and old industrial lines shape the way I think about systems.  
-You can reach me at **federico.cagliero@gmail.com**.  
-My digital traces live here:  
-[LinkedIn](https://www.linkedin.com/in/federico-cagliero-68b860a6/) ·  
-[GitHub](https://github.com/0xlz5) ·  
-[Blog](https://higherordercoding.tumblr.com)
-
----
-
-## About
-
-I grew up inside machines.  
-An Olivetti M‑24 humming on a desk, Pascal windows blinking like small portals, mazes unfolding in green phosphor light. That’s where it started: the idea that code is not just instruction, but geometry, rhythm, a way of thinking.
-
-Since then, I’ve followed the long river of computing from its early, noisy banks to the quiet precision of modern AI systems.  
-Frontend architectures. Distributed backends. Data pipelines. CLI tools.  
-Everything that makes a system breathe, scale, endure.
-
-I work where **design meets engineering**, where **clarity meets complexity**, where **the past and the future shake hands**.  
-I like code that feels inevitable.  
-I like systems that stay elegant under pressure.  
-I like tools that disappear, leaving only the work.
-
-This page is the long arc of that story — a timeline of explorations, technologies, and obsessions that shaped how I build software today.
+torino, italy — fog, geometry, industrial ghosts.  
+contact: **federico.cagliero@gmail.com**  
+links:  
+[linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/) ·  
+[github](https://github.com/0xlz5) ·  
+[blog](https://higherordercoding.tumblr.com)
 
 ---
 
-# Timeline  
-### CS, Tech, and De‑Facto Explorations
+## about
 
-## Around 1990 — Origins  
-I began after playing *Monkey Island* on an Atari edition and discovering that the world behind the screen had rules, shapes, and secrets.  
-I learned Pascal (with echoes of Algol68/Simula) and used it to explore:
+i grew up inside machines — literally.  
+an **olivetti m‑24**, pascal compilers blinking like tiny portals, mazes rendered in green phosphor, integrals plotted as if they were alien landscapes.  
+that’s where the pattern started: **code as geometry**, **systems as ecosystems**, **algorithms as stories**.
 
-- **maze algorithms** (visualization + solving)  
-- **integral calculus visualizations**  
-- **early 2D/3D math sketches**
+i’ve spent three decades walking the long corridor of computing:  
+from **dos 5.x** to **unix**, from **quake‑era c** to **react/ts**, from **perl+pcre** to **rag/llm pipelines**, from **shared‑nothing php** to **distributed dataflows**.
 
-All on an **Olivetti M‑24** — a machine “too old to be working,” probably from some French CS literacy program.  
-Then came **DOS 5.x**, **Gorilla/Snake**, and the joy of **QBASIC**.  
-Simple, but intoxicating.
+i like **clean abstractions**, **predictable state**, **fast paths**, **low‑noise architectures**, and **tools that disappear when they work**.  
+i like code that feels like it was *discovered*, not written.
 
----
-
-## Around 1996 — The Pause That Wasn’t  
-I enrolled in TLx engineering.  
-Strong in maths and physics, but programming went dormant for a while.  
-Still, I explored:
-
-- typography (LaTeX, Word)  
-- advanced function plotting tools  
-- low‑level system curiosities  
-
-A quiet period, but foundational.
+this page is the long‑form changelog of that journey.
 
 ---
 
-## Around 1999 — The Web 1.0 Forge  
-I returned to programming with force.  
-Focused on **HTTP**, **Unix**, **W3C**, **GNU**, and the early web.
+# timeline  
+### cs / tech / explorations — the long arc
 
-Technologies and obsessions:
+## ~1990 — boot sequence  
+- monkey island (atari edition) → “there’s a world behind this world”  
+- pascal (algol68/simula echoes)  
+- maze‑solvers, integral visualizers, 2d/3d math sketches  
+- hardware: **olivetti m‑24** (too old to live, too stubborn to die)  
+- dos 5.x, gorilla.bas, snake.bas  
+- qb: the gateway drug
 
-- DSA, C/C++  
-- x86 code analysis  
-- Java + QuakeC  
-- JS (Netscape SSJS), mSQL  
-- Perl + PCRE + CPAN (HTTP, LWP, text analysis)  
-- PHP, SQL, early HTML/CSS separation  
-- early i18n (PHP3) generated from Perl + MySQL  
-- Dreamweaver/Fireworks scripting  
-- GoF patterns, AWT, JDK 1.0/1.1  
+## ~1996 — the silent compile  
+- tlx engineering  
+- strong maths/physics, paused coding  
+- explored: latex, typography, fn(x) plotting, low‑level system curiosities  
+- the “buffering” years
 
-It was the era of **open source**, **Mosaic/Netscape**, and the feeling that the web was a frontier.
+## ~1999 — web 1.0 / the forge  
+- http, unix, w3c, gnu  
+- dsa, c/c++, x86 code analysis  
+- java + quakec  
+- netscape ssjs, msql  
+- perl + pcre + cpan (http, lwp, text analysis)  
+- php3/mysql, early html/css separation (when nobody cared)  
+- early i18n pipelines (perl → php → mysql)  
+- dreamweaver/fireworks scripting  
+- jdk 1.0/1.1, awt, gof patterns  
+- mosaic → netscape → the frontier
 
----
+## ~2001 — distributed systems before the hype  
+- 24×7 shared‑nothing php/mysql  
+- corba/iiop + rmi  
+- j2ee poc (fully working)  
+- early cdn‑like infra (proto‑redis)  
+- fowler patterns, ioc, xml/xslt, cocoon  
+- structured fe/be apps
 
-## Around 2001 — Distributed Systems Before They Were Cool  
-I built:
-
-- **24×7 shared‑nothing PHP/MySQL architectures**  
-- **CORBA/IIOP + RMI** systems  
-- **J2EE PoCs**  
-- **early CDN‑like systems** (pre‑Redis era)
-
-Also: structured FE/BE apps, Fowler’s early patterns (Two‑Step View), IoC, XML/XSLT, Cocoon.
-
----
-
-## Around 2002 — Architecture, Languages, Models  
-This period was about structure and theory:
-
-- MVC (Struts), POJO  
-- JBoss + AOP (AspectK)  
-- WAS/UAS (early Java AS)  
-- Limbo, Inferno  
-- Ruby/DCOM 0.9  
+## ~2002 — architecture mode  
+- mvc (struts), pojo  
+- jboss + aop (aspectk)  
+- was/ias (early java app servers)  
+- limbo, inferno  
+- ruby/dcom 0.9  
 - 4+1 model  
-- Rosetta code idioms  
+- rosetta‑style idioms  
+- the “systems as language” era
 
-A time of architectural thinking and language exploration.
+## 2003 → now — the long run  
+- it/cs consulting (adv/innovation)  
+- web apps (simple → complex)  
+- data analysis → big‑data analytics  
+- js mvc frameworks (custom), open‑source, tech writing  
+- tech blogging (r&d, industry)  
+- system/tool evaluation (inside‑out)  
+- programming across paradigms → rag/llm workflows  
+- cms/productivity sw evaluation  
+- mpi, openmp, go, rust, c++, haskell  
+- the “polyglot systems engineer” phase
 
----
+## 2016/17 → now — ai engineering  
+- ml/dl study since 2016/17  
+- waited for tooling to mature  
+- 2024: copilot, chatgpt/codex, gemini → the real shift  
+- ai workflows, rag/llmops, augmented dev pipelines  
+- ai as co‑engineer, not shortcut
 
-## 2003 → Now — The Long Arc  
-Since then, I’ve been doing:
-
-1. **IT/CS consulting** (advanced, innovation‑driven)  
-2. **Web apps** from simple to complex  
-3. **Data analysis**, and later **big‑data analytics**  
-4. **Framework development** (JS MVC), open‑source, technical writing  
-5. **Tech blogging** (R&D, industry)  
-6. **System/tool evaluation** (inside‑out)  
-7. **Programming across paradigms** — up to modern RAG/LLM workflows  
-8. **CMS and productivity software evaluation**  
-9. **HPC**: MPI, OpenMP, Go, Rust, C++, Haskell  
-
-A long, continuous exploration.
-
----
-
-## Around 2016/17 → Now — AI Engineering  
-Studying ML/DL since 2016/17.  
-Waiting for the tooling to mature.  
-In 2024, it finally did: GitHub Copilot, ChatGPT/Codex, Gemini.  
-Now working on:
-
-- **AI engineering workflows**  
-- **RAG/LLMops**  
-- **AI‑augmented development**  
-
-A new frontier, but connected to everything before it.
+## 2020 → now — what i actually do  
+- fe + ux‑to‑code + be (php, js/ts, python)  
+- shells & cli (bash/zsh, rust/go, iac)  
+- net/sys tuning, code security auditing (opencve, etc.)  
+- tech blogging (r&d, industry)  
+- devsecops feasibility studies  
+- the “full‑stack systems‑minded hacker” mode
 
 ---
 
-## Around 2020 → Now — What I Usually Do  
-Beyond DevOps and feasibility studies in DevSecOps:
+# skills
 
-1. **Frontend + UX (to‑code) + Backend** — PHP, JS/TS, Python  
-2. **Shells & CLI development** — bash/zsh, IaC, Rust/Go tools  
-3. **Network/system tuning**, code security auditing (OpenCVE, etc.)  
-4. **Technical blogging** — R&D, industry, conceptual clarity  
+**frontend**  
+react, typescript, vue, elm‑fp/ui, design systems, ux→code pipelines
 
-A synthesis of engineering, architecture, and writing.
+**backend & systems**  
+node.js, php/laravel, python, distributed patterns, shared‑nothing arch
 
----
+**data & ai**  
+ml/dl stacks, analytics, spark, hive, vector dbs, embeddings, rag/llmops
 
-# Skills
+**tooling & automation**  
+bash/zsh, go, rust, cli tools, iac, perf profiling, build pipelines
 
-**Frontend**  
-React, TypeScript, Vue, Elm‑FP/UI, design systems, UX‑to‑code workflows.
+**security & reliability**  
+code auditing, opencve workflows, net/sys tuning, secure architectures
 
-**Backend & Systems**  
-Node.js, PHP/Laravel, Python, distributed patterns, shared‑nothing architectures.
-
-**Data & AI**  
-ML/DL stacks, analytics, Spark, Hive, vector DBs, embeddings, RAG/LLMops.
-
-**Tooling & Automation**  
-Shell scripting (bash/zsh), Go, Rust, CLI tools, IaC, performance profiling.
-
-**Security & Reliability**  
-Code auditing, OpenCVE workflows, network/sys tuning, secure architectures.
-
-**Foundations**  
-Unix, HTTP, C/C++, Java, algorithms, HPC (MPI/OpenMP), functional programming.
+**foundations**  
+unix, http, c/c++, java, algorithms, mpi/openmp, fp lineage (haskell/clojure/raku)
 
 ---
 
-A future where engineering feels less like assembly and more like authorship.  
-Where AI is not a shortcut but a companion.  
-Where tools amplify craft instead of replacing it.
-
-A future where the code we write today still makes sense tomorrow.
+engineering should feel like authorship, not assembly.  
+ai should amplify craft, not replace it.  
+systems should age like good protocols — stable, minimal, inevitable.
