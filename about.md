@@ -46,13 +46,13 @@ this page is the long‑form changelog of that journey.
 ## ~1996 — the silent compile  
 - tlx engineering  
 - strong maths/physics, paused coding  
-- explored: latex, typography, fn(x) plotting, low‑level system curiosities  
+- explored: latex, typography, fn(x) plotting, low‑level system curiosities
+- dsa, c/c++, x86 code analysis  
+- java + quakec  
 - the “buffering” years
 
 ## ~1999 — web 1.0 / the forge  
 - http, unix, w3c, gnu  
-- dsa, c/c++, x86 code analysis  
-- java + quakec  
 - netscape ssjs, msql  
 - perl + pcre + cpan (http, lwp, text analysis)  
 - php3/mysql, early html/css separation (when nobody cared)  
