@@ -18,7 +18,7 @@ links:
 
 ## λ about — the pure core
 
-i grew up *inside* machines — not metaphorically.  
+i grew up *using* machines — not metaphorically.  
 an **olivetti m‑24** acting as my first abstract machine, pascal compilers blinking like tiny continuations, mazes rendered in green phosphor as if they were evaluating themselves.  
 integrals plotted like alien topologies.  
 that’s where the pattern emerged: **code as geometry**, **systems as algebra**, **algorithms as narrative**.
