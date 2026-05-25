@@ -7,16 +7,17 @@ description: "Sr. Developer · Frontend & System Design · Data/AI Engineering"
 # Federico Cagliero  
 ### Sr. Developer · Frontend & System Design · Data/AI Engineering
 
-You can reach me at **federico.cagliero@gmail.com**.  
-I live and work in **Torino, Italy**, a city of fog, geometry, and quiet engineering.  
-My digital traces live here:  
-[LinkedIn](https://www.linkedin.com/in/federico-cagliero-68b860a6/) ·  
-[GitHub](https://github.com/0xlz5) ·  
-[Blog](https://higherordercoding.tumblr.com)
+**Email:** federico.cagliero@gmail.com  
+**Location:** Torino, Italy  
+
+**Links:**  
+- [LinkedIn](https://www.linkedin.com/in/federico-cagliero-68b860a6/)  
+- [GitHub](https://github.com/0xlz5)  
+- [Blog](https://higherordercoding.tumblr.com)
 
 ---
 
-I grew up inside machines (x86 ! ++).  
+I grew up inside machines.  
 An Olivetti M‑24 humming on a desk, Pascal windows blinking like small portals, mazes unfolding in green phosphor light. That’s where it started: the idea that code is not just instruction, but geometry, rhythm, a way of thinking.
 
 Since then, I’ve followed the long river of computing from its early, noisy banks to the quiet precision of modern AI systems.  
