@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "About Federico"
-description: "Sr. Developer · Frontend & System Design · Data/AI Engineering"
+description: "FP‑minded Systems Engineer · Frontend Architecture · Data/AI · R&D"
 ---
 
 # federico cagliero  
-### sr. dev · frontend · system design · data/ai 
+### fp‑minded sr. dev · frontend · system design · data/ai · r&d
 
-torino, italy — fog, geometry, industrial ghosts.  
+torino, italy — fog behaving like a monad, industrial ghosts folded into a graph.  
 contact: **federico.cagliero@gmail.com**  
 links:  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/) ·  
@@ -16,73 +16,76 @@ links:
 
 ---
 
-## about
+## λ about — the pure core
 
-i grew up using machines — literally.  
-an **olivetti m‑24**, pascal compilers blinking like tiny portals, mazes rendered in green phosphor, integrals plotted as if they were alien landscapes.  
-that’s where the pattern started: **code as geometry**, **systems as ecosystems**, **algorithms as stories**.
+i grew up *inside* machines — not metaphorically.  
+an **olivetti m‑24** acting as my first abstract machine, pascal compilers blinking like tiny continuations, mazes rendered in green phosphor as if they were evaluating themselves.  
+integrals plotted like alien topologies.  
+that’s where the pattern emerged: **code as geometry**, **systems as algebra**, **algorithms as narrative**.
 
-i’ve spent three decades walking the long corridor of computing:  
-from **dos 5.x** to **unix**, from **quake‑era c** to **react/ts**, from **perl+pcre** to **rag/llm pipelines**, from **shared‑nothing php** to **distributed dataflows**.
+three decades later, the corridor is longer but the invariants remain.  
+i’ve moved from **dos 5.x** to **unix**, from **quake‑era c** to **react/ts**, from **perl+pcre** to **rag/llm pipelines**, from **shared‑nothing php** to **distributed dataflows** that behave like composable processes.
 
-i like **clean abstractions**, **predictable state**, **fast paths**, **low‑noise architectures**, and **tools that disappear when they work**.  
-i like code that feels like it was *discovered*, not written.
+i like **clean abstractions**, **predictable state**, **referential transparency where possible**, **fast paths**, **low‑noise architectures**, and **tools that disappear when they work**.  
+i like code that feels *discovered*, not manufactured — like a theorem waiting for the right notation.
 
 this page is the long‑form changelog of that journey.
 
 ---
 
 # timeline  
-### cs / tech / explorations — the long arc
+### fp / cs / systems — the long arc
 
-## ~1990 — boot sequence  
-- monkey island (atari edition) → “there’s a world behind this world”  
+## λ₀ ~1990 — boot sequence / the first combinator  
+- monkey island (atari edition) → the first hint of hidden grammars  
 - pascal (algol68/simula echoes)  
 - maze‑solvers, integral visualizers, 2d/3d math sketches  
 - hardware: **olivetti m‑24** (too old to live, too stubborn to die)  
 - dos 5.x, gorilla.bas, snake.bas  
-- qb: the gateway drug
+- qb: the proto‑REPL, the first pure function playground
 
-## ~1996 — the silent compile  
+## λ₁ ~1996 — latent type inference / the silent compile  
 - tlx engineering  
-- strong maths/physics, paused coding  
-- explored: latex, typography, fn(x) plotting, low‑level system curiosities
+- strong maths/physics, paused coding but type‑inference kept running in the background  
+- explored: latex, typography, fn(x) plotting, low‑level system curiosities  
 - dsa, c/c++, x86 code analysis  
-- java + quakec
-- mosaic → netscape → the frontier
-- the “buffering” years
+- java + quakec  
+- mosaic → netscape → the frontier  
+- the “buffering” years: the lambda was dormant, not absent
 
-## ~1999 — web 1.0 / the forge  
+## λ₂ ~1999 — the web as an impure function / the forge  
 - netscape ssjs, msql  
 - http, unix, w3c, gnu (gcc, gdb)  
 - dreamweaver/fireworks scripting (js)  
-- jdk 1.0/1.1, awt, gof patterns
+- jdk 1.0/1.1, awt, gof patterns  
 - perl + pcre + cpan (http, lwp, text analysis)  
 - php3/mysql, early html/css separation (when nobody cared)  
 - early i18n pipelines (perl → php → mysql)  
+- the web as a giant side‑effecting state machine
 
-## ~2001 — distributed systems before the hype  
+## λ₃ ~2001 — distributed fp before we called it that  
 - 24×7 shared‑nothing php/mysql  
 - corba/iiop + rmi  
 - j2ee poc (fully working)  
 - early cdn‑like infra (proto‑redis)  
 - fowler patterns, ioc, xml/xslt, cocoon  
-- structured fe/be apps
+- structured fe/be apps  
+- distributed systems as message‑passing algebras
 
-## ~2002 — architecture mode  
-- mvc (struts), pojo 
+## λ₄ ~2002 — abstract machines everywhere / architecture as syntax  
+- mvc (struts), pojo  
 - jboss + aop (aspectj)  
 - was/ias (early java app servers)  
-- limbo, inferno  
+- limbo, inferno (bell labs’ functional ghosts)  
 - ruby/dcom 0.9  
 - 4+1 model  
 - rosetta‑style idioms  
-- the “systems as language” era
+- the “systems as language” era: architecture as grammar
 
-## 2003 → now — the long run  
+## λ₅ 2003 → now — the polyglot fp‑systems synthesis  
 - it/cs consulting (adv/innovation)  
-- web apps (simple → complex)
-- was/wps -  ad\am - systems/24x7 - jsr-*/jmx - xml
+- web apps (simple → complex)  
+- was/wps · ad/am · 24x7 systems · jsr‑*/jmx · xml pipelines  
 - data analysis → big‑data analytics  
 - js mvc frameworks (custom), open‑source, tech writing  
 - tech blogging (r&d, industry)  
@@ -90,47 +93,54 @@ this page is the long‑form changelog of that journey.
 - programming across paradigms → rag/llm workflows  
 - cms/productivity sw evaluation  
 - mpi, openmp, go, rust, c++, haskell  
-- the “polyglot systems engineer” phase
+- runtime archaeology + fp discipline
 
-## 2016/17 → now — ai engineering  
-- ml/dl "curiosity" since 2016/17. eg. ml/lzw  
-- waited for its tooling to mature a "bit"  
+## λ₆ 2016/17 → now — ai as a higher‑order function  
+- ml/dl curiosity since 2016/17 (ml/lzw experiments, compression as intelligence)  
+- waited for tooling to mature a “bit”  
 - 2024: copilot, chatgpt/codex, gemini, claude(code) → the real shift  
 - ai workflows, rag/llmops, augmented dev pipelines  
-- ai as co‑engineer, not shortcut
+- ai as co‑engineer, not shortcut — a combinator applied to engineering
 
-## 2020 → now — what i actually do  
+## λ₇ 2020 → now — the full‑stack fp‑minded systems hacker  
 - fe + ux‑to‑code + be (php, js/ts, python)  
 - shells & cli (bash/zsh, rust/go, iac)  
 - net/sys tuning, code security auditing (opencve, etc.)  
 - tech blogging (r&d, industry)  
 - devsecops feasibility studies  
-- the “full‑stack systems‑minded hacker” mode
+- the “full‑stack fp‑minded systems hacker” mode
 
 ---
 
-# skills
+# skills  
+### algebraic capabilities / operational semantics
 
 **frontend**  
-react, typescript, vue, elm‑fp/ui, design systems, ux→code pipelines
+react, typescript, vue, elm‑fp/ui, design systems, ux→code pipelines  
+→ ui as a pure function of state
 
 **backend & systems**  
-node.js, php/laravel, python, distributed patterns, shared‑nothing arch
+node.js, php/laravel, python, distributed patterns, shared‑nothing arch  
+→ systems as composable processes
 
 **data & ai**  
-ml/dl stacks, analytics, spark, hive, vector dbs, embeddings, rag/llmops
+ml/dl stacks, analytics, spark, hive, vector dbs, embeddings, rag/llmops  
+→ ai as a pipeline, not a black box
 
 **tooling & automation**  
-bash/zsh, go, rust, cli tools, iac, perf profiling, build pipelines
+bash/zsh, go, rust, cli tools, iac, perf profiling, build pipelines  
+→ tooling as algebra
 
 **security & reliability**  
-code auditing, opencve workflows, net/sys tuning, secure architectures
+code auditing, opencve workflows, net/sys tuning, secure architectures  
+→ invariants, contracts, boundaries
 
 **foundations**  
-unix, http, c/c++, java, algorithms, mpi/openmp, fp lineage (haskell/clojure/raku)
+unix, http, c/c++, java, algorithms, mpi/openmp, fp lineage (haskell/clojure/raku)  
+→ the substrate
 
 ---
 
-engineering should feel like authorship, not assembly.  
-ai should amplify craft, not replace it.  
-systems should age like good protocols — stable, minimal, inevitable.
+engineering should feel like a proof sketch.  
+ai should behave like a well‑typed combinator.  
+systems should compose, reduce, and converge.
