@@ -71,7 +71,7 @@ this page is the long‑form changelog of that journey.
 
 ## ~2002 — architecture mode  
 - mvc (struts), pojo  
-- jboss + aop (aspectk)  
+- jboss + aop (aspectj)  
 - was/ias (early java app servers)  
 - limbo, inferno  
 - ruby/dcom 0.9  
