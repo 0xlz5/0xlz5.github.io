@@ -70,7 +70,7 @@ this page is the long‑form changelog of that journey.
 - structured fe/be apps
 
 ## ~2002 — architecture mode  
-- mvc (struts), pojo  
+- mvc (struts), pojo 
 - jboss + aop (aspectj)  
 - was/ias (early java app servers)  
 - limbo, inferno  
@@ -81,7 +81,8 @@ this page is the long‑form changelog of that journey.
 
 ## 2003 → now — the long run  
 - it/cs consulting (adv/innovation)  
-- web apps (simple → complex)  
+- web apps (simple → complex)
+- was/wps -  ad\am - systems/24x7 - jsr-*/jmx - xml
 - data analysis → big‑data analytics  
 - js mvc frameworks (custom), open‑source, tech writing  
 - tech blogging (r&d, industry)  
@@ -92,9 +93,9 @@ this page is the long‑form changelog of that journey.
 - the “polyglot systems engineer” phase
 
 ## 2016/17 → now — ai engineering  
-- ml/dl study since 2016/17  
-- waited for tooling to mature  
-- 2024: copilot, chatgpt/codex, gemini → the real shift  
+- ml/dl "curiosity" since 2016/17. eg. ml/lzw  
+- waited for its tooling to mature a "bit"  
+- 2024: copilot, chatgpt/codex, gemini, claude(code) → the real "shift"  
 - ai workflows, rag/llmops, augmented dev pipelines  
 - ai as co‑engineer, not shortcut
 
