@@ -48,18 +48,18 @@ this page is the long‑form changelog of that journey.
 - strong maths/physics, paused coding  
 - explored: latex, typography, fn(x) plotting, low‑level system curiosities
 - dsa, c/c++, x86 code analysis  
-- java + quakec  
+- java + quakec
+- mosaic → netscape → the frontier
 - the “buffering” years
 
 ## ~1999 — web 1.0 / the forge  
-- http, unix, w3c, gnu  
 - netscape ssjs, msql  
+- http, unix, w3c, gnu (gcc, gdb)  
+- dreamweaver/fireworks scripting (js)  
+- jdk 1.0/1.1, awt, gof patterns
 - perl + pcre + cpan (http, lwp, text analysis)  
 - php3/mysql, early html/css separation (when nobody cared)  
 - early i18n pipelines (perl → php → mysql)  
-- dreamweaver/fireworks scripting  
-- jdk 1.0/1.1, awt, gof patterns  
-- mosaic → netscape → the frontier
 
 ## ~2001 — distributed systems before the hype  
 - 24×7 shared‑nothing php/mysql  
