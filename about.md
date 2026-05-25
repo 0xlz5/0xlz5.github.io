@@ -5,7 +5,7 @@ description: "Sr. Developer · Frontend & System Design · Data/AI Engineering"
 ---
 
 # federico cagliero  
-### sr. dev · frontend arch · system design · data/ai · code archeology
+### sr. dev · frontend · system design · data/ai 
 
 torino, italy — fog, geometry, industrial ghosts.  
 contact: **federico.cagliero@gmail.com**  
