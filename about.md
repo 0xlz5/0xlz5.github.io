@@ -56,7 +56,7 @@ this page is the long‑form changelog of that journey.
 ## λ₂ ~1999 — the web as an impure function / the forge  
 - netscape ssjs, msql  
 - http, unix, w3c, gnu (gcc, gdb)  
-- dreamweaver/fireworks scripting (js)  
+- dreamweaver/fireworks scripting (js) → html/css  
 - jdk 1.0/1.1, awt, gof patterns  
 - perl + pcre + cpan (http, lwp, text analysis)  
 - php3/mysql, early html/css separation (when nobody cared)  
@@ -65,9 +65,9 @@ this page is the long‑form changelog of that journey.
 
 ## λ₃ ~2001 — distributed fp before we called it that  
 - 24×7 shared‑nothing php/mysql  
-- corba/iiop + rmi  
-- j2ee poc (fully working)  
-- early cdn‑like infra (proto‑redis)  
+- corba/iiop + rmi → xml-http (rpc)  
+- j2ee "poc" (fully working)  
+- early caching/cdn‑like infra (proto‑redis!?)  
 - fowler patterns, ioc, xml/xslt, cocoon  
 - structured fe/be apps  
 - distributed systems as message‑passing algebras
