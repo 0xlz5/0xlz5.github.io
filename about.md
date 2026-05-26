@@ -99,7 +99,7 @@ this page is the long‑form changelog of that journey.
 - ml/dl curiosity since 2016/17 (ml/lzw experiments, compression as intelligence)  
 - waited for tooling to mature a “bit”  
 - 2024: copilot, chatgpt/codex, gemini, claude(code) → the real shift  
-- ai workflows, rag/llmops, augmented dev pipelines  
+- ai workflows, rag/llm-ops, augmented dev pipelines  
 - ai as co‑engineer, not shortcut — a combinator applied to engineering
 
 ## λ₇ 2020 → now — the full‑stack fp‑minded systems hacker  
