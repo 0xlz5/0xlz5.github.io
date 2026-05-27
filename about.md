@@ -21,7 +21,7 @@ links:
 i grew up *using* machines — not metaphorically.  
 an **olivetti m‑24** acting as my first abstract machine, pascal compilers blinking like tiny continuations, mazes rendered in green phosphor as if they were evaluating themselves.  
 integrals plotted like alien topologies.  
-that’s where the pattern emerged: **code as geometry**, **systems as algebra**, **algorithms as narrative**.
+that’s where the pattern emerged: **code as narrative**, **systems as geometry**, **algorithms as algebra**.
 
 three decades later, the corridor is longer but the invariants remain.  
 i’ve moved from **dos 5.x** to **unix**, from **quake‑era c** to **react/ts**, from **perl+pcre** to **rag/llm pipelines**, from **shared‑nothing php** to **distributed dataflows** that behave like composable processes.
