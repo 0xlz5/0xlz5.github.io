@@ -7,13 +7,10 @@ last_modified_at: 2026-06-05
 
 # CV — Federico Cagliero
 
-full‑spectrum engineering across frontend, systems, data, ai — with a strong js/ts core,
-large‑scale data experience, and emerging ai‑augmented development workflows.
-
-📍 torino, italy
-📧 federico.cagliero@gmail.com
-🔗 https://www.linkedin.com/in/federico-cagliero-68b860a6/
-📝 https://0xblog.tumblr.com/
+📍 torino, italy  
+📧 federico.cagliero@gmail.com  
+🔗 https://www.linkedin.com/in/federico-cagliero-68b860a6/  
+📝 https://0xblog.tumblr.com/  
 
 ---
 
