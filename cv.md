@@ -31,7 +31,7 @@ i prefer architectures that stay composable, observable, small-language.
 - data & ai — vectors, eval, workflows  
 - r&d / prototyping — mapping, testing, iteration  
 
-full list → ./skills
+full list → [skills](./skills)
 
 ---
 
@@ -49,39 +49,41 @@ patterns, automation, internal docs.
 ### 2017–2018 · data engineering
 distributed pipelines, analytics, dataflows.
 
-### 2015–2017 · tech evaluation
+### 2015–2017 · tech evaluation (big-data)
 streaming engines, distributed compute.
 
-### 2014–2015 · cloud / infra
+### 2014–2015 · cloud / infra (**exposure** !)
 containers, micro-services, internal tooling.
 
 ### 2010–2012 · fe / r&d — sophia antipolis
-security, mv*, prototyping.
+js/oo, security, mv*, prototyping. agile/kanban.
 
 ### 2007–2010 · r&d — systems 24×7
 full-stack, internal frameworks, ha ops.
 
 ### 2005–2007 · architecture & systems
-enterprise web, early devops.
+enterprise web, early devops (to-be), was/wps, scripting/ha.
 
 ### 2004–2005 · teaching
-fp/oo (perl), j2ee/web.
+fp/oo (perl), j2ee/web. net/sys, http.
 
-### 2002–2004 · r&d + dev
-prototyping, hci, time-series.
+### 2002–2004 · r&d + dev - UX
+prototyping (py/C++), hci/UX, time-series / multvariate.
 
-### 1999–2002 · vitaminic
+### 1999–2002 · Vitaminic (now Buongiorno!)
 fe/ux, caching/cdn, early web arch.
 
 ---
 
 ## Education
 
-**Politecnico di Torino — B.Eng. Computer Engineering (incomplete)**  
+**Politecnico di Torino — B.Eng. Tlx / Org (incomplete)**  
 dropped out due to work duties.
 
 focus areas:  
-math & calculus · discrete math · dsa · algorithms · se foundations · db design · uml · patterns · clean-code principles · networks ·  
+math & calculus · discrete math · dsa · algorithms · se foundations · db design · uml · patterns · clean-code principles · networks  
+
+added value:  
 systems & low-level (c/c++, stl, x86, lz*) ·  
 web & distributed (j2ee, http internals) ·  
 engines & graphics (quake engine, rendering) ·  
@@ -91,7 +93,7 @@ data & modeling (multivariate, time-series)
 
 ## Certifications
 
-freecodecamp — js algorithms & data structures
+freeCodeCamp — JS Algorithms & Data Structures (v7)
 
 ---
 
