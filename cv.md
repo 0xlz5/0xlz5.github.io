@@ -44,7 +44,7 @@ llm/rag flows, vector patterns, eval workflows; ml/dl. figma, "gpt/codex", claud
 architecture, design-system flows, ux→fe→api bridges. 🎛️
 
 ### 2019–2022 · tech writing / fp-scripting  
-py3/go — patterns, automation, community docs (alpha). 📝
+py3/go — patterns, actual "code", community docs (alpha). 📝
 
 ### 2017–2018 · data engineering  
 big-data; dist pipelines, analytics, dataflows. data-ops arch + code. 📊
