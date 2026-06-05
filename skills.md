@@ -3,62 +3,76 @@ title: Skills & Stack
 layout: page
 ---
 
-## Profile
-
-### Federico Cagliero
-**Frontend Expert · System Design · Data & AI**
-
-📍 Torino, Italy  
-📧 federico.cagliero@gmail.com  
-🔗 [Linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)  
-📝 [Blog — 0xblog](https://0xblog.tumblr.com/)
-
-**Languages:** 🇮🇹 Italian · 🇬🇧 English · 🇫🇷 French
-
----
-
-## Focus
-
-### JavaScript • Data Engineering • AI
-
-A modern / up‑to‑date engineering profile centered on high‑impact JS/TS ecosystems,  
-large‑scale data processing, and emerging AI‑driven development workflows.
-
----
-
 # Skills & Stack
 
-UI/UX, dev tools, languages, systems, big data — a full‑spectrum engineering profile.
+full‑spectrum engineering across **frontend, systems, data, ai** — with a strong js/ts core,  
+large‑scale data experience, and emerging ai‑augmented development workflows.
+
+📍 torino, italy  
+📧 federico.cagliero@gmail.com  
+🔗 https://www.linkedin.com/in/federico-cagliero-68b860a6/  
+📝 https://0xblog.tumblr.com/
+
+**languages:** 🇮🇹 italian · 🇬🇧 english · 🇫🇷 french
 
 ---
 
-## UI / UX
-- HTML5, CSS3
-- Figma
-- React, Vue, Angular, Backbone / Underscore
-- HTTP, XHR, JSON
+## Profile ✦
 
-## Dev Tools & AI
-- IntelliJ, vi, VS Code
-- Git
-- Agile, Lean
-- Markdown, technical blogging
-- ChatGPT / Codex, Copilot, Claude (code)
-- Visio, UML
+**federico cagliero**  
+frontend expert · system design · data & ai
 
-## Languages
-- JavaScript, C++, Python, SQL
-- Perl, Java / Scala, PHP, Go
-- Clojure, Rust, Elm
+i work on ui/ux flows, dev‑tools, distributed systems, data pipelines, and ai‑driven coding.  
+i prefer architectures that stay **composable**, **observable**, **small‑language**.
 
-## Systems & Ops
-- Docker, Ansible, Kubernetes
-- Linux (incl. Arch)
-- macOS (Darwin/FreeBSD), Windows 10+
-- secOps, OWASP, Unix/Linux network tools
+---
 
-## Big Data
-- Apache Spark, Flink, Kafka, Storm
-- Hadoop, Hudi
-- AWS S3, Lambda
-- Azure, GCP
+## Focus 🎯
+
+**javascript / typescript · data engineering · ai workflows**
+
+modern engineering profile centered on:  
+- high‑impact js/ts ecosystems  
+- large‑scale data processing  
+- llm/rag workflows + ai‑augmented development
+
+---
+
+## Domains 🧩
+
+### ui / ux 🎨
+- html/css fundamentals  
+- figma + design‑system thinking  
+- react · vue · angular · backbone  
+- http/xhr/json · client‑side patterns  
+
+### dev tools & ai 🛠️🤖
+- intellij · vi · vs code  
+- git · agile/lean  
+- markdown · technical writing  
+- chatgpt/codex · copilot · claude (code)  
+- uml · visio  
+
+### languages 💻
+- javascript · python · sql · c++  
+- perl · java/scala · php · go  
+- clojure · rust · elm  
+
+### systems & ops ⚙️
+- docker · ansible · kubernetes  
+- linux (incl. arch) · macos (darwin/freebsd) · windows  
+- secops · owasp · unix/linux networking  
+
+### big data 📊
+- spark · flink · kafka · storm  
+- hadoop · hudi  
+- aws s3 · lambda  
+- azure · gcp  
+
+---
+
+## Navigation 🔗
+
+- [cv](./cv)  
+- [projects](ca://s?q=show_my_projects)  
+- [contact](ca://s?q=contact_information)  
