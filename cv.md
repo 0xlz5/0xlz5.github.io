@@ -2,7 +2,7 @@
 layout: page
 title: "CV"
 description: "Federico Cagliero — Frontend, Systems, Data/AI"
-last_modified_at: 2026-05-19
+last_modified_at: 2026-06-05
 ---
 
 # CV — Federico Cagliero
@@ -10,26 +10,26 @@ last_modified_at: 2026-05-19
 frontend · systems · data/ai  
 📍 torino
 
-✉️ federico.cagliero@gmail.com  
-🔗 https://www.linkedin.com/in/federico-cagliero-68b860a6  
-📝 https://0xblog.tumblr.com/
+✉️ [e-mail](federico.cagliero@gmail.com)  
+🔗 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6)  
+📝 [0xblog](https://0xblog.tumblr.com/)  
 
 ---
 
 ## About
 
-engineer across frontend, systems, ai — focusing on flow, structure, clarity.  
-designing ui/data/ai paths, building internal tools, mapping trade-offs, simplifying systems.  
+sr. dev + "engineer" across frontend, systems, ai — focusing on flow, structure, design/clarity.  
+designing ui/data/ai paths, contributing to frameworks, crafting internal tools, mapping trade-offs, simplifying systems.  
 i prefer architectures that stay composable, observable, small-language.
 
 ---
 
-## Skills (Categories Only)
+## Skills / D omains
 
-- frontend architecture — flows, state, design  
-- systems & tooling — pipelines, automation, ops  
-- data & ai — vectors, eval, workflows  
-- r&d / prototyping — mapping, testing, iteration  
+- frontend architecture — flows, state, design / UX  
+- systems & tooling — pipelines, automation, ops, scriptng  
+- data & ai — vectors, eval, workflows, math/stats  
+- r&d / prototyping — mapping, testing, iteration, design/methodology  
 
 full list → [skills](./skills)
 
@@ -38,16 +38,16 @@ full list → [skills](./skills)
 ## Experience
 
 ### 2024–now · ai exploration / study
-llm flows, vector patterns, eval workflows.
+llm/rag flows, vector patterns, eval workflows; ml/dl. focus on figma, "gpt/codex", claude "skills".
 
-### 2020–now · frontend / web
+### 2020–now · frontend / web (+personal prjs)
 architecture, design-system flows, ux→fe→api bridges.
 
 ### 2019–2022 · tech writing / fp-scripting
-patterns, automation, internal docs.
+py3/go - patterns, automation, community docs "alphs" stage.
 
 ### 2017–2018 · data engineering
-distributed pipelines, analytics, dataflows.
+big-data; dist pipelines, analytics, dataflows. data-ops arch. code.
 
 ### 2015–2017 · tech evaluation (big-data)
 streaming engines, distributed compute.
@@ -56,22 +56,22 @@ streaming engines, distributed compute.
 containers, micro-services, internal tooling.
 
 ### 2010–2012 · fe / r&d — sophia antipolis
-js/oo, security, mv*, prototyping. agile/kanban.
+js/oo, security, mv* / patterns, tools / prototyping. agile/kanban.
 
 ### 2007–2010 · r&d — systems 24×7
 full-stack, internal frameworks, ha ops.
 
-### 2005–2007 · architecture & systems
+### 2005–2007 · architecture & systems (+ 24x7)
 enterprise web, early devops (to-be), was/wps, scripting/ha.
 
-### 2004–2005 · teaching
+### 2004–2005 · "CS" teaching / mentoring
 fp/oo (perl), j2ee/web. net/sys, http.
 
-### 2002–2004 · r&d + dev - UX
+### 2002–2004 · dev - UX + r&d
 prototyping (py/C++), hci/UX, time-series / multvariate.
 
-### 1999–2002 · Vitaminic (now Buongiorno!)
-fe/ux, caching/cdn, early web arch.
+### 1999–2002 · Vitaminic ("up-to-IPO", and more ..)
+fe/ux, code/scrpting, caching/cdn, early web arch. api / r&d - j2ee/patterns. xml/Xslt.
 
 ---
 
@@ -82,8 +82,6 @@ dropped out due to work duties.
 
 focus areas:  
 math & calculus · discrete math · dsa · algorithms · se foundations · db design · uml · patterns · clean-code principles · networks  
-
-added value:  
 systems & low-level (c/c++, stl, x86, lz*) ·  
 web & distributed (j2ee, http internals) ·  
 engines & graphics (quake engine, rendering) ·  
