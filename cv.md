@@ -16,26 +16,24 @@ frontend · systems · data/ai
 
 ---
 
-## About ✦
-
-sr. dev + engineer across **frontend, systems, ai** — working on flow, structure, clarity.  
+## [about ✦](ca://s?q=about_section)
+sr. dev + engineer across frontend, systems, ai — working on flow, structure, clarity.  
 designing ui/data/ai paths, contributing to frameworks, crafting internal tools, mapping trade-offs, simplifying systems.  
-i prefer architectures that stay **composable**, **observable**, **small-language**.
+i prefer architectures that stay composposable, observable, small-language.
 
 ---
 
-## Skills (+Domains) 🧩
-
-- **frontend architecture** — flows, state, design / ux 🎨  
-- **systems & tooling** — pipelines, automation, ops, scripting 🛠️  
-- **data & ai** — vectors, eval, workflows, math/stats 🤖  
-- **r&d / prototyping** — mapping, testing, iteration, methodology 🔬  
+## [skills (+domains) 🧩](ca://s?q=skills_domains)
+- frontend architecture — flows, state, design / ux 🎨  
+- systems & tooling — pipelines, automation, ops, scripting 🛠️  
+- data & ai — vectors, eval, workflows, math/stats 🤖  
+- r&d / prototyping — mapping, testing, iteration, methodology 🔬  
 
 full list → [skills](./skills)
 
 ---
 
-## Experience 📘
+## [experience 📘](ca://s?q=experience_section)
 
 ### 2024–now · ai exploration / study  
 llm/rag flows, vector patterns, eval workflows; ml/dl. figma, "gpt/codex", claude "skills". ✨
@@ -44,7 +42,7 @@ llm/rag flows, vector patterns, eval workflows; ml/dl. figma, "gpt/codex", claud
 architecture, design-system flows, ux→fe→api bridges. 🎛️
 
 ### 2019–2022 · tech writing / fp-scripting  
-py3/go — patterns, actual "code", community docs (alpha). 📝
+py3/go — patterns, actual code, community docs (alpha). 📝
 
 ### 2017–2018 · data engineering  
 big-data; dist pipelines, analytics, dataflows. data-ops arch + code. 📊
@@ -70,14 +68,14 @@ fp/oo (perl), j2ee/web. net/sys, http. 📚
 ### 2002–2004 · dev — ux + r&d  
 prototyping (py/c++), hci/ux, time-series / multivariate. 🎛️
 
-### 1999–2002 · vitaminic
+### 1999–2002 · vitaminic  
 fe/ux, scripting, caching/cdn, early web arch. api / r&d — j2ee/patterns. xml/xslt. 🎵
 
 ---
 
-## Education 🎓
+## [education 🎓](ca://s?q=education_section)
 
-**Politecnico di Torino — B.Eng. Tlx / Org (incomplete)**  
+**politecnico di torino — b.eng. tlx / org (incomplete)**  
 dropped out due to work duties.
 
 focus areas:  
@@ -89,12 +87,10 @@ data & modeling (multivariate, time-series)
 
 ---
 
-## Certifications 📄
-
-freeCodeCamp — JS Algorithms & Data Structures (v7)
+## [certifications 📄](ca://s?q=certifications_section)
+freecodecamp — js algorithms & data structures (v7)
 
 ---
 
-## Languages 🌍
-
+## [languages 🌍](ca://s?q=languages_section)
 🇮🇹 italian • 🇫🇷 french • 🇬🇧 english
