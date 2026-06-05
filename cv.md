@@ -70,7 +70,7 @@ fp/oo (perl), j2ee/web. net/sys, http. 📚
 ### 2002–2004 · dev — ux + r&d  
 prototyping (py/c++), hci/ux, time-series / multivariate. 🎛️
 
-### 1999–2002 · vitaminic ("up-to-ipo", and more)  
+### 1999–2002 · vitaminic
 fe/ux, scripting, caching/cdn, early web arch. api / r&d — j2ee/patterns. xml/xslt. 🎵
 
 ---
