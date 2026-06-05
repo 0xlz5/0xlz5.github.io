@@ -10,7 +10,7 @@ large‑scale data experience, and emerging ai‑augmented development workflows
 
 📍 torino, italy  
 📧 federico.cagliero@gmail.com  
-🔗 [lnkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)  
+🔗 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)  
 📝 [0xblog](https://0xblog.tumblr.com/)  
 
 **languages:** 🇮🇹 italian · 🇬🇧 english · 🇫🇷 french
