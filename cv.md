@@ -7,6 +7,8 @@ last_modified_at: 2026-06-05
 
 # CV — Federico Cagliero
 
+**frontend expert · system design · data & ai**
+
 📍 torino, italy  
 📧 federico.cagliero@gmail.com  
 🔗 https://www.linkedin.com/in/federico-cagliero-68b860a6/  
