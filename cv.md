@@ -2,32 +2,29 @@
 layout: page
 title: "CV"
 description: "Federico Cagliero — Frontend, Systems, Data/AI"
-last_modified_at: 2026-06-05
 ---
 
 # CV — Federico Cagliero
 
-frontend · systems · data/ai  
-📍 torino
+full‑spectrum engineering across **frontend, systems, data, ai** — with a strong js/ts core,  
+large‑scale data experience, and emerging ai‑augmented development workflows.
 
-✉️ [e-mail](mailto:federico.cagliero@gmail.com)  
-🔗 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6)  
-📝 [0xblog](https://0xblog.tumblr.com/)
+📍 torino, italy  
+📧 federico.cagliero@gmail.com  
+🔗 https://www.linkedin.com/in/federico-cagliero-68b860a6/  
+📝 https://0xblog.tumblr.com/
 
----
-
-## [about ✦](ca://s?q=about_section)
-sr. dev + engineer across frontend, systems, ai — working on flow, structure, clarity.  
-designing ui/data/ai paths, contributing to frameworks, crafting internal tools, mapping trade-offs, simplifying systems.  
-i prefer architectures that stay composposable, observable, small-language.
+**languages:** 🇮🇹 italian · 🇬🇧 english · 🇫🇷 french
 
 ---
 
-## [skills (+domains) 🧩](ca://s?q=skills_domains)
-- frontend architecture — flows, state, design / ux 🎨  
-- systems & tooling — pipelines, automation, ops, scripting 🛠️  
-- data & ai — vectors, eval, workflows, math/stats 🤖  
-- r&d / prototyping — mapping, testing, iteration, methodology 🔬  
+## Profile ✦
+
+**federico cagliero**  
+frontend expert · system design · data & ai
+
+i work on ui/ux flows, dev‑tools, distributed systems, data pipelines, and ai‑driven coding.  
+i prefer architectures that stay **composable**, **observable**, **small‑language**.
 
 full list → [skills](./skills)
 
@@ -85,12 +82,3 @@ web & distributed (j2ee, http internals)
 engines & graphics (quake engine, rendering)  
 data & modeling (multivariate, time-series)
 
----
-
-## [certifications 📄](ca://s?q=certifications_section)
-freecodecamp — js algorithms & data structures (v7)
-
----
-
-## [languages 🌍](ca://s?q=languages_section)
-🇮🇹 italian • 🇫🇷 french • 🇬🇧 english
