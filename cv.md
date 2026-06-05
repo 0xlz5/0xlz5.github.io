@@ -10,91 +10,91 @@ last_modified_at: 2026-06-05
 frontend · systems · data/ai  
 📍 torino
 
-✉️ [e-mail](federico.cagliero@gmail.com)  
+✉️ [e-mail](mailto:federico.cagliero@gmail.com)  
 🔗 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6)  
-📝 [0xblog](https://0xblog.tumblr.com/)  
+📝 [0xblog](https://0xblog.tumblr.com/)
 
 ---
 
-## About
+## About ✦
 
 sr. dev + "engineer" across frontend, systems, ai — focusing on flow, structure, design/clarity.  
 designing ui/data/ai paths, contributing to frameworks, crafting internal tools, mapping trade-offs, simplifying systems.  
-i prefer architectures that stay composable, observable, small-language.
+i prefer architectures that stay composposable, observable, small-language.
 
 ---
 
-## Skills / D omains
+## Skills (+Domains) 🧩
 
-- frontend architecture — flows, state, design / UX  
-- systems & tooling — pipelines, automation, ops, scriptng  
-- data & ai — vectors, eval, workflows, math/stats  
-- r&d / prototyping — mapping, testing, iteration, design/methodology  
+- frontend architecture — flows, state, design / ux 🎨  
+- systems & tooling — pipelines, automation, ops, scripting 🛠️  
+- data & ai — vectors, eval, workflows, math/stats 🤖  
+- r&d / prototyping — mapping, testing, iteration, design/methodology 🔬  
 
 full list → [skills](./skills)
 
 ---
 
-## Experience
+## Experience 📘
 
-### 2024–now · ai exploration / study
-llm/rag flows, vector patterns, eval workflows; ml/dl. focus on figma, "gpt/codex", claude "skills".
+### 2024–now · ai exploration / study  
+llm/rag flows, vector patterns, eval workflows; ml/dl. focus on figma, "gpt/codex", claude "skills". ✨
 
-### 2020–now · frontend / web (+personal prjs)
-architecture, design-system flows, ux→fe→api bridges.
+### 2020–now · frontend / web (+personal prjs)  
+architecture, design-system flows, ux→fe→api bridges. 🎛️
 
-### 2019–2022 · tech writing / fp-scripting
-py3/go - patterns, automation, community docs "alphs" stage.
+### 2019–2022 · tech writing / fp-scripting  
+py3/go — patterns, automation, community docs (alpha stage). 📝
 
-### 2017–2018 · data engineering
-big-data; dist pipelines, analytics, dataflows. data-ops arch. code.
+### 2017–2018 · data engineering  
+big-data; dist pipelines, analytics, dataflows. data-ops arch + code. 📊
 
-### 2015–2017 · tech evaluation (big-data)
-streaming engines, distributed compute.
+### 2015–2017 · tech evaluation (big-data)  
+streaming engines, distributed compute. ⚙️
 
-### 2014–2015 · cloud / infra (**exposure** !)
-containers, micro-services, internal tooling.
+### 2014–2015 · cloud / infra (exposure)  
+containers, micro-services, internal tooling. ☁️
 
-### 2010–2012 · fe / r&d — sophia antipolis
-js/oo, security, mv* / patterns, tools / prototyping. agile/kanban.
+### 2010–2012 · fe / r&d — sophia antipolis  
+js/oo, security, mv* / patterns, tools / prototyping. agile/kanban. 🧪
 
-### 2007–2010 · r&d — systems 24×7
-full-stack, internal frameworks, ha ops.
+### 2007–2010 · r&d — systems 24×7  
+full-stack, internal frameworks, ha ops. 🏗️
 
-### 2005–2007 · architecture & systems (+ 24x7)
-enterprise web, early devops (to-be), was/wps, scripting/ha.
+### 2005–2007 · architecture & systems (+24×7)  
+enterprise web, early devops (to-be), was/wps, scripting/ha. 🧬
 
-### 2004–2005 · "CS" teaching / mentoring
-fp/oo (perl), j2ee/web. net/sys, http.
+### 2004–2005 · "cs" teaching / mentoring  
+fp/oo (perl), j2ee/web. net/sys, http. 📚
 
-### 2002–2004 · dev - UX + r&d
-prototyping (py/C++), hci/UX, time-series / multvariate.
+### 2002–2004 · dev — ux + r&d  
+prototyping (py/c++), hci/ux, time-series / multivariate. 🎛️
 
-### 1999–2002 · Vitaminic ("up-to-IPO", and more ..)
-fe/ux, code/scrpting, caching/cdn, early web arch. api / r&d - j2ee/patterns. xml/Xslt.
+### 1999–2002 · vitaminic ("up-to-ipo", and more)  
+fe/ux, code/scripting, caching/cdn, early web arch. api / r&d — j2ee/patterns. xml/xslt. 🎵
 
 ---
 
-## Education
+## Education 🎓
 
 **Politecnico di Torino — B.Eng. Tlx / Org (incomplete)**  
 dropped out due to work duties.
 
 focus areas:  
 math & calculus · discrete math · dsa · algorithms · se foundations · db design · uml · patterns · clean-code principles · networks  
-systems & low-level (c/c++, stl, x86, lz*) ·  
-web & distributed (j2ee, http internals) ·  
-engines & graphics (quake engine, rendering) ·  
+systems & low-level (c/c++, stl, x86, lz*)  
+web & distributed (j2ee, http internals)  
+engines & graphics (quake engine, rendering)  
 data & modeling (multivariate, time-series)
 
 ---
 
-## Certifications
+## Certifications 📄
 
 freeCodeCamp — JS Algorithms & Data Structures (v7)
 
 ---
 
-## Languages
+## Languages 🌍
 
 🇮🇹 italian • 🇫🇷 french • 🇬🇧 english
