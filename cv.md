@@ -75,7 +75,7 @@ fe/ux, scripting, caching/cdn, early web arch. api / r&d — j2ee/patterns. xml/
 
 ## [education 🎓](ca://s?q=education_section)
 
-**politecnico di torino — b.eng. tlx / org (incomplete)**  
+**politecnico di torino — b.eng. cs / tlx (incomplete)**  
 dropped out due to work duties.
 
 focus areas:  
