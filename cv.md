@@ -28,7 +28,9 @@ frontend dev · systems dev · data engineer · ai exploration · r&d
 ---
 
 ## Fav. Languages / Systems ⚡
-js/ts · py3 · php/C · java · clj · Go · perl
+js/ts · Sql  
+py3 · php/C · java · clj · Go  
+perl · Linux  · rust  
 
 🧩 [skills](./skills)
 
