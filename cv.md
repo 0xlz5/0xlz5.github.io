@@ -11,7 +11,7 @@ last_modified_at: 2026-06-05
 
 📍 torino, italy  
 📧 federico.cagliero@gmail.com  
-🔗 [lnkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)  
+🔗 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)  
 📝 [0xblog](https://0xblog.tumblr.com/)  
 
 ---
