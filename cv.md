@@ -42,8 +42,8 @@ ui/ux flows · system design · data pipelines · llm/rag · tooling · patterns
 ## Experience — Compendium 📘
 frontend architecture: design‑systems, ux→fe→api flows.  
 tech writing: patterns, automation, community docs.  
-ai exploration: llm/rag flows, eval workflows, vector patterns.  
 
+ai exploration: llm/rag flows, eval workflows, vector patterns.  
 big‑data engineering: pipelines, streaming engines, dist-compute.  
 sophia antipolis r&d: js/oo, security, mv*, prototyping (agile-kanban).  
 
