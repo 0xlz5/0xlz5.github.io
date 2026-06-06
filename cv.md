@@ -44,8 +44,8 @@ frontend architecture: design‑systems, ux→fe→api flows.
 tech writing: patterns, automation, community docs.  
 ai exploration: llm/rag flows, eval workflows, vector patterns.  
 
-sophia antipolis r&d: js/oo, security, mv*, prototyping.  
-big‑data engineering: pipelines, streaming engines, distributed compute.  
+big‑data engineering: pipelines, streaming engines, dist-compute.  
+sophia antipolis r&d: js/oo, security, mv*, prototyping (agile-kanban).  
 
 ---
 
