@@ -40,14 +40,16 @@ ui/ux flows · system design · data pipelines · llm/rag · tooling · patterns
 ---
 
 ## Experience — Compendium 📘
-sophia antipolis r&d: js/oo, security, mv*, prototyping.  
-big‑data engineering: pipelines, streaming engines, distributed compute.  
-systems/devops: 24×7 ops, internal frameworks, automation.  
 frontend architecture: design‑systems, ux→fe→api flows.  
-data engineering: analytics, dist pipelines, time‑series.  
-cloud/infra exposure: containers, micro‑services, tooling.  
 tech writing: patterns, automation, community docs.  
-ai exploration: llm/rag flows, eval workflows, vector patterns.
+ai exploration: llm/rag flows, eval workflows, vector patterns.  
+
+cloud/infra exposure: containers, micro‑services, tooling.  
+big‑data engineering: pipelines, streaming engines, distributed compute.  
+sophia antipolis r&d: js/oo, security, mv*, prototyping.  
+systems/devops: 24×7 ops, internal frameworks, automation.  
+data engineering: analytics, dist pipelines, time‑series.  
+web 1.0: 24x7 dev, fe/be, cdn/caching, scripting, multi-modal apps.
 
 ---
 
