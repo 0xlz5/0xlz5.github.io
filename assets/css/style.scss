@@ -43,4 +43,23 @@ h1, h2, h3, h4 {
 
 code, pre {
   background: #000000;
-  color
+  color: #00ff66;
+  border: 1px solid #003300;
+  padding: 10px;
+  font-family: "Fira Mono", monospace;
+  text-shadow: 0 0 3px #00ff66;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+/* CRT scanline optional class */
+.crt {
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 255, 100, 0.03),
+    rgba(0, 255, 100, 0.03) 2px,
+    rgba(0, 0, 0, 0.05) 3px
+  );
+}
