@@ -5,24 +5,37 @@
 
 /* === HIGH-ORDER / ASIMOVIAN TECH BLOG THEME === */
 
-/* BODY — Literata, clean, book-like */
+/* GLOBAL FONT STACK */
 body {
   background: #ffffff;
   color: #111111;
-  font-family: "Literata", serif;
+  font-family: "Iosevka Charon", "Literata", serif;
   line-height: 1.75;
   max-width: 900px;
   margin: auto;
-  padding: 60px 20px;
+  padding: 80px 20px 60px 20px;
+  position: relative;
 }
 
-/* HEADINGS — Orbitron (Asimovian, sci-tech) */
+/* TOP-LEFT AVATAR */
+.avatar-top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* HEADINGS — Orbitron, 0.8em, Asimovian */
 h1, h2, h3, h4 {
-  font-family: "Orbitron", "JetBrains Mono", monospace;
+  font-family: "Orbitron", monospace;
+  font-size: 0.8em;
   color: #000000;
   margin-top: 48px;
   margin-bottom: 14px;
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -60,6 +73,7 @@ pre {
   padding: 20px 0;
 }
 
+/* SITE TITLE — Orbitron */
 .site-title, .site-title a {
   color: #000000 !important;
   font-family: "Orbitron", monospace;
