@@ -5,3 +5,5 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-last-modified-at
+
