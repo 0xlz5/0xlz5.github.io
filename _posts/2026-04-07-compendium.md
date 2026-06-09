@@ -3,12 +3,14 @@ layout: default
 title: "engineering saga — ascii edition"  
 ---  
 
+```text
    ___      _                 _              _                 
   / _ \__ _| |_ ___ _ __   __| | ___ _ __   | | ___   __ _     
  / /_)/ _` | __/ _ \ '_ \ / _` |/ _ \ '_ \  | |/ _ \ / _` |    
 / ___/ (_| | ||  __/ | | | (_| |  __/ | | | | | (_) | (_| |    
 \/    \__,_|\__\___|_| |_|\__,_|\___|_| |_| |_|\___/ \__, |    
                                                      |___/     
+```
 
 # a short compendium — engineering saga (ascii mode)  
 
@@ -35,9 +37,11 @@ The era of 56k modems, hand‑optimized GIFs, table‑based layouts. Perl as a w
 
 ## chapter 3 — dungeon of algorithms & mazes 🧭  
 [MAZE] generating...  
+```text
 ██████████████████████████  
 █   █     █ █   █ █     █  
 █ █ █ ███ █ █ ███ █ ███ █  
+```
 
 Pac‑Man logic, BFS/DFS, random walkers, backtracking. Every algorithm is a small universe.  
 
