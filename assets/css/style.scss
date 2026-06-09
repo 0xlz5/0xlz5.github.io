@@ -118,24 +118,23 @@ hr {
   width: 100%;
 }
 
-/* === PALETTE SHECODES #9 — TITLES + LINKS === */
+/* === GLOBAL ACCENT PALETTE (SheCodes #9) === */
 :root {
   --accent-red:   #E63946;
+  --accent-ice:   #F1FAEE;
+  --accent-soft:  #A8DADC;
   --accent-blue:  #457B9D;
   --accent-dark:  #1D3557;
-  --accent-soft:  #A8DADC;
-  --accent-ice:   #F1FAEE;
 }
 
-/* HEADINGS — Orbitron + accent red */
+/* === HEADINGS (Orbitron) === */
 h1, h2, h3, h4 {
   color: var(--accent-red);
 }
 
-/* LINKS — accent blue, hover invertito */
+/* === LINKS === */
 a {
   color: var(--accent-blue);
-  background: transparent;
   border-bottom: 1px solid var(--accent-blue);
   transition: 0.2s ease;
 }
@@ -145,5 +144,72 @@ a:hover {
   background: var(--accent-blue);
   border-bottom: 1px solid var(--accent-blue);
   padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* === HORIZONTAL RULES === */
+hr {
+  border-top: 1px solid var(--accent-soft);
+}
+
+/* === BLOCKQUOTES === */
+blockquote {
+  border-left: 4px solid var(--accent-blue);
+  padding-left: 16px;
+  color: var(--accent-dark);
+  background: var(--accent-ice);
+}
+
+/* === CODE BLOCKS (Highlight.js + Arduino Light) === */
+.hljs {
+  border: 1px solid var(--accent-soft);
+  border-radius: 4px;
+}
+
+/* line numbers */
+.hljs-ln-numbers {
+  color: var(--accent-dark);
+  border-right: 1px solid var(--accent-soft);
+}
+
+/* === INLINE CODE === */
+code {
+  background: var(--accent-ice);
+  color: var(--accent-dark);
+  border: 1px solid var(--accent-soft);
+}
+
+/* === STRONG / EMPHASIS === */
+strong {
+  color: var(--accent-red);
+}
+
+em {
+  color: var(--accent-blue);
+}
+
+/* === HEADER TITLE === */
+.site-title, .site-title a {
+  color: var(--accent-dark) !important;
+}
+
+/* === FOOTER LINE + TEXT === */
+.site-footer {
+  color: var(--accent-dark);
+}
+
+.site-footer .footer-line {
+  width: 30%;
+  border-top: 1px solid var(--accent-soft);
+}
+
+/* === PAGINATION (if used) === */
+.pagination a {
+  color: var(--accent-blue);
+}
+
+.pagination a:hover {
+  background: var(--accent-blue);
+  color: var(--accent-ice);
   border-radius: 3px;
 }
