@@ -21,10 +21,13 @@ layout: nil
 </head>
 
 <body>
-  {% include header.html %}
-  <main class="page-content">
-    {{ content }}
-  </main>
-  {% include footer.html %}
+  <div class="site-wrapper">
+    {% include header.html %}
+    <main class="page-content">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
 </body>
+
 </html>
