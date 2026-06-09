@@ -3,63 +3,60 @@
 
 @import "{{ site.theme }}";
 
-/* === RETRO ASCII TERMINAL THEME === */
+/* === MODERN TECH MONOSPACE THEME === */
 
 body {
-  background: #0d0d0d;
-  color: #d0ffd0;
-  font-family: "Fira Mono", "JetBrains Mono", monospace;
-  line-height: 1.55;
+  background: #0f1117;
+  color: #e6e6e6;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
 }
 
 a {
-  color: #00ff66;
+  color: #4cc2ff;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s ease;
 }
 
 a:hover {
-  color: #66ff99;
-  text-shadow: 0 0 5px #00ff66;
-}
-
-.site-header, .site-footer {
-  background: #000000;
-  border: none;
-  color: #00ff66;
-}
-
-.site-title, .site-title a {
-  color: #00ff66 !important;
-  font-family: "Fira Mono", monospace;
-  text-shadow: 0 0 5px #00ff66;
+  border-bottom: 1px solid #4cc2ff;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Fira Mono", monospace;
-  color: #00ff66;
-  border-bottom: 1px solid #003300;
-  padding-bottom: 4px;
+  font-family: "JetBrains Mono", monospace;
+  color: #4cc2ff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  letter-spacing: -0.5px;
 }
 
-code, pre {
-  background: #000000;
-  color: #00ff66;
-  border: 1px solid #003300;
-  padding: 10px;
-  font-family: "Fira Mono", monospace;
-  text-shadow: 0 0 3px #00ff66;
+pre, code {
+  background: #1a1d25;
+  color: #4cc2ff;
+  border: 1px solid #2a2d35;
+  padding: 12px;
+  border-radius: 6px;
+  font-family: "JetBrains Mono", monospace;
 }
 
-pre {
-  overflow-x: auto;
+.site-header, .site-footer {
+  background: #0f1117;
+  border: none;
+  padding: 20px 0;
 }
 
-/* CRT scanline optional class */
-.crt {
-  background: repeating-linear-gradient(
-    to bottom,
-    rgba(0, 255, 100, 0.03),
-    rgba(0, 255, 100, 0.03) 2px,
-    rgba(0, 0, 0, 0.05) 3px
-  );
+.site-title, .site-title a {
+  color: #4cc2ff !important;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.4rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #2a2d35;
+  margin: 40px 0;
 }
