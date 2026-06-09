@@ -117,3 +117,33 @@ hr {
 .page-content {
   width: 100%;
 }
+
+/* === PALETTE SHECODES #9 — TITLES + LINKS === */
+:root {
+  --accent-red:   #E63946;
+  --accent-blue:  #457B9D;
+  --accent-dark:  #1D3557;
+  --accent-soft:  #A8DADC;
+  --accent-ice:   #F1FAEE;
+}
+
+/* HEADINGS — Orbitron + accent red */
+h1, h2, h3, h4 {
+  color: var(--accent-red);
+}
+
+/* LINKS — accent blue, hover invertito */
+a {
+  color: var(--accent-blue);
+  background: transparent;
+  border-bottom: 1px solid var(--accent-blue);
+  transition: 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-ice);
+  background: var(--accent-blue);
+  border-bottom: 1px solid var(--accent-blue);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
