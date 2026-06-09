@@ -203,3 +203,41 @@ pre:not(.hljs) {
   font-family: "Iosevka Charon", monospace;
   line-height: 1.4;
 }
+
+/* === FOOTER DIVIDER (30%) === */
+.footer-divider {
+  width: 30%;
+  border-top: 1px solid var(--navy-cobalt);
+  margin: 60px 0 20px auto; /* pushes it to the right */
+}
+
+/* === FOOTER LINKS (right aligned) === */
+.footer-links {
+  text-align: right;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  color: var(--navy-deep);
+}
+
+/* links */
+.footer-links a {
+  color: var(--blue-cyan);
+  border-bottom: 1px solid var(--blue-cyan);
+  transition: 0.2s ease;
+  padding: 0 2px;
+}
+
+/* hover invertito */
+.footer-links a:hover {
+  color: var(--ice-white);
+  background: var(--blue-cyan);
+  border-bottom: 1px solid var(--blue-cyan);
+  border-radius: 3px;
+}
+
+/* dot separator */
+.footer-links .dot {
+  margin: 0 6px;
+  color: var(--navy-deep);
+}
+
