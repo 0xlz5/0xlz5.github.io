@@ -3,12 +3,12 @@ layout: default
 title: "engineering saga — ascii edition"  
 ---  
 
-   ___      _                 _              _               
-  / _ \__ _| |_ ___ _ __   __| | ___ _ __   | | ___   __ _   
- / /_)/ _` | __/ _ \ '_ \ / _` |/ _ \ '_ \  | |/ _ \ / _` |  
-/ ___/ (_| | ||  __/ | | | (_| |  __/ | | | | | (_) | (_| |  
-\/    \__,_|\__\___|_| |_|\__,_|\___|_| |_| |_|\___/ \__, |  
-                                                     |___/   
+   ___      _                 _              _                 
+  / _ \__ _| |_ ___ _ __   __| | ___ _ __   | | ___   __ _     
+ / /_)/ _` | __/ _ \ '_ \ / _` |/ _ \ '_ \  | |/ _ \ / _` |    
+/ ___/ (_| | ||  __/ | | | (_| |  __/ | | | | | (_) | (_| |    
+\/    \__,_|\__\___|_| |_|\__,_|\___|_| |_| |_|\___/ \__, |    
+                                                     |___/     
 
 # a short compendium — engineering saga (ascii mode)  
 
@@ -20,7 +20,7 @@ title: "engineering saga — ascii edition"
 [OK]  Loaded: CLRS.algorithms  
 [OK]  Mounted: quake_engine/src  
 
-Curiosità come BIOS mentale. Prime notti a capire perché un puntatore potesse distruggere un intero programma. Merge‑sort fs‑swap, compressori LZ77/LZ78, e il mondo dei sistemi che si apre.  
+Curiosity as a mental BIOS. First nights spent understanding how a pointer could destroy an entire program. Merge‑sort fs‑swap, LZ77/LZ78 compressors, and the world of systems opening up.  
 
 ---  
 
@@ -29,7 +29,7 @@ Curiosità come BIOS mentale. Prime notti a capire perché un puntatore potesse 
 [DB] mSQL connected  
 [CGI] perl -T script.cgi  
 
-L’era dei modem 56k, delle GIF ottimizzate a mano, dei layout a tabelle. Perl come arma, poi linguaggio da insegnare. Applets, RMI, JDK 1.x, JBuilder, Visual J++, Dreamweaver 1999.  
+The era of 56k modems, hand‑optimized GIFs, table‑based layouts. Perl as a weapon, then as a language to teach. Applets, RMI, JDK 1.x, JBuilder, Visual J++, Dreamweaver 1999.  
 
 ---  
 
@@ -39,7 +39,7 @@ L’era dei modem 56k, delle GIF ottimizzate a mano, dei layout a tabelle. Perl 
 █   █     █ █   █ █     █  
 █ █ █ ███ █ █ ███ █ ███ █  
 
-Pac‑Man logic, BFS/DFS, random walkers, backtracking. Ogni algoritmo è un piccolo universo.  
+Pac‑Man logic, BFS/DFS, random walkers, backtracking. Every algorithm is a small universe.  
 
 ---  
 
@@ -48,7 +48,7 @@ Pac‑Man logic, BFS/DFS, random walkers, backtracking. Ogni algoritmo è un pic
 [PERL] monger++ mode enabled  
 [CACHE] distributed nodes: OK  
 
-Un quasi‑IPO. MP3 delivery open‑source. PHP, Perl, Python, J2EE. Architettura di caching distribuito per servire musica prima dello streaming.  
+A near‑IPO. Open‑source MP3 delivery. PHP, Perl, Python, J2EE. Distributed caching architecture to serve music before streaming existed.  
 
 ---  
 
@@ -56,7 +56,7 @@ Un quasi‑IPO. MP3 delivery open‑source. PHP, Perl, Python, J2EE. Architettur
 [XSLT] transform stylesheet.xsl < data.xml  
 [PIPE] | multi-modal | device-agnostic | early-FDD |  
 
-XML come lingua franca. XSLT come lama affilata. Pattern multi‑modal e FDD come metodo.  
+XML as a lingua franca. XSLT as a sharp blade. Multi‑modal patterns and FDD as a method.  
 
 ---  
 
@@ -65,7 +65,7 @@ XML come lingua franca. XSLT come lama affilata. Pattern multi‑modal e FDD com
 [PATTERNS] Fowler.jar loaded  
 [UML] distilled.pdf opened  
 
-AOP, virtual proxies, J2EE patterns. TDD, IoC, xDD. Refactoring come arte marziale.  
+AOP, virtual proxies, J2EE patterns. TDD, IoC, xDD. Refactoring as a martial art.  
 
 ---  
 
@@ -74,7 +74,7 @@ AOP, virtual proxies, J2EE patterns. TDD, IoC, xDD. Refactoring come arte marzia
 [LIMBO] compiling...  
 [RUBY] gem install curiosity  
 
-Ruby, Plan 9, Inferno, Limbo. Ergonomia, HCI, JS open‑source. Statistiche multivariate in Perl OO.  
+Ruby, Plan 9, Inferno, Limbo. Ergonomics, HCI, open‑source JS. Multivariate statistics in OO Perl.  
 
 ---  
 
@@ -83,7 +83,7 @@ Ruby, Plan 9, Inferno, Limbo. Ergonomia, HCI, JS open‑source. Statistiche mult
 [MS] AD/AM handshake OK  
 [SQL] server online  
 
-WebSphere, WPS, Microsoft architectures. EJB, JMS, DBIx, LWP. Ogni server un boss fight.  
+WebSphere, WPS, Microsoft architectures. EJB, JMS, DBIx, LWP. Every server is a boss fight.  
 
 ---  
 
@@ -91,7 +91,7 @@ WebSphere, WPS, Microsoft architectures. EJB, JMS, DBIx, LWP. Ogni server un bos
 [MAPREDUCE] job_001 started  
 [STREAM] analytics → insights  
 
-Framework JS, open‑source, big‑data analytics. Capire come i dati respirano.  
+JS frameworks, open‑source, big‑data analytics. Understanding how data breathes.  
 
 ---  
 
@@ -100,7 +100,7 @@ Framework JS, open‑source, big‑data analytics. Capire come i dati respirano.
 [VECTOR] embedding space: 1536 dims  
 [RAG] pipeline online  
 
-RAG, embeddings, multimodalità. L’AI come nuovo sistema operativo mentale.  
+RAG, embeddings, multimodality. AI as a new mental operating system.  
 
 ---  
 
@@ -108,7 +108,7 @@ RAG, embeddings, multimodalità. L’AI come nuovo sistema operativo mentale.
 [ROLE] engineer | researcher | system-designer  
 [MODE] continuous-learning  
 
-Unire rigore classico e creatività AI‑native. Costruire sistemi che apprendono.  
+Uniting classical rigor and AI‑native creativity. Building systems that learn.  
 
 ---  
 
@@ -117,7 +117,6 @@ Unire rigore classico e creatività AI‑native. Costruire sistemi che apprendon
 [USER] federico@torino  
 [STATUS] evolving...  
 
-Ogni capitolo è un refactor del precedente. La storia continua.  
+Every chapter is a refactor of the previous one. The story continues.  
 
 ---  
-
