@@ -42,7 +42,6 @@ The era of 56k modems, hand‑optimized GIFs, table‑based layouts. Perl as a w
 █   █     █ █   █ █     █  
 █ █ █ ███ █ █ ███ █ ███ █  
 </pre>
-
 Pac‑Man logic, BFS/DFS, random walkers, backtracking. Every algorithm is a small universe.  
 
 ---  
