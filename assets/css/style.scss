@@ -64,6 +64,7 @@ pre, code {
 
 pre {
   overflow-x: auto;
+  font-family: "JetBrains Mono", monospace;
 }
 
 /* HEADER + FOOTER — minimal */
@@ -166,7 +167,7 @@ code {
   background: var(--accent-ice);
   color: var(--accent-dark);
   border: 1px solid var(--accent-soft);
-  fonnt-family: "Source Code Pro";
+  font-family: "JetBrains Mono", monospace;
 }
 
 /* === STRONG / EMPHASIS === */
@@ -211,6 +212,6 @@ pre:not(.hljs) {
   box-shadow: none !important;
   padding: 0 !important;
   margin: 20px 0;
-  font-family: "Source Code Pro", monospace;
+  font-family: "JetBrains Mono", monospace;
   line-height: 1.4;
 }
