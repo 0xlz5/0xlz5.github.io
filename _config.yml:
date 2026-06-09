@@ -1,8 +1,5 @@
 title: Federico’s Blog
 description: Notes, thoughts, and experiments
+
 theme: minima
-
-author:
-  name: Federico
-
 markdown: kramdown
