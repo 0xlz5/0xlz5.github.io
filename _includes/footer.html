@@ -1,5 +1,16 @@
 <footer class="site-footer">
-  <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #444;">
-    © 0xlz5 — last updated on {{ page.last_modified_at | date: "%Y-%m-%d" }}
+
+  <!-- 30% thin divider -->
+  <div style="width:30%; border-top:1px solid #e0e0e0; margin:60px 0 20px 0;"></div>
+
+  <!-- bottom-right last updated -->
+  <div style="
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    color:#444;
+    text-align:right;
+  ">
+    last updated on {{ page.last_modified_at | date: "%Y-%m-%d" }}
   </div>
+
 </footer>
