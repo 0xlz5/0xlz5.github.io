@@ -89,13 +89,6 @@ hr {
   margin: 40px 0;
 }
 
-/* === 80% CENTERED PAGE CONTENT === */
-.page-content {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Highlight.js line numbers styling */
 .hljs-ln td {
   padding-right: 12px;
@@ -112,5 +105,14 @@ hr {
 .hljs-ln-code {
   padding-left: 12px;
 }
+
+/* === 80% CENTERED PAGE CONTENT === */
+.page-content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 
