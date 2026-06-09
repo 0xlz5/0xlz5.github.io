@@ -108,110 +108,98 @@ hr {
   width: 100%;
 }
 
-/* === GLOBAL ACCENT PALETTE (SheCodes #9) === */
+/* === GLOBAL ACCENT PALETTE (SheCodes #255) === */
 :root {
-  --accent-red:   #E63946;
-  --accent-ice:   #F1FAEE;
-  --accent-soft:  #A8DADC;
-  --accent-blue:  #457B9D;
-  --accent-dark:  #1D3557;
+  --navy-deep:   #0A1128;
+  --navy-cobalt: #001F54;
+  --blue-tech:   #034078;
+  --blue-cyan:   #1282A2;
+  --ice-white:   #FEFCFB;
 }
 
 /* === HEADINGS (Orbitron) === */
 h1, h2, h3, h4 {
-  color: var(--accent-red);
+  color: var(--blue-tech);
 }
 
 /* === LINKS === */
 a {
-  color: var(--accent-blue);
-  border-bottom: 1px solid var(--accent-blue);
+  color: var(--blue-cyan);
+  border-bottom: 1px solid var(--blue-cyan);
   transition: 0.2s ease;
 }
 
 a:hover {
-  color: var(--accent-ice);
-  background: var(--accent-blue);
-  border-bottom: 1px solid var(--accent-blue);
+  color: var(--ice-white);
+  background: var(--blue-cyan);
+  border-bottom: 1px solid var(--blue-cyan);
   padding: 2px 4px;
   border-radius: 3px;
 }
 
 /* === HORIZONTAL RULES === */
 hr {
-  border-top: 1px solid var(--accent-soft);
+  border-top: 1px solid var(--navy-cobalt);
 }
 
 /* === BLOCKQUOTES === */
 blockquote {
-  border-left: 4px solid var(--accent-blue);
+  border-left: 4px solid var(--blue-tech);
   padding-left: 16px;
-  color: var(--accent-dark);
-  background: var(--accent-ice);
+  color: var(--navy-deep);
+  background: var(--ice-white);
 }
 
-/* === CODE BLOCKS (Highlight.js + Arduino Light) === */
+/* === CODE BLOCKS (Highlight.js) === */
 .hljs {
-  border: 1px solid var(--accent-soft);
+  border: 1px solid var(--navy-cobalt);
   border-radius: 4px;
 }
 
 /* line numbers */
 .hljs-ln-numbers {
-  color: var(--accent-dark);
-  border-right: 1px solid var(--accent-soft);
+  color: var(--navy-deep);
+  border-right: 1px solid var(--navy-cobalt);
 }
 
 /* === INLINE CODE === */
 code {
-  background: var(--accent-ice);
-  color: var(--accent-dark);
-  border: 1px solid var(--accent-soft);
-  font-family: "JetBrains Mono", monospace;
+  background: var(--ice-white);
+  color: var(--navy-deep);
+  border: 1px solid var(--navy-cobalt);
 }
 
 /* === STRONG / EMPHASIS === */
 strong {
-  color: var(--accent-red);
+  color: var(--blue-tech);
 }
 
 em {
-  color: var(--accent-blue);
+  color: var(--blue-cyan);
 }
 
 /* === HEADER TITLE === */
 .site-title, .site-title a {
-  color: var(--accent-dark) !important;
+  color: var(--navy-deep) !important;
 }
 
-/* === FOOTER LINE + TEXT === */
+/* === FOOTER === */
 .site-footer {
-  color: var(--accent-dark);
+  color: var(--navy-deep);
 }
 
 .site-footer .footer-line {
   width: 30%;
-  border-top: 1px solid var(--accent-soft);
+  border-top: 1px solid var(--navy-cobalt);
 }
 
-/* === PAGINATION (if used) === */
-.pagination a {
-  color: var(--accent-blue);
-}
-
-.pagination a:hover {
-  background: var(--accent-blue);
-  color: var(--accent-ice);
-  border-radius: 3px;
-}
-
-/* PRE blocks (ASCII art) — match page background, no borders */
+/* === ASCII PRE BLOCKS (no borders, page background) === */
 pre:not(.hljs) {
-  background: #ffffff !important; /* same as page */
+  background: var(--ice-white) !important;
   border: none !important;
   box-shadow: none !important;
   padding: 0 !important;
   margin: 20px 0;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Iosevka Charon", monospace;
   line-height: 1.4;
 }
