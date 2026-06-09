@@ -1,5 +1,46 @@
 ---
 ---
+
 @import "{{ site.theme }}";
 
-/* your custom CSS here */
+/* === RETRO ASCII TERMINAL THEME === */
+
+body {
+  background: #0d0d0d;
+  color: #d0ffd0;
+  font-family: "Fira Mono", "JetBrains Mono", monospace;
+  line-height: 1.55;
+}
+
+a {
+  color: #00ff66;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66ff99;
+  text-shadow: 0 0 5px #00ff66;
+}
+
+.site-header, .site-footer {
+  background: #000000;
+  border: none;
+  color: #00ff66;
+}
+
+.site-title, .site-title a {
+  color: #00ff66 !important;
+  font-family: "Fira Mono", monospace;
+  text-shadow: 0 0 5px #00ff66;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Fira Mono", monospace;
+  color: #00ff66;
+  border-bottom: 1px solid #003300;
+  padding-bottom: 4px;
+}
+
+code, pre {
+  background: #000000;
+  color
