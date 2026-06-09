@@ -10,7 +10,7 @@ title: "engineering saga — ascii edition"
 / ___/ (_| | ||  __/ | | | (_| |  __/ | | | | | (_) | (_| |    
 \/    \__,_|\__\___|_| |_|\__,_|\___|_| |_| |_|\___/ \__, |    
                                                      |___/     
-</pre>>
+</pre>
 
 # a short compendium — engineering saga (ascii mode)  
 
