@@ -166,6 +166,7 @@ code {
   background: var(--accent-ice);
   color: var(--accent-dark);
   border: 1px solid var(--accent-soft);
+  fonnt-family: "Source Code Pro";
 }
 
 /* === STRONG / EMPHASIS === */
@@ -201,4 +202,15 @@ em {
   background: var(--accent-blue);
   color: var(--accent-ice);
   border-radius: 3px;
+}
+
+/* PRE blocks (ASCII art) — match page background, no borders */
+pre:not(.hljs) {
+  background: #ffffff !important; /* same as page */
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 20px 0;
+  font-family: "Source Code Pro", monospace;
+  line-height: 1.4;
 }
