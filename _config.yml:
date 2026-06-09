@@ -2,6 +2,8 @@ title: Federico’s Blog
 description: Notes, thoughts, and experiments  
 theme: minima
 markdown: kramdown
+kramdown:
+  syntax_highlighter: none
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
