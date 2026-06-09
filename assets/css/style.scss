@@ -90,16 +90,12 @@ hr {
 }
 
 /* Highlight.js line numbers styling */
-.hljs-ln td {
-  padding-right: 12px;
-}
-
 .hljs-ln-numbers {
-  text-align: right;
   color: #999;
-  user-select: none;
-  padding-right: 10px;
+  text-align: right;
   border-right: 1px solid #e0e0e0;
+  padding-right: 10px;
+  user-select: none;
 }
 
 .hljs-ln-code {
