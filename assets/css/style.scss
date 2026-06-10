@@ -22,7 +22,7 @@ body {
   padding: 0;
 }
 
-/* === UNIVERSAL LAYOUT WIDTH (HEADER / PAGE / FOOTER) === */
+/* === UNIVERSAL WIDTH (HEADER / CONTENT / FOOTER) === */
 .site-header,
 .page-content,
 .footer-bar {
@@ -32,12 +32,13 @@ body {
 }
 
 /* ============================================================
-   HEADER — WHITE BACKGROUND + AVATAR RIGHT
+   HEADER — WHITE, 2EM PADDING, NO VERTICAL GAP
    ============================================================ */
 .site-header {
   background: #ffffff;
-  padding: 2em 0;
+  padding: 2em;
   border-radius: 4px;
+  margin: 0; /* no vertical spacing */
 }
 
 .header-inner {
@@ -46,7 +47,6 @@ body {
   align-items: center;
 }
 
-/* Title */
 .header-title a {
   font-family: "Orbitron", monospace;
   font-size: 1.6rem;
@@ -56,7 +56,6 @@ body {
   text-decoration: none;
 }
 
-/* Avatar RIGHT */
 .header-avatar {
   width: 72px;
   height: 72px;
@@ -66,12 +65,13 @@ body {
 }
 
 /* ============================================================
-   MAIN CONTENT WRAPPER
+   PAGE CONTENT — WHITE, 2EM PADDING, NO VERTICAL GAP
    ============================================================ */
 .page-content {
   background: #ffffff;
   padding: 2em;
   border-radius: 4px;
+  margin: 0; /* no vertical spacing */
   max-width: 1100px;
 }
 
@@ -165,14 +165,13 @@ pre:not(.hljs) {
 }
 
 /* ============================================================
-   FOOTER — WHITE BACKGROUND, 75% WIDTH, THIN BLACK STRIPE
+   FOOTER — WHITE, 2EM PADDING, NO VERTICAL GAP
    ============================================================ */
 .footer-bar {
   background: #ffffff;
-  margin-top: 80px;
-
   padding: 2em;
   border-radius: 4px;
+  margin: 0; /* no vertical spacing */
 
   display: flex;
   justify-content: space-between;
@@ -205,44 +204,3 @@ pre:not(.hljs) {
   margin: 0 6px;
   color: #000000;
 }
-
-/* === UNIVERSAL WIDTH === */
-.site-header,
-.page-content,
-.footer-bar {
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* === HEADER (white, 2em padding, no vertical gap) === */
-.site-header {
-  background: #ffffff;
-  padding: 2em;
-  border-radius: 4px;
-  margin: 0; /* remove vertical spacing */
-}
-
-/* === PAGE CONTENT (white, 2em padding, no vertical gap) === */
-.page-content {
-  background: #ffffff;
-  padding: 2em;
-  border-radius: 4px;
-  margin: 0; /* remove vertical spacing */
-  max-width: 1100px;
-}
-
-/* === FOOTER (white, 2em padding, no vertical gap) === */
-.footer-bar {
-  background: #ffffff;
-  padding: 2em;
-  border-radius: 4px;
-  margin: 0; /* remove vertical spacing */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "JetBrains Mono", monospace;
-  font-size: 13px;
-  color: #000000;
-}
-
