@@ -1,150 +1,10 @@
----
----
-
-@import "{{ site.theme }}";
-
-/* === GLOBAL ACCENT PALETTE === */
-:root {
-  --navy-deep:   #0A1128;
-  --navy-cobalt: #001F54;
-  --blue-tech:   #034078;
-  --blue-cyan:   #1282A2;
-  --ice-white:   #FEFCFB;
-}
-
-/* === GLOBAL FONT STACK === */
-body {
-  background: #e5e7eb;
-  color: #111111;
-  font-family: "Iosevka Charon", "Literata", serif;
-  line-height: 1.75;
-  margin: 0;
-  padding: 0;
-}
-
-/* === UNIVERSAL WIDTH === */
-.site-header,
-.page-content,
+/* FOOTER — white, centered, 2em padding, no vertical gap */
 .footer-bar {
   width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* ============================================================
-   HEADER — WHITE, 2EM PADDING, NO VERTICAL GAP
-   ============================================================ */
-.site-header {
+  margin: 0 auto;
   background: #ffffff;
   padding: 2em;
   border-radius: 4px;
-  margin: 0;
-}
-
-.header-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-title a {
-  font-family: "Orbitron", monospace;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--navy-deep);
-  text-decoration: none;
-}
-
-.header-avatar {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-/* ============================================================
-   PAGE CONTENT — WHITE, 2EM PADDING, NO VERTICAL GAP
-   ============================================================ */
-.page-content {
-  background: #ffffff;
-  padding: 2em;
-  border-radius: 4px;
-  margin: 0;
-  max-width: 1100px;
-}
-
-/* === HEADINGS === */
-h1, h2, h3, h4 {
-  font-family: "Orbitron", monospace;
-  font-size: 0.8em;
-  color: var(--blue-tech);
-  margin-top: 48px;
-  margin-bottom: 14px;
-  letter-spacing: 1px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-/* === LINKS === */
-a {
-  color: var(--blue-cyan);
-  border-bottom: 1px solid var(--blue-cyan);
-  text-decoration: none;
-  transition: 0.2s ease;
-}
-
-a:hover {
-  color: var(--ice-white);
-  background: var(--blue-cyan);
-  border-bottom: 1px solid var(--blue-cyan);
-  padding: 2px 4px;
-  border-radius: 3px;
-}
-
-/* === BLOCKQUOTES === */
-blockquote {
-  border-left: 4px solid var(--blue-tech);
-  padding-left: 16px;
-  color: var(--navy-deep);
-  background: var(--ice-white);
-}
-
-/* === CODE BLOCKS === */
-.hljs {
-  border: 1px solid var(--navy-cobalt);
-  border-radius: 4px;
-}
-
-.hljs-ln-numbers {
-  color: var(--navy-deep);
-  border-right: 1px solid var(--navy-cobalt);
-  padding-right: 10px;
-  user-select: none;
-}
-
-.hljs-ln-code {
-  padding-left: 12px;
-}
-
-/* === INLINE CODE === */
-code {
-  background: var(--ice-white);
-  color: var(--navy-deep);
-  border: 1px solid var(--navy-cobalt);
-  border-radius: 3px;
-  padding: 2px 4px;
-}
-
-/* ============================================================
-   FOOTER — WHITE, 2EM PADDING, NO VERTICAL GAP
-   ============================================================ */
-.footer-bar {
-  background: #ffffff;
-  padding: 2em;
-  border-radius: 4px;
-  margin: 0;
 
   display: flex;
   flex-direction: column;
@@ -155,7 +15,7 @@ code {
   color: #000000;
 }
 
-/* === BLACK STRIPE INSIDE FOOTER === */
+/* BLACK STRIPE */
 .footer-stripe {
   width: 100%;
   height: 4px;
@@ -163,7 +23,7 @@ code {
   border-radius: 2px;
 }
 
-/* === FOOTER CONTENT (LEFT/RIGHT) === */
+/* CONTENT ROW */
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -182,7 +42,7 @@ code {
 }
 
 .footer-right a:hover {
-  color: var(--ice-white);
+  color: #ffffff;
   background: #000000;
   border-bottom: 1px solid #000000;
   border-radius: 3px;
