@@ -1,13 +1,16 @@
 title: "0xlz5"
 description: "Notes, thoughts, and experiments"
 
-name: ""        # <— IMPORTANTISSIMO
-tagline: ""     # <— IMPORTANTISSIMO
+# IMPORTANTISSIMO: impedisce a minima di sovrascrivere title/description
+name: ""
+tagline: ""
 
 theme: minima
+
 markdown: kramdown
 kramdown:
   syntax_highlighter: none
+
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
