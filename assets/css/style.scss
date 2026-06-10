@@ -14,7 +14,7 @@
 
 /* === GLOBAL FONT STACK === */
 body {
-  background: #e5e7eb; /* ice-gray page background */
+  background: #e5e7eb; /* ice-gray */
   color: #111111;
   font-family: "Iosevka Charon", "Literata", serif;
   line-height: 1.75;
@@ -22,7 +22,7 @@ body {
   padding: 0;
 }
 
-/* === UNIVERSAL LAYOUT WRAPPER (HEADER + PAGE + FOOTER) === */
+/* === UNIVERSAL LAYOUT WIDTH (HEADER / PAGE / FOOTER) === */
 .site-header,
 .page-content,
 .footer-bar {
@@ -31,38 +31,17 @@ body {
   margin-right: auto;
 }
 
-/* === MAIN CONTENT WRAPPER (white panel) === */
-.page-content {
-  background: #ffffff;
-  padding: 2em;
-  border-radius: 4px;
-  max-width: 1100px;
-}
-
-/* === TOP-LEFT AVATAR === */
-.avatar-top-left {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-/* HEADER (75% width handled by default.html wrapper) */
+/* === HEADER === */
 .site-header {
   padding: 2em 0;
 }
 
-/* Flex container for avatar + title */
 .header-inner {
   display: flex;
   align-items: center;
   gap: 1.2em;
 }
 
-/* Avatar optimized */
 .header-avatar {
   width: 72px;
   height: 72px;
@@ -71,7 +50,6 @@ body {
   flex-shrink: 0;
 }
 
-/* Title optimized */
 .header-title a {
   font-family: "Orbitron", monospace;
   font-size: 1.6rem;
@@ -81,6 +59,13 @@ body {
   text-decoration: none;
 }
 
+/* === MAIN CONTENT WRAPPER === */
+.page-content {
+  background: #ffffff;
+  padding: 2em;
+  border-radius: 4px;
+  max-width: 1100px;
+}
 
 /* === HEADINGS (Orbitron) === */
 h1, h2, h3, h4 {
@@ -160,15 +145,6 @@ em {
   color: var(--blue-cyan);
 }
 
-/* === HEADER TITLE === */
-.site-title, .site-title a {
-  color: var(--navy-deep) !important;
-  font-family: "Orbitron", monospace;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
 /* === ASCII PRE BLOCKS === */
 pre:not(.hljs) {
   background: var(--ice-white) !important;
@@ -196,12 +172,10 @@ pre:not(.hljs) {
   border-radius: 3px;
 }
 
-/* LEFT SIDE */
 .footer-left {
   color: var(--ice-white);
 }
 
-/* RIGHT SIDE */
 .footer-right a {
   color: var(--ice-white);
   border-bottom: 1px solid transparent;
@@ -220,35 +194,3 @@ pre:not(.hljs) {
   margin: 0 6px;
   color: var(--ice-white);
 }
-
-/* HEADER (75% width handled by default.html wrapper) */
-.site-header {
-  padding: 2em 0;
-}
-
-/* Flex container for avatar + title */
-.header-inner {
-  display: flex;
-  align-items: center;
-  gap: 1.2em;
-}
-
-/* Avatar optimized */
-.header-avatar {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-/* Title optimized */
-.header-title a {
-  font-family: "Orbitron", monospace;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--navy-deep);
-  text-decoration: none;
-}
-
