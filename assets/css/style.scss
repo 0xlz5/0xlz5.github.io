@@ -183,11 +183,24 @@ em {
   color: var(--navy-deep) !important;
 }
 
+/* RESET FOOTER DEFAULT SPACING */
+.site-footer {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* REMOVE ANY PARAGRAPH SPACING INSIDE FOOTER */
+.site-footer p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* === FOOTER BLACK STRIPE BAR === */
 .footer-bar {
   width: 100%;
   background: #000000;
   color: var(--ice-white);
+
   padding: 14px 20px;
 
   display: flex;
@@ -196,31 +209,7 @@ em {
 
   font-family: "JetBrains Mono", monospace;
   font-size: 14px;
-}
 
-/* LEFT SIDE (copyright) */
-.footer-left {
-  color: var(--ice-white);
-}
-
-/* RIGHT SIDE (links) */
-.footer-right a {
-  color: var(--ice-white);
-  border-bottom: 1px solid transparent;
-  transition: 0.2s ease;
-  padding: 0 2px;
-}
-
-/* hover invertito */
-.footer-right a:hover {
-  color: var(--navy-deep);
-  background: var(--ice-white);
-  border-bottom: 1px solid var(--ice-white);
-  border-radius: 3px;
-}
-
-/* dot separator */
-.footer-right .dot {
-  margin: 0 6px;
-  color: var(--ice-white);
+  /* THIS REMOVES THE HUGE GAP ABOVE */
+  margin-top: 0 !important;
 }
