@@ -11,6 +11,5 @@ kramdown:
   syntax_highlighter: none
 
 plugins:
-  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-last-modified-at
