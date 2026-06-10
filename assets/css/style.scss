@@ -160,7 +160,10 @@ code, pre, .hljs {
 }
 
 strong {
-  color: #F5A623; /* light orange */
+  background: #FFF7C2; /* light yellow soft */
+  color: var(--navy-deep);
+  padding: 2px 4px;
+  border-radius: 3px;
   font-weight: 600;
 }
 
