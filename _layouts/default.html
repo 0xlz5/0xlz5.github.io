@@ -7,7 +7,11 @@ layout: nil
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+
+  <!-- Main stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=JetBrains+Mono:wght@400;600&family=Literata:opsz,wght@7..72,400;7..72,500&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/iosevka-fonts@1.0.0/dist/iosevka-charon/iosevka-charon.min.css" rel="stylesheet">
 
@@ -22,13 +26,22 @@ layout: nil
 </head>
 
 <body>
+
+  <!-- UNIVERSAL WRAPPER (75% width handled by SCSS) -->
   <div class="site-wrapper">
+
+    <!-- HEADER -->
     {% include header.html %}
+
+    <!-- MAIN CONTENT -->
     <main class="page-content">
       {{ content }}
     </main>
-    {% include footer.html %}
-  </div>
-</body>
 
+    <!-- FOOTER -->
+    {% include footer.html %}
+
+  </div>
+
+</body>
 </html>
