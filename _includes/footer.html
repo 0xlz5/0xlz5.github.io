@@ -1,13 +1,21 @@
 <footer class="site-footer">
 
-  <div class="footer-divider"></div>
+  <div class="footer-bar">
+    <div class="footer-left">
+      federico cagliero, <span id="year"></span>
+    </div>
 
-  <div class="footer-links">
-    <a href="/cv">/cv</a>
-    <span class="dot">•</span>
-    <a href="/books">/books</a>
-    <span class="dot">•</span>
-    <a href="/about">/about</a>
+    <div class="footer-right">
+      <a href="/cv">/cv</a>
+      <span class="dot">•</span>
+      <a href="/books">/books</a>
+      <span class="dot">•</span>
+      <a href="/about">/about</a>
+    </div>
   </div>
 
 </footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
