@@ -2,12 +2,17 @@
 
   <div class="header-inner">
 
-    <!-- TITLE (LEFT) -->
-    <div class="header-title">
-      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <!-- TITLE + DESCRIPTION -->
+    <div class="header-title-block">
+      <div class="header-title">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </div>
+      <div class="header-description">
+        {{ site.description }}
+      </div>
     </div>
 
-    <!-- AVATAR (RIGHT) -->
+    <!-- AVATAR -->
     <img
       class="header-avatar"
       src="https://64.media.tumblr.com/ac00ecd5e34583cbc7a928c2a43a5871/5672a43dc4bb7df6-bf/s128x128u_c1/6bbd670d42cf9359c30ee9e3b879856b4d2bb004.jpg"
