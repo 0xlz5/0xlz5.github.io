@@ -14,7 +14,7 @@
 
 /* === GLOBAL FONT STACK === */
 body {
-  background: #e5e7eb; /* ICE-GRAY PAGE BACKGROUND */
+  background: #e5e7eb; /* ice-gray page background */
   color: #111111;
   font-family: "Iosevka Charon", "Literata", serif;
   line-height: 1.75;
@@ -22,14 +22,14 @@ body {
   padding: 0;
 }
 
-/* === MAIN CONTENT WRAPPER (70% WHITE PAGE) === */
+/* === MAIN CONTENT WRAPPER (805 WHITE PANEL) === */
 .page-content {
-  width: 70%;
+  width: 805;
   margin: 0 auto;
   background: #ffffff;
-  padding: 60px 60px 80px 60px;
+  padding: 2em;
   border-radius: 4px;
-  max-width: 900px;
+  max-width: 1100px;
 }
 
 /* === TOP-LEFT AVATAR === */
@@ -130,7 +130,7 @@ em {
   text-transform: uppercase;
 }
 
-/* === ASCII PRE BLOCKS (clean, no borders) === */
+/* === ASCII PRE BLOCKS === */
 pre:not(.hljs) {
   background: var(--ice-white) !important;
   border: none !important;
@@ -143,12 +143,12 @@ pre:not(.hljs) {
 
 /* === FOOTER BLACK STRIPE — ULTRA THIN === */
 .footer-bar {
-  width: 70%;
-  margin: 80px auto 0 auto; /* big top margin + centered */
+  width: 85%;
+  margin: 80px auto 0 auto;
   background: #000000;
   color: var(--ice-white);
 
-  padding: 4px 20px; /* ultra thin */
+  padding: 4px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
