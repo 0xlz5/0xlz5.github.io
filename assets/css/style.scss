@@ -90,6 +90,26 @@ hr {
   margin: 40px 0;
 }
 
+/* page background (outside content) */
+body {
+  background: #e5e7eb; /* ice-gray */
+}
+
+/* main content wrapper at 70% width, white bg */
+.page-content {
+  width: 70%;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px 60px;
+}
+
+/* optional: keep footer stripe full width but aligned to content */
+.site-footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+
 /* Highlight.js line numbers styling */
 .hljs-ln-numbers {
   color: #999;
