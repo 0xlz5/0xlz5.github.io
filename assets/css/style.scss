@@ -22,10 +22,17 @@ body {
   padding: 0;
 }
 
-/* === MAIN CONTENT WRAPPER (805 WHITE PANEL) === */
+/* === UNIVERSAL LAYOUT WRAPPER (HEADER + PAGE + FOOTER) === */
+.site-header,
+.page-content,
+.footer-bar {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === MAIN CONTENT WRAPPER (white panel) === */
 .page-content {
-  width: 805;
-  margin: 0 auto;
   background: #ffffff;
   padding: 2em;
   border-radius: 4px;
@@ -143,8 +150,7 @@ pre:not(.hljs) {
 
 /* === FOOTER BLACK STRIPE — ULTRA THIN === */
 .footer-bar {
-  width: 85%;
-  margin: 80px auto 0 auto;
+  margin-top: 80px;
   background: #000000;
   color: var(--ice-white);
 
