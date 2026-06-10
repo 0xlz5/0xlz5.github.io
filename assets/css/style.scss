@@ -183,61 +183,44 @@ em {
   color: var(--navy-deep) !important;
 }
 
-/* === FOOTER === */
-.site-footer {
-  color: var(--navy-deep);
-}
+/* === FOOTER BLACK STRIPE BAR === */
+.footer-bar {
+  width: 100%;
+  background: #000000;
+  color: var(--ice-white);
+  padding: 14px 20px;
 
-.site-footer .footer-line {
-  width: 30%;
-  border-top: 1px solid var(--navy-cobalt);
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-/* === ASCII PRE BLOCKS (no borders, page background) === */
-pre:not(.hljs) {
-  background: var(--ice-white) !important;
-  border: none !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-  margin: 20px 0;
-  font-family: "Iosevka Charon", monospace;
-  line-height: 1.4;
-}
-
-/* === FOOTER DIVIDER (30%) === */
-.footer-divider {
-  width: 30%;
-  border-top: 1px solid var(--navy-cobalt);
-  margin: 60px 0 20px auto; /* pushes it to the right */
-}
-
-/* === FOOTER LINKS (right aligned) === */
-.footer-links {
-  text-align: right;
   font-family: "JetBrains Mono", monospace;
   font-size: 14px;
-  color: var(--navy-deep);
 }
 
-/* links */
-.footer-links a {
-  color: var(--blue-cyan);
-  border-bottom: 1px solid var(--blue-cyan);
+/* LEFT SIDE (copyright) */
+.footer-left {
+  color: var(--ice-white);
+}
+
+/* RIGHT SIDE (links) */
+.footer-right a {
+  color: var(--ice-white);
+  border-bottom: 1px solid transparent;
   transition: 0.2s ease;
   padding: 0 2px;
 }
 
 /* hover invertito */
-.footer-links a:hover {
-  color: var(--ice-white);
-  background: var(--blue-cyan);
-  border-bottom: 1px solid var(--blue-cyan);
+.footer-right a:hover {
+  color: var(--navy-deep);
+  background: var(--ice-white);
+  border-bottom: 1px solid var(--ice-white);
   border-radius: 3px;
 }
 
 /* dot separator */
-.footer-links .dot {
+.footer-right .dot {
   margin: 0 6px;
-  color: var(--navy-deep);
+  color: var(--ice-white);
 }
-
