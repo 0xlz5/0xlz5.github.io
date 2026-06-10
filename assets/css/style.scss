@@ -50,6 +50,38 @@ body {
   object-fit: cover;
 }
 
+/* HEADER (75% width handled by default.html wrapper) */
+.site-header {
+  padding: 2em 0;
+}
+
+/* Flex container for avatar + title */
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+}
+
+/* Avatar optimized */
+.header-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Title optimized */
+.header-title a {
+  font-family: "Orbitron", monospace;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--navy-deep);
+  text-decoration: none;
+}
+
+
 /* === HEADINGS (Orbitron) === */
 h1, h2, h3, h4 {
   font-family: "Orbitron", monospace;
