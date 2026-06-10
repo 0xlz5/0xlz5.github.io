@@ -1,33 +1,18 @@
 <header class="site-header">
 
-  <div style="
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    width:100%;
-  ">
+  <div class="header-inner">
 
-    <!-- LEFT: TITLE -->
-    <div style="
-      font-family:'Orbitron', monospace;
-      font-size:18px;
-      letter-spacing:1.2px;
-      text-transform:uppercase;
-    ">
-    <a href="/">0XLZ5 — TECH BLOG</a>
-    </div>
-
-    <!-- RIGHT: AVATAR -->
+    <!-- AVATAR -->
     <img
+      class="header-avatar"
       src="https://64.media.tumblr.com/ac00ecd5e34583cbc7a928c2a43a5871/5672a43dc4bb7df6-bf/s128x128u_c1/6bbd670d42cf9359c30ee9e3b879856b4d2bb004.jpg"
       alt="avatar"
-      style="
-        width:72px;
-        height:72px;
-        border-radius:50%;
-        object-fit:cover;
-      "
     />
+
+    <!-- TITLE -->
+    <div class="header-title">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </div>
 
   </div>
 
