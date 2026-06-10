@@ -8,10 +8,11 @@ layout: nil
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
   <!-- JetBrains Mono -->
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- Highlight.js -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/arduino-light.min.css">
@@ -25,14 +26,13 @@ layout: nil
 
 <body>
 
-  <!-- NOTHING MUST WRAP THESE THREE -->
-{% include header.html %}
+  {% include header.html %}
 
-<main class="page-content">
-  {{ content }}
-</main>
+  <main class="page-content">
+    {{ content }}
+  </main>
 
-{% include footer.html %}
+  {% include footer.html %}
 
 </body>
 </html>
