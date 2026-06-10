@@ -183,21 +183,21 @@ em {
   color: var(--navy-deep) !important;
 }
 
-/* === FOOTER BLACK STRIPE — ULTRA THIN === */
+/* === FOOTER BLACK STRIPE BAR — THIN + BIG TOP MARGIN === */
 .footer-bar {
   width: 100%;
   background: #000000;
   color: var(--ice-white);
 
-  padding: 4px 20px;   /* ← ancora più sottile */
-  margin-top: 80px;    /* grande margine sopra, come richiesto */
+  padding: 8px 20px;        /* THIN stripe */
+  margin-top: 80px;         /* BIG margin above */
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   font-family: "JetBrains Mono", monospace;
-  font-size: 13px;     /* leggermente più piccolo per coerenza */
+  font-size: 14px;
 }
 
 /* LEFT SIDE */
