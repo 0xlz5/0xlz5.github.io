@@ -9,7 +9,3 @@ theme: minima
 markdown: kramdown
 kramdown:
   syntax_highlighter: none
-
-plugins:
-  - jekyll-feed
-  - jekyll-last-modified-at
