@@ -183,6 +183,17 @@ em {
   color: var(--navy-deep) !important;
 }
 
+/* === ASCII PRE BLOCKS (no borders, page background) === */
+pre:not(.hljs) {
+  background: var(--ice-white) !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 20px 0;
+  font-family: "Iosevka Charon", monospace;
+  line-height: 1.4;
+}
+
 /* === FOOTER BLACK STRIPE — ULTRA THIN === */
 .footer-bar {
   width: 100%;
