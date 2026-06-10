@@ -31,25 +31,22 @@ body {
   margin-right: auto;
 }
 
-/* === HEADER === */
+/* ============================================================
+   HEADER — WHITE BACKGROUND + AVATAR RIGHT
+   ============================================================ */
 .site-header {
+  background: #ffffff;
   padding: 2em 0;
+  border-radius: 4px;
 }
 
 .header-inner {
   display: flex;
+  justify-content: space-between; /* avatar right */
   align-items: center;
-  gap: 1.2em;
 }
 
-.header-avatar {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
+/* Title */
 .header-title a {
   font-family: "Orbitron", monospace;
   font-size: 1.6rem;
@@ -59,7 +56,18 @@ body {
   text-decoration: none;
 }
 
-/* === MAIN CONTENT WRAPPER === */
+/* Avatar RIGHT */
+.header-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* ============================================================
+   MAIN CONTENT WRAPPER
+   ============================================================ */
 .page-content {
   background: #ffffff;
   padding: 2em;
@@ -156,41 +164,44 @@ pre:not(.hljs) {
   line-height: 1.4;
 }
 
-/* === FOOTER BLACK STRIPE — ULTRA THIN === */
+/* ============================================================
+   FOOTER — WHITE BACKGROUND, 75% WIDTH, THIN BLACK STRIPE
+   ============================================================ */
 .footer-bar {
+  background: #ffffff;
   margin-top: 80px;
-  background: #000000;
-  color: var(--ice-white);
 
-  padding: 4px 20px;
+  padding: 2em;
+  border-radius: 4px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   font-family: "JetBrains Mono", monospace;
   font-size: 13px;
-  border-radius: 3px;
+  color: #000000;
 }
 
 .footer-left {
-  color: var(--ice-white);
+  color: #000000;
 }
 
 .footer-right a {
-  color: var(--ice-white);
+  color: #000000;
   border-bottom: 1px solid transparent;
   transition: 0.2s ease;
   padding: 0 2px;
 }
 
 .footer-right a:hover {
-  color: var(--navy-deep);
-  background: var(--ice-white);
-  border-bottom: 1px solid var(--ice-white);
+  color: var(--ice-white);
+  background: #000000;
+  border-bottom: 1px solid #000000;
   border-radius: 3px;
 }
 
 .footer-right .dot {
   margin: 0 6px;
-  color: var(--ice-white);
+  color: #000000;
 }
