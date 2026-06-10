@@ -1,5 +1,9 @@
-title: 0xlz5  
-description: Notes, thoughts, and experiments  
+title: "0xlz5"
+description: "Notes, thoughts, and experiments"
+
+name: ""        # <— IMPORTANTISSIMO
+tagline: ""     # <— IMPORTANTISSIMO
+
 theme: minima
 markdown: kramdown
 kramdown:
@@ -8,4 +12,3 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-last-modified-at
-
