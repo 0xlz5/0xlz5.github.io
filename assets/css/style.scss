@@ -31,6 +31,15 @@ body {
   margin-right: auto;
 }
 
+.page-content {
+  background: #ffffff;
+  padding: 2em;
+  border-radius: 4px;
+  margin: 0;
+  /* REMOVE THIS → max-width: 1100px; */
+}
+
+
 /* ============================================================
    HEADER — WHITE, 2EM PADDING, NO VERTICAL GAP
    ============================================================ */
