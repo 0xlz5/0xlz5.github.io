@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/* === GLOBAL ACCENT PALETTE (SheCodes #255) === */
+/* === GLOBAL ACCENT PALETTE === */
 :root {
   --navy-deep:   #0A1128;
   --navy-cobalt: #001F54;
@@ -14,7 +14,7 @@
 
 /* === GLOBAL FONT STACK === */
 body {
-  background: #e5e7eb; /* ice-gray */
+  background: #e5e7eb;
   color: #111111;
   font-family: "Iosevka Charon", "Literata", serif;
   line-height: 1.75;
@@ -22,7 +22,7 @@ body {
   padding: 0;
 }
 
-/* === UNIVERSAL WIDTH (HEADER / CONTENT / FOOTER) === */
+/* === UNIVERSAL WIDTH === */
 .site-header,
 .page-content,
 .footer-bar {
@@ -38,12 +38,12 @@ body {
   background: #ffffff;
   padding: 2em;
   border-radius: 4px;
-  margin: 0; /* no vertical spacing */
+  margin: 0;
 }
 
 .header-inner {
   display: flex;
-  justify-content: space-between; /* avatar right */
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -71,11 +71,11 @@ body {
   background: #ffffff;
   padding: 2em;
   border-radius: 4px;
-  margin: 0; /* no vertical spacing */
+  margin: 0;
   max-width: 1100px;
 }
 
-/* === HEADINGS (Orbitron) === */
+/* === HEADINGS === */
 h1, h2, h3, h4 {
   font-family: "Orbitron", monospace;
   font-size: 0.8em;
@@ -103,13 +103,6 @@ a:hover {
   border-radius: 3px;
 }
 
-/* === HORIZONTAL RULES === */
-hr {
-  border: 0;
-  border-top: 1px solid var(--navy-cobalt);
-  margin: 40px 0;
-}
-
 /* === BLOCKQUOTES === */
 blockquote {
   border-left: 4px solid var(--blue-tech);
@@ -118,7 +111,7 @@ blockquote {
   background: var(--ice-white);
 }
 
-/* === CODE BLOCKS (Highlight.js) === */
+/* === CODE BLOCKS === */
 .hljs {
   border: 1px solid var(--navy-cobalt);
   border-radius: 4px;
@@ -144,26 +137,6 @@ code {
   padding: 2px 4px;
 }
 
-/* === STRONG / EMPHASIS === */
-strong {
-  color: var(--blue-tech);
-}
-
-em {
-  color: var(--blue-cyan);
-}
-
-/* === ASCII PRE BLOCKS === */
-pre:not(.hljs) {
-  background: var(--ice-white) !important;
-  border: none !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-  margin: 20px 0;
-  font-family: "Iosevka Charon", monospace;
-  line-height: 1.4;
-}
-
 /* ============================================================
    FOOTER — WHITE, 2EM PADDING, NO VERTICAL GAP
    ============================================================ */
@@ -171,15 +144,30 @@ pre:not(.hljs) {
   background: #ffffff;
   padding: 2em;
   border-radius: 4px;
-  margin: 0; /* no vertical spacing */
+  margin: 0;
 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 1.2em;
 
   font-family: "JetBrains Mono", monospace;
   font-size: 13px;
   color: #000000;
+}
+
+/* === BLACK STRIPE INSIDE FOOTER === */
+.footer-stripe {
+  width: 100%;
+  height: 4px;
+  background: #000000;
+  border-radius: 2px;
+}
+
+/* === FOOTER CONTENT (LEFT/RIGHT) === */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .footer-left {
