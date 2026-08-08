@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About Federico"
+title: TL;DR"
 description: "FP‑minded Systems Engineer · Frontend Architecture · Data/AI · R&D"
 ---
 
