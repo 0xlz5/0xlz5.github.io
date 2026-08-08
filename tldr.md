@@ -1,13 +1,13 @@
 ---
 layout: page
 title: TL;DR
-description: A "partial yet full story" about my professional & interest in informatics.
+description: TL;DR - about informatics Vs. me/myself/i. 
 ---
 
-# TL;DR - A "partial yet full story" about informatics Vs. me/myself/i. 
+# TL;DR - about informatics Vs. me/myself/i.  
 
 ## federico cagliero  
-### fp‑minded sr. dev · frontend · system design · data/ai · r&d
+### fp‑minded sr. dev · frontend · system design · data/ai · r&d. 
 
 torino, italy — fog behaving like a monad, industrial ghosts folded into a graph.  
 contact: **federico.cagliero@gmail.com**  
