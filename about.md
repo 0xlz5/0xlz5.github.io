@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About
+title: About this blog; more info.
 ---
 
-# 👋 About
+# 👋 About this blog
 
 Hi, I’m Federico.  
 This is my minimal GitHub Pages blog where I write notes, ideas, and experiments.
 
 ---
 
-# 📝 A few links
+# 📝 More info
 
 <ul>
     <li>
