@@ -4,7 +4,9 @@ title: TL;DR
 description: "FP‑minded Systems Engineer · Frontend Architecture · Data/AI · R&D"
 ---
 
-# federico cagliero  
+# TL;DR
+
+## federico cagliero  
 ### fp‑minded sr. dev · frontend · system design · data/ai · r&d
 
 torino, italy — fog behaving like a monad, industrial ghosts folded into a graph.  
