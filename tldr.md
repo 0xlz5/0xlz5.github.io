@@ -1,10 +1,10 @@
 ---
 layout: page
 title: TL;DR
-description: A incomplete "full story" about my professional & interest in informatics.
+description: A "partial yet full story" about my professional & interest in informatics.
 ---
 
-# TL;DR - A inomcplete "full story" about informatics and me/myself/i. 
+# TL;DR - A "partial yet full story" about informatics and me/myself/i. 
 
 ## federico cagliero  
 ### fp‑minded sr. dev · frontend · system design · data/ai · r&d
