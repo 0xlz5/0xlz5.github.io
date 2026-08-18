@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From TDD to BDD: Types, Contracts, Properties, Tests and Cucumber as Layers of Software Meaning"
+title: "From TDD to BDD"
 date: 2026-08-18
 categories:
   - software-engineering
