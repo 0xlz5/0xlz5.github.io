@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From TDD to BDD"
+title: "Testing - Part 1 - From TDD to BDD"
 date: 2026-08-18 04:03:00 +0200
 categories:
   - software-engineering
