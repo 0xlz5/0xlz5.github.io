@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "From Regression Tests to TDD: Perl, Eiffel, Ada, Python, Rust and the Rise of Executable Specifications"
+title: "From Regression Tests to TDD — Perl, Eiffel, Ada, Python, Rust and the Rise of Executable Specifications"
 date: 2026-08-18 04:03:00 +0200
 categories: [software-engineering, testing, programming-languages]
 tags: [perl, eiffel, ada, python, rust, tdd, testing, contracts, tap, quickcheck]
