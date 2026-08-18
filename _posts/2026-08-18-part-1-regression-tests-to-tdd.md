@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Testing - Part 1 - From Regression Tests to TDD"
-date: 2026-08-18 04:05:00 +0200
+date: 2026-08-18 04:03:00 +0200
 categories:
   - software-engineering
   - testing
