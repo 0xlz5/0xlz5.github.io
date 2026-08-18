@@ -1,12 +1,23 @@
 ---
-
 layout: post
 title: "From TDD to BDD: Types, Contracts, Properties, Tests and Cucumber as Layers of Software Meaning"
 date: 2026-08-18
-categories: [software-engineering, architecture, testing]
-tags: [tdd, bdd, cucumber, gherkin, contracts, types, property-testing, python, rust, javascript]
--------------------------------------------------------------------------------------------------
-
+categories:
+  - software-engineering
+  - architecture
+  - testing
+tags:
+  - tdd
+  - bdd
+  - cucumber
+  - gherkin
+  - contracts
+  - types
+  - property-testing
+  - python
+  - rust
+  - javascript
+---
 # From TDD to BDD
 
 ## Types, Contracts, Properties, Tests and Cucumber as Layers of Software Meaning
