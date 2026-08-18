@@ -10,7 +10,7 @@ This is my minimal GitHub Pages blog where I write notes, ideas, and experiments
 
 ---
 
-# 📝 More info
+# 👨🏻‍💻 More info
 
 <ul>
     <li>
