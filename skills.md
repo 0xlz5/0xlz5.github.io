@@ -50,7 +50,7 @@ modern engineering profile centered on:
 - intellij · vi · vs code  
 - git · agile/lean  
 - markdown · technical writing  
-- chatgpt/codex · copilot · claude (code)  
+- (github) copilot · chatGPT/codex · Claude (+Code)  
 - uml · visio  
 
 ### languages 💻
