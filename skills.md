@@ -54,9 +54,9 @@ modern engineering profile centered on:
 - uml · visio  
 
 ### languages 💻
-- javascript · python · sql · c++  
-- perl · java/scala · php · go  
-- clojure · rust · elm  
+- javascript · python · sql  
+- perl · java/scala · php · Ruby · c++  
+- clojure · Go · rust · elm  
 
 ### systems & ops ⚙️
 - docker · ansible · kubernetes  
