@@ -255,3 +255,19 @@ table:not(.hljs-ln) tbody tr:hover td {
 .hljs-ln-n {
   color: #ffffff;
 }
+
+/* Force background inside hljs tables */
+.hljs table,
+.hljs table td,
+.hljs table th {
+    background-color: #f8f8f8 !important;   /* your Arduino-light bg */
+    border: 1px solid #ddd !important;
+}
+
+/* Optional: keep code blocks visually consistent */
+.hljs {
+    background-color: #f8f8f8 !important;
+    padding: 0.75em;
+    border-radius: 4px;
+}
+
