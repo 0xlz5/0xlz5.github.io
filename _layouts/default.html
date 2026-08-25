@@ -28,6 +28,26 @@ layout: nil
 <!-- Pinning specific version -->
 <script src="https://cdn.jsdelivr.net/npm/@mermaid-js/tiny@11.6.0/dist/mermaid.tiny.js"></script>
 
+<script>
+  document.querySelectorAll('code.language-mermaid').forEach((element) => {
+    const pre = element.parentElement;
+    const div = document.createElement('div');
+
+    div.className = 'mermaid';
+    div.textContent = element.textContent;
+
+    pre.replaceWith(div);
+  });
+
+  mermaid.initialize({
+    startOnLoad: false,
+    securityLevel: 'loose',
+    theme: 'forest'
+  });
+
+  await mermaid.run();
+</script>
+
 </head>
 
 <body>
