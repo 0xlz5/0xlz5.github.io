@@ -444,21 +444,21 @@ The GUI can now be thought of as:
 A possible screen:
 
 ```text
-┌───────────────────────────────────────────────┐
-│ ⚡ SUPPLY CONTRACT                            │
-├───────────────────────────────────────────────┤
-│                                               │
-│ Customer       ACME Industries                │
-│ Supply Point   IT001E12345678                 │
-│ Tariff         Industrial T2                  │
-│ Status         ● ACTIVE                       │
-│                                               │
-│ ┌───────────┐  ┌────────────┐ ┌────────────┐ │
-│ │  Suspend  │  │ Measurements│ │ Change     │ │
-│ │           │  │             │ │ Tariff     │ │
-│ └───────────┘  └────────────┘ └────────────┘ │
-│                                               │
-└───────────────────────────────────────────────┘
+┌────────────────────────────────────────────────┐
+│ ⚡ SUPPLY CONTRACT                              │
+├────────────────────────────────────────────────┤
+│                                                │
+│ Customer       ACME Industries                 │
+│ Supply Point   IT001E12345678                  │
+│ Tariff         Industrial T2                   │
+│ Status         ● ACTIVE                        │
+│                                                │
+│ ┌───────────┐  ┌──────────────┐ ┌────────────┐ │
+│ │  Suspend  │  │ Measurements │ │ Change     │ │
+│ │           │  │              │ │ Tariff     │ │
+│ └───────────┘  └──────────────┘ └────────────┘ │
+│                                                │
+└────────────────────────────────────────────────┘
 ```
 
 The buttons are no longer arbitrary UI controls.
