@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Bit of History – Part II - From Swing DSL to Model-Driven UI ⚡"
+title: "A Bit of History – Part 3 - From Swing DSL to Model-Driven UI ⚡"
 subtitle: "Where the 2009 idea scales — and where it starts to break"
 date: 2026-08-25
 categories:
