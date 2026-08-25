@@ -17,7 +17,7 @@ layout: page
 
 ## 🧠 AI
 [How AI Works](https://nostarch.com/how-ai-works) — Ronald T. Kneusel (2023)  
-[The Developer's Guide to AI](https://nostarch.com/developers-guide-to-ai) — Orshalick, Reghunadh, Thompson (2026)  
+[The Developer's Guide to AI](https:/nostarch.com/developers-guide-to-ai) — Orshalick, Reghunadh, Thompson (2026)  
 
 ---
 
@@ -60,8 +60,8 @@ layout: page
 ---
 
 ## 🔬 Science & Mathematics
+[Introduction to Linear Algebra](https://math.mit.edu/~gs/linearalgebra) — Gilbert Strang (2016)  
 [Linear Algebra for Everyone](https://math.mit.edu/~gs/everyone) — Gilbert Strang (2020)  
-[Introdcution to Linear Algebra](https://math.mit.edu/~gs/linearalgebra) — Gilbert Strang (2016)  
 [Nonlinear Dynamics and Chaos](https://www.stevenstrogatz.com/books/nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering) — Steven H. Strogatz (2014)  
 [The Manga Guide to Physics](https://nostarch.com/mg_physics.htm) — No Starch Press (2009)  
 [The Manga Guide to Biochemistry](https://nostarch.com/releases/Manga%20Biochem_release.html) — No Starch Press (2011)  
@@ -69,5 +69,5 @@ layout: page
 ---
 
 ## 🎨 Digital Art
-[Code Poetry](https://code-poetry.com) — Holden & Kerr (2023)  
+[Code Poetry](https://code-poetry.com) — D. Holden & C. Kerr (2023)  
 [New Media Art](https://openlibrary.org/books/OL25432017M/New_Media_Art) — Tribe & Jana (2006)
