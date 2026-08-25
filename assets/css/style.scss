@@ -177,40 +177,51 @@ table {
 }
 
 /* ============================================================
-   CODE BLOCKS (HLJS)
+   CODE BLOCKS — MATERIAL PALENIGHT HLJS
    ============================================================ */
+
+/* Restore theme background */
 .hljs {
-  background-color: #f8f8f8 !important;
-  border: 1px solid var(--navy-cobalt);
-  border-radius: 4px;
-  padding: 0.75em;
-
-  table,
-  td,
-  th {
-    background-color: #f8f8f8 !important;
-    border: 1px solid #ddd !important;
-  }
-
-  .hljs-ln-numbers {
-    color: var(--navy-deep);
-    border-right: 1px solid var(--navy-cobalt);
-    padding-right: 10px;
-    user-select: none;
-  }
-
-  .hljs-ln-code {
-    padding-left: 12px;
-  }
+  background: #292D3E !important;   /* Material Palenight base */
+  color: #BFC7D5 !important;
+  padding: 1rem;
+  border-radius: 6px;
 }
 
-code, pre, .hljs {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.9em;
-  line-height: 1.0em;
+/* Neutralize global inline-code styling inside code blocks */
+pre code.hljs,
+.hljs code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: inherit !important;
 }
 
-code {
+/* Prevent global table styling from affecting hljs */
+.hljs table,
+.hljs td,
+.hljs th {
+  all: unset !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+
+/* Line numbers */
+.hljs-ln-numbers {
+  background: #292D3E !important;
+  color: #82AAFF !important;
+  border-right: 1px solid #82AAFF !important;
+  padding-right: 12px;
+}
+
+.hljs-ln-code {
+  padding-left: 12px;
+}
+
+/* ============================================================
+   INLINE CODE (ONLY OUTSIDE PRE)
+   ============================================================ */
+:not(pre) > code {
   background: var(--ice-white);
   color: var(--navy-deep);
   border: 1px solid var(--navy-cobalt);
