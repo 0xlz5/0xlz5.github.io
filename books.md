@@ -17,6 +17,7 @@ layout: page
 
 ## 🧠 AI
 [How AI Works](https://nostarch.com/how-ai-works) — Ronald T. Kneusel (2023)
+[The Developer's Guide to AI](https://nostarch.com/developers-guide-to-ai) — Orshalick, Reghunadh, Thompson (2026)
 
 ---
 
@@ -38,7 +39,6 @@ layout: page
 ## 🏛️ Architecture & Patterns
 [Design Patterns (GoF)](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns) — Gamma et al. (1994)  
 [UML Distilled](https://martinfowler.com/books/uml.html) — Martin Fowler (2003)  
-Software Tools — Kernighan & Plauger (1976) *(no official link)*  
 [The Practice of Programming](https://www.cs.princeton.edu/~bwk/tpop.webpage/) — Kernighan & Pike (1999)  
 [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) — Martin Fowler (2002)  
 [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com) — Hohpe & Woolf (2003)  
@@ -60,7 +60,7 @@ Software Tools — Kernighan & Plauger (1976) *(no official link)*
 ---
 
 ## 🔬 Science & Mathematics
-[Linear Algebra](https://math.mit.edu/~gs/linearalgebra) — Gilbert Strang (n.d.)  
+[Introdcution to Linear Algebra](https://math.mit.edu/~gs/linearalgebra) — Gilbert Strang 
 [Linear Algebra for Everyone](https://math.mit.edu/~gs/everyone) — Gilbert Strang (2020)  
 [Nonlinear Dynamics and Chaos](https://www.stevenstrogatz.com/books/nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering) — Steven H. Strogatz (2014)  
 [The Manga Guide to Physics](https://nostarch.com/mg_physics.htm) — No Starch Press (2009)  
@@ -69,5 +69,5 @@ Software Tools — Kernighan & Plauger (1976) *(no official link)*
 ---
 
 ## 🎨 Digital Art
-[Code Poetry](https://code-poetry.com) — Holden (n.d.)  
+[Code Poetry](https://code-poetry.com) — Holden (2023)  
 [New Media Art](https://openlibrary.org/books/OL25432017M/New_Media_Art) — Tribe & Jana (2006)
