@@ -130,6 +130,40 @@ blockquote {
   background: var(--ice-white);
 }
 
+/* apply to all tables EXCEPT highlight.js line-number tables */
+table:not(.hljs-ln) {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1.5rem 0;
+}
+
+/* header */
+table:not(.hljs-ln) thead th {
+  background-color: #f3f3f3;        /* light gray */
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;    /* single line under header */
+}
+
+/* body cells */
+table:not(.hljs-ln) tbody td {
+  padding: 0.5rem 0.75rem;
+  vertical-align: top;
+  border-right: 1px solid #e0e0e0;  /* vertical lines between <td> */
+}
+
+/* remove right border on last cell */
+table:not(.hljs-ln) td:last-child,
+table:not(.hljs-ln) th:last-child {
+  border-right: none;
+}
+
+/* optional hover */
+table:not(.hljs-ln) tbody tr:hover td {
+  background-color: #fafafa;
+}
+
 /* CODE BLOCKS */
 .hljs {
   border: 1px solid var(--navy-cobalt);
@@ -167,40 +201,6 @@ strong {
   padding: 2px 4px;
   border-radius: 3px;
   font-weight: 600;
-}
-
-/* apply to all tables EXCEPT highlight.js line-number tables */
-table:not(.hljs-ln) {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 1.5rem 0;
-}
-
-/* header */
-table:not(.hljs-ln) thead th {
-  background-color: #f3f3f3;        /* light gray */
-  padding: 0.5rem 0.75rem;
-  text-align: left;
-  border-bottom: 1px solid #ccc;    /* single line under header */
-}
-
-/* body cells */
-table:not(.hljs-ln) tbody td {
-  padding: 0.5rem 0.75rem;
-  vertical-align: top;
-  border-right: 1px solid #e0e0e0;  /* vertical lines between <td> */
-}
-
-/* remove right border on last cell */
-table:not(.hljs-ln) td:last-child,
-table:not(.hljs-ln) th:last-child {
-  border-right: none;
-}
-
-/* optional hover */
-table:not(.hljs-ln) tbody tr:hover td {
-  background-color: #fafafa;
 }
 
 /* ============================================================
@@ -251,6 +251,10 @@ table:not(.hljs-ln) tbody tr:hover td {
   margin: 0 6px;
   color: #000000;
 }
+
+/* ===
+hljs, +line numbers.
+*/
 
 .hljs-ln-n {
   color: #ffffff;
