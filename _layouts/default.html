@@ -21,14 +21,12 @@ layout: nil
     hljs.initLineNumbersOnLoad();
   </script>
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-
-  mermaid.initialize({
-    startOnLoad: true,
-    theme: 'default'
-  });
-</script>
+  <!-- Format -->
+<script src="https://cdn.jsdelivr.net/npm/@mermaid-js/tiny@<MERMAID_MAJOR_VERSION>/dist/mermaid.tiny.js"></script>
+<!-- Pinning major version -->
+<script src="https://cdn.jsdelivr.net/npm/@mermaid-js/tiny@11/dist/mermaid.tiny.js"></script>
+<!-- Pinning specific version -->
+<script src="https://cdn.jsdelivr.net/npm/@mermaid-js/tiny@11.6.0/dist/mermaid.tiny.js"></script>
 
 </head>
 
