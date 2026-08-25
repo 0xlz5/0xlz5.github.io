@@ -1,11 +1,9 @@
 ---
-
 layout: post
 title: "A Bit of History – Part 1 – When Swing Met the Grid ⚡"
 subtitle: "A 2009 experiment in declarative UI, Groovy and energy-domain modeling"
 date: 2026-08-25
 categories:
-
 * software-architecture
   tags:
 * java
@@ -19,7 +17,6 @@ categories:
 * energy
 * utilities
   excerpt: "Reconstructing a 2009 idea: using Groovy to describe workflows and presentation models for a complex Energy & Utilities domain on top of Java Swing."
-
 ---
 
 # When Swing Met the Grid ⚡
