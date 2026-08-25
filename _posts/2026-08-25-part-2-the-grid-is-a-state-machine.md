@@ -1,94 +1,234 @@
 ---
+
 layout: post
-title: "A Bit of History – Part 2 - The Grid Is a State Machine ⚡"
+title: "A Bit of history – Part 2 – The Grid Is a State Machine ⚡"
 subtitle: "Modeling Energy & Utilities workflows with a Groovy DSL"
-date: 2026-08-25
+date: 2026-08-26
 categories:
-  - software-architecture
+- software-architecture
 tags:
-  - java
-  - swing
-  - jfc
-  - groovy
-  - dsl
-  - workflow
-  - state-machine
-  - declarative-ui
-  - model-driven-ui
-  - energy
-  - utilities
+- java
+- swing
+- jfc
+- groovy
+- dsl
+- workflow
+- state-machine
+- declarative-ui
+- model-driven-ui
+- energy
+- utilities
 excerpt: "From supply contracts and meters to outages: expressing state, guards, validation and transitions as a declarative UI workflow."
----
-
-# ⚡ The Grid Is a State Machine
-
-## Part II — Modeling Energy Workflows Declaratively
-
-*Java 1.4/1.5 · Swing/JFC · Groovy · 2009-ish enterprise architecture*
 
 ---
 
-Part I established the separation:
+# The Grid Is a State Machine ⚡
+
+## Part II — Modeling Energy & Utilities workflows with a Groovy DSL
+
+In Part I, we made a fairly radical move:
+
+> **Swing is not the UI architecture. Swing is the renderer.**
+
+The application has a richer structure:
 
 ```text
-Domain → Presentation Model → DSL → Swing
+⚡ Domain Model
+       │
+       ▼
+🧠 Presentation Model
+       │
+       ▼
+🧙 Groovy DSL
+       │
+       ▼
+🖥 Swing / JFC
 ```
 
-Now comes the fun part.
+But there's another problem hiding underneath.
 
-Energy & Utilities applications are full of things that **change state**.
+A utility application isn't just a collection of screens.
 
-A meter isn't just a record.
+It's a collection of **legal state transitions**.
 
-A contract isn't just a record.
+A supply contract can be activated.
 
-A supply point isn't just a record.
+A meter can be installed.
 
-An outage isn't just a record.
+An outage can be dispatched.
 
-They have **lifecycles**.
+A work order can be closed.
+
+And importantly:
+
+> **Not every action is legal in every state.**
+
+That's where things get interesting.
 
 ---
 
-# 🔌 A contract lifecycle
+# 1. Objects are not enough 🧩
 
-For example:
+Consider a `SupplyContract`.
+
+A naive OO model might start with:
+
+```java
+class SupplyContract {
+
+    Customer customer;
+    SupplyPoint supplyPoint;
+    Tariff tariff;
+
+    Date startDate;
+    Date endDate;
+
+    ContractStatus status;
+}
+```
+
+Fine.
+
+But the interesting part isn't the attributes.
+
+It's the **behavior**:
+
+```java
+contract.activate();
+contract.suspend();
+contract.resume();
+contract.terminate();
+```
+
+Each operation changes the state of the object.
+
+So instead of thinking:
 
 ```text
-                    ┌─────────┐
-                    │  DRAFT  │
-                    └────┬────┘
-                         │ activate
-                         ▼
-                    ┌─────────┐
-             ┌──────│ ACTIVE  │──────┐
-             │      └────┬────┘      │
-          suspend        │          terminate
-             │           │             │
-             ▼           │             ▼
-        ┌──────────┐      │        ┌───────────┐
-        │ SUSPENDED│──────┘        │ TERMINATED│
-        └──────────┘   resume      └───────────┘
+SupplyContract = data
 ```
 
-A conventional Swing implementation tends to distribute this knowledge across:
+we should think:
 
-* buttons
-* listeners
-* controllers
-* dialogs
-* validation methods
-* panel switching
-* `setEnabled()`
-* table models
+```text
+SupplyContract = state + behavior + invariants
+```
 
-The DSL can put the workflow in one place.
+Or, more formally:
+
+```text
+S × E → S'
+```
+
+where:
+
+* `S` = current state
+* `E` = event/command
+* `S'` = resulting state
+
+That is a state machine.
 
 ---
 
-# 🧙‍♂️ A workflow DSL
+# 2. The contract lifecycle ⚡
 
-Imagine:
+Let's draw the obvious one first:
+
+```mermaid
+stateDiagram-v2
+
+    [*] --> Draft
+
+    Draft --> Active : activate
+
+    Active --> Suspended : suspend
+    Suspended --> Active : resume
+
+    Active --> Terminated : terminate
+    Suspended --> Terminated : terminate
+
+    Terminated --> [*]
+```
+
+This tiny diagram already tells us something that a class diagram doesn't:
+
+```text
+Draft
+  │
+  └── activate ──► Active
+                     │
+                     ├── suspend ──► Suspended
+                     │                  │
+                     │                  └── resume ──► Active
+                     │
+                     └── terminate ──► Terminated
+```
+
+The graph is the workflow.
+
+The screen is merely a projection of the current node.
+
+---
+
+# 3. UI buttons are really transitions 🔘
+
+This is a useful mental inversion.
+
+The traditional Swing approach starts with:
+
+```text
+JButton
+   │
+   ▼
+ActionListener
+   │
+   ▼
+business operation
+```
+
+Our approach starts with:
+
+```text
+business command
+       │
+       ▼
+workflow transition
+       │
+       ▼
+presentation command
+       │
+       ▼
+JButton
+```
+
+In other words:
+
+> **The button is not the command.**
+
+The button is one possible representation of the command.
+
+```mermaid
+flowchart TB
+
+    CMD["Command<br/>suspend"]
+
+    CMD --> BUTTON["JButton"]
+    CMD --> MENU["JMenuItem"]
+    CMD --> TOOLBAR["Toolbar Button"]
+    CMD --> KEY["Keyboard Shortcut"]
+```
+
+This is a surprisingly important distinction.
+
+Once `suspend` exists as a first-class command, it can be rendered in multiple ways.
+
+---
+
+# 4. The workflow DSL 🧙‍♂️
+
+Now let's encode the state machine.
+
+A deliberately Groovy-ish DSL could look like this:
 
 ```groovy
 workflow "SupplyContract" {
@@ -155,6 +295,11 @@ workflow "SupplyContract" {
         screen "SuspendedContract"
 
         command "resume" {
+
+            enabledWhen {
+                model.canResume()
+            }
+
             action {
                 model.resume()
             }
@@ -164,65 +309,313 @@ workflow "SupplyContract" {
     }
 
     state "terminated" {
+
         screen "TerminatedContract"
     }
 }
 ```
 
-🔥 This is where the DSL starts becoming useful.
+Look at what has disappeared.
+
+There is no:
+
+```text
+JButton
+ActionListener
+CardLayout
+JPanel
+setEnabled()
+show()
+```
+
+The DSL describes **semantics**.
 
 ---
 
-# 🧠 State ≠ screen
+# 5. The DSL is executable architecture
 
-This is an important architectural detail.
+This isn't merely configuration.
 
-Don't define:
+Consider:
 
-```text
-screen = state
+```groovy
+enabledWhen {
+    model.canSuspend()
+}
 ```
 
-Define:
+That's executable behavior.
 
-```text
-state
-  │
-  ├── screen
-  ├── commands
-  ├── guards
-  ├── validation
-  └── transitions
+Or:
+
+```groovy
+action {
+    model.suspend()
+}
 ```
 
-Because the same state could have different views.
+Again, executable.
+
+Or:
+
+```groovy
+goto "suspended"
+```
+
+That's a workflow transition.
+
+So the DSL is really a small **programming language for interaction**.
+
+```mermaid
+flowchart LR
+
+    SOURCE["Groovy DSL"]
+
+    SOURCE --> DEF["Workflow Definition"]
+
+    DEF --> ENGINE["Workflow Engine"]
+
+    ENGINE --> PM["Presentation Model"]
+
+    PM --> RENDERER["Swing Renderer"]
+```
+
+And this is why Groovy makes sense.
+
+We don't need to invent a parser.
+
+The host language already gives us:
+
+```text
+closures
+method calls
+objects
+maps
+lists
+dynamic dispatch
+metaprogramming
+```
+
+The syntax becomes almost language-like.
+
+---
+
+# 6. Guards: where domain semantics meet UI 🛡️
+
+A workflow needs guards.
 
 For example:
 
-```text
-                 ACTIVE
-                   │
-          ┌────────┴────────┐
-          │                 │
-     Operator UI       Customer UI
-          │                 │
-     Swing screen       Web screen
+```groovy
+command "activate" {
+
+    enabledWhen {
+        model.canActivate()
+    }
+
+    action {
+        model.activate()
+    }
+
+    goto "active"
+}
 ```
 
-The domain state is independent of presentation.
+The UI doesn't need to know *why* activation isn't possible.
 
-That's exactly the spirit of separated presentation: domain objects should remain independent of the presentation and support multiple presentations.
+It asks:
+
+```text
+canActivate() ?
+```
+
+The domain/application layer can decide:
+
+```text
+customer exists?
+supply point valid?
+tariff valid?
+start date valid?
+meter available?
+contract not already active?
+operator authorized?
+```
+
+The presentation layer merely exposes the result.
+
+This is a crucial separation:
+
+```text
+             WHY?
+              │
+              ▼
+       Domain / Application
+              │
+              │ canActivate()
+              ▼
+            Boolean
+              │
+              ▼
+             UI
+```
+
+The Swing layer should not reconstruct business rules.
 
 ---
 
-# ⚡ Now add the meter
+# 7. Validation is not the same as a guard
 
-Meters make the example more interesting.
+This is another subtle distinction.
+
+A **guard** answers:
+
+> Can this command be executed?
+
+Validation answers:
+
+> What is wrong with the current input?
+
+For example:
+
+```groovy
+command "activate" {
+
+    enabledWhen {
+        model.canActivate()
+    }
+
+    validate {
+
+        required model.customer
+
+        required model.supplyPoint
+
+        required model.tariff
+
+        validDateRange(
+            model.startDate,
+            model.endDate
+        )
+    }
+
+    action {
+        model.activate()
+    }
+
+    goto "active"
+}
+```
+
+So:
+
+```text
+Guard
+  │
+  └── command available?
+
+Validation
+  │
+  └── input acceptable?
+
+Action
+  │
+  └── perform operation
+
+Transition
+  │
+  └── new workflow state
+```
+
+Four different concepts.
+
+That's already enough to prevent a lot of Swing spaghetti.
+
+---
+
+# 8. The workflow engine 🧠
+
+Behind the DSL, the runtime doesn't need to be particularly complicated.
+
+Conceptually:
+
+```java
+class WorkflowEngine {
+
+    State currentState;
+
+    void fire(String command) {
+
+        Command c =
+            currentState.getCommand(command);
+
+        if (!c.isEnabled(model))
+            throw new IllegalStateException();
+
+        c.validate(model);
+
+        c.execute(model);
+
+        currentState =
+            c.getTargetState();
+    }
+}
+```
+
+The important thing is that the workflow definition becomes data:
+
+```text
+Workflow
+ ├── State
+ │    ├── Screen
+ │    └── Command
+ │          ├── Guard
+ │          ├── Validation
+ │          ├── Action
+ │          └── Target
+ └── State
+```
+
+Which means it can be inspected.
+
+Logged.
+
+Tested.
+
+Visualized.
+
+Potentially even edited with tooling.
+
+---
+
+# 9. Now add meters 🔌
+
+Meters have their own lifecycle.
+
+```mermaid
+stateDiagram-v2
+
+    [*] --> Planned
+
+    Planned --> Installed : install
+
+    Installed --> Installed : read
+
+    Installed --> Replacement : replace
+
+    Replacement --> Installed : complete
+
+    Installed --> Retired : retire
+
+    Retired --> [*]
+```
+
+The corresponding DSL:
 
 ```groovy
 workflow "Meter" {
 
     state "planned" {
+
         screen "MeterInstallation"
 
         command "install" {
@@ -245,6 +638,7 @@ workflow "Meter" {
         screen "MeterDashboard"
 
         command "read" {
+
             action {
                 model.takeReading()
             }
@@ -257,6 +651,15 @@ workflow "Meter" {
             }
 
             goto "replacement"
+        }
+
+        command "retire" {
+
+            action {
+                model.retire()
+            }
+
+            goto "retired"
         }
     }
 
@@ -273,339 +676,774 @@ workflow "Meter" {
             goto "installed"
         }
     }
+
+    state "retired" {
+
+        screen "RetiredMeter"
+    }
 }
 ```
 
-The UI language now expresses something meaningful:
+Notice that `read` doesn't transition anywhere.
+
+That's perfectly legitimate.
+
+A workflow doesn't have to be:
 
 ```text
-INSTALL
+state → transition → state
+```
+
+It can also have:
+
+```text
+state → command → side effect
+```
+
+This distinction becomes useful for operational applications.
+
+---
+
+# 10. Commands versus events 📡
+
+There's another useful distinction.
+
+A **command** says:
+
+> Please do this.
+
+An **event** says:
+
+> This happened.
+
+For example:
+
+```text
+COMMAND
+────────
+suspendContract
+```
+
+versus:
+
+```text
+EVENT
+─────
+ContractSuspended
+```
+
+The workflow might therefore look conceptually like:
+
+```mermaid
+sequenceDiagram
+
+    participant UI as Swing UI
+    participant WF as Workflow Engine
+    participant APP as Application Service
+    participant DM as Domain Model
+
+    UI->>WF: suspend
+    WF->>WF: check guard
+    WF->>WF: validate
+    WF->>APP: suspendContract()
+    APP->>DM: contract.suspend()
+    DM-->>APP: ContractSuspended
+    APP-->>WF: success
+    WF-->>UI: state = suspended
+```
+
+This is beginning to look much less like a GUI framework and much more like an **application protocol**.
+
+And that's exactly where this architecture gets interesting.
+
+---
+
+# 11. Outage management 🚨
+
+Energy & Utilities gives us an even better example.
+
+Imagine:
+
+```mermaid
+stateDiagram-v2
+
+    [*] --> Detected
+
+    Detected --> Confirmed : confirm
+    Confirmed --> Dispatched : dispatch
+    Dispatched --> InProgress : startWork
+    InProgress --> Restored : restore
+    Restored --> Closed : close
+
+    Confirmed --> Cancelled : cancel
+    Dispatched --> Cancelled : cancel
+
+    Cancelled --> [*]
+    Closed --> [*]
+```
+
+The UI isn't just a collection of forms.
+
+It is an operational process:
+
+```text
+🚨 detected
    ↓
-INSTALLED
-   ├── READ
-   └── REPLACE
-          ↓
-      REPLACEMENT
-          ↓
-       INSTALLED
+🔎 confirmed
+   ↓
+🚚 dispatched
+   ↓
+🔧 work in progress
+   ↓
+⚡ restored
+   ↓
+✅ closed
 ```
 
-The Swing widgets are merely the projection.
+And each state can expose a different presentation.
+
+```text
+Detected
+   → OutageAlert
+
+Confirmed
+   → OutageDetails
+
+Dispatched
+   → CrewTracking
+
+InProgress
+   → WorkConsole
+
+Restored
+   → RestorationVerification
+
+Closed
+   → OutageSummary
+```
+
+The workflow model therefore becomes the skeleton of the application.
 
 ---
 
-# 📈 Measurements introduce time
+# 12. Role-based commands 👷
 
-And here's where a utility domain starts getting really interesting.
-
-Measurements aren't just:
-
-```java
-double value;
-```
-
-They have:
-
-```text
-timestamp
-quality
-unit
-register
-source
-estimation status
-```
-
-So the presentation model could expose:
+Now add authorization.
 
 ```groovy
-measurementTable {
+command "dispatch" {
 
-    column "Time"
-        bind "timestamp"
-
-    column "Value"
-        bind "value"
-
-    column "Unit"
-        bind "unit"
-
-    column "Quality"
-        bind "quality"
-
-    style "estimated"
-        when { row.estimated }
-}
-```
-
-The domain remains responsible for:
-
-```text
-Measurement
-   │
-   ├── value
-   ├── timestamp
-   ├── unit
-   ├── quality
-   └── estimated
-```
-
-The UI DSL decides how that semantic information becomes visible.
-
----
-
-# 🚨 Outages
-
-Now imagine an outage-management workflow:
-
-```text
-             DETECTED
-                │
-                ▼
-             CONFIRMED
-                │
-                ▼
-           DISPATCHED
-                │
-                ▼
-           IN_PROGRESS
-                │
-                ▼
-             RESTORED
-                │
-                ▼
-             CLOSED
-```
-
-DSL:
-
-```groovy
-workflow "Outage" {
-
-    state "detected" {
-        screen "OutageAlert"
-
-        command "confirm" {
-            action {
-                model.confirm()
-            }
-
-            goto "confirmed"
-        }
-    }
-
-    state "confirmed" {
-        screen "OutageDetails"
-
-        command "dispatch" {
-            enabledWhen {
-                model.availableCrew()
-            }
-
-            action {
-                model.dispatch()
-            }
-
-            goto "dispatched"
-        }
-    }
-
-    state "dispatched" {
-        screen "CrewTracking"
-
-        command "startWork" {
-            action {
-                model.startWork()
-            }
-
-            goto "inProgress"
-        }
-    }
-
-    state "inProgress" {
-
-        command "restore" {
-            enabledWhen {
-                model.canRestore()
-            }
-
-            action {
-                model.restore()
-            }
-
-            goto "restored"
-        }
-    }
-
-    state "restored" {
-
-        command "close" {
-            action {
-                model.close()
-            }
-
-            goto "closed"
-        }
-    }
-}
-```
-
-Suddenly:
-
-```text
-Swing
-```
-
-isn't where the workflow lives anymore.
-
-The DSL is the workflow.
-
----
-
-# 🧩 The runtime
-
-The runtime could be tiny:
-
-```text
-WorkflowDefinition
-       │
-       ▼
-WorkflowEngine
-       │
-       ├── currentState
-       ├── model
-       ├── availableCommands()
-       └── fire(command)
-               │
-               ▼
-         PresentationModel
-               │
-               ▼
-           Swing View
-```
-
-Something like:
-
-```java
-workflow.fire("suspend");
-```
-
-causes:
-
-```text
-1. locate command
-2. evaluate guard
-3. validate
-4. execute action
-5. update state
-6. notify presentation model
-7. refresh Swing
-```
-
-The UI becomes an interpreter for a little language.
-
----
-
-# 🧪 Which is actually a very nice test boundary
-
-You can test:
-
-```groovy
-def "active contract can be suspended"() {
-
-    given:
-        contract.status == ACTIVE
-
-    when:
-        workflow.fire("suspend")
-
-    then:
-        contract.status == SUSPENDED
-}
-```
-
-No JFrame.
-
-No `Robot`.
-
-No clicking.
-
-No `Thread.sleep()`.
-
-No:
-
-```java
-SwingUtilities.invokeLater(...)
-```
-
-😂
-
----
-
-# 🔭 The deeper idea
-
-The DSL is effectively a **finite-state interaction language**:
-
-```text
-                 DOMAIN
-                   │
-                   ▼
-             DOMAIN STATE
-                   │
-                   ▼
-          PRESENTATION STATE
-                   │
-                   ▼
-            UI STATE MACHINE
-                   │
-                   ▼
-              SWING VIEW
-```
-
-This is why a rich utility domain is such a good candidate.
-
-The UI isn't merely displaying objects.
-
-It is guiding users through **legal transformations of those objects**.
-
----
-
-# 🧮 And it can become data-driven
-
-Eventually you could imagine:
-
-```groovy
-command "changeTariff" {
-
-    requires Role.OPERATOR
+    requires role "DISPATCHER"
 
     enabledWhen {
-        model.contract.active
+        model.canDispatch()
     }
 
     action {
-        model.changeTariff(selectedTariff)
+        model.dispatch()
     }
 
-    goto "tariffChanged"
+    goto "dispatched"
 }
 ```
 
-Now the DSL knows about:
+Another command:
 
-```text
-roles
-permissions
-guards
-validation
-commands
-workflow
-navigation
+```groovy
+command "restore" {
+
+    requires role "FIELD_ENGINEER"
+
+    enabledWhen {
+        model.canRestore()
+    }
+
+    action {
+        model.restore()
+    }
+
+    goto "restored"
+}
 ```
 
-At that point you have something considerably closer to a tiny **application language** than a UI builder.
+The command now has another dimension:
 
-And that, retrospectively, is probably the most interesting part of the 2009 idea.
+```text
+Command
+ ├── availability
+ ├── authorization
+ ├── validation
+ ├── action
+ └── transition
+```
+
+That's useful because **visibility, enablement and authorization aren't necessarily the same thing**.
+
+A command could be:
+
+```text
+visible = true
+enabled = false
+authorized = true
+```
+
+or:
+
+```text
+visible = false
+authorized = false
+```
+
+A mature DSL should eventually distinguish these.
 
 ---
 
-*Next: Part III — from internal DSL to a real model-driven UI architecture: binding, metadata, generated screens, Swing/JFC adapters, and where the idea stops being clever and starts becoming dangerous.*
+# 13. Temporal constraints ⏱️
+
+And utility domains have another particularly nasty characteristic:
+
+**time**.
+
+A tariff might be valid only during:
+
+```text
+2026-01-01 → 2026-12-31
+```
+
+A contract may have:
+
+```text
+startDate
+endDate
+```
+
+A measurement belongs to an interval.
+
+A meter reading may be:
+
+```text
+actual
+estimated
+validated
+corrected
+```
+
+So a guard might become:
+
+```groovy
+enabledWhen {
+
+    model.tariff.validAt(model.startDate) &&
+    model.supplyPoint.operationalAt(model.startDate)
+}
+```
+
+Now our "UI DSL" is asking domain questions.
+
+That's okay.
+
+It should **ask** the domain.
+
+It shouldn't **implement** the domain.
+
+---
+
+# 14. The boundary 🧱
+
+This is the architectural line I'd defend very strongly:
+
+```text
+                    UI DSL
+                       │
+              ┌────────┴────────┐
+              │                 │
+           ASK DOMAIN        DECLARE UI
+              │                 │
+              ▼                 ▼
+       canActivate()         screen(...)
+       canSuspend()          command(...)
+       canTerminate()        goto(...)
+              │                 │
+              ▼                 ▼
+         DOMAIN MODEL       PRESENTATION
+```
+
+Bad:
+
+```groovy
+enabledWhen {
+    model.customer.balance > 1000 &&
+    model.meter.type == "A" &&
+    model.tariff.code == "T2" &&
+    ...
+}
+```
+
+Better:
+
+```groovy
+enabledWhen {
+    model.canSuspend()
+}
+```
+
+The DSL shouldn't become a second domain model.
+
+---
+
+# 15. A workflow is a graph 🕸️
+
+Once the workflow is explicit, we can represent it mathematically.
+
+Let:
+
+```text
+W = (S, C, T)
+```
+
+where:
+
+* `S` = states
+* `C` = commands
+* `T` = transitions
+
+For a contract:
+
+```text
+S =
+{ Draft, Active, Suspended, Terminated }
+```
+
+Commands:
+
+```text
+C =
+{ activate, suspend, resume, terminate }
+```
+
+Transitions:
+
+```text
+T =
+{
+  Draft       × activate  → Active
+  Active      × suspend   → Suspended
+  Suspended   × resume    → Active
+  Active      × terminate → Terminated
+  Suspended   × terminate → Terminated
+}
+```
+
+Now you can ask interesting questions.
+
+For example:
+
+> Is `Terminated` reachable from `Draft`?
+
+Yes.
+
+> Can `Terminated` transition back to `Active`?
+
+No.
+
+> Is `resume` legal from `Draft`?
+
+No.
+
+The DSL isn't just convenient syntax.
+
+It gives us a **machine-readable graph**.
+
+---
+
+# 16. And graphs can be analyzed 🔬
+
+Once the workflow is represented as a graph, we can potentially detect:
+
+```text
+dead states
+unreachable states
+missing transitions
+cycles
+illegal transitions
+commands without handlers
+states without screens
+```
+
+For example:
+
+```text
+Draft
+  ↓
+Active
+  ↓
+Suspended
+  ↓
+Active
+```
+
+contains a legitimate cycle.
+
+But:
+
+```text
+Draft
+  ↓
+Orphaned
+```
+
+where `Orphaned` has no incoming/outgoing useful transition might indicate a modeling error.
+
+This is where the DSL starts to look like a **domain-specific executable specification**.
+
+---
+
+# 17. And now we can generate diagrams from the DSL 🤯
+
+The workflow definition already contains:
+
+```groovy
+state "active" {
+
+    command "suspend" {
+        goto "suspended"
+    }
+}
+```
+
+So why not generate:
+
+```mermaid
+stateDiagram-v2
+
+    Draft --> Active : activate
+    Active --> Suspended : suspend
+    Suspended --> Active : resume
+    Active --> Terminated : terminate
+    Suspended --> Terminated : terminate
+```
+
+from it?
+
+Then:
+
+```text
+              DSL
+               │
+       ┌───────┴────────┐
+       ▼                ▼
+   UI Runtime       Documentation
+       │                │
+       ▼                ▼
+     Swing          Mermaid
+```
+
+That's a lovely property.
+
+**The documentation and the application can have the same source of truth.**
+
+---
+
+# 18. From DSL to executable specification 📜
+
+At this point, the DSL is doing three jobs:
+
+```text
+1. Runtime definition
+2. UI definition
+3. Documentation source
+```
+
+And potentially a fourth:
+
+```text
+4. Test specification
+```
+
+For example:
+
+```groovy
+workflow "SupplyContract" {
+
+    state "active" {
+
+        command "suspend" {
+            goto "suspended"
+        }
+    }
+}
+```
+
+could be used to derive:
+
+```text
+✓ command exists
+✓ command available in active
+✓ target state exists
+✓ target state reachable
+```
+
+And a test could assert:
+
+```groovy
+expect {
+    workflow.from("active")
+             .fire("suspend")
+             .state == "suspended"
+}
+```
+
+This is approaching **model-based testing**.
+
+---
+
+# 19. The Swing renderer becomes boring 😎
+
+And that's a compliment.
+
+The renderer's job becomes:
+
+```text
+Workflow State
+      │
+      ▼
+Presentation Model
+      │
+      ▼
+Widget Factory
+```
+
+For example:
+
+```text
+field       → JTextField
+choice      → JComboBox
+table       → JTable
+command     → JButton
+command     → JMenuItem
+status      → JLabel
+screen      → JPanel
+```
+
+The renderer doesn't decide:
+
+> "Can I suspend this contract?"
+
+It simply receives:
+
+```text
+Command("suspend")
+enabled = false
+```
+
+and renders it accordingly.
+
+**Boring rendering is good architecture.**
+
+---
+
+# 20. What we have actually built 🧠
+
+By now the architecture looks like:
+
+```mermaid
+flowchart TB
+
+    DOMAIN["⚡ Rich Energy Domain"]
+
+    APP["Application Services"]
+
+    PM["🧠 Presentation Model"]
+
+    DSL["🧙 Groovy Workflow DSL"]
+
+    ENGINE["🔀 Workflow Engine"]
+
+    RENDER["🖥 Swing Renderer"]
+
+    DOC["📐 Mermaid / Documentation"]
+
+    TEST["🧪 Workflow Tests"]
+
+    DOMAIN --> APP
+    APP --> PM
+    PM --> DSL
+    DSL --> ENGINE
+    ENGINE --> RENDER
+    DSL --> DOC
+    DSL --> TEST
+```
+
+That's considerably more than a fancy way to create buttons.
+
+It's a **semantic interaction layer**.
+
+---
+
+# 21. The 2009 sweet spot 🎯
+
+Would I have tried to make *everything* declarative?
+
+No.
+
+That would be a mistake.
+
+I'd keep:
+
+```text
+Java
+ ├── domain model
+ ├── algorithms
+ ├── persistence
+ ├── integration
+ └── application services
+```
+
+And use Groovy selectively for:
+
+```text
+Groovy
+ ├── workflow definitions
+ ├── screen composition
+ ├── presentation rules
+ └── simple interaction logic
+```
+
+The principle is:
+
+> **Use the DSL where the problem is naturally declarative.**
+
+A state machine is declarative.
+
+A graph of screens is declarative.
+
+A command registry is declarative.
+
+A complicated billing algorithm probably isn't.
+
+---
+
+# 22. The deeper pattern 🔭
+
+We started with:
+
+```text
+"Swing screens are getting complicated."
+```
+
+But the real problem was:
+
+```text
+The application contains an implicit state machine.
+```
+
+And the solution becomes:
+
+```text
+implicit workflow
+       ↓
+explicit model
+       ↓
+declarative DSL
+       ↓
+executable specification
+```
+
+That's the interesting transformation.
+
+```mermaid
+flowchart LR
+
+    IMP["Implicit<br/>Workflow"]
+
+    MODEL["Explicit<br/>State Model"]
+
+    DSL["Declarative<br/>DSL"]
+
+    EXEC["Executable<br/>Application"]
+
+    DOC["Documentation"]
+
+    TEST["Tests"]
+
+    IMP --> MODEL
+    MODEL --> DSL
+    DSL --> EXEC
+    DSL --> DOC
+    DSL --> TEST
+```
+
+And suddenly the original 2009 idea doesn't look so strange.
+
+It looks like a small step toward **model-driven interaction architecture**.
+
+---
+
+# 23. The punchline ⚡
+
+The important idea wasn't:
+
+> **Groovy + Swing**
+
+It was:
+
+> **Make the application's state transitions explicit.**
+
+Groovy was simply a very convenient language in which to express them.
+
+And Energy & Utilities happens to be a particularly beautiful domain for this because the software is full of things that have:
+
+```text
+identity
++
+state
++
+time
++
+constraints
++
+commands
++
+events
++
+permissions
+```
+
+Which means the UI isn't really:
+
+```text
+forms + buttons
+```
+
+It's:
+
+```text
+             STATE
+               │
+        ┌──────┴──────┐
+        ▼             ▼
+    COMMANDS       VIEWS
+        │             │
+        ▼             ▼
+    TRANSITIONS    PROJECTIONS
+        │             │
+        └──────┬──────┘
+               ▼
+          USER INTERACTION
+```
+
+And that leads naturally to the next question:
+
+> **If the workflow can be modeled explicitly, why manually build all those forms and bindings at all?**
+
+That's where we cross the boundary from a **declarative Swing DSL** into a genuine **model-driven UI**.
+
+And that's Part III. 🚀
+
+---
+
+### Series
+
+* **Part I — When Swing Met the Grid ⚡** — domain model, presentation model and declarative UI
+* **Part II — The Grid Is a State Machine ⚡** — commands, guards, workflows and transitions
+* **Part III — From Swing DSL to Model-Driven UI ⚡** — metadata, generation, binding and the limits of automation
