@@ -177,45 +177,42 @@ table {
 }
 
 /* ============================================================
-   CODE BLOCKS — MATERIAL PALENIGHT HLJS
+   HLJS CODE TABLE FIX — Material Palenight
    ============================================================ */
 
 /* Restore theme background */
 .hljs {
-  background: #292D3E !important;   /* Material Palenight base */
+  background: #292D3E !important;
   color: #BFC7D5 !important;
   padding: 1rem;
   border-radius: 6px;
 }
 
-/* Neutralize global inline-code styling inside code blocks */
+/* Remove global table styling inside hljs */
+.hljs table {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin: 0 !important;
+  background: #292D3E !important;   /* make theme visible */
+  width: auto !important;
+}
+
+/* Remove grid borders + restore theme background */
+.hljs table td,
+.hljs table th {
+  border: none !important;          /* remove grid */
+  background: #292D3E !important;   /* theme background */
+  padding: 4px 8px !important;      /* minimal spacing */
+  color: inherit !important;
+}
+
+/* Neutralize inline-code styling inside hljs */
 pre code.hljs,
 .hljs code {
   background: transparent !important;
   border: none !important;
   padding: 0 !important;
   color: inherit !important;
-}
-
-/* Prevent global table styling from affecting hljs */
-.hljs table,
-.hljs td,
-.hljs th {
-  all: unset !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-
-/* Line numbers */
-.hljs-ln-numbers {
-  background: #292D3E !important;
-  color: #82AAFF !important;
-  border-right: 1px solid #82AAFF !important;
-  padding-right: 12px;
-}
-
-.hljs-ln-code {
-  padding-left: 12px;
 }
 
 /* ============================================================
