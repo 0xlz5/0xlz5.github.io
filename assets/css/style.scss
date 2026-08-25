@@ -177,42 +177,53 @@ table {
 }
 
 /* ============================================================
-   HLJS CODE TABLE FIX — Material Palenight
+   HLJS — Material Palenight FINAL FIX
    ============================================================ */
 
-/* Restore theme background */
+/* 1. Restore the actual theme background */
 .hljs {
-  background: #292D3E !important;
+  background: #292D3E !important;   /* Material Palenight base */
   color: #BFC7D5 !important;
   padding: 1rem;
   border-radius: 6px;
 }
 
-/* Remove global table styling inside hljs */
-.hljs table {
-  border-collapse: collapse !important;
-  border-spacing: 0 !important;
-  margin: 0 !important;
-  background: #292D3E !important;   /* make theme visible */
-  width: auto !important;
-}
-
-/* Remove grid borders + restore theme background */
-.hljs table td,
-.hljs table th {
-  border: none !important;          /* remove grid */
-  background: #292D3E !important;   /* theme background */
-  padding: 4px 8px !important;      /* minimal spacing */
-  color: inherit !important;
-}
-
-/* Neutralize inline-code styling inside hljs */
+/* 2. Neutralize inline-code styling inside hljs */
 pre code.hljs,
 .hljs code {
   background: transparent !important;
   border: none !important;
   padding: 0 !important;
   color: inherit !important;
+}
+
+/* 3. HLJS TABLES — remove grid, restore theme background */
+.hljs table {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin: 0 !important;
+  background: #292D3E !important;   /* homogeneous with hljs */
+  width: auto !important;
+}
+
+.hljs table td,
+.hljs table th {
+  border: none !important;          /* remove grid borders */
+  background: #292D3E !important;   /* same as hljs background */
+  padding: 4px 8px !important;      /* minimal spacing */
+  color: inherit !important;
+}
+
+/* 4. Line numbers — fix white color */
+.hljs-ln-numbers {
+  background: #292D3E !important;
+  color: #82AAFF !important;        /* Palenight blue */
+  border-right: 1px solid #82AAFF !important;
+  padding-right: 12px;
+}
+
+.hljs-ln-code {
+  padding-left: 12px;
 }
 
 /* ============================================================
