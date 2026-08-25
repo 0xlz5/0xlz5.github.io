@@ -69,5 +69,5 @@ layout: page
 ---
 
 ## 🎨 Digital Art
-[Code Poetry](https://code-poetry.com) — Holden (2023)  
+[Code Poetry](https://code-poetry.com) — Holden & Kerr (2023)  
 [New Media Art](https://openlibrary.org/books/OL25432017M/New_Media_Art) — Tribe & Jana (2006)
