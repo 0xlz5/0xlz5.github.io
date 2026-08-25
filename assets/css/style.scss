@@ -169,6 +169,34 @@ strong {
 
 table {
   width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+thead th {
+  background-color: #f3f3f3;      /* light gray header */
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;  /* single line under header */
+}
+
+tbody td {
+  padding: 0.5rem 0.75rem;
+  vertical-align: top;
+  border-right: 1px solid #e0e0e0; /* lines between <td>s */
+}
+
+/* remove right border on last cell in each row */
+tbody td:last-child,
+thead th:last-child {
+  border-right: none;
+}
+
+/* optional: subtle hover for readability */
+tbody tr:hover td {
+  background-color: #fafafa;
 }
 
 /* ============================================================
