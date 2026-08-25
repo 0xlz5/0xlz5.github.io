@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "A Bit of history – Part II – The Grid Is a State Machine ⚡"
+title: "A Bit of History – Part II – The Grid Is a State Machine ⚡"
 subtitle: "Modeling Energy & Utilities workflows with a Groovy DSL"
 date: 2026-08-26
 categories:
