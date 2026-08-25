@@ -60,11 +60,11 @@ layout: page
 ---
 
 ## 🔬 Science & Mathematics
-[Introdcution to Linear Algebra](https://math.mit.edu/~gs/linearalgebra) — Gilbert Strang 
 [Linear Algebra for Everyone](https://math.mit.edu/~gs/everyone) — Gilbert Strang (2020)  
+[Introdcution to Linear Algebra](https://math.mit.edu/~gs/linearalgebra) — Gilbert Strang (2016)  
 [Nonlinear Dynamics and Chaos](https://www.stevenstrogatz.com/books/nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering) — Steven H. Strogatz (2014)  
 [The Manga Guide to Physics](https://nostarch.com/mg_physics.htm) — No Starch Press (2009)  
-[The Manga Guide to Biochemistry](https://nostarch.com/releases/Manga%20Biochem_release.html) — No Starch Press (2011)
+[The Manga Guide to Biochemistry](https://nostarch.com/releases/Manga%20Biochem_release.html) — No Starch Press (2011)  
 
 ---
 
