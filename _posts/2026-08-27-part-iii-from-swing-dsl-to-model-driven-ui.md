@@ -1759,11 +1759,11 @@ No.
 
 But I'd phrase it more precisely today.
 
-You weren't really proposing:
+I wasn't really proposing:
 
 > "Let's write Swing with Groovy."
 
-You were implicitly proposing:
+I was implicitly proposing:
 
 > **"Let's externalize the application's interaction model from its widget implementation."**
 
