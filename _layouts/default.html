@@ -24,24 +24,23 @@ layout: nil
 <!-- Pinning major version -->
 <script src="https://cdn.jsdelivr.net/npm/@mermaid-js/tiny@11/dist/mermaid.tiny.js"></script>
 
-<script>
+<script type="module">
   document.querySelectorAll('code.language-mermaid').forEach((element) => {
-    const pre = element.parentElement;
-    const div = document.createElement('div');
+  const pre = element.parentElement;
+  const div = document.createElement('div');
 
-    div.className = 'mermaid';
-    div.textContent = element.textContent;
+   div.className = 'mermaid';
+   div.textContent = element.textContent;
 
-    pre.replaceWith(div);
-  });
+   pre.replaceWith(div);
+});
 
-  mermaid.initialize({
-    startOnLoad: false,
-    securityLevel: 'loose',
-    theme: 'forest'
-  });
-
-  await mermaid.run();
+mermaid.initialize({
+  startOnLoad: true,
+  securityLevel: 'loose',
+  theme: 'forest'
+});
+await mermaid.run();
 </script>
 
 </head>
