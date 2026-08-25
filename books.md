@@ -16,8 +16,8 @@ layout: page
 ---
 
 ## 🧠 AI
-[How AI Works](https://nostarch.com/how-ai-works) — Ronald T. Kneusel (2023)
-[The Developer's Guide to AI](https://nostarch.com/developers-guide-to-ai) — Orshalick, Reghunadh, Thompson (2026)
+[How AI Works](https://nostarch.com/how-ai-works) — Ronald T. Kneusel (2023)  
+[The Developer's Guide to AI](https://nostarch.com/developers-guide-to-ai) — Orshalick, Reghunadh, Thompson (2026)  
 
 ---
 
