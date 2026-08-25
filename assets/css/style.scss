@@ -3,7 +3,9 @@
 
 @import "{{ site.theme }}";
 
-/* === GLOBAL PALETTE — SheCodes #953 === */
+/* ============================================================
+   GLOBAL PALETTE
+   ============================================================ */
 :root {
   --navy-deep:   #0A1128;
   --navy-cobalt: #001F54;
@@ -12,7 +14,26 @@
   --ice-white:   #FEFCFB;
 }
 
-/* === PAGE BACKGROUND === */
+/* ============================================================
+   MIXINS
+   ============================================================ */
+@mixin block-box {
+  width: 65%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2em;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+@mixin table-cell {
+  padding: 0.5rem 0.75rem;
+  vertical-align: top;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
 body {
   background: #e5e7eb;
   color: #1a1a1a;
@@ -25,160 +46,168 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* === UNIVERSAL BLOCK GEOMETRY (HEADER / CONTENT / FOOTER) === */
+strong {
+  background: #FFF7C2;
+  color: var(--navy-deep);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* ============================================================
+   HEADER / CONTENT / FOOTER BLOCK GEOMETRY
+   ============================================================ */
 .site-header,
 .page-content,
 .footer-bar {
-  width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  background: #ffffff;
-  padding: 2em;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 0;
-  margin-bottom: 0;
+  @include block-box;
 }
 
 /* ============================================================
    HEADER
    ============================================================ */
 .site-header {
-  display: block;
-}
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.header-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .header-title-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 
-/* TITLE + DESCRIPTION BLOCK */
-.header-title-block {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
+    .header-title a {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--navy-deep);
+      text-decoration: none;
+    }
 
-.header-title a {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 1.6rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: var(--navy-deep);
-  text-decoration: none;
-}
+    .header-description {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.85rem;
+      color: #444;
+      opacity: 0.85;
+      margin-top: -2px;
+    }
+  }
 
-.header-description {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: #444;
-  opacity: 0.85;
-  margin-top: -2px;
-}
-
-.header-avatar {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
+  .header-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
 }
 
 /* ============================================================
    PAGE CONTENT
    ============================================================ */
 .page-content {
-  display: block;
+  h1, h2, h3, h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin: 36px 0 10px;
+    color: var(--navy-deep);
+  }
+
+  a {
+    color: var(--blue-cyan);
+    border-bottom: 1px solid var(--blue-cyan);
+    text-decoration: none;
+    transition: 0.2s ease;
+
+    &:hover {
+      color: var(--ice-white);
+      background: var(--blue-cyan);
+      border-bottom: 1px solid var(--blue-cyan);
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+  }
+
+  blockquote {
+    border-left: 4px solid var(--blue-tech);
+    padding-left: 16px;
+    color: var(--navy-deep);
+    background: var(--ice-white);
+  }
 }
 
-/* HEADINGS */
-h1, h2, h3, h4 {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  line-height: 1.1;
-  margin-top: 36px;
-  margin-bottom: 10px;
-  color: var(--navy-deep);
+/* ============================================================
+   TABLES — GLOBAL (EXCLUDING HLJS)
+   ============================================================ */
+table {
+  &:not(.hljs table) {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 1.5rem 0;
+
+    thead th {
+      background-color: #f3f3f3;
+      @include table-cell;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+
+    tbody td {
+      @include table-cell;
+      border-right: 1px solid #e0e0e0;
+    }
+
+    td:last-child,
+    th:last-child {
+      border-right: none;
+    }
+
+    tbody tr:hover td {
+      background-color: #fafafa;
+    }
+  }
 }
 
-/* LINKS */
-a {
-  color: var(--blue-cyan);
-  border-bottom: 1px solid var(--blue-cyan);
-  text-decoration: none;
-  transition: 0.2s ease;
-}
-
-a:hover {
-  color: var(--ice-white);
-  background: var(--blue-cyan);
-  border-bottom: 1px solid var(--blue-cyan);
-  padding: 2px 4px;
-  border-radius: 3px;
-}
-
-/* BLOCKQUOTES */
-blockquote {
-  border-left: 4px solid var(--blue-tech);
-  padding-left: 16px;
-  color: var(--navy-deep);
-  background: var(--ice-white);
-}
-
-/* apply to all tables EXCEPT highlight.js line-number tables */
-table:not(.hljs-ln) {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 1.5rem 0;
-}
-
-/* header */
-table:not(.hljs-ln) thead th {
-  background-color: #f3f3f3;        /* light gray */
-  padding: 0.5rem 0.75rem;
-  text-align: left;
-  border-bottom: 1px solid #ccc;    /* single line under header */
-}
-
-/* body cells */
-table:not(.hljs-ln) tbody td {
-  padding: 0.5rem 0.75rem;
-  vertical-align: top;
-  border-right: 1px solid #e0e0e0;  /* vertical lines between <td> */
-}
-
-/* remove right border on last cell */
-table:not(.hljs-ln) td:last-child,
-table:not(.hljs-ln) th:last-child {
-  border-right: none;
-}
-
-/* optional hover */
-table:not(.hljs-ln) tbody tr:hover td {
-  background-color: #fafafa;
-}
-
-/* CODE BLOCKS */
+/* ============================================================
+   CODE BLOCKS (HLJS)
+   ============================================================ */
 .hljs {
+  background-color: #f8f8f8 !important;
   border: 1px solid var(--navy-cobalt);
   border-radius: 4px;
+  padding: 0.75em;
+
+  table,
+  td,
+  th {
+    background-color: #f8f8f8 !important;
+    border: 1px solid #ddd !important;
+  }
+
+  .hljs-ln-numbers {
+    color: var(--navy-deep);
+    border-right: 1px solid var(--navy-cobalt);
+    padding-right: 10px;
+    user-select: none;
+  }
+
+  .hljs-ln-code {
+    padding-left: 12px;
+  }
 }
 
-.hljs-ln-numbers {
-  color: var(--navy-deep);
-  border-right: 1px solid var(--navy-cobalt);
-  padding-right: 10px;
-  user-select: none;
-}
-
-.hljs-ln-code {
-  padding-left: 12px;
+code, pre, .hljs {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.9em;
+  line-height: 1.0em;
 }
 
 code {
@@ -189,20 +218,6 @@ code {
   padding: 2px 4px;
 }
 
-code, pre, .hljs {
-  font-family: "JetBrains Mono", monospace;
-  font-size: 0.9em;
-  line-height: 1.0em;
-}
-
-strong {
-  background: #FFF7C2; /* light yellow soft */
-  color: var(--navy-deep);
-  padding: 2px 4px;
-  border-radius: 3px;
-  font-weight: 600;
-}
-
 /* ============================================================
    FOOTER
    ============================================================ */
@@ -211,67 +226,38 @@ strong {
   flex-direction: column;
   gap: 1.2em;
   font-size: 13px;
-  color: #000000;
+  color: #000;
+
+  .footer-stripe {
+    width: 100%;
+    height: 4px;
+    background: #000;
+    border-radius: 2px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-right {
+      a {
+        color: #000;
+        border-bottom: 1px solid transparent;
+        transition: 0.2s ease;
+        padding: 0 2px;
+
+        &:hover {
+          color: #fff;
+          background: #000;
+          border-bottom: 1px solid #000;
+          border-radius: 3px;
+        }
+      }
+
+      .dot {
+        margin: 0 6px;
+        color: #000;
+      }
+    }
+  }
 }
-
-/* BLACK STRIPE */
-.footer-stripe {
-  width: 100%;
-  height: 4px;
-  background: #000000;
-  border-radius: 2px;
-}
-
-/* FOOTER CONTENT */
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.footer-left {
-  color: #000000;
-}
-
-.footer-right a {
-  color: #000000;
-  border-bottom: 1px solid transparent;
-  transition: 0.2s ease;
-  padding: 0 2px;
-}
-
-.footer-right a:hover {
-  color: #ffffff;
-  background: #000000;
-  border-bottom: 1px solid #000000;
-  border-radius: 3px;
-}
-
-.footer-right .dot {
-  margin: 0 6px;
-  color: #000000;
-}
-
-/* ===
-hljs, +line numbers.
-*/
-
-.hljs-ln-n {
-  color: #ffffff;
-}
-
-/* Force background inside hljs tables */
-.hljs table,
-.hljs table td,
-.hljs table th {
-    background-color: #f8f8f8 !important;   /* your Arduino-light bg */
-    border: 1px solid #ddd !important;
-}
-
-/* Optional: keep code blocks visually consistent */
-.hljs {
-    background-color: #f8f8f8 !important;
-    padding: 0.75em;
-    border-radius: 4px;
-}
-
