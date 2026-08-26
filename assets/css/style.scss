@@ -187,9 +187,16 @@ strong {
   background: transparent !important;
 }
 
-/* No hover shading */
+/* KEEP hover for global tables — tuned soft cyan mist */
 .page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) tr:hover td {
-  background: transparent !important;
+  background-color: rgba(18, 130, 162, 0.12) !important;
+  transition: background-color 0.2s ease;
+}
+
+/* HLJS tables NEVER hover */
+.page-content .hljs-ln tr:hover td,
+.page-content .hljs table tr:hover td {
+  background: #1e1e1e !important;
 }
 
 /* ============================================================
@@ -242,7 +249,7 @@ strong {
   line-height: 1rem;
 }
 
-/* No hover shading inside HLJS */
+/* HLJS hover disabled */
 .page-content .hljs-ln tr:hover td,
 .page-content .hljs table tr:hover td {
   background: #1e1e1e !important;
