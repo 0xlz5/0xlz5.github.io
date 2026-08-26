@@ -175,14 +175,16 @@ table:not(.hljs):not(.hljs table):not(.hljs-ln):not(.hljs-ln table) {
 }
 
 /* ============================================================
-   HLJS — LET MATERIAL-PALENIGHT APPLY ITS COLORS
+   HLJS — DO NOT OVERRIDE THE THEME
    ============================================================ */
+
+/* Remove ALL .hljs rules from your SCSS except this: */
 .hljs {
-  padding: 1rem;
-  border-radius: 6px;
+  padding: 1rem;        /* safe */
+  border-radius: 6px;   /* safe */
 }
 
-/* Neutralize inline-code styling inside hljs */
+/* Inline code inside hljs */
 pre code.hljs,
 .hljs code {
   background: transparent !important;
@@ -191,19 +193,20 @@ pre code.hljs,
 }
 
 /* ============================================================
-   HLJS LINE NUMBERS — WHITE
+   EXCLUDE HLJS TABLES — CORRECT WAY
    ============================================================ */
-.hljs-ln {
-  border-collapse: collapse !important;
-  border-spacing: 0 !important;
-  margin: 0 !important;
+
+/* Global tables — apply ONLY when NOT inside hljs or hljs-ln */
+.hljs table,
+.hljs-ln table,
+.hljs table *,
+.hljs-ln table * {
+  all: unset !important;
 }
 
-.hljs-ln td,
-.hljs-ln th {
-  border: none !important;
-  padding: 4px 8px !important;
-}
+/* ============================================================
+   HLJS LINE NUMBERS — WHITE
+   ============================================================ */
 
 .hljs-ln-numbers {
   color: #FFFFFF !important;
