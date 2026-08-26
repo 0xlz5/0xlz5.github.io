@@ -1,18 +1,155 @@
----
----
+@import "{{ site.theme }}";
+
+/* ============================================================
+   PALETTE
+   ============================================================ */
+:root {
+  --navy-deep:   #0A1128;
+  --navy-cobalt: #001F54;
+  --blue-tech:   #034078;
+  --blue-cyan:   #1282A2;
+  --ice-white:   #FEFCFB;
+}
+
+/* ============================================================
+   MIXINS
+   ============================================================ */
+@mixin block-box {
+  width: 65%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2em;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+@mixin cell {
+  padding: 0.5rem 0.75rem;
+  vertical-align: top;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+body {
+  background: #e5e7eb;
+  color: #1a1a1a;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.65;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+strong {
+  background: #FFF7C2;
+  color: var(--navy-deep);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+/* ============================================================
+   GEOMETRY BLOCKS
+   ============================================================ */
+.site-header,
+.page-content,
+.footer-bar {
+  @include block-box;
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.site-header {
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-title-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    .header-title a {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--navy-deep);
+      text-decoration: none;
+    }
+
+    .header-description {
+      font-family: "JetBrains Mono", monospace;
+      font-size: 0.85rem;
+      color: #444;
+      opacity: 0.85;
+      margin-top: -2px;
+    }
+  }
+
+  .header-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+}
+
+/* ============================================================
+   PAGE CONTENT
+   ============================================================ */
+.page-content {
+  h1, h2, h3, h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin: 36px 0 10px;
+    color: var(--navy-deep);
+  }
+
+  a {
+    color: var(--blue-cyan);
+    border-bottom: 1px solid var(--blue-cyan);
+    text-decoration: none;
+    transition: 0.2s ease;
+
+    &:hover {
+      color: var(--ice-white);
+      background: var(--blue-cyan);
+      border-bottom: 1px solid var(--blue-cyan);
+      padding: 2px 4px;
+      border-radius: 3px;
+    }
+  }
+
+  blockquote {
+    border-left: 4px solid var(--blue-tech);
+    padding-left: 16px;
+    color: var(--navy-deep);
+    background: var(--ice-white);
+  }
+}
 
 /* ============================================================
    GLOBAL TABLES (EXCLUDING HLJS)
    ============================================================ */
-
-/* Base table reset */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
 }
 
-/* Apply global styling ONLY to non-HLJS tables */
+/* Only apply styling to NON-HLJS tables */
 table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) {
   thead th {
     background-color: #f3f3f3;
@@ -53,26 +190,36 @@ pre code.hljs {
 }
 
 /* ============================================================
-   HLJS LINE NUMBER TABLE (NO STRIPING)
+   HLJS — REMOVE ALL GRIDLINES
    ============================================================ */
+.hljs table,
 .hljs-ln,
-.hljs-ln-table,
-.hljs table {
+.hljs-ln-table {
+  border: none !important;
   border-collapse: collapse !important;
   border-spacing: 0 !important;
-  background: transparent !important;   /* prevent global hover */
+  background: transparent !important;
 }
 
-.hljs-ln td,
-.hljs-ln th,
 .hljs table td,
-.hljs table th {
+.hljs table th,
+.hljs-ln td,
+.hljs-ln th {
   border: none !important;
-  background: transparent !important;   /* kill alternating colors */
+  background: transparent !important;
+  box-shadow: none !important;
   padding: 4px 8px !important;
 }
 
-/* Line numbers column */
+/* Prevent global hover from leaking */
+.hljs table tr:hover td,
+.hljs-ln tr:hover td {
+  background: transparent !important;
+}
+
+/* ============================================================
+   HLJS — LINE NUMBERS
+   ============================================================ */
 .hljs-ln td.hljs-ln-numbers {
   text-align: right !important;
   color: #fff !important;
@@ -82,7 +229,61 @@ pre code.hljs {
   user-select: none;
 }
 
-/* Code column */
 .hljs-ln td.hljs-ln-code {
   padding-left: 12px !important;
+}
+
+/* ============================================================
+   INLINE CODE (OUTSIDE PRE)
+   ============================================================ */
+:not(pre) > code {
+  background: var(--ice-white);
+  color: var(--navy-deep);
+  border: 1px solid var(--navy-cobalt);
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  font-size: 13px;
+  color: #000;
+
+  .footer-stripe {
+    width: 100%;
+    height: 4px;
+    background: #000;
+    border-radius: 2px;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-right {
+      a {
+        color: #000;
+        border-bottom: 1px solid transparent;
+        transition: 0.2s ease;
+        padding: 0 2px;
+
+        &:hover {
+          color: #fff;
+          background: #000;
+          border-bottom: 1px solid #000;
+          border-radius: 3px;
+        }
+      }
+
+      .dot {
+        margin: 0 6px;
+        color: #000;
+      }
+    }
+  }
 }
