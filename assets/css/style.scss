@@ -85,6 +85,7 @@ strong {
 .page-content,
 .footer-bar {
   @include block-box;
+  background: #fff ! important;
 }
 
 /* ============================================================
