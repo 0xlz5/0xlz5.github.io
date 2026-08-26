@@ -53,7 +53,6 @@
   border: none !important;
   border-radius: var(--radius-md) !important;
   overflow: hidden !important;
-  background: inherit !important;
 }
 
 /* ============================================================
@@ -199,7 +198,7 @@ strong {
 }
 
 /* ============================================================
-   HLJS — GLASS BORDER + BACKGROUND INHERIT
+   HLJS — FIXED BACKGROUND + GLASS BORDER
    ============================================================ */
 .page-content pre {
   position: relative;
@@ -209,13 +208,15 @@ strong {
   padding: 0;
 
   @include glass-border;
+
+  /* CRITICAL FIX: allow HLJS theme background */
+  background: transparent !important;
 }
 
 .page-content pre code.hljs {
   display: block;
   overflow: hidden;
   border-radius: 0;
-  background: inherit !important;
 }
 
 /* HLJS tables unified */
@@ -226,6 +227,7 @@ strong {
   @include hljs-reset;
 }
 
+/* DO NOT override HLJS background — let CDN theme apply it */
 .page-content .hljs table td,
 .page-content .hljs table th,
 .page-content .hljs-ln td,
@@ -235,7 +237,6 @@ strong {
   box-shadow: none !important;
   padding: 4px 8px !important;
   line-height: 1rem;
-  background: inherit !important;
 }
 
 /* Line numbers */
@@ -246,12 +247,10 @@ strong {
   padding-right: 12px !important;
   width: 3rem;
   user-select: none;
-  background: inherit !important;
 }
 
 .page-content .hljs-ln td.hljs-ln-code {
   padding-left: 12px !important;
-  background: inherit !important;
 }
 
 /* ============================================================
@@ -309,7 +308,7 @@ footer.footer-bar {
 }
 
 /* ============================================================
-   HLJS — UNIFIED BACKGROUND INHERIT
+   HLJS — UNIFIED BACKGROUND BEHAVIOR
    ============================================================ */
 .hljs,
 .hljs-ln,
@@ -317,7 +316,8 @@ footer.footer-bar {
 .hljs-ln td,
 .hljs-ln-numbers,
 .hljs-ln-code {
-  background: inherit !important;
+  /* DO NOT override background — let HLJS theme apply it */
+  background: unset !important;
 }
 
 .hljs-ln tr {
