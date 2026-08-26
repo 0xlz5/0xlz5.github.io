@@ -246,7 +246,8 @@ strong {
 /* No hover shading inside HLJS */
 .page-content .hljs-ln tr:hover td,
 .page-content .hljs table tr:hover td {
-  background: #1e1e1e !important;
+/*  background: #1e1e1e !important;
++/
 }
 
 /* Line numbers */
