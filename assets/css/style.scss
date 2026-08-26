@@ -332,10 +332,12 @@ footer.footer-bar {
 .hljs-ln td,
 .hljs-ln-numbers,
 .hljs-ln-code {
+   border-bottom: 0px;
 }
 
 .hljs-ln tr {
-  border-bottom: 1px solid rgba(0,0,0,0.05);
+/*  border-bottom: 1px solid rgba(0,0,0,0.05);
+   */
 }
 
 .hljs-ln-numbers {
