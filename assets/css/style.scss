@@ -147,14 +147,13 @@ strong {
    GLOBAL TABLES (EXCLUDING HLJS)
    ============================================================ */
 
-/* Base table reset */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
 }
 
-/* Apply global styling ONLY to non-HLJS tables */
+/* Apply styling ONLY to non-HLJS tables */
 table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) {
   thead th {
     background-color: #f3f3f3;
@@ -188,12 +187,11 @@ pre {
   margin: 1.5rem 0;
 }
 
-/* DO NOT override CDN theme colors */
 pre code.hljs {
   display: block;
   overflow: hidden;
   border-radius: 0;
-  padding: 1rem;
+  padding: 1rem; /* CDN theme colors preserved */
 }
 
 /* ============================================================
@@ -219,20 +217,19 @@ pre code.hljs {
   padding: 4px 8px !important;
 }
 
-/* Prevent global hover from leaking */
 .hljs table tr:hover td,
 .hljs-ln tr:hover td {
   background: transparent !important;
 }
 
 /* ============================================================
-   HLJS — LINE NUMBERS (CDN theme preserved)
+   HLJS — WHITE RIGHT-ALIGNED LINE NUMBERS
    ============================================================ */
 
 .hljs-ln td.hljs-ln-numbers {
   text-align: right !important;
-  color: inherit !important;        /* keep CDN theme color */
-  border-right: 1px solid currentColor !important;
+  color: #ffffff !important;
+  border-right: 1px solid #ffffff !important;
   padding-right: 12px !important;
   width: 3rem;
   user-select: none;
