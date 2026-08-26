@@ -191,7 +191,7 @@ pre code.hljs {
   display: block;
   overflow: hidden;
   border-radius: 0;
-  padding: 1rem; /* keep CDN theme */
+  padding: 0rem; /* keep CDN theme */
 }
 
 /* ============================================================
@@ -227,6 +227,7 @@ pre code.hljs {
   border: none !important;
   box-shadow: none !important;
   padding: 4px 8px !important;
+  line-height: 1rem;
 }
 
 .hljs-ln tr:hover td,
