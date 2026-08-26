@@ -180,27 +180,42 @@ strong {
   }
 }
 
-/* Remove alt-row colors + hover shading */
-.page-content table tr,
-.page-content table tbody tr:nth-child(even),
-.page-content table tbody tr:nth-child(odd),
-.page-content table tr:hover td {
+/* No alt-row colors */
+.page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) tr,
+.page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) tbody tr:nth-child(even),
+.page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) tbody tr:nth-child(odd) {
+  background: transparent !important;
+}
+
+/* No hover shading */
+.page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) tr:hover td {
   background: transparent !important;
 }
 
 /* ============================================================
-   HLJS — OUTER BLOCK GEOMETRY
+   HLJS — GLASSY NEON BORDER + GEOMETRY
    ============================================================ */
 .page-content pre {
-  margin: 1.5rem 0; /* spacing ONLY around code block */
-  padding: 0;
+  position: relative;
   border-radius: var(--radius-md);
+  overflow: hidden;
+  margin: 1.5rem 0;
+  padding: 0;
+
+  border: 2px solid rgba(18, 130, 162, 0.35);
+  box-shadow:
+    0 0 12px rgba(18, 130, 162, 0.45),
+    inset 0 0 8px rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
+}
+
+.page-content pre code.hljs {
+  border-radius: 0;
+  display: block;
   overflow: hidden;
 }
 
-/* ============================================================
-   HLJS — REMOVE ALL MARGINS/PADDING AROUND OUTER TABLES
-   ============================================================ */
+/* HLJS tables: no spacing, no borders, inherit rounding */
 .page-content .hljs,
 .page-content .hljs table,
 .page-content .hljs-ln,
@@ -210,29 +225,30 @@ strong {
   border-spacing: 0 !important;
   border-collapse: collapse !important;
   background: #1e1e1e !important;
+  border: none !important;
+  border-radius: var(--radius-md) !important;
+  overflow: hidden !important;
 }
 
-/* ============================================================
-   HLJS — REMOVE ALT COLORS, GRIDLINES, HOVER
-   ============================================================ */
-.page-content .hljs-ln td,
-.page-content .hljs-ln th,
+/* Inner cells never break geometry */
 .page-content .hljs table td,
-.page-content .hljs table th {
+.page-content .hljs table th,
+.page-content .hljs-ln td,
+.page-content .hljs-ln th {
+  border-radius: 0 !important;
   border: none !important;
   box-shadow: none !important;
   padding: 4px 8px !important;
   line-height: 1rem;
 }
 
+/* No hover shading inside HLJS */
 .page-content .hljs-ln tr:hover td,
 .page-content .hljs table tr:hover td {
   background: #1e1e1e !important;
 }
 
-/* ============================================================
-   HLJS — WHITE RIGHT-ALIGNED LINE NUMBERS
-   ============================================================ */
+/* Line numbers */
 .page-content .hljs-ln td.hljs-ln-numbers {
   text-align: right !important;
   color: #ffffff !important;
