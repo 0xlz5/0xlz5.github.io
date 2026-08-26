@@ -14,6 +14,10 @@
   --ice-white:   #FEFCFB;
 }
 
+/* Palenight colors (CDN theme does NOT apply these to tables) */
+$hljs-bg: #292D3E;
+$hljs-fg: #BFC7D5;
+
 /* ============================================================
    MIXINS
    ============================================================ */
@@ -147,7 +151,7 @@ strong {
    GLOBAL TABLES (EXCLUDING HLJS)
    ============================================================ */
 
-/* Correct exclusion: HLJS tables must NEVER receive global styling */
+/* Base table reset */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -155,6 +159,7 @@ table {
   margin: 1.5rem 0;
 }
 
+/* Apply global table styling ONLY when table is NOT inside HLJS */
 :not(.hljs):not(.hljs-ln) > table,
 table:not(.hljs):not(.hljs-ln) {
   thead th {
@@ -180,7 +185,7 @@ table:not(.hljs):not(.hljs-ln) {
 }
 
 /* ============================================================
-   HLJS — LET MATERIAL-PALENIGHT APPLY ITS COLORS
+   HLJS — LET PALENIGHT APPLY ITS COLORS
    ============================================================ */
 
 /* DO NOT override background or color */
@@ -198,21 +203,44 @@ pre code.hljs,
 }
 
 /* ============================================================
-   HLJS LINE NUMBERS — WHITE
+   HLJS TABLES — APPLY PALENIGHT COLORS (CDN theme does NOT)
    ============================================================ */
 
+/* HLJS line-number table */
 .hljs-ln {
+  background: $hljs-bg !important;
+  color: $hljs-fg !important;
   border-collapse: collapse !important;
   border-spacing: 0 !important;
   margin: 0 !important;
 }
 
+/* HLJS table cells */
 .hljs-ln td,
 .hljs-ln th {
+  background: $hljs-bg !important;
+  color: $hljs-fg !important;
   border: none !important;
   padding: 4px 8px !important;
 }
 
+/* HLJS tables inside code blocks */
+.hljs table {
+  background: $hljs-bg !important;
+  color: $hljs-fg !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+}
+
+.hljs table td,
+.hljs table th {
+  background: $hljs-bg !important;
+  color: $hljs-fg !important;
+  border: none !important;
+  padding: 4px 8px !important;
+}
+
+/* White line numbers */
 .hljs-ln-numbers {
   color: #FFFFFF !important;
   border-right: 1px solid #FFFFFF !important;
