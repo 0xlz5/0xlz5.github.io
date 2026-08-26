@@ -191,36 +191,48 @@ pre code.hljs {
   display: block;
   overflow: hidden;
   border-radius: 0;
-  padding: 1rem; /* CDN theme colors preserved */
+  padding: 1rem; /* keep CDN theme */
 }
 
 /* ============================================================
-   HLJS — REMOVE ALL GRIDLINES (but keep CDN colors)
+   HLJS — ROUNDED CORNERS + HOMOGENEOUS BACKGROUND
    ============================================================ */
 
-.hljs table,
-.hljs-ln,
-.hljs-ln-table {
+.hljs-ln {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  background: #1e1e1e !important; /* uniform */
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+}
+
+.hljs-ln-table,
+.hljs table {
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  background: #1e1e1e !important;
   border: none !important;
   border-collapse: collapse !important;
   border-spacing: 0 !important;
-  background: transparent !important;
 }
 
-.hljs table td,
-.hljs table th,
+/* ============================================================
+   HLJS — REMOVE ALT COLORS, GRIDLINES, HOVER
+   ============================================================ */
+
 .hljs-ln td,
-.hljs-ln th {
+.hljs-ln th,
+.hljs table td,
+.hljs table th {
+  background: #1e1e1e !important;
   border: none !important;
-  background: transparent !important;
   box-shadow: none !important;
   padding: 4px 8px !important;
-  line-height: 0.9em ! important;
 }
 
-.hljs table tr:hover td,
-.hljs-ln tr:hover td {
-  background: transparent !important;
+.hljs-ln tr:hover td,
+.hljs table tr:hover td {
+  background: #1e1e1e !important;
 }
 
 /* ============================================================
