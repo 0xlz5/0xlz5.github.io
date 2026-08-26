@@ -207,9 +207,9 @@ strong {
   overflow: hidden;
   margin: 1.5rem 0;
   padding: 0;
-
+/*
   @include glass-border;
-
+*/
   /* CRITICAL FIX: allow HLJS theme background */
   background: transparent !important;
 }
