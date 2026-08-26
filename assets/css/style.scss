@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 /* ============================================================
-   GLOBAL PALETTE
+   PALETTE
    ============================================================ */
 :root {
   --navy-deep:   #0A1128;
@@ -26,7 +26,7 @@
   box-sizing: border-box;
 }
 
-@mixin table-cell {
+@mixin cell {
   padding: 0.5rem 0.75rem;
   vertical-align: top;
 }
@@ -55,7 +55,7 @@ strong {
 }
 
 /* ============================================================
-   HEADER / CONTENT / FOOTER BLOCK GEOMETRY
+   GEOMETRY BLOCKS
    ============================================================ */
 .site-header,
 .page-content,
@@ -146,27 +146,23 @@ strong {
 /* ============================================================
    GLOBAL TABLES (EXCLUDING HLJS)
    ============================================================ */
-
-/* Base table reset */
 table {
   width: 100%;
   border-collapse: collapse;
-  border-spacing: 0;
   margin: 1.5rem 0;
 }
 
-/* Apply global table styling ONLY when table is NOT inside HLJS */
 :not(.hljs):not(.hljs-ln) > table,
 table:not(.hljs):not(.hljs-ln) {
   thead th {
     background-color: #f3f3f3;
-    @include table-cell;
+    @include cell;
     text-align: left;
     border-bottom: 1px solid #ccc;
   }
 
   tbody td {
-    @include table-cell;
+    @include cell;
     border-right: 1px solid #e0e0e0;
   }
 
@@ -181,84 +177,46 @@ table:not(.hljs):not(.hljs-ln) {
 }
 
 /* ============================================================
-   HLJS — LET PALENIGHT APPLY ITS COLORS
+   HLJS — OUTER BLOCK GEOMETRY
    ============================================================ */
-
-/* DO NOT override background or color */
-.hljs {
-  padding: 1rem;
-  border-radius: 6px;
+pre {
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.5rem 0;
 }
 
-/* Inline code inside hljs */
-/* Outer hljs block: rounded corners + clipping for inner table */
 pre code.hljs {
   display: block;
-  overflow: hidden;          /* so inner table respects the radius */
-  border-radius: 8px;        /* adjust to taste */
-}
-
-/* If your line-number plugin wraps in a table */
-pre code.hljs table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-/* Line numbers column: right-aligned */
-.hljs-ln-numbers,
-.code-table .line-number {
-  text-align: right;
-  padding-right: 0.75rem;
-  color: #888;
-  width: 3rem;
-  user-select: none;
-}
-
-/* Code column */
-.hljs-ln-code,
-.code-table td:last-child {
-  padding-left: 0.75rem;
+  overflow: hidden;
+  border-radius: 0;
+  padding: 1rem;
 }
 
 /* ============================================================
-   HLJS TABLES — APPLY PALENIGHT COLORS (CDN theme does NOT)
+   HLJS LINE NUMBERS TABLE
    ============================================================ */
-
-/* HLJS line-number table */
 .hljs-ln {
   border-collapse: collapse !important;
-  border-spacing: 0 !important;
-  margin: 0 !important;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
-/* HLJS table cells */
 .hljs-ln td,
 .hljs-ln th {
   border: none !important;
   padding: 4px 8px !important;
 }
 
-/* HLJS tables inside code blocks */
-.hljs table {
-  border-collapse: collapse !important;
-  border-spacing: 0 !important;
-}
-
-.hljs table td,
-.hljs table th {
-  border: none !important;
-  padding: 4px 8px !important;
-}
-
-/* White line numbers */
-.hljs-ln-numbers {
-  color: #FFFFFF !important;
-  text-align: right ! important;
-  border-right: 1px solid #FFFFFF !important;
+.hljs-ln td.hljs-ln-numbers {
+  text-align: right !important;
+  color: #fff !important;
+  border-right: 1px solid #fff !important;
   padding-right: 12px !important;
+  width: 3rem;
+  user-select: none;
 }
 
-.hljs-ln-code {
+.hljs-ln td.hljs-ln-code {
   padding-left: 12px !important;
 }
 
