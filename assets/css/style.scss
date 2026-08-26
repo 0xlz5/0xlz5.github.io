@@ -26,7 +26,6 @@
 @mixin block-box {
   width: 65%;
   margin: 0 auto;
-/*  background: #fff; */
   padding: var(--pad-lg);
   border-radius: var(--radius-md);
   box-sizing: border-box;
@@ -62,7 +61,7 @@ body {
   background: #e5e7eb;
   color: #1a1a1a;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
+  font-size: 18px;        /* MASTER SCALE */
   line-height: 1.65;
   margin: 0;
   padding: 0;
@@ -85,7 +84,7 @@ strong {
 .page-content,
 .footer-bar {
   @include block-box;
-  background: #fff ! important;
+  background: #fff !important;
 }
 
 /* ============================================================
@@ -199,7 +198,7 @@ strong {
 }
 
 /* ============================================================
-   HLJS — FIXED BACKGROUND + GLASS BORDER
+   HLJS — PROPORTIONAL FONT SIZE
    ============================================================ */
 .page-content pre {
   position: relative;
@@ -207,13 +206,12 @@ strong {
   overflow: hidden;
   margin: 1.5rem 0;
   padding: 0;
-/*
-  @include glass-border;
-*/
   font-family: "Source Code Pro", monospace;
-  font-size: 0.95rem;
 
-  /* CRITICAL FIX: allow HLJS theme background */
+  /* PROPORTIONAL */
+  font-size: 0.95em;
+  line-height: 1.5em;
+
   background: transparent !important;
 }
 
@@ -221,6 +219,10 @@ strong {
   display: block;
   overflow: hidden;
   border-radius: 0;
+
+  /* PROPORTIONAL */
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 /* HLJS tables unified */
@@ -229,9 +231,12 @@ strong {
 .page-content .hljs-ln,
 .page-content .hljs-ln-table {
   @include hljs-reset;
+
+  /* PROPORTIONAL */
+  font-size: 0.95em;
+  line-height: 1.4em;
 }
 
-/* DO NOT override HLJS background — let CDN theme apply it */
 .page-content .hljs table td,
 .page-content .hljs table th,
 .page-content .hljs-ln td,
@@ -240,7 +245,6 @@ strong {
   border-radius: 0 !important;
   box-shadow: none !important;
   padding: 4px 8px !important;
-  line-height: 1rem;
 }
 
 /* Line numbers */
@@ -251,6 +255,10 @@ strong {
   padding-right: 12px !important;
   width: 3rem;
   user-select: none;
+
+  /* PROPORTIONAL */
+  font-size: 0.9em;
+  line-height: 1.4em;
 }
 
 .page-content .hljs-ln td.hljs-ln-code {
@@ -264,6 +272,9 @@ strong {
   border: 1px solid var(--navy-cobalt);
   border-radius: var(--radius-sm);
   padding: 2px 4px;
+
+  /* PROPORTIONAL */
+  font-size: 0.9em;
 }
 
 /* ============================================================
@@ -322,7 +333,6 @@ footer.footer-bar {
 .hljs-ln-numbers,
 .hljs-ln-code {
 }
-
 
 .hljs-ln tr {
   border-bottom: 1px solid rgba(0,0,0,0.05);
