@@ -178,38 +178,38 @@ strong {
   th:last-child {
     border-right: none;
   }
+}
 
-  tbody tr:hover td {
-    background-color: #fafafa;
-  }
+/* Remove alt-row colors + hover shading */
+.page-content table tr,
+.page-content table tbody tr:nth-child(even),
+.page-content table tbody tr:nth-child(odd),
+.page-content table tr:hover td {
+  background: transparent !important;
 }
 
 /* ============================================================
    HLJS — OUTER BLOCK GEOMETRY
    ============================================================ */
 .page-content pre {
+  margin: 1.5rem 0; /* spacing ONLY around code block */
+  padding: 0;
   border-radius: var(--radius-md);
   overflow: hidden;
-  margin: 1.5rem 0;
-}
-
-.page-content pre code.hljs {
-  display: block;
-  overflow: hidden;
-  border-radius: 0;
-  padding: 0rem;
 }
 
 /* ============================================================
-   HLJS — ROUNDED CORNERS + HOMOGENEOUS BACKGROUND
+   HLJS — REMOVE ALL MARGINS/PADDING AROUND OUTER TABLES
    ============================================================ */
+.page-content .hljs,
+.page-content .hljs table,
 .page-content .hljs-ln,
 .page-content .hljs-ln-table {
-  border-radius: var(--radius-md) !important;
-  overflow: hidden !important;
-  background: #1e1e1e !important;
-  border-collapse: collapse !important;
+  margin: 0 !important;
+  padding: 0 !important;
   border-spacing: 0 !important;
+  border-collapse: collapse !important;
+  background: #1e1e1e !important;
 }
 
 /* ============================================================
