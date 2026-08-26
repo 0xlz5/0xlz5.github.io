@@ -146,12 +146,17 @@ strong {
 /* ============================================================
    GLOBAL TABLES (EXCLUDING HLJS)
    ============================================================ */
-table:not(.hljs):not(.hljs table):not(.hljs-ln):not(.hljs-ln table) {
+
+/* Correct exclusion: HLJS tables must NEVER receive global styling */
+table {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   margin: 1.5rem 0;
+}
 
+:not(.hljs):not(.hljs-ln) > table,
+table:not(.hljs):not(.hljs-ln) {
   thead th {
     background-color: #f3f3f3;
     @include table-cell;
@@ -175,13 +180,13 @@ table:not(.hljs):not(.hljs table):not(.hljs-ln):not(.hljs-ln table) {
 }
 
 /* ============================================================
-   HLJS — DO NOT OVERRIDE THE THEME
+   HLJS — LET MATERIAL-PALENIGHT APPLY ITS COLORS
    ============================================================ */
 
-/* Remove ALL .hljs rules from your SCSS except this: */
+/* DO NOT override background or color */
 .hljs {
-  padding: 1rem;        /* safe */
-  border-radius: 6px;   /* safe */
+  padding: 1rem;
+  border-radius: 6px;
 }
 
 /* Inline code inside hljs */
@@ -193,20 +198,20 @@ pre code.hljs,
 }
 
 /* ============================================================
-   EXCLUDE HLJS TABLES — CORRECT WAY
-   ============================================================ */
-
-/* Global tables — apply ONLY when NOT inside hljs or hljs-ln */
-.hljs table,
-.hljs-ln table,
-.hljs table *,
-.hljs-ln table * {
-  all: unset !important;
-}
-
-/* ============================================================
    HLJS LINE NUMBERS — WHITE
    ============================================================ */
+
+.hljs-ln {
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  margin: 0 !important;
+}
+
+.hljs-ln td,
+.hljs-ln th {
+  border: none !important;
+  padding: 4px 8px !important;
+}
 
 .hljs-ln-numbers {
   color: #FFFFFF !important;
