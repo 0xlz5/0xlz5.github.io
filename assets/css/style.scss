@@ -138,9 +138,10 @@ strong {
     transition: 0.2s ease;
 
     &:hover {
-      color: var(--ice-white);
+/*      color: var(--ice-white);
       background: var(--blue-cyan);
       border-bottom: 1px solid var(--blue-cyan);
+*/
       padding: 2px 4px;
       border-radius: var(--radius-sm);
     }
