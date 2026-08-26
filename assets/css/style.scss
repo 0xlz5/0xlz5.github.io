@@ -177,7 +177,7 @@ strong {
 
   thead th {
     @include cell;
-    background: #ccc;
+    background-color: rgba(18, 130, 162, 0.12) !important;
     text-align: left;
     border-bottom: 1px solid #ccc;
   }
@@ -343,7 +343,7 @@ footer.footer-bar {
 
 .hljs-ln-numbers {
 /*  color: #999; */
-  color: #000;
+  color: #000 ! important;
 /*  text-align: right; */
   user-select: none;
   padding-right: 10px;
