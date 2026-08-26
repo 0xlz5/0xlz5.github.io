@@ -252,8 +252,6 @@ strong {
 
 .page-content .hljs-ln td.hljs-ln-code {
   padding-left: 12px !important;
-  font-family: "Source Code Pro", monospace;
-  font-size: 90% ! important;
 }
 
 /* ============================================================
@@ -313,16 +311,17 @@ footer.footer-bar {
 /* ============================================================
    HLJS — UNIFIED BACKGROUND BEHAVIOR
    ============================================================ */
-/*
+
 .hljs,
 .hljs-ln,
 .hljs-ln tr,
 .hljs-ln td,
 .hljs-ln-numbers,
 .hljs-ln-code {
-  background: unset !important;
+  font-family: "Source Code Pro", monospace;
+  font-size: 90% ! important;
 }
-*/
+
 
 .hljs-ln tr {
   border-bottom: 1px solid rgba(0,0,0,0.05);
