@@ -344,8 +344,9 @@ footer.footer-bar {
 .hljs-ln-numbers {
 /*  color: #999; */
   color: #000 ! important;
-/*  text-align: right; */
+  text-align: right ! important:
   user-select: none;
   padding-right: 10px;
-  border-right: 1px solid #e0e0e0;
+/* border-right: 1px solid #e0e0e0; */
+   border-right: 1px dotted #000;
 }
