@@ -1,6 +1,5 @@
 ---
 ---
-
 @import "{{ site.theme }}";
 
 /* ============================================================
@@ -118,10 +117,7 @@ strong {
    PAGE CONTENT
    ============================================================ */
 .page-content {
-  h1,
-  h2,
-  h3,
-  h4 {
+  h1, h2, h3, h4 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
@@ -178,29 +174,21 @@ strong {
   th:last-child {
     border-right: none;
   }
-}
 
-/* No alt-row colors */
-.page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) tr,
-.page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) tbody tr:nth-child(even),
-.page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) tbody tr:nth-child(odd) {
-  background: transparent !important;
-}
+  tr,
+  tbody tr:nth-child(even),
+  tbody tr:nth-child(odd) {
+    background: transparent !important;
+  }
 
-/* KEEP hover for global tables — tuned soft cyan mist */
-.page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) tr:hover td {
-  background-color: rgba(18, 130, 162, 0.12) !important;
-  transition: background-color 0.2s ease;
-}
-
-/* HLJS tables NEVER hover */
-.page-content .hljs-ln tr:hover td,
-.page-content .hljs table tr:hover td {
-  background: #1e1e1e !important;
+  tr:hover td {
+    background-color: rgba(18, 130, 162, 0.12) !important;
+    transition: background-color 0.2s ease;
+  }
 }
 
 /* ============================================================
-   HLJS — GLASSY NEON BORDER + GEOMETRY
+   HLJS — GEOMETRY + GLASS BORDER
    ============================================================ */
 .page-content pre {
   position: relative;
@@ -217,12 +205,12 @@ strong {
 }
 
 .page-content pre code.hljs {
-  border-radius: 0;
   display: block;
   overflow: hidden;
+  border-radius: 0;
 }
 
-/* HLJS tables: no spacing, no borders, inherit rounding */
+/* HLJS tables */
 .page-content .hljs,
 .page-content .hljs table,
 .page-content .hljs-ln,
@@ -237,13 +225,12 @@ strong {
   overflow: hidden !important;
 }
 
-/* Inner cells never break geometry */
 .page-content .hljs table td,
 .page-content .hljs table th,
 .page-content .hljs-ln td,
 .page-content .hljs-ln th {
-  border-radius: 0 !important;
   border: none !important;
+  border-radius: 0 !important;
   box-shadow: none !important;
   padding: 4px 8px !important;
   line-height: 1rem;
@@ -270,7 +257,7 @@ strong {
 }
 
 /* ============================================================
-   INLINE CODE (OUTSIDE PRE)
+   INLINE CODE
    ============================================================ */
 :not(pre) > code {
   border: 1px solid var(--navy-cobalt);
@@ -321,4 +308,27 @@ footer.footer-bar {
       }
     }
   }
+}
+
+/* ============================================================
+   HLJS — UNIFIED ROW BACKGROUND
+   ============================================================ */
+.hljs,
+.hljs-ln,
+.hljs-ln tr,
+.hljs-ln td,
+.hljs-ln-numbers,
+.hljs-ln-code {
+  background: inherit !important;
+}
+
+.hljs-ln tr {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.hljs-ln-numbers {
+  color: #999;
+  user-select: none;
+  padding-right: 10px;
+  border-right: 1px solid #e0e0e0;
 }
