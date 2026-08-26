@@ -177,6 +177,7 @@ strong {
 
   thead th {
     @include cell;
+    background: #ccc;
     text-align: left;
     border-bottom: 1px solid #ccc;
   }
