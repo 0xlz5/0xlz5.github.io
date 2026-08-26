@@ -191,11 +191,33 @@ table:not(.hljs):not(.hljs-ln) {
 }
 
 /* Inline code inside hljs */
-pre code.hljs,
-.hljs code {
-  background: transparent !important;
-  border: none !important;
-  padding: 0 !important;
+/* Outer hljs block: rounded corners + clipping for inner table */
+pre code.hljs {
+  display: block;
+  overflow: hidden;          /* so inner table respects the radius */
+  border-radius: 8px;        /* adjust to taste */
+}
+
+/* If your line-number plugin wraps in a table */
+pre code.hljs table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Line numbers column: right-aligned */
+.hljs-ln-numbers,
+.code-table .line-number {
+  text-align: right;
+  padding-right: 0.75rem;
+  color: #888;
+  width: 3rem;
+  user-select: none;
+}
+
+/* Code column */
+.hljs-ln-code,
+.code-table td:last-child {
+  padding-left: 0.75rem;
 }
 
 /* ============================================================
