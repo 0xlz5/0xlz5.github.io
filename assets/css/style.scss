@@ -224,7 +224,6 @@ pre code.hljs {
 .hljs-ln th,
 .hljs table td,
 .hljs table th {
-  background: #1e1e1e !important;
   border: none !important;
   box-shadow: none !important;
   padding: 4px 8px !important;
@@ -256,8 +255,6 @@ pre code.hljs {
    INLINE CODE (OUTSIDE PRE)
    ============================================================ */
 :not(pre) > code {
-  background: var(--ice-white);
-  color: var(--navy-deep);
   border: 1px solid var(--navy-cobalt);
   border-radius: 3px;
   padding: 2px 4px;
