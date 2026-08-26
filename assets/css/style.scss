@@ -144,10 +144,8 @@ strong {
 }
 
 /* ============================================================
-   EXCLUDE HLJS TABLES FROM GLOBAL TABLE STYLING
+   GLOBAL TABLES (EXCLUDING HLJS)
    ============================================================ */
-
-/* Global tables — apply ONLY when NOT inside hljs */
 table:not(.hljs table) {
   width: 100%;
   border-collapse: collapse;
@@ -156,14 +154,13 @@ table:not(.hljs table) {
 
   thead th {
     background-color: #f3f3f3;
-    padding: 0.5rem 0.75rem;
+    @include table-cell;
     text-align: left;
     border-bottom: 1px solid #ccc;
   }
 
   tbody td {
-    padding: 0.5rem 0.75rem;
-    vertical-align: top;
+    @include table-cell;
     border-right: 1px solid #e0e0e0;
   }
 
@@ -178,10 +175,8 @@ table:not(.hljs table) {
 }
 
 /* ============================================================
-   HLJS — PURE INHERITANCE (KEEP THE THEME)
+   HLJS — PURE INHERITANCE (NO HARDCODED COLORS)
    ============================================================ */
-
-/* HLJS block inherits its theme colors */
 .hljs {
   background: inherit !important;
   color: inherit !important;
@@ -198,7 +193,7 @@ pre code.hljs,
   color: inherit !important;
 }
 
-/* HLJS tables — inherit theme, untouched by global table CSS */
+/* HLJS TABLES — inherit everything */
 .hljs table {
   border-collapse: collapse !important;
   border-spacing: 0 !important;
@@ -216,7 +211,7 @@ pre code.hljs,
   padding: 4px 8px !important;
 }
 
-/* HLJS line numbers — white, but still inheriting background */
+/* HLJS line numbers — white */
 .hljs-ln-numbers {
   background: inherit !important;
   color: #FFFFFF !important;
