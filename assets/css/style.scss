@@ -146,13 +146,15 @@ strong {
 /* ============================================================
    GLOBAL TABLES (EXCLUDING HLJS)
    ============================================================ */
+
+/* Base table reset */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
 }
 
-/* Only apply styling to NON-HLJS tables */
+/* Apply global styling ONLY to non-HLJS tables */
 table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) {
   thead th {
     background-color: #f3f3f3;
@@ -177,14 +179,16 @@ table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) {
 }
 
 /* ============================================================
-   HLJS — OUTER BLOCK GEOMETRY
+   HLJS — OUTER BLOCK GEOMETRY (CDN theme preserved)
    ============================================================ */
+
 pre {
   border-radius: 8px;
   overflow: hidden;
   margin: 1.5rem 0;
 }
 
+/* DO NOT override CDN theme colors */
 pre code.hljs {
   display: block;
   overflow: hidden;
@@ -193,8 +197,9 @@ pre code.hljs {
 }
 
 /* ============================================================
-   HLJS — REMOVE ALL GRIDLINES
+   HLJS — REMOVE ALL GRIDLINES (but keep CDN colors)
    ============================================================ */
+
 .hljs table,
 .hljs-ln,
 .hljs-ln-table {
@@ -221,12 +226,13 @@ pre code.hljs {
 }
 
 /* ============================================================
-   HLJS — LINE NUMBERS
+   HLJS — LINE NUMBERS (CDN theme preserved)
    ============================================================ */
+
 .hljs-ln td.hljs-ln-numbers {
   text-align: right !important;
-  color: #fff !important;
-  border-right: 1px solid #fff !important;
+  color: inherit !important;        /* keep CDN theme color */
+  border-right: 1px solid currentColor !important;
   padding-right: 12px !important;
   width: 3rem;
   user-select: none;
