@@ -159,7 +159,6 @@ strong {
   margin: 1.5rem 0;
 
   thead th {
-    background-color: #f3f3f3;
     @include cell;
     text-align: left;
     border-bottom: 1px solid #ccc;
@@ -219,7 +218,6 @@ strong {
   padding: 0 !important;
   border-spacing: 0 !important;
   border-collapse: collapse !important;
-  background: #1e1e1e !important;
   border: none !important;
   border-radius: var(--radius-md) !important;
   overflow: hidden !important;
@@ -239,7 +237,6 @@ strong {
 /* HLJS hover disabled */
 .page-content .hljs-ln tr:hover td,
 .page-content .hljs table tr:hover td {
-  background: #1e1e1e !important;
 }
 
 /* Line numbers */
