@@ -146,7 +146,7 @@ strong {
 /* ============================================================
    GLOBAL TABLES (EXCLUDING HLJS)
    ============================================================ */
-table:not(.hljs table) {
+table:not(.hljs-ln):not(.hljs-ln table):not(.hljs table) {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
@@ -175,43 +175,8 @@ table:not(.hljs table) {
 }
 
 /* ============================================================
-   EXCLUDE HLJS TABLES FROM GLOBAL TABLE STYLING
+   HLJS — PURE INHERITANCE (NO HARDCODED COLORS)
    ============================================================ */
-
-/* Global tables — apply ONLY when table is NOT inside hljs-ln */
-table:not(.hljs-ln):not(.hljs-ln table) {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 1.5rem 0;
-
-  thead th {
-    background-color: #f3f3f3;
-    padding: 0.5rem 0.75rem;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-  }
-
-  tbody td {
-    padding: 0.5rem 0.75rem;
-    vertical-align: top;
-    border-right: 1px solid #e0e0e0;
-  }
-
-  td:last-child,
-  th:last-child {
-    border-right: none;
-  }
-
-  tbody tr:hover td {
-    background-color: #fafafa;
-  }
-}
-
-/* ============================================================
-   HLJS — PURE INHERITANCE (KEEP THE THEME)
-   ============================================================ */
-
 .hljs {
   background: inherit !important;
   color: inherit !important;
@@ -228,13 +193,21 @@ pre code.hljs,
   color: inherit !important;
 }
 
-/* HLJS line numbers table — inherit theme */
+/* HLJS line-number table */
 .hljs-ln {
   background: inherit !important;
   color: inherit !important;
   border-collapse: collapse !important;
   border-spacing: 0 !important;
   margin: 0 !important;
+}
+
+.hljs-ln td,
+.hljs-ln th {
+  background: inherit !important;
+  color: inherit !important;
+  border: none !important;
+  padding: 4px 8px !important;
 }
 
 /* HLJS line numbers — white */
@@ -249,14 +222,6 @@ pre code.hljs,
   background: inherit !important;
   color: inherit !important;
   padding-left: 12px !important;
-}
-
-/* HLJS table cells */
-.hljs-ln td {
-  background: inherit !important;
-  color: inherit !important;
-  border: none !important;
-  padding: 4px 8px !important;
 }
 
 /* ============================================================
