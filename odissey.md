@@ -17,7 +17,7 @@ Federico Cagliero
 
 ⇢ In a few words:  
 
-> a r&d front-end Web & sr. dev/engineer - with a deep/strong interest + bg in computer science / programming - and an interest in r/e, entropy and data compression.
+> a r&d front-end UI & sr. dev/engineer (web, 24x7) - with a deep/strong interest + bg in computer science / programming - and an interest in r/e, entropy and data compression.
 > This may be a short version of my professional "journey" - up to 2026 !
 
 
