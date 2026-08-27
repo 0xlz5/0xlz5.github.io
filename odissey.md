@@ -157,7 +157,7 @@ this era = symbolic pipelines: agentic systems, orchestration, cognitive archite
 | domain | tech | notes |
 |--------|-------|--------|
 | cloudops | aws, lambda, s3 | automation, pipelines |
-| bigdata | hadoop, spark, hbase | telco analytics |
+| bigdata | hadoop, spark, hbase, postgres | telco analytics |
 | devops | ci/cd, jenkins, ansible | automation |
 | ai/ml | llm/rag, dl | agentic workflows |
 | compression | lz(x), entropy | optimization |
