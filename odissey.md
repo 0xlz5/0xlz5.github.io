@@ -16,16 +16,9 @@ Federico Cagliero
 ⇢ In a few words:  
 
 > a r&d front-end & sr. dev/engineer (web, 24x7) - with a deep/strong interest + bg in computer science / programming / se - and an interest in r/e, entropy and data compression.
-> This may be a short version of my professional "journey" - up to 2026 No
+> This may be a short version of my professional "journey" - up to 2026 !
 
-### What I do right these days !? ⏱️
-
-- exploring AI-driven engineering (gpt/codex, copilot, llm/rag) - and promt/context/loop engineering 
-- also updating to langchain/graph & java @26
-- a bit - again! - on lo-level, so c23
-- a special "wink" to 24x7 system design, LLM-Ops and TUI/CLI tools (eg. rust/Go).
-- of course - using AI for content shaping (NLP) and "reasoning" UI/UX
-- experimenting w/ new-gen JS frameworks, "far beyond" React.js, yet based on "v-DOM"
+What I'm doing these days: I'm actually digging into AI-driven engineering (of course, I'd say !)
 
 ## 🚀 Early Startup Era
 ### mp3s CDN, Mobile channels & proto‑Streaming (ca. y2k)
