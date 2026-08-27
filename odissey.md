@@ -246,7 +246,8 @@ music = parallel architecture: intervals, cycles, entropy, resonance.
 ---
 
 # 🗣️ languages  
-italian — english — french
+
+🇮🇹 italian — 🇬🇧 english — 🇫🇷 french
 
 ---
 
