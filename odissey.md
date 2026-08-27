@@ -45,7 +45,7 @@ consulting across perl/js/python/java.
 system architect: ibm was/wps sme, wsadmin/pwsh scripting, early dev-ops, cms + 24x7 infra.
 
 **tech focus**  
-- c/c++ (tcp, sockets, atl/stl)  
+- c/c++ (atl/stl, tcp/sockets)  
 - perl (fp, text processing, infra-ops)  
 - java/j2ee (ooa&d, distributed systems)  
 - wsadmin/pwsh scripting  
