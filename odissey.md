@@ -74,7 +74,7 @@ I decided to update my ref. stack with cloudOps and automation tech, and study s
 - AWS ☁️ - eg. lambda, S3 - now Agentic AI !
 - Ansible 🤖 (IaC)
 - DevOps (CI-CD, jenkins "plugins")
-- big-data algorithms
+- big-data algorithms (eg. map/reduce !)
 - OpenMP & MPI (parallel computing)
 - production-grade OpenAPI
 - telco data pipelines
