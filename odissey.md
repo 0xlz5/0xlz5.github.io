@@ -38,7 +38,7 @@ php, Perl ("kiss", regex, complex data structures, sql/DBIx). This wasn’t demo
 - Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN)
 - Integration → audio tech: Microsoft WMA, RealAudio, others 🎧 - eg. Sony - Vivendi - Universal- Nokia ("EMEA/US") 
 
-I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler’s early “beta” refactoring, and even state machines / ML web‑spidering (ever-evolving !).
+I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler’s early “beta”  & refactoring, and even state machines / ML web‑spidering (ever-evolving !).
 
 ## 🎓 Teaching & Consulting Era — Algorithms, C/C++, Java, Web Design
 
@@ -58,7 +58,7 @@ early yet "complex" devOps + release mgt (that is "CD") !? :!)
 
 Around 2010 you moved into open-source R&D at Sophia Antipolis (France), building custom JS frameworks for global airlines apps, focusing on:
 
-- teamplete-oriented and worflows (not only UX widgets !)
+- templete-oriented and worflows (not only UX widgets !)
 - dustom-OO for ecmascript4/5 
 - tech writing ✍️
 - docs/code generation (eg. ./jsdoc +@annorations, AST-parsing)
