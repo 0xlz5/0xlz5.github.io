@@ -16,7 +16,7 @@ engineering as a long-form exploration: fp → rx → distributed → ai/ml → 
 
 ---
 
-# 🧭 the odyssey — fp/rx + ai/ml narrative
+# 🧭 the odyssey !
 
 ## 🚀 era i — proto-streaming / early distributed systems (1999 → y2k)
 
@@ -130,7 +130,7 @@ this era = symbolic pipelines: agentic systems, orchestration, cognitive archite
 
 ---
 
-# 🧠 core engineering skills (lowercase tech)
+# 🧠 core engineering skills
 
 | skill | level | notes |
 |-------|--------|--------|
@@ -142,7 +142,7 @@ this era = symbolic pipelines: agentic systems, orchestration, cognitive archite
 
 ---
 
-# 🧰 languages & paradigms (lowercase tech)
+# 🧰 languages & paradigms
 
 | language | paradigm | use-case |
 |----------|-----------|-----------|
@@ -155,7 +155,7 @@ this era = symbolic pipelines: agentic systems, orchestration, cognitive archite
 
 ---
 
-# 🏗️ systems, ops & data (lowercase tech)
+# 🏗️ systems, ops & data
 
 | domain | tech | notes |
 |--------|-------|--------|
@@ -167,7 +167,7 @@ this era = symbolic pipelines: agentic systems, orchestration, cognitive archite
 
 ---
 
-# 🔭 projects & highlights (expanded tech-core + emojis)
+# 🔭 projects & highlights
 
 ### 🛠️ fp/rx ui framework (sophia antipolis)  
 - custom ecmascript4/5 framework  
@@ -220,7 +220,7 @@ this era = symbolic pipelines: agentic systems, orchestration, cognitive archite
 
 ---
 
-# 🎵 a veeery special section — music & sonic r&d
+# 🎵 a veeery special section — music & sonic exp !
 
 ## 🎸 fusion harmony & sonic mathematics  
 - holdsworth-style harmony  
