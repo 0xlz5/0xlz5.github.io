@@ -11,9 +11,7 @@ This is my minimal GitHub Pages blog: that's where I "sporadically" write some n
 Here's a few "summary-profile" pages - not a true CV,  
 only a few narratives !
 
----
-
-# 👨🏻‍💻 More info !!
+# 📝 More info !!
 
 <ul>
     <li>
