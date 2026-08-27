@@ -32,11 +32,11 @@ This wasn’t demo‑ware — it was a 24×7 production-grade, in‑house grown 
 ## 🧩 Stack & Responsibilities
 
 - Front-end / UX → HTML/CSS (with personal use of Dreamweaver, now it would be Figma! 🎨)
-- Backend → php, J2EE, OO patterns, layered architectures + http(OpS)
+- Backend → php, J2EE, OO patterns, layered architectures; HTTP
 - Content management → py/Zope 🐍
 - Databases → MySQL, Postgres
-- Ops & services → OO Perl for operations and high-throughput socket/TCP services (actually, planning for Go)
-- Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN)
+- Ops & services → OO Perl for operations; high-throughput "sockets (tcp)"; actually, planning for Go 
+- Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN) and httpOps !
 - Integration → audio tech: Microsoft WMA, RealAudio, others 🎧
 - j2ee apps dev / xml-http "pipelines" eg. Sony - Vivendi - Universal- Nokia ("EMEA/US") 
 
