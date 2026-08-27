@@ -77,9 +77,9 @@ You decided to update your stack with cloudOps and automation tech:
 - advanced dashboarding (Tableau 📊)
 - Hadoop + Postgres + Spark + HBase as back-ends
 
-## 🎨 front-end / UI Era — JS/TS, Node/Deno, Rust, Go, FP, Rx
+## 🎨 Modern "front-end / UI" Era — JS/TS, rust, Go, FP, Rx
 
-Since ~2019 you’ve worked occasionally as a front-end UI developer, experimenting with unusual / complex programming techniques:
+Since ~2018 you’ve worked occasionally as a front-end UI developer, experimenting with unusual / complex programming techniques:
 
 - js/ts
 - node (+npm +cluteering) - Deno
