@@ -106,7 +106,7 @@ In recent years you’ve gone deep into everything AI:
 
 - LLM/RAG
 - ML/DL
-- system design, eg. http/web Ops - devOps (ci/cd) - dataOps (big-data engineering)
+- system design, eg. http/web Ops - devOps (ci/cd) - dataOps (big-data !)
 - devSecOps (openCVE)
 - low-level coding (x86, IA64)
 - graph-oriented data abstractions (in a few langs: eg. perl, C++, rust, java-Groovy - Go)
