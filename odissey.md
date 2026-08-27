@@ -55,7 +55,7 @@ I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related t
 
 As **system architect** (architecture & systems expert !)  
 
-- I therefore confirmed that role, becaming a IBM was/wps "expert/sme" - for cms and 24x7
+- therefore, I confirmed that role, becaming a IBM was/wps "expert/sme" - for cms and 24x7
 - Mostly, focused on complex (algorithmic) "scripts" (eg. wsadmin and pwsh) - that is early DevOps
 - Not wasy to work on both a corporate Microsft and http-Ops / 24x7 arch; production-grade ! 
 
