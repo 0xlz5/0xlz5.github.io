@@ -9,7 +9,7 @@ title: A Polyglot Tech Odyssey !
 [blog](https://0xblog.tumblr.com)  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)
 
-senior dev / r&d engineer — fp, reactive systems, distributed architectures, ai/ml pipelines,  
+> senior dev / r&d engineer — fp, reactive systems, distributed architectures, ai/ml pipelines,  
 reverse engineering, compression, low-level reasoning.
 
 engineering as a long-form exploration: fp → rx → distributed → ai/ml → symbolic pipelines.
