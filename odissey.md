@@ -121,7 +121,7 @@ I started in 1999 building a production-grade MP3 streaming platformon:
 linux/solariis, using c/c++, j2ee, PHP, oo-perl, py/Zope, and mysql/postgres, integrating WMA/RealAudio, distributed caching, snmp/JMX monitoring, and early mobile delivery. You handled front-end UX, backend architecture, content management, Ops, and audio tech integration, functioning as a proto‑full‑stack engineer before the term existed.
 
 With strong applied math + algorithms background,
-I **actually** taught C/C++, Java, and web design/typography, while consulting in enterprise Java/J2EE.
+at first - I taught c/c++, java, and web design/typography, while consulting in enterprise Java/J2EE.
 
 From 2010 I moved into ("MVC") open-source JS frameworks R&D at Sophia Antipolis, building custom tooling for global airlines, focusing on architecture, tech writing, and code/documentation generation.
 
