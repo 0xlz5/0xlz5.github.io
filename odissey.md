@@ -105,7 +105,7 @@ In recent years you’ve gone deep into everything AI:
 - LLM/RAG
 - ML/DL
 - system design, eg. http/web Ops - data Ops (big-data !)
-- devOps (ci/cd) - devSecOps (openCVE)
+- devOps (ci/cd) - devSecOps (eg. openCVE)
 - low-level coding (x86, IA64)
 - graph-oriented data abstractions (in a few langs: eg. perl, C++, java-Groovy, rust, Go)
 - AI coding tools
