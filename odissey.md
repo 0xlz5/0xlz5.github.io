@@ -18,7 +18,7 @@ engineering as a long-form exploration: fp → rx → distributed → ai/ml → 
 
 # 🧭 the odyssey !
 
-## 🚀 era i — proto-streaming / early distributed systems (1999 → y2k)
+## 🚀 era i — proto-streaming / mp3 delivery ! (1999 → y2k)
 
 early work inside a to-ipo startup delivering mp3 over http/rtsp and mobile gprs/wap.  
 linux/solaris, perl pipelines, php glue, j2ee patterns.  
