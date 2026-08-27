@@ -23,8 +23,8 @@
 /* ============================================================
    MIXINS
    ============================================================ */
-@mixin block-box {
-  width: 65%;
+@mixin block-box($width: 65%) {
+  width: $width;
   margin: 0 auto;
   padding: var(--pad-lg);
   border-radius: var(--radius-md);
@@ -34,14 +34,6 @@
 @mixin cell {
   padding: 0.5rem 0.75rem;
   vertical-align: top;
-}
-
-@mixin glass-border {
-  border: 2px solid rgba(18, 130, 162, 0.35);
-  box-shadow:
-    0 0 12px rgba(18, 130, 162, 0.45),
-    inset 0 0 8px rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(2px);
 }
 
 @mixin hljs-reset {
@@ -61,7 +53,7 @@ body {
   background: #e5e7eb;
   color: #1a1a1a;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;        /* MASTER SCALE */
+  font-size: 18px;
   line-height: 1.65;
   margin: 0;
   padding: 0;
@@ -134,6 +126,8 @@ strong {
    PAGE CONTENT
    ============================================================ */
 .page-content {
+  @include block-box(100%);
+
   h1, h2, h3, h4 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -168,7 +162,7 @@ strong {
 }
 
 /* ============================================================
-   GLOBAL TABLES (EXCLUDING HLJS)
+   GLOBAL TABLES
    ============================================================ */
 .page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) {
   width: 100%;
@@ -199,21 +193,19 @@ strong {
 }
 
 /* ============================================================
-   HLJS — PROPORTIONAL FONT SIZE
+   HLJS — UNIFIED SYSTEM
    ============================================================ */
 .page-content pre {
   position: relative;
-  border-radius: var(--radius-md);
-  overflow: hidden;
   margin: 1.5rem 0;
   padding: 0;
-  font-family: "Source Code Pro", monospace;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background: transparent !important;
 
-  /* PROPORTIONAL */
+  font-family: "Source Code Pro", monospace;
   font-size: 0.9em;
   line-height: 1.5em;
-
-  background: transparent !important;
 }
 
 .page-content pre code.hljs {
@@ -221,19 +213,16 @@ strong {
   overflow: hidden;
   border-radius: 0;
 
-  /* PROPORTIONAL */
   font-size: 1em;
   line-height: 1.5em;
 }
 
-/* HLJS tables unified */
 .page-content .hljs,
 .page-content .hljs table,
 .page-content .hljs-ln,
 .page-content .hljs-ln-table {
   @include hljs-reset;
 
-  /* PROPORTIONAL */
   font-size: 0.95em;
   line-height: 1.4em;
 }
@@ -250,14 +239,15 @@ strong {
 
 /* Line numbers */
 .page-content .hljs-ln td.hljs-ln-numbers {
-  text-align: right !important;
-  color: #ffffff !important;
-  border-right: 1px solid #ffffff !important;
-  padding-right: 12px !important;
   width: 3rem;
+  text-align: right !important;
   user-select: none;
 
-  /* PROPORTIONAL */
+  color: #ffffff !important;
+  border-right: 1px solid #ffffff !important;
+
+  padding-right: 12px !important;
+
   font-size: 0.9em;
   line-height: 1.4em;
 }
@@ -273,8 +263,6 @@ strong {
   border: 1px solid var(--navy-cobalt);
   border-radius: var(--radius-sm);
   padding: 2px 4px;
-
-  /* PROPORTIONAL */
   font-size: 0.9em;
 }
 
@@ -321,32 +309,4 @@ footer.footer-bar {
       }
     }
   }
-}
-
-/* ============================================================
-   HLJS — UNIFIED BACKGROUND BEHAVIOR
-   ============================================================ */
-
-.hljs,
-.hljs-ln,
-.hljs-ln tr,
-.hljs-ln td,
-.hljs-ln-numbers,
-.hljs-ln-code {
-   border-bottom: 0px;
-}
-
-.hljs-ln tr {
-/*  border-bottom: 1px solid rgba(0,0,0,0.05);
-   */
-}
-
-.hljs-ln-numbers {
-/*  color: #999; */
-  color: #000 ! important;
-  text-align: right ! important;
-  user-select: none;
-  padding-right: 10px;
-/* border-right: 1px solid #e0e0e0; */
-   border-right: 1px dotted #000;
 }
