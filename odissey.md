@@ -42,9 +42,9 @@ I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler
 
 With strong grades in applied mathematics and computer science / algorithms, you taught:
 
-- C/C++ - as I was also keen on c++ ATL/STL, and sockets programming (ie. TCP !)
+- C/C++ - with a ink into my expertise: ATL/STL, and sockets programming (ie. TCP !)
 - Web design & typography (yahoo ! and Nielsen rigor 📐)
-- perl for infraOps and http-Ops, docus on net/sys tooling, f/p and text processing
+- oo/fp Perl for infraOps and http-Ops, docus on net/sys tooling, f/p and text processing
 - java/j2ee (oo/p, ooa&d)
 
 I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap). 
