@@ -23,6 +23,6 @@ This is my minimal GitHub Pages blog where I write notes, ideas, and experiments
       <a href="/tldr">TL;DR</a>
     </li>
     <li>
-        <a href="/another">🧊 A "short?" TL;DR (Geekie / Techie) !</a>
+        <a href="/another">🧊 Another "short" TL;DR ?</a>
     </li>
 </ul>
