@@ -57,7 +57,7 @@ Around 2010 you moved into open-source R&D at Sophia Antipolis (France), buildin
 - teamplete-oriented and worflows (not only UX widgets !)
 - dustom-OO for ecmascript4/5 
 - tech writing ✍️
-- docs/code generation (eg. ,/jsdoc +@annorations, AST-parsing)
+- docs/code generation (eg. ./jsdoc +@annorations, AST-parsing)
 - architecture (eg. json-http, "async", ..)
 - ad‑hoc / custom-made tooling, and Agile/Lean, eg. Scrum/Kanban and UML digramming/modeling
 
@@ -86,7 +86,7 @@ Since ~2019 you’ve worked occasionally as a front-end UI developer, experiment
 - Rust 🦀
 - Go (+cli)
 - rX +Observables ! reactive UI (+state)
-- fp | _underscore.js
+- fp / _underscore.js
 - backbone.js - vanilla JS
 - React.js
 - Angular
