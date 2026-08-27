@@ -63,7 +63,7 @@ Around 2010 you moved into open-source R&D at Sophia Antipolis (France), buildin
 - architecture (eg. json-http, "async", ..)
 - ad‑hoc / custom-made tooling, and Agile/Lean, eg. Scrum/Kanban and UML digramming/modeling
 
-> NEW !! 😉 --> https://github.com/0xlz5 !
+> NEW !! 😉 --> [https://github.com/0xlz5](https://github.com/0xlz5) !
 
 ## ☁️ cloudOps + Big-Data Era — AWS, Automation, Hadoop/Spark
 
