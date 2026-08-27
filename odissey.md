@@ -16,9 +16,12 @@ Federico Cagliero
 ⇢ In a few words:  
 
 > a r&d front-end & sr. dev/engineer (web, 24x7) - with a deep/strong interest + bg in computer science / programming / se - and an interest in r/e, entropy and data compression.
-> This may be a short version of my professional "journey" - up to 2026 !
+> This may be a short version of my professional "journey" - up to 2026 No
 
+### What I do right these days !? ⏱️
 
+I'm exploring AI-driven engineering (gpt/codex, copilot, llm/rag) - also updating to java @26; also on "lo-level" - so c23 ! A special "wink" to system design
+and TUI/CLI tools (eg. rust/Go).
 
 ## 🚀 Early Startup Era
 ### mp3s CDN, Mobile channels & proto‑Streaming (ca. y2k)
@@ -45,9 +48,9 @@ I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler
 With strong grades in applied mathematics and computer science / algorithms, you taught:
 
 - Web design & typography (yahoo ! and Nielsen rigor 📐)
-- java <----- now updating to AI-langchain @ 26
-- C/C++ - at first keen on c++ ATL/STL, now "lean into" C.23 :Oo
-- perl for infraOps and http-Ops, docus on net/sys tooling  fp and text processing
+- C/C++ - at first keen on c++ ATL/STL
+- java/j2ee (oo/p, ooa&d)
+- perl for infraOps and http-Ops, docus on net/sys tooling, f/p and text processing
 
 I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap). 
 
