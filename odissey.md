@@ -40,15 +40,16 @@ php, Perl ("kiss", regex, complex data structures, sql/DBIx). This wasn’t demo
 
 I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler’s early “beta”  & refactoring, and even state machines / ML web‑spidering (ever-evolving !).
 
-## 🎓 Teaching & Consulting Era — Algorithms, C/C++, Java, Web Design
+## 🎓 Teaching & Consulting Era — Algorithms, C/C++, Java, Web Design / UX
 
 With strong grades in applied mathematics and computer science / algorithms, you taught:
 
-- C/C++ - at first keen on c++ ATL/STL, now "lean into" C.23 :Oo
-- java <----- now updating to AI-langchain @ 26
 - Web design & typography (yahoo ! and Nielsen rigor 📐)
+- java <----- now updating to AI-langchain @ 26
+- C/C++ - at first keen on c++ ATL/STL, now "lean into" C.23 :Oo
+- perl for infraOps and http-Ops, docus on net/sys tooling  fp and text processing
 
-I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap)
+I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap). 
 
 As **system architect** (architecture & systems expert !)  
 
