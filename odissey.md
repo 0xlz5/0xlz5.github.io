@@ -56,7 +56,7 @@ early yet "complex" devOps + release mgt (that is "CD") !? :!)
 
 ## 🧪 The "NEW" Open-Source R&D Era — JS Frameworks @ Sophia Antipolis (2010 →)
 
-Around 2010 you moved into open-source R&D at Sophia Antipolis (France), building custom JS frameworks for global airlines apps, focusing on:
+Around 2010 I moved (back !:) into open-source R&D at Sophia Antipolis (France), building custom JS frameworks for global airlines apps, focusing on:
 
 - template-oriented and UI workflows (that is - not only UX & widgets !)
 - custom-OO for ecmascript4/5 
@@ -83,7 +83,7 @@ I decided to update your stack with cloudOps and automation tech, and study some
 
 ## 🎨 Modern "front-end / UI" Era — JS/TS, rust, Go, FP, Rx
 
-Since ~2018 you’ve worked occasionally as a front-end UI developer, experimenting with unusual / complex programming techniques:
+Since ~2018 I’ve been working occasionally as a front-end UI developer, experimenting with unusual / complex programming techniques:
 
 - js/ts
 - node (+npm +clustering) - Deno
@@ -101,7 +101,7 @@ A true polyglot front-end engineer with a taste for advanced patterns.
 
 ## 🤖 Everything-AI Era — LLM/RAG, ML/DL, DevSecOps, Low-Level Coding
 
-In recent years you’ve gone deep into everything AI:
+In recent times I’ve gone deep into everything AI:
 
 - AI coding tools (+code styles)
 - LLM/RAG
