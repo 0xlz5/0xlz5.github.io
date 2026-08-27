@@ -36,10 +36,7 @@ Web dev - r&d
 - Front-end / UX → HTML/CSS (with personal use of Dreamweaver, now it would be Figma! 🎨)
 - Backend → php, J2EE, OO patterns, layered architectures; HTTP
 - Content management → py/Zope 🐍
-- Databases → MySQL, Postgres
-
-Other stuff I was used to work on !
-
+- Databases → MySQL, Postgres; NFS / linux storage tooling !
 - Ops & services → OO Perl for operations; high-throughput "sockets (tcp)"; actually, planning for Go 
 - Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN) and httpOps !
 - Integration → audio tech: Microsoft WMA, RealAudio, others 🎧
