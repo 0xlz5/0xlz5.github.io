@@ -67,9 +67,9 @@ Around 2010 you moved into open-source R&D at Sophia Antipolis (France), buildin
 
 > NEW !! 😉 --> [https://github.com/0xlz5](https://github.com/0xlz5) !
 
-## ☁️ cloudOps + Big-Data Era — AWS, Automation, Hadoop/Spark
+## ☁️ cloud-Ops + BigData Era — AWS, Automation, Hadoop/Spark
 
-You decided to update your stack with cloudOps and automation tech:
+I decided to update your stack with cloudOps and automation tech, and study some big-data !!
 
 - AWS ☁️ - eg. lambda, S3 - now Agentic AI !
 - Ansible 🤖 (IaC)
