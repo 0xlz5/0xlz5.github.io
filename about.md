@@ -9,13 +9,11 @@ Hi, I’m Federico.
 This is my minimal GitHub Pages blog: that's where I "sporadically" write some notes, ideas, and experiments.
 
 Here's a few "summary-profile" pages - not a true CV,  
-only a few "info" !
-
-🍀
+only a few narratives !
 
 ---
 
-# 👨🏻‍💻 More info
+# 👨🏻‍💻 More info !!
 
 <ul>
     <li>
