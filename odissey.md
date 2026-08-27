@@ -116,7 +116,7 @@ In recent times I’ve gone deep into everything AI:
 - AI coding tools (+code styles)
 - LLM/RAG
 - ML/DL
-- also, Data compression - lz(x) ("once again" in 2017) - forr a AI-ML algorithms opt. "use-case"
+- also, Data compression - lz(x) ("once again" in 2017) - for a AI-ML algorithms opt. "use-case"
 - UX experimentation (web design !)
 - graph-oriented data abstractions (eg. perl, C++, java-Groovy, rust/Go)
 - system design, eg. http/web Ops - data Ops (big-data + analytics !)
