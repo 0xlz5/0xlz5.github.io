@@ -52,8 +52,9 @@ I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related t
 
 As **system architect** (architecture & systems expert !)  
 
-> I therefore confirmed that role, becaming a IBM was/wps "expert/sme" - for content mgt and 24x7 portals, focused on scripting (eg. wsadmin and pwsh, eg. early yet "complex" devOps + release mgt (that is "CD") !? :!)
-> Not wasy to work on both a corporate Microsft and http-Ops / 24x7 arch - both production-grade ! 
+- I therefore confirmed that role, becaming a IBM was/wps "expert/sme" - for content mgt and 24x7 portals
+- Mostly, focused on complex (algorithmic) "scripts" (eg. wsadmin and pwsh, eg. early yet "full-sdlc" devOps -> CI/CD (release mgt)
+- Not wasy to work on both a corporate Microsft and http-Ops / 24x7 arch - both production-grade ! 
 
 ## 🧪 The "NEW" Open-Source R&D Era — JS Frameworks @ Sophia Antipolis (2010 →)
 
