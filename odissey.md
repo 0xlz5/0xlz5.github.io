@@ -93,7 +93,7 @@ Since ~2018 you’ve worked occasionally as a front-end UI developer, experiment
 - React.js
 - Angular
 - Scala 2/3
-- elm-Vue.js + complex experiimentatons with other programming paradigms (eg. fp/rx)
+- elm-Vue.js + complex experiimentatons w/ "uncommon" paradigms (eg. fp/rx)
 
 A true polyglot front-end engineer with a taste for advanced patterns.
 
