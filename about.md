@@ -3,7 +3,7 @@ layout: page
 title: About this blog; more info.
 ---
 
-# ⇢ 🍀 About this blog
+# ⇢ 👤 About this blog
 
 Hi, I’m Federico.  
 This is my minimal GitHub Pages blog: that's where I "sporadically" write some notes, ideas, and experiments.
@@ -11,7 +11,7 @@ This is my minimal GitHub Pages blog: that's where I "sporadically" write some n
 Here's a few "summary-profile" pages - not a true CV,  
 only a few narratives !
 
-# 👤 More info !!
+# 🍀 More info !!
 
 <ul>
     <li>
