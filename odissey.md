@@ -109,7 +109,7 @@ In recent years you’ve gone deep into everything AI:
 - system design, eg. http/web Ops - devOps (ci/cd) - dataOps (big-data !)
 - devSecOps (openCVE)
 - low-level coding (x86, IA64)
-- graph-oriented data abstractions (in a few langs: eg. perl, C++, rust, java-Groovy - Go)
+- graph-oriented data abstractions (in a few langs: eg. perl, C++, java-Groovy, rust, Go)
 - AI coding tools
 - UX experimentation (web design !)
 - also, Data compression - LZ (again, yet in 2017) - a AI-ML algorithms use-case
