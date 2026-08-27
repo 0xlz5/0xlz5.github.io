@@ -11,8 +11,6 @@ Federico Cagliero
 [blog](https://0xblog.tumblr.com)  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)
 
-
-
 ⇢ In a few words:  
 
 > a r&d front-end & sr. dev/engineer (web, 24x7) - with a deep/strong interest + bg in computer science / programming / se - and an interest in r/e, entropy and data compression.
@@ -53,9 +51,9 @@ I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related t
 
 As **system architect** (architecture & systems expert !)  
 
-- I therefore confirmed that role, becaming a IBM was/wps "expert/sme" - for content mgt and 24x7 portals
-- Mostly, focused on complex (algorithmic) "scripts" (eg. wsadmin and pwsh, eg. early yet "full-sdlc" devOps -> CI/CD (release mgt)
-- Not wasy to work on both a corporate Microsft and http-Ops / 24x7 arch - both production-grade ! 
+- I therefore confirmed that role, becaming a IBM was/wps "expert/sme" - for cms and 24x7
+- Mostly, focused on complex (algorithmic) "scripts" (eg. wsadmin and pwsh) - that is early DevOps
+- Not wasy to work on both a corporate Microsft and http-Ops / 24x7 arch; production-grade ! 
 
 ## 🧪 The "NEW" Open-Source R&D Era — JS Frameworks @ Sophia Antipolis (2010 →)
 
