@@ -109,9 +109,9 @@ In recent years you’ve gone deep into everything AI:
 - graph-oriented data abstractions (in a few langs: eg. perl, C++, rust, java-Groovy - Go)
 - AI coding tools
 - UX experimentation (web design !)
-- also, Data compression - LZ (again, yet in 2017) - a AI-ML algorithms use-case  
+- also, Data compression - LZ (again, yet in 2017) - a AI-ML algorithms use-case
 
-<<
+
 
 # 🧊 A "short?" TL;DR (Geekie / Techie) !
 
