@@ -82,7 +82,7 @@ aws (lambda, s3), ansible, ci/cd, jenkins plugins.
 openmp/mpi, openapi, telco anomaly detection, hadoop + postgres + spark + hbase, tableau dashboards.
 
 **tech focus**  
-- aws lambda, s3  
+- aws lambda, storage: s3, b2  
 - ansible (iac)  
 - ci/cd (jenkins plugins)  
 - openmp/mpi (parallel computing)  
