@@ -45,13 +45,13 @@ I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler
 With strong grades in applied mathematics and computer science / algorithms, you taught:
 
 - C/C++ - at first keen on c++ ATL/STL, now "lean into" C.23 :Oo
-- java <----- todo! update to AI-langchain @ 26
+- java <----- now updating to AI-langchain @ 26
 - Web design & typography (yahoo ! and Nielsen rigor 📐)
 
 I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap)
 
-As **system architect** (architecture & systems expert !)
-- I too became a IBM was/wps "expert/sme" - for content mgt and 24x7 portals, foused on scripting (eg. wsadmin and pwsh, eg.
+As **system architect** (architecture & systems expert !)  
+I too became a IBM was/wps "expert/sme" - for content mgt and 24x7 portals, focused on scripting (eg. wsadmin and pwsh, eg.
 early yet "complex" devOps + release mgt (that is "CD") !? :!)
 
 ## 🧪 The "NEW" Open-Source R&D Era — JS Frameworks @ Sophia Antipolis (2010 →)
@@ -61,15 +61,15 @@ Around 2010 I moved (back !:) into open-source R&D at Sophia Antipolis (France),
 - template-oriented and UI workflows (that is - not only UX & widgets !)
 - custom-OO for ecmascript4/5 
 - tech writing ✍️
-- docs/code generation (eg. ./jsdoc +@annorations, AST-parsing)
+- docs/code generation (eg. ./jsdoc + "@nnorations, AST-parsing)
 - architecture (eg. json-http, "async", ..)
-- ad‑hoc / custom-made tooling, and Agile/Lean, eg. Scrum/Kanban and UML digramming/modeling
+- ad‑hoc / custom-made tooling, and Agile/Lean, eg. Scrum/Kanban and UML diagramming/modeling
 
-> NEW !! 😉 --> [https://github.com/0xlz5](https://github.com/0xlz5) !
+> NEW ? 😉 --> [https://github.com/0xlz5](https://github.com/0xlz5) !
 
 ## ☁️ cloud-Ops + BigData Era — AWS, Automation, Hadoop/Spark
 
-I decided to update your stack with cloudOps and automation tech, and study some big-data !!
+I decided to update my ref. stack with cloudOps and automation tech, and study some big-data !!
 
 - AWS ☁️ - eg. lambda, S3 - now Agentic AI !
 - Ansible 🤖 (IaC)
