@@ -13,11 +13,13 @@ Federico Cagliero
 
 🇮🇹 Italian — 🇬🇧 English — 🇫🇷 French  
 
+---
 
-## ⇢ Summary - profile !!
+⇢ Summary - profile !  
 
 > a Sr. dev/engineer - with a deep/strong interest + bg in computer science / programming - and an interest in r/e, entropy and data compression.
 > This may be a short version of my professional "journey" - up to 2026 !
+
 
 ## 🚀 Early Startupper Era — mp3s, Mobile Channels & pre‑Streaming (1999)
 
