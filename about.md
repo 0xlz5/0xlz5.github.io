@@ -14,9 +14,12 @@ This is my minimal GitHub Pages blog where I write notes, ideas, and experiments
 
 <ul>
     <li>
-      <a href="/tldr">TL;DR</a>
+      <a href="/2026/04/07/compendium.html">a short "compendium"</a>
     </li>
     <li>
-      <a href="/2026/04/07/compendium.html">a short "compendium"</a>
+      <a href="/odissey">a "polyglot" Tech Odyssey</a>
+    </li>
+    <li>
+      <a href="/tldr">TL;DR</a>
     </li>
 </ul>
