@@ -21,7 +21,8 @@ Federico Cagliero
 > This may be a short version of my professional "journey" - up to 2026 !
 
 
-## 🚀 Early Startupper Era — mp3s, Mobile Channels & pre‑Streaming (1999)
+## 🚀 Early Startupper Era
+### mp3s CDN, Mobile channels & proto‑Streaming (ca. 1999)
 
 I began professionally in 1999 inside a to‑IPO startup delivering music (rt(s)p, MP3s)
 over the Internet and early mobile channels (eg. gprs/WAP) — long before “streaming” became a household word. With a background in software programming & design (x86 - c/c++, jdk1.x - patterns, j2ee),
