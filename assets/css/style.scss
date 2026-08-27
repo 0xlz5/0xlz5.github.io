@@ -280,19 +280,6 @@ strong {
   padding: 4px 8px !important;
 }
 
-/* Line numbers — versione corretta */
-.page-content .hljs-ln td.hljs-ln-numbers {
-  text-align: right !important;
-  color: #ffffff !important;
-  border-right: 1px solid #ffffff !important;
-  padding-right: 12px !important;
-  width: 3rem;
-  user-select: none;
-
-  font-size: 0.9em;
-  line-height: 1.4em;
-}
-
 .page-content .hljs-ln td.hljs-ln-code {
   padding-left: 12px !important;
 }
