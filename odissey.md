@@ -73,11 +73,11 @@ this era = exploration: agentic systems, orchestration, symbolic pipelines, cogn
 
 | **skill** | **level** | **notes** |
 |-----------|-----------|-----------|
-| **[functional programming](ca://s?q=Tell_me_more_about_FP)** | expert | scala, fp mindset, purity |
-| **[system design](ca://s?q=Discuss_system_design_principles)** | expert | httpops, pipelines, distributed systems |
-| **[front-end engineering](ca://s?q=Explore_front_end_architecture)** | senior | js/ts, react, angular, rx |
-| **[ai engineering](ca://s?q=Explain_AI_engineering)** | advanced | llm/rag, agentic systems |
-| **[reverse engineering](ca://s?q=Talk_about_reverse_engineering)** | advanced | x86, ia-64, tooling |
+| **functional programming** | expert | scala, fp mindset, purity |
+| **system design** | expert | httpops, pipelines, distributed systems |
+| **front-end engineering** | senior | js/ts, react, angular, rx |
+| **ai engineering** | advanced | llm/rag, agentic systems |
+| **reverse engineering** | advanced | x86, ia-64, tooling |
 
 ---
 
