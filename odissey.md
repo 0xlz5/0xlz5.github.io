@@ -15,7 +15,7 @@ Federico Cagliero
 
 ⇢ In a few words:  
 
-> a r&d front-end & sr. dev/engineer (web, 24x7) - with a deep/strong interest + bg in computer science / programming - and an interest in r/e, entropy and data compression.
+> a r&d front-end & sr. dev/engineer (web, 24x7) - with a deep/strong interest + bg in computer science / programming / se - and an interest in r/e, entropy and data compression.
 > This may be a short version of my professional "journey" - up to 2026 !
 
 
@@ -105,12 +105,12 @@ In recent years you’ve gone deep into everything AI:
 - LLM/RAG
 - ML/DL
 - system design, eg. http/web Ops - data Ops (big-data + analytics !)
-- devOps (ci/cd) - devSecOps (eg. opencve, ..)
-- low-level coding (x86, IA64)
 - graph-oriented data abstractions (in a few langs: eg. perl, C++, java-Groovy, rust, Go)
 - AI coding tools
 - UX experimentation (web design !)
-- also, Data compression - lz(x) ("once again" in 2017) - forr a AI-ML algorithmic opt. "use-case"
+- also, Data compression - lz(x) ("once again" in 2017) - forr a AI-ML algorithms opt. "use-case"
+- devOps (ci/cd) - devSecOps (eg. opencve, ..)
+- low-level coding (x86, IA64)
 
 ---
 
