@@ -1,3 +1,8 @@
+---
+layout: page
+title: A polyglot Tech Odyssey - 1999
+---
+
 # 🌐 TL;DR — A "polyglot" Tech Odyssey (1999 → now)
 
 Federico Cagliero  
