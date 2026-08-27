@@ -16,9 +16,7 @@ Federico Cagliero
 > a r&d front-end & sr. dev/engineer (web, 24x7) - with a deep/strong interest + bg in computer science / programming / se - and an interest in r/e, entropy and data compression.
 > This may be a short version of my professional "journey" - up to 2026 !
 
----
-
-## 🚀 Early Startupper Era
+## 🚀 Early Startup Era
 ### mp3s CDN, Mobile channels & proto‑Streaming (ca. y2k)
 
 I ***professionally*** "started-up" during late 1999 inside a to‑IPO **startup** delivering music (rt(s)p, MP3s)
