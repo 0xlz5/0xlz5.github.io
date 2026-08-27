@@ -22,4 +22,7 @@ This is my minimal GitHub Pages blog where I write notes, ideas, and experiments
     <li>
       <a href="/tldr">TL;DR</a>
     </li>
+    <li>
+        <a href="/another">🧊 A "short?" TL;DR (Geekie / Techie) !</a>
+    </li>
 </ul>
