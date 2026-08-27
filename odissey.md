@@ -17,18 +17,18 @@ Federico Cagliero
 > a Sr. dev/engineer - with a deep/strong interest + bg in computer science / programming - and an interest in r/e, entropy and data compression.
 > This may be a short version of my professional "journey" - up to 2026 !
 
-## 🚀 Early Startupper Era — mp3s, Mobile Channels (eg. WAP) & rt(s)p‑Streaming (1999)
+## 🚀 Early Startupper Era — mp3s, Mobile Channels & pre‑Streaming (1999)
 
-I began professionally in 1999 inside a to‑IPO startup delivering music (MP3s)
-over the Internet and early mobile channels — long before “streaming” became a household word. With a background in software programming & design (x86 - c/c++, jdk1.x - patterns, j2ee),
+I began professionally in 1999 inside a to‑IPO startup delivering music (rt(s)p, MP3s)
+over the Internet and early mobile channels (eg. gprs/WAP) — long before “streaming” became a household word. With a background in software programming & design (x86 - c/c++, jdk1.x - patterns, j2ee),
 you jumped naturally into modern web languages of the time:
 php, Perl ("kiss", regex, complex data structures, sql/DBIx). This wasn’t demo‑ware — it was a 24×7 production-grade, in‑house grown platform running on linux/Solaris, fully open‑source‑driven.
 
 ## 🧩 Stack & Responsibilities
 
 - Front-end / UX → HTML/CSS (with personal use of Dreamweaver, now i would be Figma! 🎨)
-- Backend → php, J2EE, OO patterns, layered architectures / xml-http pipelines !
-- Content management → Python/Zope 🐍
+- Backend → php, J2EE, OO patterns, layered architectures / xml-http pipelines - https+Ops !!
+- Content management → py/Zope 🐍
 - Databases → MySQL, Postgres
 - Ops & services → OO Perl for operations (later planned for Go)
 - Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN)
