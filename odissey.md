@@ -102,15 +102,16 @@ A true polyglot front-end engineer with a taste for advanced patterns.
 
 In recent years you’ve gone deep into everything AI:
 
+- AI coding tools (+code styles)
 - LLM/RAG
 - ML/DL
-- system design, eg. http/web Ops - data Ops (big-data + analytics !)
-- graph-oriented data abstractions (in a few langs: eg. perl, C++, java-Groovy, rust, Go)
-- AI coding tools
-- UX experimentation (web design !)
 - also, Data compression - lz(x) ("once again" in 2017) - forr a AI-ML algorithms opt. "use-case"
+- UX experimentation (web design !)
+- graph-oriented data abstractions (eg. perl, C++, java-Groovy, rust/Go)
+- system design, eg. http/web Ops - data Ops (big-data + analytics !)
+- ad-hoc DSL-oriented worklflows for DDD and other modern software engineering practices, ..   
 - devOps (ci/cd) - devSecOps (eg. opencve, ..)
-- low-level coding (x86, IA64)
+- low-level coding (x86, ia-64)
 
 ---
 
