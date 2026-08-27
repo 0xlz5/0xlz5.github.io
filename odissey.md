@@ -110,7 +110,7 @@ In recent years you’ve gone deep into everything AI:
 - UX experimentation (web design !)
 - graph-oriented data abstractions (eg. perl, C++, java-Groovy, rust/Go)
 - system design, eg. http/web Ops - data Ops (big-data + analytics !)
-- ad-hoc DSL-oriented worklflows for DDD and other modern software engineering practices, ..   
+- ad-hoc DSL-oriented worklflows for DDD and other modern software engineering practices   
 - devOps (ci/cd) - devSecOps (eg. opencve, ..)
 - low-level coding (x86, ia-64)
 
