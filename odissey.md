@@ -3,129 +3,168 @@ layout: page
 title: A "polyglot" Tech Odyssey
 ---
 
-# 🌐 TL;DR (y2k → now)  
+# 🌐 TL;DR — Federico Cagliero
 
-Federico Cagliero  
-[federico.cagliero@gmail.com](federico.cagliero@gmail.com)  
-
+[federico.cagliero@gmail.com](mailto:federico.cagliero@gmail.com)  
 [blog](https://0xblog.tumblr.com)  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)
 
-⇢ In a few words:  
+> r&d front-end & senior developer/engineer (web, 24×7)  
+> deep background in computer science, programming, software engineering  
+> interest in reverse engineering, entropy, data compression  
+> this is my professional journey — up to 2026
 
-> a r&d front-end & sr. dev/engineer (web, 24x7) - with a deep/strong interest + bg in computer science / programming / se - and an interest in r/e, entropy and data compression.
-> This may be a short version of my professional "journey" - up to 2026 !
-
-What I'm doing these days: I'm actually digging into AI-driven engineering (of course, I'd say !)
-
-## 🚀 Early Startup Era
-### mp3s CDN, Mobile channels & proto‑Streaming (ca. y2k)
-
-I professionally "started-up" during late 1999 inside a to‑IPO **startup**
-delivering music (rt(s)p, MP3s) over the Internet and early mobile channels (eg. gprs/WAP) — long before
-“streaming” became a household word.  
-
-With a background in software programming & design (eg. jdk1.x - patterns, j2ee)/Web), I jumped naturally into modern web languages of the time: php, Perl ("kiss", regex, complex data structures, sql/DBIx).  
-
-This wasn’t demo‑ware — it was a 24×7 production-grade, in‑house grown platform running on linux/Solaris, fully open‑source‑driven.  
-
-## 🧩 Stack & Responsibilities
-
-Web dev - r&d
-
-- Front-end / UX → HTML/CSS (with personal use of Dreamweaver, now it would be Figma! 🎨)
-- Backend → php, J2EE, OO patterns, layered architectures; HTTP
-- Content management → py/Zope 🐍
-- Databases → MySQL, Postgres; NFS / linux storage tooling !
-- Ops & services → OO Perl for operations; high-throughput "sockets (tcp)"; actually, planning for Go 
-- Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN) and httpOps !
-- Integration → audio tech: Microsoft WMA, RealAudio, others 🎧
-- j2ee / xml-http "pipelines" eg. Sony - Vivendi - Universal- Nokia ("EMEA/US") 
-
-I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler’s early “beta”  & refactoring, and even state machines / ML web‑spidering (ever-evolving !).
-
-## 🎓 Teaching & Consulting Era — Algorithms, C/C++, Java, Web Design / UX
-
-With strong grades in applied mathematics and computer science / algorithms, you taught:
-
-- C/C++ - with a ink into my expertise: ATL/STL, and sockets programming (ie. TCP !)
-- Web design & typography (yahoo ! and Nielsen rigor 📐)
-- oo/fp Perl for infraOps and http-Ops, docus on net/sys tooling, f/p and text processing
-- java/j2ee (oo/p, ooa&d)
-
-Also, I have been doing a lot of "consulting" (eg. perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap). 
-
-As **system architect** (architecture & systems expert !)  
-
-- therefore, I confirmed that role, becaming a IBM was/wps "expert/sme" - for cms and 24x7
-- Mostly, focused on complex (algorithmic) "scripts" (eg. wsadmin and pwsh) - that is early DevOps
-- Not wasy to work on both a corporate Microsft and http-Ops / 24x7 arch; production-grade ! 
-
-## 🧪 The "NEW" Open-Source R&D Era — JS Frameworks @ Sophia Antipolis (2010 →)
-
-Around 2010 I moved (back !:) into open-source R&D at Sophia Antipolis (France), building custom JS frameworks for global airlines apps, focusing on:
-
-- template-oriented and UI workflows (that is - not only UX & widgets !)
-- custom-OO for ecmascript4/5 
-- tech writing ✍️
-- docs/code generation (eg. ./jsdoc + "@nnorations, AST-parsing)
-- architecture (eg. json-http, "async", ..)
-- ad‑hoc / custom-made tooling, and Agile/Lean, eg. Scrum/Kanban and UML diagramming/modeling
-
-> NEW ? 😉 --> [https://github.com/0xlz5](https://github.com/0xlz5) !
-
-## ☁️ cloud-Ops + BigData Era — AWS, Automation, Hadoop/Spark
-
-I decided to update my ref. stack with cloud-ops and automation tech, and study some big-data !!
-
-- AWS ☁️ - eg. lambda, S3 - now Agentic AI !
-- Ansible 🤖 (IaC)
-- DevOps (CI-CD, jenkins "plugins")
-- big-data algorithms (eg. map/reduce !)
-
-Therefore I was - at least - able to work on this:
-
-- OpenMP & MPI (parallel computing)
-- production-grade OpenAPI
-- predictive analytics for anomaly detection in large scale telco networks
-- telco data pipelines - advanced dash-boarding (Tableau 📊)
-- Hadoop + Postgres + Spark + HBase as back-ends
-
-## 🎨 Modern "front-end / UI" Era — JS/TS, rust, Go, FP, Rx
-
-Since around 2018 I’ve been working occasionally as a front-end / web developer, experimenting with unusual / complex programming techniques:
-
-- js/ts
-- node (+npm +clustering) - Deno
-- Rust 🦀
-- Go (+cli)
-- rX +Observables ! reactive UI (+state)
-- fp / _underscore.js
-- backbone.js - vanilla JS
-- React.js
-- Angular
-- Scala 2/3
-- elm-Vue.js + complex experiimentatons w/ unusual paradigms (eg. fp/rx)
-
-A true polyglot front-end engineer with a taste for advanced patterns.
-
-## 🤖 Everything-AI Era — LLM/RAG, ML/DL, DevSecOps, Low-Level Coding
-
-In recent times I’ve gone deep into everything AI:
-
-- AI coding tools (+code styles)
-- LLM/RAG
-- ML/DL
-- also, Data compression - lz(x) ("once again" in 2017) - for a AI-ML algorithms opt. "use-case"
-- UX experimentation (web design !)
-- graph-oriented data abstractions (eg. perl, C++, java-Groovy, rust/Go)
-- system design, eg. http/web Ops - data Ops (big-data + analytics !)
-- ad-hoc DSL-oriented worklflows for "xDD" and other modern software engineering practices   
-- devOps (ci/cd) - devSecOps (eg. opencve, ..)
-- low-level coding (x86, ia-64)
+**These days:** digging into **AI-driven engineering** (LLM/RAG, agentic systems, neuro-symbolic reasoning).
 
 ---
 
-I can talk/write in:
+## 🚀 Early Startup Era  
+### mp3 CDN, Mobile Channels & Proto‑Streaming (1999 → y2k)
 
-🇮🇹 Italian — 🇬🇧 English — 🇫🇷 French  
+I started professionally in late **1999**, inside a to‑IPO startup delivering **music (rtsp, MP3)** over the Internet and early mobile channels (GPRS/WAP) — long before “streaming” became mainstream.
+
+With a background in **software programming & design** (jdk1.x, patterns, J2EE, Web), I jumped into the modern web languages of the time: **PHP**, **Perl** (KISS, regex, DS, SQL/DBIx).
+
+This wasn’t demo‑ware: it was a **24×7 production-grade**, in‑house grown platform on **Linux/Solaris**, fully open‑source‑driven.
+
+---
+
+## 🧩 Stack & Responsibilities
+
+- **Front-end / UX** → HTML/CSS (Dreamweaver → now Figma 🎨)  
+- **Backend** → PHP, J2EE, OO patterns, layered architectures, HTTP  
+- **Content management** → Python/Zope  
+- **Databases** → MySQL, Postgres; NFS & Linux storage tooling  
+- **Ops & services** → OO Perl for infraOps; high-throughput TCP sockets; early plans for Go  
+- **Infra / delivery** → logs analytics, SNMP/JMX monitoring, distributed caching, CDN audio delivery, httpOps  
+- **Integration** → Microsoft WMA, RealAudio, Sony/Vivendi/Universal/Nokia XML‑HTTP pipelines
+
+Ahead of times: Fowler’s early “beta” refactoring, state machines, ML web‑spidering.
+
+---
+
+## 🎓 Teaching & Consulting Era  
+### Algorithms, C/C++, Java, Web Design / UX
+
+Strong grades in applied mathematics & CS/algorithms → teaching:
+
+- **C/C++** (ATL/STL, TCP sockets)  
+- **Web design & typography** (Nielsen rigor)  
+- **OO/FP Perl** for infraOps & text processing  
+- **Java/J2EE** (OOA&D, distributed systems)
+
+Consulting across **Perl, JS, Python, Java/J2EE**, including dist‑sys (JMS, EJB, XML‑SOAP).
+
+As **system architect**:
+
+- IBM WAS/WPS SME for CMS & 24×7 systems  
+- complex algorithmic scripting (wsadmin, pwsh) → early DevOps  
+- hybrid Microsoft corporate + http‑Ops production architectures
+
+---
+
+## 🧪 Open-Source R&D Era  
+### JS Frameworks @ Sophia Antipolis (2010 →)
+
+Moved into open-source R&D at **Sophia Antipolis**, building custom JS frameworks for global airlines:
+
+- template-oriented UI workflows  
+- custom OO for ECMAScript 4/5  
+- tech writing & documentation  
+- jsdoc + annotations, AST parsing  
+- architecture (JSON/HTTP, async)  
+- custom tooling, Agile/Lean (Scrum/Kanban), UML modeling
+
+> NEW? 😉 → https://github.com/0xlz5
+
+---
+
+## ☁️ CloudOps + BigData Era  
+### AWS, Automation, Hadoop/Spark
+
+Updated my stack with cloudOps, automation, and big-data:
+
+- AWS (Lambda, S3 → now Agentic AI)  
+- Ansible (IaC)  
+- DevOps (CI/CD, Jenkins plugins)  
+- map/reduce algorithms  
+
+Worked on:
+
+- OpenMP & MPI (parallel computing)  
+- production-grade OpenAPI  
+- predictive analytics for anomaly detection in telco networks  
+- telco data pipelines, Tableau dashboards  
+- Hadoop + Postgres + Spark + HBase
+
+---
+
+## 🎨 Modern Front-End / UI Era  
+### JS/TS, Rust, Go, FP, Rx
+
+Since ~2018, front-end/web development with unusual/complex programming techniques:
+
+- JS/TS  
+- Node (npm, clustering), Deno  
+- Rust 🦀  
+- Go (CLI)  
+- Rx/Observables (reactive UI + state)  
+- FP / underscore.js  
+- Backbone.js, vanilla JS  
+- React.js  
+- Angular  
+- Scala 2/3  
+- Elm, Vue.js  
+- experimental paradigms (FP/Rx hybrids)
+
+A true polyglot front-end engineer with taste for advanced patterns.
+
+---
+
+## 🤖 Everything-AI Era  
+### LLM/RAG, ML/DL, DevSecOps, Low-Level Coding
+
+Recent years → deep dive into AI:
+
+- AI coding tools & code styles  
+- LLM/RAG  
+- ML/DL  
+- data compression (lz(x), 2017) for AI/ML optimization  
+- UX experimentation  
+- graph-oriented data abstractions (Perl, C++, Java/Groovy, Rust/Go)  
+- system design (http/webOps, dataOps)  
+- DSL-oriented workflows for xDD  
+- DevOps (CI/CD), DevSecOps (OpenCVE)  
+- low-level coding (x86, IA‑64)
+
+---
+
+# 🎵 **A Veeery Special Section — Music & Sonic R&D**  
+*(your cosmic‑fusion identity)*
+
+## 🎸 Fusion Harmony & Advanced Music Theory
+
+- Holdsworth-style harmonic exploration  
+- Lydian colors, wide-interval voicings  
+- microtonal sitar-inspired scales  
+- chromatic fretless bass progressions  
+- symbolic, metaphysical, cosmic aesthetics applied to sound
+
+## 🎛️ Sonic Engineering & MIDI R&D
+
+- extended 24‑bar MIDI progressions  
+- algorithmic harmony generation  
+- spectral‑symbolic composition  
+- hybrid technical‑poetic sound design
+
+## 🖼️ Creative Work
+
+- symbolic pixel‑art cosmology  
+- noir scene generation  
+- philosophical diagrams & cycles
+
+---
+
+## 🗣️ Languages
+
+🇮🇹 Italian — 🇬🇧 English — 🇫🇷 French
