@@ -3,7 +3,7 @@ layout: page
 title: A Polyglot Tech Odyssey !
 ---
 
-# tl;dr — Federico Cagliero
+# tl;dr  
 
 [federico.cagliero@gmail.com](mailto:federico.cagliero@gmail.com)  
 [blog](https://0xblog.tumblr.com)  
@@ -209,7 +209,7 @@ this era = symbolic pipelines: agentic systems, orchestration, cognitive archite
 - xml-soap, jms, ejb  
 
 ### 🖥️ teaching & consulting  
-- c/c++ (tcp, atl/stl)  
+- c/c++ (algo-dsa, atl/stl, tcp)  
 - perl (fp/text)  
 - java/j2ee (ooa&d)  
 - web design (typography, nielsen)  
