@@ -83,7 +83,7 @@ I decided to update my ref. stack with cloud-ops and automation tech, and study 
 - DevOps (CI-CD, jenkins "plugins")
 - big-data algorithms (eg. map/reduce !)
 
-Therefore I was - at least - able to wowrk on this:
+Therefore I was - at least - able to work on this:
 
 - OpenMP & MPI (parallel computing)
 - production-grade OpenAPI
