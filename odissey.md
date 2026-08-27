@@ -20,8 +20,12 @@ Federico Cagliero
 
 ### What I do right these days !? ⏱️
 
-I'm exploring AI-driven engineering (gpt/codex, copilot, llm/rag) - also updating to java @26; also on "lo-level" - so c23 ! A special "wink" to system design
-and TUI/CLI tools (eg. rust/Go).
+- exploring AI-driven engineering (gpt/codex, copilot, llm/rag) - and promt/context/loop engineering 
+- also updating to langchain/graph & java @26
+- a bit - again! - on lo-level, so c23
+- a special "wink" to 24x7 system design, LLM-Ops and TUI/CLI tools (eg. rust/Go).
+- of course - using AI for content shaping (NLP) and "reasoning" UI/UX
+- experimenting w/ new-gen JS frameworks, "far beyond" React.js, yet based on "v-DOM"
 
 ## 🚀 Early Startup Era
 ### mp3s CDN, Mobile channels & proto‑Streaming (ca. y2k)
@@ -47,10 +51,10 @@ I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler
 
 With strong grades in applied mathematics and computer science / algorithms, you taught:
 
+- C/C++ - as I was also keen on c++ ATL/STL, and sockets programming (ie. TCP !)
 - Web design & typography (yahoo ! and Nielsen rigor 📐)
-- C/C++ - at first keen on c++ ATL/STL
-- java/j2ee (oo/p, ooa&d)
 - perl for infraOps and http-Ops, docus on net/sys tooling, f/p and text processing
+- java/j2ee (oo/p, ooa&d)
 
 I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap). 
 
