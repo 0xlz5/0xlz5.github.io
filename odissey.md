@@ -11,10 +11,14 @@ Federico Cagliero
 [blog](https://0xblog.tumblr.com)  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)
 
+---
+
 ⇢ In a few words:  
 
 > a r&d front-end & sr. dev/engineer (web, 24x7) - with a deep/strong interest + bg in computer science / programming / se - and an interest in r/e, entropy and data compression.
 > This may be a short version of my professional "journey" - up to 2026 !
+
+---
 
 ## 🚀 Early Startup Era
 ### mp3s CDN, Mobile channels & proto‑Streaming (ca. y2k)
@@ -30,7 +34,7 @@ php, Perl ("kiss", regex, complex data structures, sql/DBIx). This wasn’t demo
 - Backend → php, J2EE, OO patterns, layered architectures / xml-http pipelines - https+Ops !!
 - Content management → py/Zope 🐍
 - Databases → MySQL, Postgres
-- Ops & services → OO Perl for operations (later planned for Go)
+- Ops & services → OO Perl for operations (actually, planning for Go)
 - Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN)
 - Integration → audio tech: Microsoft WMA, RealAudio, others 🎧 - eg. Sony - Vivendi - Universal- Nokia ("EMEA/US") 
 
