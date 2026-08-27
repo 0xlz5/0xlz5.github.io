@@ -134,7 +134,7 @@ strong {
    PAGE CONTENT
    ============================================================ */
 .page-content {
-  @include block-box(100%);
+  @include block-box;
 
   /* headings — pulizia minima */
   h1, h2, h3, h4 {
