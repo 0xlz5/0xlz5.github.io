@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A polyglot Tech Odyssey !
+title: A Polyglot Tech Odyssey !
 ---
 
 # tl;dr — Federico Cagliero
@@ -9,83 +9,144 @@ title: A polyglot Tech Odyssey !
 [blog](https://0xblog.tumblr.com)  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)
 
-senior dev / r&d engineer — front-end, system design, distributed architectures, ai-driven engineering,  
-reverse engineering, entropy, compression.
+senior dev / r&d engineer — fp, reactive systems, distributed architectures, ai/ml pipelines,  
+reverse engineering, compression, low-level reasoning.
 
-> a long-form engineering odyssey: from proto-streaming → cloud/bigdata → fp/polyglot → ai/llm → low-level.
+engineering as a long-form exploration: fp → rx → distributed → ai/ml → symbolic pipelines.
 
 ---
 
-# 🧭 the odyssey — five eras (tech narrative)
+# 🧭 the odyssey — fp/rx + ai/ml narrative
 
-## era i — startup / proto-streaming (1999 → y2k)
+## 🚀 era i — proto-streaming / early distributed systems (1999 → y2k)
 
-late 1999: inside a to-ipo startup building mp3 delivery over http/rtsp and early mobile (gprs/wap).  
-linux/solaris boxes, perl pipelines, php glue, j2ee patterns, 24x7 uptime.  
+early work inside a to-ipo startup delivering mp3 over http/rtsp and mobile gprs/wap.  
+linux/solaris, perl pipelines, php glue, j2ee patterns.  
 distributed caching, snmp/jmx monitoring, xml-http integrations with sony/vivendi/universal/nokia.
 
-this era = raw engineering: sockets, logs, regex, storage, entropy, throughput.
+**tech focus**  
+- perl (regex, fp-ish idioms, data structures)  
+- php (early web glue)  
+- j2ee (patterns, layered architectures)  
+- linux/solaris ops  
+- tcp sockets  
+- nfs + storage tooling  
+- early cdn audio delivery  
+- proto-streaming pipelines (rtsp/mp3)  
+
+this era = raw distributed thinking: sockets, logs, throughput, entropy, compression.
 
 ---
 
-## era ii — teaching, consulting, systems architecture
+## 🎓 era ii — systems architecture / algorithmic teaching
 
-teaching c/c++ (atl/stl, tcp), web design (typography, nielsen), perl (fp/text), java/j2ee (ooa&d).  
+teaching c/c++ (atl/stl, tcp), perl (fp/text), java/j2ee (ooa&d), web design (typography, nielsen).  
 consulting across perl/js/python/java.  
 system architect: ibm was/wps sme, wsadmin/pwsh scripting, early devops, cms + 24x7 infra.
 
-this era = architecture as narrative: diagrams, flows, state machines, distributed reasoning.
+**tech focus**  
+- c/c++ (tcp, sockets, atl/stl)  
+- perl (fp, text processing, infraops)  
+- java/j2ee (ooa&d, distributed systems)  
+- wsadmin/pwsh scripting  
+- xml-soap, jms, ejb  
+- early devops automation  
+- corporate microsoft + http-ops hybrid architectures  
+
+this era = architecture as algorithm: state machines, flows, distributed reasoning.
 
 ---
 
-## era iii — open-source r&d @ sophia antipolis (2010 →)
+## 🧪 era iii — open-source r&d @ sophia antipolis (2010 →)
 
 custom js frameworks for global airlines:  
 ecmascript4/5 oo, template workflows, async/json-http, ast parsing, jsdoc annotations, uml modeling.  
 agile/lean (scrum/kanban), custom tooling.
 
-this era = engineering as craft: code generation, ui choreography, architectural clarity.
+**tech focus**  
+- javascript (ecmascript4/5 oo)  
+- async/json-http pipelines  
+- ast parsing + codegen  
+- jsdoc annotations  
+- custom ui workflow engines  
+- uml modeling  
+- agile/lean engineering  
+
+this era = engineering as craft: code generation, ui choreography, structural clarity.
 
 ---
 
-## era iv — cloudops + bigdata
+## ☁️ era iv — cloudops + bigdata pipelines
 
-aws (lambda, s3), ansible, ci/cd, jenkins plugins, map/reduce.  
+aws (lambda, s3), ansible, ci/cd, jenkins plugins.  
 openmp/mpi, openapi, telco anomaly detection, hadoop + postgres + spark + hbase, tableau dashboards.
 
-this era = distributed data weather: pipelines, clusters, parallelism, analytics.
+**tech focus**  
+- aws lambda, s3  
+- ansible (iac)  
+- ci/cd (jenkins plugins)  
+- openmp/mpi (parallel computing)  
+- openapi (production-grade)  
+- hadoop, spark, hbase  
+- postgres  
+- tableau dashboards  
+- telco-scale anomaly detection  
+
+this era = distributed data weather: clusters, parallelism, analytics.
 
 ---
 
-## era v — modern front-end polyglot + everything-ai (2018 → now)
+## 🎨 era v — fp/rx polyglot + ai/ml systems (2018 → now)
 
-front-end polyglot:  
-js/ts, node, deno, rust, go, rx/observables, underscore.js (fp), backbone.js, vanilla js, react, angular, scala2/3, elm, vue, fp/rx hybrids.
+front-end polyglot experimentation with fp/rx paradigms, async streams, and symbolic pipelines.
 
-ai-driven engineering:  
-llm/rag, ml/dl, lz(x) compression, graph abstractions (perl/c++/groovy/rust/go), dsl workflows, devsecops, x86/ia-64 low-level.
+### front-end polyglot stack  
+- js/ts  
+- node  
+- deno  
+- rust 🦀  
+- go  
+- rx/observables ⚡  
+- underscore.js (fp)  
+- backbone.js  
+- vanilla js  
+- react  
+- angular  
+- scala 2/3  
+- elm  
+- vue  
+- fp/rx hybrids  
 
-this era = exploration: agentic systems, orchestration, symbolic pipelines, cognitive architectures.
+### ai/ml engineering  
+- llm/rag  
+- ml/dl  
+- lz(x) compression  
+- graph abstractions (perl, c++, groovy, rust, go)  
+- dsl workflows  
+- devsecops  
+- x86 / ia-64 low-level  
+
+this era = symbolic pipelines: agentic systems, orchestration, cognitive architectures.
 
 ---
 
 # 🧠 core engineering skills (lowercase tech)
 
-| **skill** | **level** | **notes** |
-|-----------|-----------|-----------|
-| **functional programming** | expert | scala, fp mindset, purity |
-| **system design** | expert | httpops, pipelines, distributed systems |
-| **front-end engineering** | senior | js/ts, react, angular, rx |
-| **ai engineering** | advanced | llm/rag, agentic systems |
-| **reverse engineering** | advanced | x86, ia-64, tooling |
+| skill | level | notes |
+|-------|--------|--------|
+| functional programming | expert | scala, fp purity, algebraic design |
+| reactive systems | expert | rx/observables, async streams |
+| ai/ml engineering | advanced | llm/rag, ml/dl pipelines |
+| system design | expert | httpops, distributed pipelines |
+| reverse engineering | advanced | x86, ia-64, tooling |
 
 ---
 
 # 🧰 languages & paradigms (lowercase tech)
 
-| **language** | **paradigm** | **use-case** |
-|--------------|--------------|--------------|
-| scala 2/3 | fp/oo | pipelines, ai orchestration |
+| language | paradigm | use-case |
+|----------|-----------|-----------|
+| scala 2/3 | fp/oo | ai orchestration, pipelines |
 | javascript / typescript | async, reactive | front-end, tooling |
 | rust | systems, safety | cli, perf-critical |
 | go | concurrency | ops, cli, services |
@@ -96,8 +157,8 @@ this era = exploration: agentic systems, orchestration, symbolic pipelines, cogn
 
 # 🏗️ systems, ops & data (lowercase tech)
 
-| **domain** | **tech** | **notes** |
-|------------|----------|-----------|
+| domain | tech | notes |
+|--------|-------|--------|
 | cloudops | aws, lambda, s3 | automation, pipelines |
 | bigdata | hadoop, spark, hbase | telco analytics |
 | devops | ci/cd, jenkins, ansible | automation |
@@ -106,35 +167,79 @@ this era = exploration: agentic systems, orchestration, symbolic pipelines, cogn
 
 ---
 
-# 🔭 projects & highlights (tech narrative)
+# 🔭 projects & highlights (expanded tech-core + emojis)
 
-### global airlines js framework (sophia antipolis)  
-ecmascript4/5 custom framework for ui workflows. ast parsing, jsdoc annotations, async/json-http.  
-architecture as choreography.
+### 🛠️ fp/rx ui framework (sophia antipolis)  
+- custom ecmascript4/5 framework  
+- fp-inspired oo design  
+- async/json-http pipelines  
+- ast parsing + code generation  
+- jsdoc annotations  
+- reactive ui workflows  
+- uml modeling  
 
-### telco predictive analytics pipeline  
-spark jobs, hbase/postgres storage, tableau dashboards. anomaly detection at scale.
+### 📡 telco predictive analytics pipeline  
+- spark jobs  
+- hbase + postgres storage  
+- tableau dashboards  
+- anomaly detection at telco scale  
+- distributed data ingestion  
+- parallel analytics  
 
-### ai-driven engineering lab  
-llm/rag orchestration, agentic systems, dsl workflows, graph abstractions.  
-cognitive pipelines.
+### 🤖 ai/ml orchestration lab  
+- llm/rag pipelines  
+- agentic systems  
+- dsl workflows  
+- graph abstractions (perl, c++, groovy, rust, go)  
+- symbolic ai engineering  
+- compression-based optimization (lz(x))  
 
-### proto-streaming platform (1999 → y2k)  
-mp3 cdn, gprs/wap mobile, perl pipelines, php/j2ee glue, linux/solaris infra.  
-early streaming.
+### 🎧 proto-streaming platform (1999 → y2k)  
+- mp3 cdn  
+- gprs/wap mobile delivery  
+- perl pipelines  
+- php/j2ee glue  
+- linux/solaris infra  
+- early distributed streaming  
+- snmp/jmx monitoring  
+- xml-http integrations  
+
+### 🧩 infraops + scripting era  
+- wsadmin/pwsh automation  
+- early devops  
+- cms + 24x7 systems  
+- distributed scripting  
+- xml-soap, jms, ejb  
+
+### 🖥️ teaching & consulting  
+- c/c++ (tcp, atl/stl)  
+- perl (fp/text)  
+- java/j2ee (ooa&d)  
+- web design (typography, nielsen)  
+- dist-sys consulting (jms, ejb, xml-soap)  
 
 ---
 
 # 🎵 a veeery special section — music & sonic r&d
 
-## fusion harmony & sonic mathematics  
-holdsworth-style harmony, lydian colors, wide-interval voicings, microtonal sitar scales, chromatic fretless bass.
+## 🎸 fusion harmony & sonic mathematics  
+- holdsworth-style harmony  
+- lydian colors  
+- wide-interval voicings  
+- microtonal sitar scales  
+- chromatic fretless bass  
 
-## algorithmic composition & midi engineering  
-24-bar progressions, spectral-symbolic composition, generative harmony, midi scripting, hybrid tech-poetic sound design.
+## 🎛️ algorithmic composition & midi engineering  
+- 24-bar progressions  
+- spectral-symbolic composition  
+- generative harmony  
+- midi scripting  
+- hybrid tech-poetic sound design  
 
-## creative work  
-symbolic pixel-art cosmology, noir scenes, philosophical diagrams.
+## 🖼️ creative work  
+- symbolic pixel-art cosmology  
+- noir scenes  
+- philosophical diagrams  
 
 music = parallel architecture: intervals, cycles, entropy, resonance.
 
