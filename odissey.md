@@ -23,14 +23,14 @@ Federico Cagliero
 ## 🚀 Early Startup Era
 ### mp3s CDN, Mobile channels & proto‑Streaming (ca. y2k)
 
-I ***professionally*** "started-up" during late 1999 inside a to‑IPO **startup** delivering music (rt(s)p, MP3s)
+I professionally "started-up" during late 1999 inside a to‑IPO **startup** delivering music (rt(s)p, MP3s)
 over the Internet and early mobile channels (eg. gprs/WAP) — long before “streaming” became a household word. With a background in software programming & design (x86 - c/c++, jdk1.x - patterns, j2ee),
 I jumped naturally into modern web languages of the time:
 php, Perl ("kiss", regex, complex data structures, sql/DBIx). This wasn’t demo‑ware — it was a 24×7 production-grade, in‑house grown platform running on linux/Solaris, fully open‑source‑driven.
 
 ## 🧩 Stack & Responsibilities
 
-- Front-end / UX → HTML/CSS (with personal use of Dreamweaver, now i would be Figma! 🎨)
+- Front-end / UX → HTML/CSS (with personal use of Dreamweaver, now it would be Figma! 🎨)
 - Backend → php, J2EE, OO patterns, layered architectures / xml-http pipelines - https+Ops !!
 - Content management → py/Zope 🐍
 - Databases → MySQL, Postgres
@@ -44,8 +44,8 @@ I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler
 
 With strong grades in applied mathematics and computer science / algorithms, you taught:
 
-- C/C++ - at first keen on c++ ATL/STL, now on C.23 :Oo
-- java <----- migrating to AI-langchain @ 26
+- C/C++ - at first keen on c++ ATL/STL, now "lean into" C.23 :Oo
+- java <----- todo! update to AI-langchain @ 26
 - Web design & typography (yahoo ! and Nielsen rigor 📐)
 
 I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap)
