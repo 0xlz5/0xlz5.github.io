@@ -11,6 +11,8 @@ Federico Cagliero
 [blog](https://0xblog.tumblr.com)  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)
 
+🇮🇹 Italian — 🇫🇷 French — 🇬🇧 English  
+
 
 ## ⇢ Summary - profile !!
 
@@ -109,13 +111,7 @@ In recent years you’ve gone deep into everything AI:
 - UX experimentation (web design !)
 - also, Data compression - LZ (again, yet in 2017) - a AI-ML algorithms use-case  
 
-blog: https://0xla5.tumblr.com
-
-## 🗣️ Languages:
-
-🇮🇹 Italian — 🇫🇷 French — 🇬🇧 English
-
-  
+<<
 
 # 🧊 A "short?" TL;DR (Geekie / Techie) !
 
