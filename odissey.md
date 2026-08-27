@@ -29,12 +29,13 @@ php, Perl ("kiss", regex, complex data structures, sql/DBIx). This wasn’t demo
 ## 🧩 Stack & Responsibilities
 
 - Front-end / UX → HTML/CSS (with personal use of Dreamweaver, now it would be Figma! 🎨)
-- Backend → php, J2EE, OO patterns, layered architectures / xml-http pipelines - https+Ops !!
+- Backend → php, J2EE, OO patterns, layered architectures + http(OpS)
 - Content management → py/Zope 🐍
 - Databases → MySQL, Postgres
 - Ops & services → OO Perl for operations (actually, planning for Go)
 - Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN)
-- Integration → audio tech: Microsoft WMA, RealAudio, others 🎧 - eg. Sony - Vivendi - Universal- Nokia ("EMEA/US") 
+- Integration → audio tech: Microsoft WMA, RealAudio, others 🎧
+- j2ee apps dev / xml-http "pipelines" eg. Sony - Vivendi - Universal- Nokia ("EMEA/US") 
 
 I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler’s early “beta”  & refactoring, and even state machines / ML web‑spidering (ever-evolving !).
 
