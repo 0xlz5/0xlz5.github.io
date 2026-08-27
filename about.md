@@ -20,9 +20,9 @@ This is my minimal GitHub Pages blog where I write notes, ideas, and experiments
       <a href="/odissey">TL;DR - A "polyglot" Tech Odyssey</a>
     </li>
     <li>
-      <a href="/tldr">TL;DR</a>
+        <a href="/another">🧊 Another "short" TL;DR ?</a>
     </li>
     <li>
-        <a href="/another">🧊 Another "short" TL;DR ?</a>
+      <a href="/tldr">TL;DR</a>
     </li>
 </ul>
