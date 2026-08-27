@@ -1,9 +1,9 @@
 ---
 layout: page
-title: A "polyglot" Tech Odyssey (y2k → now)
+title: A "polyglot" Tech Odyssey
 ---
 
-# 🌐 TL;DR
+# 🌐 TL;DR (y2k → now)  
 
 Federico Cagliero  
 [federico.cagliero@gmail.com](federico.cagliero@gmail.com)  
