@@ -31,14 +31,19 @@ This wasn’t demo‑ware — it was a 24×7 production-grade, in‑house grown 
 
 ## 🧩 Stack & Responsibilities
 
+Web dev - r&d
+
 - Front-end / UX → HTML/CSS (with personal use of Dreamweaver, now it would be Figma! 🎨)
 - Backend → php, J2EE, OO patterns, layered architectures; HTTP
 - Content management → py/Zope 🐍
 - Databases → MySQL, Postgres
+
+Other stuff I was used to work on !
+
 - Ops & services → OO Perl for operations; high-throughput "sockets (tcp)"; actually, planning for Go 
 - Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN) and httpOps !
 - Integration → audio tech: Microsoft WMA, RealAudio, others 🎧
-- j2ee apps dev / xml-http "pipelines" eg. Sony - Vivendi - Universal- Nokia ("EMEA/US") 
+- j2ee / xml-http "pipelines" eg. Sony - Vivendi - Universal- Nokia ("EMEA/US") 
 
 I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler’s early “beta”  & refactoring, and even state machines / ML web‑spidering (ever-evolving !).
 
@@ -51,7 +56,7 @@ With strong grades in applied mathematics and computer science / algorithms, you
 - oo/fp Perl for infraOps and http-Ops, docus on net/sys tooling, f/p and text processing
 - java/j2ee (oo/p, ooa&d)
 
-I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap). 
+Also, I have been doing a lot of "consulting" (eg. perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap). 
 
 As **system architect** (architecture & systems expert !)  
 
@@ -74,16 +79,19 @@ Around 2010 I moved (back !:) into open-source R&D at Sophia Antipolis (France),
 
 ## ☁️ cloud-Ops + BigData Era — AWS, Automation, Hadoop/Spark
 
-I decided to update my ref. stack with cloudOps and automation tech, and study some big-data !!
+I decided to update my ref. stack with cloud-ops and automation tech, and study some big-data !!
 
 - AWS ☁️ - eg. lambda, S3 - now Agentic AI !
 - Ansible 🤖 (IaC)
 - DevOps (CI-CD, jenkins "plugins")
 - big-data algorithms (eg. map/reduce !)
+
+Therefore I was - at least - able to wowrk on this:
+
 - OpenMP & MPI (parallel computing)
 - production-grade OpenAPI
-- telco data pipelines
-- advanced dashboarding (Tableau 📊)
+- predictive analytics for anomaly detection in large scale telco networks
+- telco data pipelines - advanced dash-boarding (Tableau 📊)
 - Hadoop + Postgres + Spark + HBase as back-ends
 
 ## 🎨 Modern "front-end / UI" Era — JS/TS, rust, Go, FP, Rx
