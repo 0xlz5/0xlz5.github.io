@@ -1,9 +1,9 @@
 ---
 layout: page
-title: a polyglot tech odyssey
+title: A polyglot Tech Odyssey !
 ---
 
-# tl;dr — federico cagliero
+# tl;dr — Federico Cagliero
 
 [federico.cagliero@gmail.com](mailto:federico.cagliero@gmail.com)  
 [blog](https://0xblog.tumblr.com)  
