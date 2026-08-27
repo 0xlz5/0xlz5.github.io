@@ -23,8 +23,8 @@
 /* ============================================================
    MIXINS
    ============================================================ */
-@mixin block-box($width: 65%) {
-  width: $width;
+@mixin block-box {
+  width: 65%;
   margin: 0 auto;
   padding: var(--pad-lg);
   border-radius: var(--radius-md);
@@ -34,6 +34,14 @@
 @mixin cell {
   padding: 0.5rem 0.75rem;
   vertical-align: top;
+}
+
+@mixin glass-border {
+  border: 2px solid rgba(18, 130, 162, 0.35);
+  box-shadow:
+    0 0 12px rgba(18, 130, 162, 0.45),
+    inset 0 0 8px rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
 }
 
 @mixin hljs-reset {
@@ -128,46 +136,73 @@ strong {
 .page-content {
   @include block-box(100%);
 
+  /* headings — pulizia minima */
   h1, h2, h3, h4 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 1.1;
-    margin: 36px 0 10px;
+
+    letter-spacing: 1px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+
     color: var(--navy-deep);
   }
 
+  h1 {
+    letter-spacing: 1.5px;
+  }
+
+  /* paragrafi — pulizia minima */
+  p {
+    margin-bottom: 1rem;
+    max-width: 75ch;
+    line-height: 1.6;
+  }
+
+  /* link — pulizia minima */
   a {
     color: var(--blue-cyan);
     border-bottom: 1px solid var(--blue-cyan);
     text-decoration: none;
     transition: 0.2s ease;
 
-    &:hover {
-      color: var(--ice-white);
-      background: var(--blue-cyan);
-      border-bottom: 1px solid var(--blue-cyan);
-      padding: 2px 4px;
-      border-radius: var(--radius-sm);
-    }
+    padding: 2px 4px;
+    border-radius: var(--radius-sm);
+    background: rgba(18, 130, 162, 0.06);
   }
 
+  a:hover {
+    color: var(--ice-white);
+    background: var(--blue-cyan);
+    border-bottom: 1px solid var(--blue-cyan);
+  }
+
+  /* blockquote — pulizia minima */
   blockquote {
     border-left: 4px solid var(--blue-tech);
     padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: var(--radius-sm);
+
+    background: rgba(18, 130, 162, 0.04);
     color: var(--navy-deep);
-    background: var(--ice-white);
   }
 }
 
 /* ============================================================
-   GLOBAL TABLES
+   GLOBAL TABLES (EXCLUDING HLJS)
    ============================================================ */
 .page-content table:not(.hljs):not(.hljs-ln):not(.hljs-ln-table) {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
+
+  border-radius: var(--radius-sm);
+  overflow: hidden;
 
   thead th {
     @include cell;
@@ -181,27 +216,34 @@ strong {
     border-right: 1px solid #e0e0e0;
   }
 
+  tbody tr:nth-child(even) td {
+    background: rgba(18, 130, 162, 0.04);
+  }
+
   td:last-child,
   th:last-child {
     border-right: none;
   }
 
   tr:hover td {
-    background-color: rgba(18, 130, 162, 0.12) !important;
-    transition: background-color 0.2s ease;
+    background-color: rgba(18, 130, 162, 0.10) !important;
+    transition: background-color 0.15s ease-out;
   }
 }
 
 /* ============================================================
-   HLJS — UNIFIED SYSTEM
+   HLJS — PROPORTIONAL FONT SIZE + PULIZIA MINIMA
    ============================================================ */
 .page-content pre {
   position: relative;
-  margin: 1.5rem 0;
-  padding: 0;
-  overflow: hidden;
   border-radius: var(--radius-md);
-  background: transparent !important;
+  margin: 1.5rem 0;
+
+  padding: 8px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  background: rgba(0, 31, 84, 0.04) !important;
 
   font-family: "Source Code Pro", monospace;
   font-size: 0.9em;
@@ -217,6 +259,7 @@ strong {
   line-height: 1.5em;
 }
 
+/* HLJS tables unified */
 .page-content .hljs,
 .page-content .hljs table,
 .page-content .hljs-ln,
@@ -237,16 +280,14 @@ strong {
   padding: 4px 8px !important;
 }
 
-/* Line numbers */
+/* Line numbers — versione corretta */
 .page-content .hljs-ln td.hljs-ln-numbers {
-  width: 3rem;
   text-align: right !important;
-  user-select: none;
-
   color: #ffffff !important;
   border-right: 1px solid #ffffff !important;
-
   padding-right: 12px !important;
+  width: 3rem;
+  user-select: none;
 
   font-size: 0.9em;
   line-height: 1.4em;
@@ -257,12 +298,16 @@ strong {
 }
 
 /* ============================================================
-   INLINE CODE
+   INLINE CODE — PULIZIA MINIMA
    ============================================================ */
-:not(pre) > code {
+.page-content code:not(.hljs) {
   border: 1px solid var(--navy-cobalt);
   border-radius: var(--radius-sm);
   padding: 2px 4px;
+
+  background: rgba(0, 31, 84, 0.06);
+  white-space: nowrap;
+
   font-size: 0.9em;
 }
 
