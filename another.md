@@ -1,9 +1,9 @@
 ---
 layout: page
-title: A "short?" TL;DR (Geekie / Techie) !
+title: Another TL;DR !
 ---
 
-# 🧊 A "short?" TL;DR (Geekie / Techie) !
+# 🧊 A "short" TL;DR (Geekie / Techie) !
 
 Federico Cagliero  
 [federico.cagliero@gmail.com](federico.cagliero@gmail.com)  
