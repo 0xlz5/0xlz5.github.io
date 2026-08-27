@@ -58,7 +58,7 @@ early yet "complex" devOps + release mgt (that is "CD") !? :!)
 
 Around 2010 you moved into open-source R&D at Sophia Antipolis (France), building custom JS frameworks for global airlines apps, focusing on:
 
-- templete-oriented and UI workflows (that is - not only UX & widgets !)
+- template-oriented and UI workflows (that is - not only UX & widgets !)
 - custom-OO for ecmascript4/5 
 - tech writing ✍️
 - docs/code generation (eg. ./jsdoc +@annorations, AST-parsing)
@@ -86,7 +86,7 @@ I decided to update your stack with cloudOps and automation tech, and study some
 Since ~2018 you’ve worked occasionally as a front-end UI developer, experimenting with unusual / complex programming techniques:
 
 - js/ts
-- node (+npm +cluteering) - Deno
+- node (+npm +clutering) - Deno
 - Rust 🦀
 - Go (+cli)
 - rX +Observables ! reactive UI (+state)
@@ -95,7 +95,7 @@ Since ~2018 you’ve worked occasionally as a front-end UI developer, experiment
 - React.js
 - Angular
 - Scala 2/3
-- elm-Vue.js + complex experiimentatons w/ "uncommon" paradigms (eg. fp/rx)
+- elm-Vue.js + complex experiimentatons w/ unusual paradigms (eg. fp/rx)
 
 A true polyglot front-end engineer with a taste for advanced patterns.
 
