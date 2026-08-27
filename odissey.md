@@ -9,8 +9,8 @@ title: A Polyglot Tech Odyssey !
 [blog](https://0xblog.tumblr.com)  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)
 
-> senior dev / r&d engineer — fp, reactive systems, distributed architectures, ai/ml pipelines,  
-reverse engineering, compression, low-level reasoning.
+> senior dev / r&d engineer — ux/ui, fp, reactive systems, dist-sys, ai/ml pipelines,  
+r/e, compression, low-level reasoning.
 
 engineering as a long-form exploration: fp → rx → distributed → ai/ml → symbolic pipelines.
 
@@ -21,17 +21,17 @@ engineering as a long-form exploration: fp → rx → distributed → ai/ml → 
 ## 🚀 era i — proto-streaming / mp3 delivery ! (1999 → y2k)
 
 early work inside a to-ipo startup delivering mp3 over http/rtsp and mobile gprs/wap.  
-linux/solaris, perl pipelines, php glue, j2ee patterns.  
-distributed caching, snmp/jmx monitoring, xml-http integrations with sony/vivendi/universal/nokia.
+linux (+solaris), perl pipelines, php Web (glue!), j2ee patterns.  
+distributed audio caching, snmp/jmx monitoring, xml-http integrations with sony/vivendi/universal/nokia.
 
-**tech focus**  
+**Tech focus**  
 - perl (regex, fp-ish idioms, data structures)  
 - php (early web glue)  
-- j2ee (patterns, layered architectures)  
-- linux/solaris ops  
+- j2ee (patterns, layered architectures, fowler's :)  
+- linux +solaris ops (using Perl !)  
 - tcp sockets  
-- nfs + storage tooling  
-- early cdn audio delivery  
+- nfs + "partitioned" audio storage mgt - tooling  
+- early cdn audio delivery (socket services / eval. Go) 
 - proto-streaming pipelines (rtsp/mp3)  
 
 this era = raw distributed thinking: sockets, logs, throughput, entropy, compression.
@@ -40,13 +40,13 @@ this era = raw distributed thinking: sockets, logs, throughput, entropy, compres
 
 ## 🎓 era ii — systems architecture / algorithmic teaching
 
-teaching c/c++ (atl/stl, tcp), perl (fp/text), java/j2ee (ooa&d), web design (typography, nielsen).  
+teaching c/c++ (atl/stl, tcp), perl (fp/text), java/j2ee (ooa&d), web design (typography, Nielsen).  
 consulting across perl/js/python/java.  
-system architect: ibm was/wps sme, wsadmin/pwsh scripting, early devops, cms + 24x7 infra.
+system architect: ibm was/wps sme, wsadmin/pwsh scripting, early dev-ops, cms + 24x7 infra.
 
 **tech focus**  
 - c/c++ (tcp, sockets, atl/stl)  
-- perl (fp, text processing, infraops)  
+- perl (fp, text processing, infra-ops)  
 - java/j2ee (ooa&d, distributed systems)  
 - wsadmin/pwsh scripting  
 - xml-soap, jms, ejb  
@@ -87,7 +87,7 @@ openmp/mpi, openapi, telco anomaly detection, hadoop + postgres + spark + hbase,
 - ci/cd (jenkins plugins)  
 - openmp/mpi (parallel computing)  
 - openapi (production-grade)  
-- hadoop, spark, hbase  
+- hadoop, spark, hbase, hive, mongodb :Oo
 - postgres  
 - tableau dashboards  
 - telco-scale anomaly detection  
@@ -103,25 +103,22 @@ front-end polyglot experimentation with fp/rx paradigms, async streams, and symb
 ### front-end polyglot stack  
 - js/ts  
 - node  
-- deno  
-- rust 🦀  
+- deno / rust 🦀  
 - go  
 - rx/observables ⚡  
 - underscore.js (fp)  
-- backbone.js  
-- vanilla js  
+- backbone.js / vanilla (js !)  
 - react  
 - angular  
 - scala 2/3  
-- elm  
-- vue  
-- fp/rx hybrids  
+- elm / vue.js  
+- fp/rx hybrids; eg. cycle.js !@:<  
 
 ### ai/ml engineering  
 - llm/rag  
 - ml/dl  
-- lz(x) compression  
-- graph abstractions (perl, c++, groovy, rust, go)  
+- lz(x) compression schemes ! :Oo 
+- graph abstractions (perl, Go, c++, Ruby, java/groovy, rust)  
 - dsl workflows  
 - devsecops  
 - x86 / ia-64 low-level  
@@ -180,7 +177,7 @@ this era = symbolic pipelines: agentic systems, orchestration, cognitive archite
 
 ### 📡 telco predictive analytics pipeline  
 - spark jobs  
-- hbase + postgres storage  
+- hbase (columnar) + postgres "partitioned" storage  
 - tableau dashboards  
 - anomaly detection at telco scale  
 - distributed data ingestion  
@@ -220,31 +217,6 @@ this era = symbolic pipelines: agentic systems, orchestration, cognitive archite
 
 ---
 
-# 🎵 a veeery special section — music & sonic exp !
-
-## 🎸 fusion harmony & sonic mathematics  
-- holdsworth-style harmony  
-- lydian colors  
-- wide-interval voicings  
-- microtonal sitar scales  
-- chromatic fretless bass  
-
-## 🎛️ algorithmic composition & midi engineering  
-- 24-bar progressions  
-- spectral-symbolic composition  
-- generative harmony  
-- midi scripting  
-- hybrid tech-poetic sound design  
-
-## 🖼️ creative work  
-- symbolic pixel-art cosmology  
-- noir scenes  
-- philosophical diagrams  
-
-music = parallel architecture: intervals, cycles, entropy, resonance.
-
----
-
 # 🗣️ languages  
 
 🇮🇹 italian — 🇬🇧 english — 🇫🇷 french
@@ -252,6 +224,4 @@ music = parallel architecture: intervals, cycles, entropy, resonance.
 ---
 
 # 📬 contact  
-email: federico.cagliero@gmail.com  
-blog: https://0xblog.tumblr.com  
-linkedin: https://www.linkedin.com/in/federico-cagliero-68b860a6/
+email: [federico.cagliero@gmail.com](federico.cagliero@gmail.com)  
