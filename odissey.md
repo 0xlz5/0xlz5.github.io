@@ -38,7 +38,7 @@ php, Perl ("kiss", regex, complex data structures, sql/DBIx). This wasn’t demo
 - Infra / delivery → logs analytics, monitoring (SNMP, JMX), distributed caching, audio delivery (CDN)
 - Integration → audio tech: Microsoft WMA, RealAudio, others 🎧 - eg. Sony - Vivendi - Universal- Nokia ("EMEA/US") 
 
-I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler’s early “beta” refactoring, and even state machines / ML web‑spidering (maintenance + evolution).
+I was "a bit" ahead of times ! deeply into modern software engineering, ++Fowler’s early “beta” refactoring, and even state machines / ML web‑spidering (ever-evolving !).
 
 ## 🎓 Teaching & Consulting Era — Algorithms, C/C++, Java, Web Design
 
