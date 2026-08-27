@@ -11,7 +11,7 @@ Federico Cagliero
 [blog](https://0xblog.tumblr.com)  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)
 
-🇮🇹 Italian — 🇫🇷 French — 🇬🇧 English  
+🇮🇹 Italian — 🇬🇧 English — 🇫🇷 French  
 
 
 ## ⇢ Summary - profile !!
