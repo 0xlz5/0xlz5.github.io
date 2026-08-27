@@ -17,9 +17,9 @@ This is my minimal GitHub Pages blog where I write notes, ideas, and experiments
       <a href="/2026/04/07/compendium.html">A short "compendium" 🙄</a>
     </li>
     <li>
-      <a href="/odissey">TL;DR - A "polyglot" Tech Odyssey 🎭</a>
+      <a href="/odissey">TL;DR - A "polyglot" Tech Odyssey</a>
     </li>
     <li>
-      <a href="/tldr">TL;DR 🍀</a>
+      <a href="/tldr">TL;DR</a>
     </li>
 </ul>
