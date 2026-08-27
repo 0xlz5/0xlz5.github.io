@@ -6,9 +6,9 @@ title: About this blog; more info.
 # 👋 About this blog
 
 Hi, I’m Federico.  
-This is my minimal GitHub Pages blog where I write notes, ideas, and experiments.
+This is my minimal GitHub Pages blog: that's where I "sporadically" write some notes, ideas, and experiments.
 
-Here's a few "summary-profile" pagqes - not a true CV,  
+Here's a few "summary-profile" pages - not a true CV,  
 only a few "info" !
 
 🍀
