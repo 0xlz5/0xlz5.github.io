@@ -117,10 +117,10 @@ blog: https://0xla5.tumblr.com
 
   
 
-# 🔥 A "short?" TL;DR (Geekie / Techie) summary
+# 🧊 A "short?" TL;DR (Geekie / Techie) summary
 
-I started in 1999 building a production-grade MP3 streaming platformon:
-linux/solariis, using c/c++, j2ee, PHP, oo-perl, py/Zope, and mysql/postgres, integrating WMA/RealAudio, distributed caching, snmp/JMX monitoring, and early mobile delivery. You handled front-end UX, backend architecture, content management, Ops, and audio tech integration, functioning as a proto‑full‑stack engineer before the term existed.
+I started in 1999 building a production-grade MP3 streaming platformon:  
+linux/solariis, using c/c++, j2ee, PHP, oo-perl, py/Zope, and mysql/postgres, integrating wma/RealAudio, distributed caching (httpOps), snmp/JMX monitoring, and early mobile delivery. You handled front-end UX, backend architecture, content management, Ops, and audio tech integration, functioning as a proto‑full‑stack engineer before the term existed.
 
 With strong applied math + algorithms background,
 at first - I taught c/c++, java, and web design/typography, while consulting in enterprise Java/J2EE.
