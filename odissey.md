@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A polyglot Tech Odyssey (y2k → now)
+title: A "polyglot" Tech Odyssey (y2k → now)
 ---
 
 # 🌐 TL;DR
