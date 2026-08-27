@@ -84,7 +84,7 @@ I decided to update my ref. stack with cloudOps and automation tech, and study s
 
 ## 🎨 Modern "front-end / UI" Era — JS/TS, rust, Go, FP, Rx
 
-Since ~2018 I’ve been working occasionally as a front-end UI developer, experimenting with unusual / complex programming techniques:
+Since around 2018 I’ve been working occasionally as a front-end / web developer, experimenting with unusual / complex programming techniques:
 
 - js/ts
 - node (+npm +clustering) - Deno
