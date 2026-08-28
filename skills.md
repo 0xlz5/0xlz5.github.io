@@ -3,7 +3,7 @@ title: Skills & Stack
 layout: page
 ---
 
-# Skills & Stack
+# Skills & Stack — Federico Cagliero
 
 full‑spectrum engineering across **frontend, systems, data, ai** — with a strong js/ts core,  
 large‑scale data experience, and emerging ai‑augmented development workflows.
