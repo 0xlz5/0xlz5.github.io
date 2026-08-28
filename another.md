@@ -21,7 +21,7 @@ linux/solaris, using c/c++, j2ee, PHP, oo-perl, py/Zope, and mysql/postgres, int
 With strong applied math + algorithms background,
 at first - I taught c/c++, java, and web design/typography, while consulting in enterprise Java/J2EE.  
   
-From 2010 I moved into ("MVC") open-source JS frameworks R&D at Sophia Antipolis, building custom tooling for global airlines, focusing on architecture, tech writing, and code/documentation generation.  
+From 2010 I moved into ("MVC") open-source JS frameworks R&D at Sophia Antipolis, building custom tooling for global airlines, focusing on "architecture", tech writing, and code/documentation generation.  
   
 Later I explored cloudOps, automation, AWS, Ansible, DevOps, big-data pipelines, OpenMP/MPI, Hadoop/Spark/HBase, OpenAPI, and telco-grade data engineering, including Tableau dashboards.  
   
