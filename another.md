@@ -16,7 +16,7 @@ Federico Cagliero
 # Profile !
 
 I started in 1999 building a production-grade MP3 streaming platform:  
-linux/solariis, using c/c++, j2ee, PHP, oo-perl, py/Zope, and mysql/postgres, integrating wma/RealAudio, distributed caching (httpOps), snmp/JMX monitoring, and early mobile delivery. I handled front-end UX, backend architecture, content management, Ops, and audio tech integration, functioning as a proto‑full‑stack engineer before the term existed.
+linux/solaris, using c/c++, j2ee, PHP, oo-perl, py/Zope, and mysql/postgres, integrating wma/RealAudio, distributed caching (httpOps), snmp/JMX monitoring, and early mobile delivery. I handled front-end UX, backend architecture, content management, Ops, and audio tech integration, functioning as a proto‑full‑stack engineer before the term existed.
   
 With strong applied math + algorithms background,
 at first - I taught c/c++, java, and web design/typography, while consulting in enterprise Java/J2EE.  
