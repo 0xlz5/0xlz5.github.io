@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A Polyglot Tech Odyssey !
+title: A Polyglot Tech Odyssey ?
 ---
 
 # tl;dr  
