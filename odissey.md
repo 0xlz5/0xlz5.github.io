@@ -9,7 +9,7 @@ title: A Polyglot Tech Odyssey ?
 [blog](https://0xblog.tumblr.com)  
 [linkedin](https://www.linkedin.com/in/federico-cagliero-68b860a6/)
 
-> sr. front-end / Web dev, r&d engineer - ux/ui, fp, reactive systems, dist-sys, ai/ml pipelines,  
+> sr. front-end / Web dev (r&d) - ux/ui, fp, reactive systems, dist-sys, ai/ml pipelines,  
 r/e, compression, low-level reasoning.
 
 engineering as a long-form exploration: fp → rx → distributed → ai/ml → symbolic pipelines.
