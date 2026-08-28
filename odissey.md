@@ -31,7 +31,7 @@ distributed audio caching, snmp/jmx monitoring, xml-http integrations with sony/
 - linux +solaris ops (using Perl !)  
 - tcp sockets  
 - nfs + "partitioned" audio storage mgt - tooling  
-- early cdn audio delivery (socket services eval. limbo/Go) 
+- early cdn audio delivery (+socket services; eval. limbo/Go) 
 - proto-streaming pipelines (rtsp/mp3)  
 
 this era = raw distributed thinking: sockets, logs, throughput, entropy, compression.
