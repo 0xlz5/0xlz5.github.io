@@ -6,6 +6,7 @@ date: 2026-09-01 21:00:00 +0200
 categories: [software-engineering, languages, compilers]
 tags: [ALGOL, DSL, BNF, EBNF, parser, compiler, AST, Python, JavaScript, C++, Jekyll]
 author: "Federico Cagliero"
+mermaid: true
 ---
 
 # 🧙‍♂️ The Language Awakens
