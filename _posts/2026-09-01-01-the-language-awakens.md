@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Language Awakens 🧙‍♂️"
+title: "43 Hitchhiking ! part 1: The Language Awakens 🧙‍♂️"
 subtitle: "ALGOL, DSLs, BNF, parsers and the ancient art of telling computers what we mean"
 date: 2026-09-01 21:00:00 +0200
 categories: [software-engineering, languages, compilers]
