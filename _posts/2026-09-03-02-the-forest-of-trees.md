@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Forest of Trees 🌲"
+title: "43 Hitchhiking ! part 2: The Forest of Trees 🌲"
 subtitle: "ASTs, IRs, transformations and the strange art of changing a program without changing what it means"
 date: 2026-09-03 21:00:00 +0200
 categories: [software-engineering, compilers, architecture]
