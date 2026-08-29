@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Knights of the Vector Realm ⚔️"
+title: "43 Hitchhiking ! part 3: The Knights of the Vector Realm ⚔️"
 subtitle: "SIMD, CPU capabilities, data-oriented design, parsing and compression"
 date: 2026-09-05 21:00:00 +0200
 categories: [software-engineering, performance, systems]
