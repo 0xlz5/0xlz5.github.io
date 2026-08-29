@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Council of Cores 🧵"
+title: "43 Hitchhiking ! part 4: The Council of Cores 🧵"
 subtitle: "Threads, tasks, pipelines, MapReduce and the moment one computer becomes many"
 date: 2026-09-07 21:00:00 +0200
 categories: [software-engineering, concurrency, distributed-systems]
