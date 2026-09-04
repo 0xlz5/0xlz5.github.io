@@ -623,7 +623,7 @@ The machine writes another message:
 ║                                      ║
 ║ Choose representations deliberately. ║
 ║                                      ║
-║ Representation determines what      ║
+║ Representation determines what       ║
 ║ transformations are easy.            ║
 ╚══════════════════════════════════════╝
 ```
