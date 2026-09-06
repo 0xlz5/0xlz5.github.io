@@ -83,7 +83,7 @@ I decided to update my stack with cloudOps and automation tech:
 Since ~2019 I’ve worked occasionally as a front-end UI developer, experimenting with unusual / complex programming techniques:
 
 - js/ts
-- node (+npm +cluteering) - Deno
+- node (+npm +clutering) - Deno
 - Rust 🦀
 - Go (+cli)
 - rX +Observables ! reactive UI (+state)
