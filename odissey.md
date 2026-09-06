@@ -87,7 +87,7 @@ Since ~2019 I’ve worked occasionally as a front-end UI developer, experimentin
 - Rust 🦀
 - Go (+cli)
 - rX +Observables ! reactive UI (+state)
-- fp | _underscore.js
+- fp / _underscore.js
 - backbone.js - vanilla JS
 - React.js
 - Angular
