@@ -48,7 +48,7 @@ With strong grades in applied mathematics and computer science / algorithms, I t
 I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap)
 
 As **system architect** (architecture & systems expert !)
-- I too became a IBM was/wps "expert/sme" - for content mgt and 24x7 portals, foused on scripting (eg. wsadmin and pwsh, eg.
+- I too became a IBM was/wps "expert/sme" - for content mgt and 24x7 portals, focused on scripting (eg. wsadmin and pwsh, eg.
 early yet "complex" devOps + release mgt (that is "CD") !? :!)
 
 ## 🧪 The "NEW" Open-Source R&D Era — JS Frameworks @ Sophia Antipolis (2010 →)
