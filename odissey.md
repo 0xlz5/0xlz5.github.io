@@ -110,7 +110,7 @@ In recent years I’ve gone deep into everything AI:
 - UX experimentation (web design !)
 - also, Data compression - LZ (yet, again since 2016/17) - applied to AI-ML algorithms opt. (rig. arxiv) 
 
-blog: [https://0xla5.tumblr.com](https://0xla5.tumblr.com)  
+blog: [https://0xlz5.tumblr.com](https://0xlz5.tumblr.com)  
 
 ## 🗣️ Languages:
 
