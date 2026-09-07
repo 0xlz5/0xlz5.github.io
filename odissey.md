@@ -55,7 +55,7 @@ early yet "complex" devOps + release mgt (that is "CD") !? :!)
 
 Around 2010 I moved into open-source R&D at Sophia Antipolis (France), building custom JS frameworks for global airlines apps, focusing on:
 
-- templete-oriented and worflows (not only UX widgets !)
+- template-oriented and workflows (not only UX widgets !)
 - custom-OO for ecmascript4/5 
 - tech writing ✍️
 - docs/code generation (eg. ./jsdoc +@annorations, AST-parsing)
