@@ -108,7 +108,7 @@ In recent years I’ve gone deep into everything AI:
 - graph-oriented data abstractions (in a few langs: eg. perl, C++, rust, java-Groovy - Go)
 - AI coding tools
 - UX experimentation (web design !)
-- also, Data compression - LZ (yet, again since 2016/17) - applied to AI-ML algorithms opt. (rig. arxiv) 
+- also, Data compression - LZ (yet, again since 2016/17) - applied to AI-ML algorithms opt. (rif. arxiv) 
 
 blog: [https://0xblog.tumblr.com](https://0xblog.tumblr.com)  
 
