@@ -17,7 +17,7 @@ last_modified_at: 2026-06-05
 ---
 
 ## About ✦
-sr. dev + engineer across frontend, systems, data/ai.  
+sr. Web dev + engineer across frontend, systems, data/ai.  
 focus on flow, structure, clarity; ui/data/ai paths; internal tools.
 
 ---
