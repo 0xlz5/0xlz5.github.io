@@ -40,12 +40,12 @@ I was a "startupper" ahead of times ! deeply into modern software engineering, +
 
 With strong grades in applied mathematics and computer science / algorithms, I taught:
 
-- C/C++ - at first keen on c++ ATL/STL, now on C.23 :Oo
-- java <----- migrating to AI-langchain @ 26
-- Web design & typography (yahoo ! and Nielsen rigor 📐)
+- modern "C/C++" - at first keen on c++ ATL/STL, now on C.23 :Oo
+- java (++ clj/Geoovy), +Scala <----- now "transitioning" to AI-langchain @ 26/27, and "DSPy"
+- UX/Web design & typography (yahoo ! and Nielsen rigor 📐)
 - perl (OO, for linux / httpOps), multivariate times-series analysis (ca. 2004/5)
 
-I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ebj, xml-soap)
+I also did a lot of "consulting" (mostly perl, JS, py - java/j2ee) and related teaching - including dist-sys (jms, ejb, xml-soap)
 
 As **system architect** (architecture & systems expert !)
 - I too became a IBM was/wps "expert/sme" - for content mgt and 24x7 portals, focused on scripting (eg. wsadmin and pwsh, eg.
