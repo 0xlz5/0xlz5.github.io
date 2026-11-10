@@ -74,7 +74,7 @@ I decided to update my stack with cloudOps and automation tech:
 - big-data algorithms + flink/kafka (actually I am used to custom oo-perl + java-jms "glue" MQs since "ever")
 - OpenMP & MPI (parallel computing, now on "SIMD" - again)
 - production-grade OpenAPI (pub/sub - environmental data - pipelines integration)
-- telco data pipelines
+- telco data pipelines (eg. hadoop, SQL, ..)
 - advanced dashboarding (Tableau 📊)
 - Hadoop + Postgres + Spark + HBase as back-ends
 
@@ -83,7 +83,7 @@ I decided to update my stack with cloudOps and automation tech:
 Since ~2019 I’ve worked occasionally as a front-end UI developer, experimenting with unusual / complex programming techniques:
 
 - js/ts
-- node (+npm +clutering) - Deno
+- node (+npm +clustering) - Deno
 - Rust 🦀
 - Go (+cli)
 - rX +Observables ! reactive UI (+state)
@@ -92,7 +92,7 @@ Since ~2019 I’ve worked occasionally as a front-end UI developer, experimentin
 - React.js
 - Angular
 - Scala 2/3
-- elm-Vue.js + complex experiimentatons with other programming paradigms (eg. fp/rx)
+- elm / Vue.js + complex experimentations with other programming paradigms (eg. fp/rx)
 
 A true polyglot front-end engineer with a taste for advanced patterns.
 
