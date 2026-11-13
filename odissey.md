@@ -36,7 +36,7 @@ php, Perl ("kiss", regex, complex data structures, sql/DBIx). This wasn’t demo
 
 I was a "startupper" ahead of times ! deeply into modern software engineering, ++Fowler’s early “beta” refactoring, and even state machines / ML web‑spidering (maintenance + evolution).
 
-## 🎓 Teaching & Consulting Era — Algorithms, C/C++, Java, Web Design
+## 🎓 Teaching & Consulting Era — Algorithms, perl - C/C++, php/JS, Java, UX & Web Design
 
 With strong grades in applied mathematics and computer science / algorithms, I taught:
 
