@@ -1,743 +1,423 @@
 ---
 layout: page
-title: A "polyglot" Tech Odyssey (1999 → now)
+title: A "polyglot" It & Digital Tech Odyssey
 ---
 
-
-# 🚀 A Polyglot Tech Odyssey
-## Systems • Platforms • Data • AI
-### From MP3 Streaming to Knowledge Systems (1999 → Present)
-
-> Technology changes.
->
-> Ideas persist.
->
-> Over the last two decades I've explored a surprisingly wide range of technologies, from early Internet platforms and streaming systems to enterprise architectures, cloud infrastructures, big-data ecosystems and AI-driven applications.
->
-> This page is not a conventional résumé.
->
-> It is a map of technologies, paradigms, experiments and engineering obsessions accumulated along the journey.
-
----
-
-# 👨‍💻 Federico Cagliero
+# 🚀 Federico Cagliero
+### Polyglot Engineer • System Architect • AI Explorer • Computer Science Enthusiast
 
 📧 federico.cagliero@gmail.com
 
-🔗 **Blog**  
-https://0xblog.tumblr.com
-
-🔗 **GitHub**  
-https://github.com/0xlz5
-
-🔗 **LinkedIn**  
-https://www.linkedin.com/in/federico-cagliero-68b860a6/
+🌍 https://0xblog.tumblr.com  •  💻 https://github.com/0xlz5  •  💼 https://www.linkedin.com/in/federico-cagliero-68b860a6/
 
 ---
 
-# ⚡ Timeline at a Glance
+## 🧠 TL;DR
+
+Started with MP3 delivery systems and Linux operations.
+
+Survived SOAP, XML and Enterprise Java.
+
+Built frameworks and developer tooling.
+
+Moved into Cloud, Big Data and Automation.
+
+Currently exploring AI Systems, Retrieval, Knowledge Graphs and Compression-inspired architectures.
+
+**Interests →** Algorithms • Information Theory • Compression • Distributed Systems • Programming Languages • Information Retrieval • AI
+
+---
+
+## ⚡ Tech Timeline
 
 ```text
-1999         2005         2010         2015         2020         2026+
-│            │            │            │            │            │
-▼            ▼            ▼            ▼            ▼            ▼
+1999       2005       2010       2015       2020       2026+
+│          │          │          │          │          │
 
-🎵 Media     🏢 Ent.      🧪 OSS       ☁️ Cloud     🎨 UI        🤖 AI
-& Streams    Systems      R&D          & Data       & Polyglot   Systems
+🎵 Media → 🏢 Ent. → 🧪 OSS → ☁️ Cloud → 🎨 Polyglot → 🤖 AI
 
-Perl         JEE          JS           AWS          TS           LLM
-PHP          SOAP         Tooling      Kafka        Scala        RAG
-Java         JMS          AST          Hadoop       Rust         Agents
-Linux        Portal       DocsGen      Spark        Go           Graphs
-SQL          CMS          DX           IaC          Rx           Search
-
-MP3
-  └─► Mobile
-       └─► Portals
-            └─► OSS
-                 └─► Cloud
-                      └─► Data
-                           └─► FP/Rx
-                                └─► AI
+Perl       Java       JS         AWS        TS         LLM
+PHP        SOAP       Node       Kafka      Scala      RAG
+Linux      JMS        AST        Spark      Rust       Agents
+SQL        Portal     Tooling    Hadoop     Go         Graphs
 ```
 
 ---
 
-# 🧠 Executive Summary
+## 🚀 Streams, MP3 & Mobile (1999 → 2005)
 
-Senior Software Engineer, System Architect and R&D-oriented technologist with experience spanning:
+Early Internet.
 
-- Internet Platforms
-- Telecom & Media Systems
-- Enterprise Software
-- Open-Source R&D
-- Cloud & Data Engineering
-- Front-End Architecture
-- AI Engineering
+Early Streaming.
 
-A technology generalist by inclination.
+Early Mobile.
 
-A computer scientist at heart.
-
-More interested in ideas than in trends.
-
-Recurring interests include:
-
-- 🧮 Algorithms
-- 📦 Data Compression
-- 📈 Information Theory
-- 🔍 Information Retrieval
-- ⚙️ Distributed Systems
-- 🕸 Graph Models
-- λ Programming Languages
-- 🤖 Artificial Intelligence
-
-**#ComputerScience #Architecture #DistributedSystems #Algorithms #AI**
-
----
-
-# 🚀 Era I • Streaming, Internet & Mobile
-## 1999 → 2005
-
-The early Internet years.
-
-Before Spotify.
-
-Before "the Cloud".
-
-Before smartphones.
-
-I joined a startup focused on digital music acquisition, management and distribution through web and mobile channels.
-
-Most systems were built in-house.
-
-Most challenges were solved from first principles.
-
-### 🎯 Key Activities
-
-✅ MP3 delivery platforms
-
-✅ RTSP streaming systems
-
-✅ Mobile content channels (WAP)
-
-✅ Publishing portals
-
-✅ Monitoring platforms
-
-✅ Distributed delivery infrastructures
-
-✅ Telecom-grade integrations
-
-### ⚙ Technology Stack
-
-#### Languages
-
-🔹 C  
-https://en.wikipedia.org/wiki/C_(programming_language)
-
-🔹 C++  
-https://isocpp.org
-
-🔹 Java  
-https://www.oracle.com/java
-
-🔹 Perl  
-https://www.perl.org
-
-🔹 PHP  
-https://www.php.net
-
-🔹 Python  
-https://www.python.org
-
-#### Databases
-
-🔹 PostgreSQL  
-https://www.postgresql.org
-
-🔹 MySQL  
-https://www.mysql.com
-
-#### Infrastructure
-
-🔹 Linux  
-https://kernel.org
-
-🔹 Solaris  
-https://en.wikipedia.org/wiki/Solaris_(operating_system)
-
-#### Protocols & Monitoring
-
-🔹 RTSP  
-🔹 SNMP  
-🔹 JMX  
-🔹 XML
-
-### 🎵 Ecosystem
-
-Microsoft WMA • RealAudio • Sony • Nokia • Vivendi • Universal
-
-### 🏆 Achievements
-
-Built and evolved production systems years before streaming became mainstream.
-
-Implemented automation and monitoring workflows long before "DevOps" became fashionable.
-
-**#Streaming #Perl #Linux #Java #Telecom #MediaTech**
-
----
-
-# 🏢 Era II • Enterprise Architecture, Teaching & Consulting
-## 2002 → 2012
-
-Teaching often reveals deeper truths than coding.
-
-This period combined software engineering, consulting, architecture and technical education.
-
-### 🎓 Topics
-
-- Algorithms
-- Data Structures
-- Software Design
-- C/C++
-- Java
-- Perl
-- Scala
-- UX
-- Typography
-- Enterprise Systems
-
-### 🏛 Enterprise Ecosystem
-
-🔗 WebSphere  
-https://www.ibm.com/products/websphere-application-server
-
-🔗 Jakarta EE  
-https://jakarta.ee
-
-🔗 JMS  
-https://en.wikipedia.org/wiki/Java_Message_Service
-
-🔗 SOAP  
-https://en.wikipedia.org/wiki/SOAP
-
-🔗 XML  
-https://www.w3.org/XML/
-
-### 🧩 Architecture Topics
-
-- Messaging
-- Workflow Engines
-- Portal Platforms
-- CMS
-- Release Automation
-- Integration Layers
-- Service Architectures
-
-### 🏆 Achievements
-
-✅ Enterprise portal design
-
-✅ Large-scale CMS architectures
-
-✅ Technical mentoring
-
-✅ SME-level WebSphere expertise
-
-✅ Integration platform design
-
-✅ Operations scripting & automation
+I worked on large-scale music-delivery systems before Spotify-era streaming became mainstream.
 
 ### Tech
 
-Java • Scala • Groovy • Perl • XML • SOAP • JMS • SQL
+https://en.wikipedia.org/wiki/C_(programming_language)
+•
+https://isocpp.org
+•
+https://www.oracle.com/java
+•
+[Perl](https://www.perl.org)
+•
+[PHP](https://www.php.net)
+•
+[Python](https://www.python.org)
+•
+[PostgreSQL](https://postgresql.org)
+•
+[MySQL](https://mysql.com)
+•
+Linux
+•
+Solaris
+•
+RTSP
+•
+SNMP
+•
+JMX
 
-**#Architecture #JavaEE #Consulting #Teaching #Integration**
+### Highlights
+
+🎵 Audio delivery
+
+📱 WAP channels
+
+📊 Monitoring
+
+📦 Distributed content delivery
+
+⚙ 24×7 operations
+
+🌍 International media ecosystem
+
+**#Streaming #Linux #Perl #Java #Telecom**
 
 ---
 
-# 🧪 Era III • Open Source R&D
-## 2010 →
+## 🏢 Enterprise & Consulting (2002 → 2012)
 
-A new phase.
+A decade of architecture, integration and teaching.
 
-More experimentation.
+Designed systems.
 
-More tooling.
+Integrated systems.
 
-More open source.
+Explained systems.
 
-Less ceremony.
+### Tech
 
-More engineering.
+https://www.ibm.com/products/websphere-application-server
+•
+[Jakarta EE](https://jakarta.ee)
+•
+https://en.wikipedia.org/wiki/Java_Message_Service
+•
+https://en.wikipedia.org/wiki/SOAP
+•
+https://www.w3.org/XML/
+•
+Java
+•
+Scala
+•
+Groovy
+•
+Perl
 
-### 🔬 Focus Areas
+### Focus
 
-✅ JavaScript frameworks
+🏛 Enterprise Platforms
 
-✅ Workflow-based UIs
+📨 Messaging
 
-✅ Documentation generation
+🔄 Workflow Engines
 
-✅ AST processing
+📚 Content Management
 
-✅ Static analysis
+🎓 Training & Mentoring
 
-✅ Technical writing
+⚙ Release Automation
 
-✅ Engineering methodologies
+**#JavaEE #Architecture #Consulting #Teaching**
 
-### ⚙ Stack
+---
 
-🔹 JavaScript  
+## 🧪 Open Source R&D (2010 → )
+
+Sophia Antipolis.
+
+Custom frameworks.
+
+Tooling.
+
+Documentation.
+
+DX before DX became fashionable.
+
+### Tech
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
+•
+[Node.js](https://nodejs.org)
+•
+[JSDoc](https://jsdoc.app)
+•
+AST
+•
+JSON
+•
+UML
 
-🔹 Node.js  
-https://nodejs.org
+### Focus
 
-🔹 JSDoc  
-https://jsdoc.app
+🛠 Internal Frameworks
 
-🔹 UML  
-https://www.uml.org
+📄 Docs-as-Code
 
-### Interests
+⚡ Code Generation
 
-- Language tooling
-- Internal frameworks
-- Build systems
-- Developer Experience
-- Documentation as Code
+🔎 AST Processing
 
-### Open Source
+✍ Technical Writing
 
-https://github.com/0xlz5
+🚦 Agile / Lean
 
-**#OSS #JavaScript #Tooling #DX #AST #Frameworks**
+**#JavaScript #OSS #Tooling #DX**
 
 ---
 
-# ☁️ Era IV • Cloud, Automation & Data Engineering
-## 2014 →
+## ☁️ Cloud, Data & Ops (2014 → )
+
+Data became infrastructure.
 
 Infrastructure became software.
 
-Data became architecture.
+### Tech
 
-Everything became APIs.
-
-### ☁ Cloud
-
-🔗 AWS  
 https://aws.amazon.com
-
-Services explored:
-
-- Lambda
-- S3
-- Event-driven workflows
-
-### ⚙ Automation
-
-🔗 Ansible  
-https://www.ansible.com
-
-🔗 Jenkins  
-https://jenkins.io
-
-Topics:
-
-- IaC
-- Provisioning
-- CI/CD
-- Release Engineering
-
-### 📊 Data Platforms
-
-🔗 Kafka  
+•
 https://kafka.apache.org
-
-🔗 Hadoop  
-https://hadoop.apache.org
-
-🔗 Spark  
+•
 https://spark.apache.org
-
-🔗 Flink  
+•
+https://hadoop.apache.org
+•
 https://flink.apache.org
-
-🔗 HBase  
+•
 https://hbase.apache.org
+•
+[Ansible](https://ansible.com)
+•
+[Jenkins](https://jenkins.io)
 
-### 📈 Analytics
+### Domains
 
-🔗 Tableau  
-https://www.tableau.com
+📡 Telecom
 
-### 🧮 Parallel Computing
+🌦 Environmental Data
 
-🔗 OpenMP  
-https://www.openmp.org
+📊 Analytics
 
-🔗 MPI  
-https://www.mpi-forum.org
+⚙ Automation
 
-### 🏆 Achievements
+📈 Dashboarding
 
-✅ Telecom analytics pipelines
+🧮 Parallel Computing
 
-✅ Environmental-data processing
-
-✅ Event-oriented integrations
-
-✅ Distributed processing workflows
-
-✅ Production-grade observability
-
-**#AWS #Cloud #BigData #Kafka #Spark #DataEngineering**
+**#Cloud #BigData #AWS #DataEngineering**
 
 ---
 
-# 🎨 Era V • Polyglot Programming & UI Architecture
-## 2018 →
+## 🎨 Polyglot Programming (2018 → )
 
-A playground for languages.
+Languages are ideas.
 
-A laboratory for abstractions.
+Frameworks are temporary.
 
-An excuse to learn.
+### Languages
 
-### λ Languages
-
-🔗 TypeScript  
 https://www.typescriptlang.org
-
-🔗 Scala  
+•
 https://scala-lang.org
-
-🔗 Rust  
+•
 https://www.rust-lang.org
-
-🔗 Go  
+•
 https://go.dev
-
-🔗 Elm  
+•
 https://elm-lang.org
 
-### 🖥 Front-End
+### Front-End
 
-🔗 React  
-https://react.dev
-
-🔗 Angular  
-https://angular.dev
-
-🔗 Vue  
+[React](https://react.dev)
+•
+[Angular](https://angular.dev)
+•
 https://vuejs.org
+•
+[RxJS](https://rxjs.dev)
 
-🔗 RxJS  
-https://rxjs.dev
+### Topics
 
-### Themes
+λ FP
 
-✅ Reactive systems
+🔄 Reactive Systems
 
-✅ Functional programming
+🎯 State Modeling
 
-✅ Type systems
+🧬 Type Systems
 
-✅ State modeling
+🧠 Language Design
 
-✅ Observable workflows
-
-✅ Multi-paradigm design
-
-### Personal Motto
-
-> Languages change.
->
-> Abstractions survive.
-
-**#Scala #Rust #TypeScript #React #RxJS #FP**
+**#Scala #TypeScript #Rust #Go #Reactive**
 
 ---
 
-# 🤖 Era VI • AI Systems & Knowledge Engineering
-## 2022 → Present
+## 🤖 AI Systems & Knowledge Engineering (2022 → )
 
-The current frontier.
+Current playground.
 
 Still software.
 
-Still systems.
-
 Still architecture.
 
-Only larger context windows.
-
-### 🧠 LLM Engineering
-
-🔗 LangChain  
-https://www.langchain.com
-
-🔗 DSPy  
-https://dspy.ai
-
-### 🔍 Retrieval
-
-- Search
-- Ranking
-- Semantic Retrieval
-- RAG Pipelines
-
-### 🤖 Agent Systems
-
-- Tool Calling
-- AI Workflows
-- Multi-Step Reasoning
-- Context Engineering
-
-### 🕸 Knowledge Systems
-
-- Graph Models
-- Knowledge Retrieval
-- Search Architectures
-- Information Systems
-
-### 📦 Compression Research
-
-Long-term interests:
-
-- Lempel-Ziv
-- Entropy
-- Information Theory
-- Compression-Aware Optimizations
-
-### 🏆 Achievements
-
-✅ Practical RAG experimentation
-
-✅ Agent-oriented workflows
-
-✅ Knowledge-centric architectures
-
-✅ AI-assisted development
-
-✅ Compression-oriented explorations
-
-**#AI #LLM #RAG #Agents #KnowledgeGraphs #InformationRetrieval**
-
----
-
-# 🏗 Selected Projects
-
-## 🎵 Digital Music Delivery Platform
-
-Large-scale infrastructure for acquisition, management and distribution of audio assets.
-
-**Tech**
-
-Perl • Java • PHP • PostgreSQL • Linux • RTSP
-
----
-
-## 🏢 Enterprise Portal Ecosystems
-
-Portal and content-management platforms serving large organizations.
-
-**Tech**
-
-Java EE • WebSphere • JMS • SOAP • XML • SQL
-
----
-
-## ✈️ JavaScript Framework R&D
-
-Custom framework engineering for complex web applications.
-
-**Tech**
-
-JavaScript • Node.js • AST • JSDoc • UML
-
----
-
-## 📊 Distributed Data Platforms
-
-Analytics and processing pipelines operating on large datasets.
-
-**Tech**
-
-Kafka • Hadoop • Spark • Flink • PostgreSQL
-
----
-
-## 🤖 AI & Retrieval Experiments
-
-Prototypes exploring retrieval systems, agents and knowledge architectures.
-
-**Tech**
-
-Scala • JavaScript • Python • RAG • DSPy • LLMs
-
----
-
-# 🏆 Selected Achievements
-
-✅ Built production systems before cloud-native architectures became standard.
-
-✅ Delivered digital media platforms before the streaming era.
-
-✅ Designed large-scale enterprise systems and integration platforms.
-
-✅ Worked across media, telecom, environmental and software industries.
-
-✅ Taught programming, algorithms and software engineering.
-
-✅ Built internal frameworks and developer tooling.
-
-✅ Explored distributed systems from multiple technological perspectives.
-
-✅ Transitioned from classical software engineering to AI systems engineering.
-
----
-
-# 🧬 Current Research Interests
-
-## 📦 Compression
-
-LZ-family algorithms.
-
-Entropy.
-
-Structure discovery.
-
-## 🔎 Information Retrieval
-
-Search.
-
-Ranking.
-
-Semantic retrieval.
-
-Knowledge access.
-
-## 🌐 Distributed Systems
-
-Concurrency.
-
-Async workflows.
-
-Scalability.
-
-Resilience.
-
-## 🤖 AI Systems
-
-LLMs.
-
-Agents.
-
-Knowledge Graphs.
-
-RAG.
-
-## λ Programming Languages
-
-Type Systems.
-
-FP.
-
-Reactive Design.
-
-Language Evolution.
-
-**#Compression #IR #DistributedSystems #AI #LangDesign**
-
----
-
-# 🛠 Technology Landscape
-
-## λ Languages
-
-C • C++ • Java • Scala • Groovy • Perl • Python
-
-JavaScript • TypeScript • Go • Rust • Elm
-
-## 🌍 Web
-
-HTML • CSS • JSON • XML • REST • SOAP
-
-Node.js • Deno • PHP
-
-## ☁ Ops
-
-Linux • Solaris • AWS
-
-Ansible • Jenkins
-
-SNMP • JMX
-
-## 📊 Data
-
-PostgreSQL • MySQL • HBase
-
-Kafka • Hadoop • Spark • Flink
-
-Tableau
-
-## 🧠 AI
-
-LLM • RAG • DSPy • LangChain
-
-Agents • Vector Search
-
+Just larger context windows.
+
+### Tech
+
+[LangChain](https://www.langchain.com)
+•
+[DSPy](https://dspy.ai)
+•
+LLM
+•
+RAG
+•
+Embeddings
+•
+Vector Search
+•
 Knowledge Graphs
 
-## 🧬 Core CS
+### Current Interests
 
-Algorithms
+🤖 Agents
 
-Compression
+🔍 Retrieval
 
-Entropy
+📚 Knowledge Systems
 
-Information Theory
+🕸 Graph Models
 
-Concurrency
+📦 Compression
 
-Distributed Systems
+📈 Entropy
 
-State Machines
+🧮 Information Theory
 
-Reactive Design
+### Ongoing Experiments
+
+✅ RAG Architectures
+
+✅ Agent Workflows
+
+✅ AI-assisted Development
+
+✅ Knowledge Retrieval
+
+✅ Compression-Aware AI
+
+**#AI #LLM #RAG #Agents #Graphs #IR**
 
 ---
 
-# 🗣 Languages
+## 🏗 Selected Projects
 
-🇮🇹 Italian (Native)
+### 🎵 Digital Music Platform
 
-🇫🇷 French
+MP3 acquisition, delivery and distribution.
 
-🇬🇧 English
+**Perl • PHP • Java • PostgreSQL • Linux**
+
+### 🏢 Enterprise Portals
+
+Content management and integration systems.
+
+**Java EE • WebSphere • SOAP • JMS**
+
+### ✈ Airline Web Platforms
+
+Custom framework engineering.
+
+**JS • Node • AST • JSDoc**
+
+### 📊 Data Pipelines
+
+Large-scale ETL and analytics.
+
+**Kafka • Hadoop • Spark • SQL**
+
+### 🤖 AI Lab
+
+RAG, retrieval and agent-oriented systems.
+
+**Scala • JS • Python • DSPy • LLM**
 
 ---
 
-# ☕ Closing Note
+## 🏆 Notable Achievements
 
-> I never wanted to specialize in a single technology.
->
-> I wanted to understand the ideas behind technologies.
->
-> From streaming platforms to AI systems, that curiosity remains unchanged.
->
-> Build.
->
-> Learn.
->
-> Simplify.
->
-> Repeat.
+✅ Built production systems before cloud-native became mainstream
 
-**#PolyglotEngineer #SystemsThinking #ComputerScience #AIEngineering #EngineeringCraftsmanship**
+✅ Worked on streaming before Spotify
+
+✅ Practiced DevOps before DevOps had a name
+
+✅ Taught algorithms, software engineering and programming
+
+✅ Built frameworks, toolchains and documentation systems
+
+✅ Worked across Media, Telecom, Enterprise, Data and AI domains
+
+✅ Remained technology-agnostic for 25+ years
+
+---
+
+## 🛠 Tech Constellation
+
+**Languages**  
+C • C++ • Java • Scala • Groovy • Perl • Python • JS • TS • Go • Rust • Elm
+
+**Data**  
+PostgreSQL • MySQL • Kafka • Spark • Hadoop • Flink • HBase
+
+**Cloud/Ops**  
+Linux • Solaris • AWS • Jenkins • Ansible
+
+**AI**  
+LLM • RAG • DSPy • LangChain • Agents • Graphs • Vector Search
+
+**CS**  
+Algorithms • Compression • Entropy • Information Retrieval • Distributed Systems • Concurrency
+
+---
+
+## ☕ Closing Notes
+
+> Technologies change.
+>
+> Systems remain.
+>
+> Complexity grows.
+>
+> Good abstractions survive.
+>
+> Curiosity wins.
+
+**#ComputerScience #SystemsThinking #PolyglotEngineer #AIEngineering**
+
