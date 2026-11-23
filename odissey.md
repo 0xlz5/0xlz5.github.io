@@ -391,7 +391,7 @@ RAG, retrieval and agent-oriented systems.
 ## 🛠 Tech Constellation
 
 **Languages**  
-JS • TS • Elm • C/C++ • Go • Python • Java • Scala • Perl • Groovy • Rust
+JS • TS • Elm • Go • Python • Java • Scala • Perl • C/C++ • Groovy • Rust
 
 **Data**  
 PostgreSQL • MySQL • Kafka • Spark • Hadoop • Flink • HBase
